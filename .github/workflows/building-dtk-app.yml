@@ -31,8 +31,8 @@ jobs:
           $bottle apt update
           $bottle apt install sudo gpg wget git python3 dpkg-dev -y
           # 加源
-          $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
-          $bottle bash github.sh
+          #          $bottle wget http://deb.debiandde.gfdgdxi.top/sources/github.sh
+          #          $bottle bash github.sh
           $bottle rm github.sh
           $bottle wget http://amd64.daily.deb.sid.debiandde.gfdgdxi.top/sources/github.sh
           $bottle bash github.sh
