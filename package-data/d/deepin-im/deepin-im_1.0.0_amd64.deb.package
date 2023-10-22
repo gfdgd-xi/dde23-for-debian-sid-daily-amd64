@@ -1,0 +1,20 @@
+Package: deepin-im
+Architecture: amd64
+Version: 1.0.0
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1705
+Depends: qml6-module-qt-labs-platform, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-window, init-system-helpers (>= 1.52), libc6 (>= 2.34), libdtk6core (>= 6.0), libfcitx5-qt6-1 (>= 5.1.1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.38.0), libgtk-3-0 (>= 3.9.10), libgtk-4-1 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 11), libwayland-client0 (>= 1.20.0), libwayland-server0 (>= 1.2.0), libxcb-xinput0 (>= 1.15), libxcb1, libxkbcommon0 (>= 0.5.0), qt6-base-abi (= 6.4.2), qtbase-abi-5-15-10
+Filename: ./d/deepin-im/deepin-im_1.0.0_amd64.deb
+Size: 342000
+MD5sum: 82ba7869dc70ef83559a2ebde6f0b992
+SHA1: 9507e45abb4819c04ed5da45a7291d1ede64081d
+SHA256: 341082577ef0d2dfac2ba2200f7e972f2da357ee6ac953df3541ae7d49e9c0ff
+SHA512: dad74e0c2cc42501e02c221f13016d2da489fb860c55c06d0813da0707a8443628dd3a522d248ed39b1940ea1f0e5b6a49e37b27a0808ad2c21dd73369b50f9c
+Homepage: https://www.deepin.org
+Description: deepin input method
+ deepin input method is input method in deepin desktop environment,
+ it can support ibus and fcitx input method framework.
+

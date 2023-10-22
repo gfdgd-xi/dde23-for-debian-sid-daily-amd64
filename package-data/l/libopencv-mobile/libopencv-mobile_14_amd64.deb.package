@@ -1,0 +1,18 @@
+Package: libopencv-mobile
+Architecture: amd64
+Version: 14
+Priority: optional
+Section: utils
+Source: opencv-mobile
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 11405
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 6), libstdc++6 (>= 12)
+Filename: ./l/libopencv-mobile/libopencv-mobile_14_amd64.deb
+Size: 3512136
+MD5sum: 39c063098882e0c029f9505e3529eb67
+SHA1: 1f97b5a7ecb1036378646a0eadacc5987a222e17
+SHA256: c31c216c99f2247c5799d786bbe73236df526bcce849d70e30dcad136ba04aa6
+SHA512: d2a90b8c13fcedefeeab718a1f29d82a7fca5d1020a42b71f7b0d316addd7cc5cfed7fd26f917116f5c286adeab15ea15b68ab1a2c84a536f1b1ea24e94248f9
+Homepage: http://www.deepin.org
+Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+

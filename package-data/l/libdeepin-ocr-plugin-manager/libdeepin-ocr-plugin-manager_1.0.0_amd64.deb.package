@@ -1,0 +1,19 @@
+Package: libdeepin-ocr-plugin-manager
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: devel
+Source: deepin-ocr-plugin-manager
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 17200
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 4.9), libncnn, libopencv-mobile, libstdc++6 (>= 13.1)
+Filename: ./l/libdeepin-ocr-plugin-manager/libdeepin-ocr-plugin-manager_1.0.0_amd64.deb
+Size: 15851240
+MD5sum: 26e5847a9b7728aa19522f16bb84db23
+SHA1: 0614a818bc9ea22bcbbac939ea00843d1e2ae079
+SHA256: b29de10f6297bb99359675cf307b54375f2e8b672cd6a27c3b7e6a148d8bb07c
+SHA512: d2934a17e8e725504a90127b9b1bad21ae7420dcf343c25f9636d34b45a76de285b445e5cd862aeee7ae9450a1123f8cf193d26766e4a215451dcacc71431671
+Homepage: http://www.deepin.org/
+Description: OCR plugin manager for UOS
+ OCR develop library and useful plugin management tool.
+
