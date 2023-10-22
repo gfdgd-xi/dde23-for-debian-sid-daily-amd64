@@ -1,0 +1,18 @@
+Package: deepin-turbo-booster
+Architecture: amd64
+Version: 1.0
+Priority: extra
+Section: devel
+Source: deepin-turbo
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 58
+Depends: init-system-helpers (>= 1.52), deepin-turbo, libc6 (>= 2.34), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Filename: ./d/deepin-turbo-booster/deepin-turbo-booster_1.0_amd64.deb
+Size: 9552
+MD5sum: 7e2375e36d357ffd22ffbc9271dd9e2d
+SHA1: f01fa0bab3e24845228dc8092aa9f4d23416c77a
+SHA256: 1e40abc702b4ad4bfc09939a467aea7a8cef4c6cfb398e8e0b845ab5e4d66c0a
+SHA512: 3481bdf850622da05a0cad6f61ad1790fa3148f684122954c3519f5568bc2dd1e5ba80df5ccb1cad02d385f0ecfaed90e78c8dce0599be2576c15a13d953035a
+Description: DTK application booster binary for deepin-turbo
+ A series of boosters for Qt/QML Application.
+

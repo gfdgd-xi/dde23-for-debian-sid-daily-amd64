@@ -1,0 +1,19 @@
+Package: deepin-turbo
+Architecture: amd64
+Version: 1.0
+Priority: extra
+Section: libs
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 170
+Depends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libsystemd0
+Filename: ./d/deepin-turbo/deepin-turbo_1.0_amd64.deb
+Size: 46216
+MD5sum: f39549176619187919cc7814248c06f2
+SHA1: c6c19e933ed11d6189169f8d03f33d6d51fca36b
+SHA256: 305c00a753b1257bc32ce59904706e9bc1115551dcaeeb83c730b85c89197253
+SHA512: 68d2e3f74497763d231ab3c94dfaaa841118b2c1e094da880dd59dc415fb1c444a0f8547756ce75195c5f7bf3ff694b0fa21cbcbe489c7e0a3fef892a79c4e49
+Description: Application launcher for fast startup
+ Application invoker and launcher daemon that speed up
+ application startup time and share memory. Provides also
+ functionality to launch applications as single instances.
+
