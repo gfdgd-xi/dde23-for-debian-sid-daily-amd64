@@ -1,0 +1,26 @@
+Package: qttools5-dev
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 1463
+Depends: libqt5designer5 (= 5.15.7-1+dde), libqt5designercomponents5 (= 5.15.7-1+dde), libqt5help5 (= 5.15.7-1+dde), qtbase5-dev, qttools5-dev-tools (= 5.15.7-1+dde)
+Breaks: qttools5-dev-tools (<< 5.9.2-3~)
+Replaces: qttools5-dev-tools (<< 5.9.2-3~)
+Filename: ./q/qttools5-dev/qttools5-dev_5.15.7-1+dde_amd64.deb
+Size: 184680
+MD5sum: a9171bcbeb06ef9dae5c123ee75a11be
+SHA1: 61363e3488136c452a2f10327756daea24e0106e
+SHA256: 99402546bbeda871151816ef75330a2cd573ca595abc79eb91fe4337158f9e36
+SHA512: 134ec4b0ca6ca1df4ce2c1d4388a53bb1cc894a64be5cb951c3c745b6b1cf11b5e4a420a7e310973a5a0c75d8c450eb74cef0f31f81ca8b8a2775248ef67e8ad
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications.
+

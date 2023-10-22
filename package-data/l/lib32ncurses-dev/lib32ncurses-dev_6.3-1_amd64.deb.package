@@ -1,0 +1,30 @@
+Package: lib32ncurses-dev
+Architecture: amd64
+Version: 6.3-1
+Priority: optional
+Section: libdevel
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 1764
+Provides: lib32ncurses5-dev, lib32ncursesw5-dev, lib32tinfo-dev
+Depends: lib32ncurses6 (= 6.3-1), lib32ncursesw6 (= 6.3-1), lib32tinfo6 (= 6.3-1), libncurses-dev (= 6.3-1), lib32c-dev
+Suggests: ncurses-doc
+Conflicts: lib32ncurses5-dev, lib32ncursesw5-dev, lib32tinfo-dev
+Replaces: lib32ncurses5-dev, lib32ncursesw5-dev, lib32tinfo-dev
+Filename: ./l/lib32ncurses-dev/lib32ncurses-dev_6.3-1_amd64.deb
+Size: 318376
+MD5sum: 049375bdd505bea4fd8ff9397f65b326
+SHA1: ac4f6c2cf4c1d1c98bbf87b90a3bcf09ecc70e31
+SHA256: 7eb05f61c06553997156f99805592ca45cdc71f8f91e1f1cd1af006faafae266
+SHA512: 5ce4f77f0956d590a08a13630deb18e1fd80f2f274907f5d909a1f9c1efec0f9808abaf0c2336cd94a98f3b96a3975c5b2665ce65d541957648d1a95534a62f2
+Homepage: https://invisible-island.net/ncurses/
+Description: developer's libraries for ncurses (32-bit)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the header files, static libraries
+ and symbolic links that developers using ncurses will need.
+ .
+ This package supports the 32-bit ABI variant of your system's
+ architecture.
+

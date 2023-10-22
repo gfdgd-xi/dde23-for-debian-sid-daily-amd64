@@ -1,0 +1,26 @@
+Package: ncurses-bin
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: utils
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 630
+Pre-Depends: libc6 (>= 2.34), libtinfo6 (>= 6.3)
+Filename: ./n/ncurses-bin/ncurses-bin_6.3-1_amd64.deb
+Size: 414688
+MD5sum: 0f98c64287eb7abd097bfc868d208add
+SHA1: 71cbd28a7e1d798894062357b6b5883a199eaca3
+SHA256: ad0e9aae7c3eb13cc0ac8ceadff973aff30fcf94e86b7397fd67e5b7d9cf93cb
+SHA512: 0363f6ed7fb37a3fb8b476232943cd319455702e2893801d6071a15a1eea16e83e01383a8b7315f8e2a258a34d7e6df0eb8ea05236d264cfa1b01d5337ac87b8
+Homepage: https://invisible-island.net/ncurses/
+Description: terminal-related programs and man pages
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the programs used for manipulating the terminfo
+ database and individual terminfo entries, as well as some programs for
+ resetting terminals and such.
+

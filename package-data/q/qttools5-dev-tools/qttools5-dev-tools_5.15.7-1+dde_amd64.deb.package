@@ -1,0 +1,29 @@
+Package: qttools5-dev-tools
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 4481
+Depends: qdoc-qt5 (= 5.15.7-1+dde), qhelpgenerator-qt5 (= 5.15.7-1+dde), qt5-assistant (= 5.15.7-1+dde), qtattributionsscanner-qt5 (= 5.15.7-1+dde), qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5designer5 (>= 5.15.7), libqt5designercomponents5, libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5quick5 (>= 5.15.7~) | libqt5quick5-gles (>= 5.15.7~), libqt5quickwidgets5 (>= 5.15.7~), libqt5webkit5 (>= 5.212.0~alpha4-8~), libqt5widgets5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), qtbase-abi-5-15-10, qtdeclarative-abi-5-15-10
+Filename: ./q/qttools5-dev-tools/qttools5-dev-tools_5.15.7-1+dde_amd64.deb
+Size: 1028136
+MD5sum: 44c2a4ed3a30857bf28b4c12b9cb94a3
+SHA1: b15e267814dedab6f549d8bdad4c4fe48f41a7f3
+SHA256: d4e9be4d665b1ad89bc8dc2423fd3ccce42f3c9f3e67f36f81debe4b387962e9
+SHA512: ce2892e194d40608a9228df62de1e976df7757a53f463355e4bfc90201a2bb0d1cc4910a25dbfe0d6b54bfba9011ad0e901b850bd4cb0fae3be6bd8a8e3b3235
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 development tools
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of applications to browse the documentation,
+ translate applications, generate help files and other stuff that
+ helps in Qt development. These tools are among others:
+  * designer
+  * linguist
+  * pixeltool
+  * qdbusviewer
+

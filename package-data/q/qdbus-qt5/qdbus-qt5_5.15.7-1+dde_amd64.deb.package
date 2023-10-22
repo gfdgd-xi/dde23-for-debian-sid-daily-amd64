@@ -1,0 +1,24 @@
+Package: qdbus-qt5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 89
+Depends: qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-15-10
+Filename: ./q/qdbus-qt5/qdbus-qt5_5.15.7-1+dde_amd64.deb
+Size: 23532
+MD5sum: ea391c771df125aaa20d137febb28a2e
+SHA1: 2fdd347ef128d60c298e94802e4cc4a6012a79cc
+SHA256: 7a2ed3a90f90be2c497df905cc1bd015506fb648ba2411140b296c1d5cf0a4f6
+SHA512: bb2f6b4641d659bad29575382d59b43aaaf98e547fca226f79f279b7223c5b259d8ab1e9007c8d3f4c2a096eef9e68570f5d81a04c934cc756033e5fd784a990
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 D-Bus tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qdbus, a command-line tool interface to D-Bus that uses
+ the QtDBus library.
+

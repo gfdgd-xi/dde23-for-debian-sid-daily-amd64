@@ -1,0 +1,25 @@
+Package: libncurses5
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 324
+Depends: libtinfo5 (= 6.3-1), libc6 (>= 2.34)
+Recommends: libgpm2
+Filename: ./l/libncurses5/libncurses5_6.3-1_amd64.deb
+Size: 97816
+MD5sum: 17773d32f2cf70316ae047b80bfb4fe6
+SHA1: d6cfab3a246fb363c0123b0e0daf7891eb533b5f
+SHA256: f9177fa5830cc43a0074b64ac3a4b48eef18dd4e2e9476cf7b2868fdd964ae79
+SHA512: 96b6d34905b3600520f91a401ab128966126473ed370d9138d4cba09c541c8151c1d06b2385ceb2c7f27ed88f5d442ba90968d5d754336f6e431639dd413e973
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (legacy version)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the legacy shared libraries necessary to run
+ programs compiled with ncurses.
+

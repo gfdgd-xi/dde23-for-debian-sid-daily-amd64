@@ -1,0 +1,20 @@
+Package: libncursesw5-dev
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 6
+Depends: libtinfo6 (= 6.3-1), libncurses-dev (= 6.3-1)
+Filename: ./l/libncursesw5-dev/libncursesw5-dev_6.3-1_amd64.deb
+Size: 936
+MD5sum: c27289fcb33e44eb78667e724821b8f5
+SHA1: b6003dd40e6cb1facd9fbc9f03fd8a562789c67c
+SHA256: ebc6060b0deb7cea6faa61db703e8362be379ede5532220cd10543bae5217ad7
+SHA512: f9f0f55e0832f5ed307b47dc45aa577980108f32060e22e451a525ad2d35ddc71d965b6a389d18f1dcf043a39e14728a05c88f808ea79abd35fd037e335d7b2c
+Homepage: https://invisible-island.net/ncurses/
+Description: transitional package for libncurses-dev
+ This is a transitional package that can safely be removed.
+

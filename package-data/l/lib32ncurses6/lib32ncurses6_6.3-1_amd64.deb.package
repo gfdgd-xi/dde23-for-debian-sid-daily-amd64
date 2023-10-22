@@ -1,0 +1,26 @@
+Package: lib32ncurses6
+Architecture: amd64
+Version: 6.3-1
+Priority: optional
+Section: libs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 347
+Depends: lib32tinfo6 (= 6.3-1), libc6-i386 (>= 2.7)
+Filename: ./l/lib32ncurses6/lib32ncurses6_6.3-1_amd64.deb
+Size: 110316
+MD5sum: 053c5a8512653e92dab1496e8f866d45
+SHA1: d0d82a71c4af2dfa9f28377916a29cf6bbf4b593
+SHA256: 2227b6924a2647916832c5b92ee2065af8a09fdb2c80fede99142e13983c5ab6
+SHA512: 6c1c54032c5b0c7b186fd4bd85c51d7e90f8aa5278cda451355f32b02f6c7d93372e3dc6be7bd5d642505c861b3b68994c8a80d8abc17b7885243199e293ff64
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (32-bit)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared libraries necessary to run programs
+ compiled with ncurses.
+ .
+ This package supports the 32-bit ABI variant of your system's
+ architecture.
+

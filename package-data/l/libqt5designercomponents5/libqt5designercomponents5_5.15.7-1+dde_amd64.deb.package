@@ -1,0 +1,23 @@
+Package: libqt5designercomponents5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2633
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5designer5 (>= 5.15.7), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./l/libqt5designercomponents5/libqt5designercomponents5_5.15.7-1+dde_amd64.deb
+Size: 726860
+MD5sum: c4c946caa97fc586fb0da6bb50424339
+SHA1: 2e3e2f3a19f0072316b0e8278c6a2498cf9860c8
+SHA256: 4bb02dd0f3822be8fdf40983d25a625e1ac25144f8fb217fc799bd7d702531e6
+SHA512: 320567ef18afc5f6e0928349c40182d36842b3853d5c3836c67ad4db5dbef157f69e3d928f1cd8c3ceb309ae3f426ab038a9e593830f0131e81ab640ce98b095
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 Designer components module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes components for the Qt 5 Designer module.
+

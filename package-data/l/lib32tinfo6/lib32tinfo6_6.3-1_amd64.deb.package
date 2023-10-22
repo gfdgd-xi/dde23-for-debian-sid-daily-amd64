@@ -1,0 +1,24 @@
+Package: lib32tinfo6
+Architecture: amd64
+Version: 6.3-1
+Priority: optional
+Section: libs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 507
+Depends: libc6-i386 (>= 2.34)
+Filename: ./l/lib32tinfo6/lib32tinfo6_6.3-1_amd64.deb
+Size: 324896
+MD5sum: 832b4e3b0eec0fcd29821af03962f05b
+SHA1: aa1c76047575896a5d461187e089a0196a2ff55d
+SHA256: bc25720ea848074e7cb20db17582c86027102d6579986344af3cf102703f9d14
+SHA512: 7e9b87bf149ec8128a2ea4c9d606e6ac3af7c4390903e936d51eb6fdb7b4e1f15c6c900232ae5ef4cb5cdf39047f0f15860d33bc4e0524b4016a4ed356408e38
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library for terminal handling (32-bit)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared low-level terminfo library.
+ .
+ This package supports the 32-bit ABI variant of your system's architecture.
+

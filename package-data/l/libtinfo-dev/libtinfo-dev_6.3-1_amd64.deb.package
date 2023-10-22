@@ -1,0 +1,20 @@
+Package: libtinfo-dev
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 6
+Depends: libtinfo6 (= 6.3-1), libncurses-dev (= 6.3-1)
+Filename: ./l/libtinfo-dev/libtinfo-dev_6.3-1_amd64.deb
+Size: 928
+MD5sum: 0fe7c9c85bfb3551b97c068ff6ab68ac
+SHA1: 598612c92cdf9cf417f04fcc288db1ccb49b5fdb
+SHA256: 5b626f172c9618961e30223a9f6f928e6a9775f7677bd5712f2d33b93a61b995
+SHA512: 3433c8be625b7a95e57d78d5572ddd5feb9000575b5b39a9b955ffa50620052902424869b7f5ae974b1beb86f461b8eb1b94d93880f75ae91cc35cf5cb5e5ca0
+Homepage: https://invisible-island.net/ncurses/
+Description: transitional package for libncurses-dev
+ This is a transitional package that can safely be removed.
+

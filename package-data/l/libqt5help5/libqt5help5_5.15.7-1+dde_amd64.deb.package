@@ -1,0 +1,24 @@
+Package: libqt5help5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 537
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5sql5 (>= 5.3.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5)
+Filename: ./l/libqt5help5/libqt5help5_5.15.7-1+dde_amd64.deb
+Size: 146804
+MD5sum: 902fad81f73a476ed6540c3f7a04a005
+SHA1: 54e1234dec608a94d5d2d1a0557626d77e6ed544
+SHA256: 689dcbce1d719a614e7b3f2982f99754d1fbb7c9ad447e5983636a6290147e89
+SHA512: 11743f0f32a418781fe10e030e848a63c452283d098731d9a2930747241861f0a173ff4996f5fed02d4612ec6fd663efbf258a0e35a28250e8e832841dd7bb41
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 help module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtHelp module provides classes for integrating online documentation in
+ applications.
+

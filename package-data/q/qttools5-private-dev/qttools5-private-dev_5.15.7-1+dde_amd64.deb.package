@@ -1,0 +1,25 @@
+Package: qttools5-private-dev
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 634
+Depends: qttools5-dev (= 5.15.7-1+dde)
+Filename: ./q/qttools5-private-dev/qttools5-private-dev_5.15.7-1+dde_amd64.deb
+Size: 71076
+MD5sum: 51df51fafccc287647a58ee6f3391c14
+SHA1: 56cff16dd1464abcfe0dbd9d93883afe2487cf3e
+SHA256: 653d492f30b3b5a4926f79fa8184de015fcd745652e4c23757b42e6a38ca2e6f
+SHA512: 1ca5ebebad9f70a0624fea768fa76797c276a305c97a920f342c3b2b03631bba735fe0b6ee8cf961810f1cc8e7c275580e63c1fd5b6ff1c708a4328d14c396eb
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains private header development files.
+ .
+ Use at your own risk.
+

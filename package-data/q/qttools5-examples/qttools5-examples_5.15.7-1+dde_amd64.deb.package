@@ -1,0 +1,23 @@
+Package: qttools5-examples
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: x11
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2596
+Depends: libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5designer5 (>= 5.15.7), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5help5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 5)
+Filename: ./q/qttools5-examples/qttools5-examples_5.15.7-1+dde_amd64.deb
+Size: 462040
+MD5sum: cdf98a755bacd14e9f6a2404b001b91b
+SHA1: eba0a719d778c087f853c0c687c17d0e9c387224
+SHA256: ebf344c8f97da61d8d4cc3dade3041442e5c39860ab51f88bc449567027a6348
+SHA512: 547e9acc98aa98252fd21072239ddae1658257b9b6ef47a22e8c6b44887b90c51e9880b4bc95305ef9a7bc75dd4e3731d7cb685aaa2451acf9e36587753fe902
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains examples of the Qt 5 tools module.
+

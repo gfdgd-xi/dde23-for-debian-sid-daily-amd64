@@ -1,0 +1,26 @@
+Package: ncurses-examples
+Architecture: amd64
+Version: 6.3-1
+Priority: optional
+Section: misc
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 2154
+Depends: libc6 (>= 2.34), libncursesw6 (>= 6.1+20180203), libtinfo6 (>= 6)
+Filename: ./n/ncurses-examples/ncurses-examples_6.3-1_amd64.deb
+Size: 520700
+MD5sum: 424d47725cf252f913649db42a69d665
+SHA1: 1e4e6f286bdebed2d95db443e188a429aade90fc
+SHA256: c8d64694b720739ba40862f80b0030ef58723e18af4c2e283cd38c063368ba3f
+SHA512: cc2943a49aed119e41ffe84e31cc3d707233cad3eca10406fab6b317b7ce99313bc80333c5259dd101883d88156dd84db43d6f739c5e58a45b3761fb9078f052
+Homepage: https://invisible-island.net/ncurses/
+Description: test programs and examples for ncurses
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains programs demonstrating the possibilities of
+ ncurses and testing the library. The examples include an
+ analog/digital clock and several classic programs such as solitaire,
+ battleships, a knight's tour on a chess board, the towers of Hanoi
+ and several others.
+

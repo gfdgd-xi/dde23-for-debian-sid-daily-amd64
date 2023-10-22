@@ -1,0 +1,23 @@
+Package: libtinfo6
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 535
+Depends: libc6 (>= 2.34)
+Filename: ./l/libtinfo6/libtinfo6_6.3-1_amd64.deb
+Size: 325168
+MD5sum: cb92cf7ffd47636a170040dc1b1583f9
+SHA1: 138970f14225b1fb1cd9db4523a4af58c9779184
+SHA256: ba555608579a38e76c46fe8d55c53c3aad981ee126de6e156df02b44e1fcfe16
+SHA512: a0c7a5f1da5db31800d097d57c48d84cbc1f7bc6cf326f3c4f88c169cf720971867bbe4b372d9d07d7685cecf19b9b15edad4bfd9bad3a963793bab404825f3f
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library for terminal handling
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared low-level terminfo library.
+

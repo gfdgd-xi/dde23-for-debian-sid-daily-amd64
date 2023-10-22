@@ -1,0 +1,27 @@
+Package: qt5-assistant
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 924
+Depends: libqt5sql5-sqlite, qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5help5 (>= 5.15.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.212.0~alpha4-8~), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5)
+Suggests: qt5-doc
+Breaks: qttools5-dev-tools (<< 5.9.2-5~)
+Replaces: qttools5-dev-tools (<< 5.9.2-5~)
+Filename: ./q/qt5-assistant/qt5-assistant_5.15.7-1+dde_amd64.deb
+Size: 348096
+MD5sum: 6c6bf69dfa315c64b69e1d85454c9fe9
+SHA1: 1105f68336d5edc30ed06975a512e48a73f91eea
+SHA256: 74d763ac12a18f9f8bfb54062f18073ede9221b23b211d1854a2566293730cef
+SHA512: b1c59ab256a4a679c492e0f1d4d813cc9e23689cbd972d98fe61758e0cc90b2c186ab884353ea2581f45b7bb74bcf7ba602ba156cbf5063bf5a40c31254f3239
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 Assistant
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt Assistant is a tool for viewing on-line documentation in Qt help file
+ format.
+

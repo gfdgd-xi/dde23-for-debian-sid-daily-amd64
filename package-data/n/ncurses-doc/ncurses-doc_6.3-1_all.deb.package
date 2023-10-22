@@ -1,0 +1,26 @@
+Package: ncurses-doc
+Architecture: all
+Version: 6.3-1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 3685
+Filename: ./n/ncurses-doc/ncurses-doc_6.3-1_all.deb
+Size: 925572
+MD5sum: 8c9ba607816a21b4536513f2d40c0ac9
+SHA1: e09a01d142073f2b05c8362601e4f4291003e44f
+SHA256: 2d44286079942d6f177bcc371d238affa8fbb8eee589a5c4a64bbcfe8ae24115
+SHA512: b46623e36f2610e83272aac158fa0d04df1474d4ee42e7eed6d19b6aae36eb1ae2240896c8caa74bf5a471adebca5bb6f9ba1fbd7fe21ae92430f15be779bead
+Homepage: https://invisible-island.net/ncurses/
+Description: developer's guide and documentation for ncurses
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains an introduction to writing programs with
+ ncurses a guide to the internals of the ncurses library.  It also
+ includes the libraries' man pages.
+ .
+ Non-developers likely have little use for this package.
+

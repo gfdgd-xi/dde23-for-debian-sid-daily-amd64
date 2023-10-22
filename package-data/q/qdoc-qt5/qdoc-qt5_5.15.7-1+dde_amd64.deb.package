@@ -1,0 +1,26 @@
+Package: qdoc-qt5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 1886
+Depends: qtchooser, libc6 (>= 2.34), libclang1-16 (>= 1:5.0~+rc1~), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5)
+Breaks: qttools5-dev-tools (<< 5.11.3-3~)
+Replaces: qttools5-dev-tools (<< 5.11.3-3~)
+Filename: ./q/qdoc-qt5/qdoc-qt5_5.15.7-1+dde_amd64.deb
+Size: 586212
+MD5sum: c33f168ecb2db059f5815584e43b2a08
+SHA1: 6c1fd18ba1d50a2fc5a6164719a8937fe6460028
+SHA256: 7439bf48e004929ea3507d89a6b7a72dbe298cbbd79b5e5e4b9c3cbd31491175
+SHA512: 151d76224588e4341545d6c1ae4966cca14da77d02e8119d7c655b936be13c57d6e7567ee0a64ee9fc9c63a6cc9d6c68a27899b1d5341a78f785dd4af75278f4
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 qdoc tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qdoc, a command-line tool for generating HTML
+ documentation from .cpp and .qdoc files.
+

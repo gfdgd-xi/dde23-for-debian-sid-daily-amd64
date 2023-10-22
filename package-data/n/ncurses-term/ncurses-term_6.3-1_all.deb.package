@@ -1,0 +1,26 @@
+Package: ncurses-term
+Architecture: all
+Version: 6.3-1
+Multi-Arch: foreign
+Priority: standard
+Section: misc
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 4225
+Depends: ncurses-base (>= 6.1+20190713)
+Breaks: bash-static (<< 4.4.18-1.1), dvtm (<< 0.15-3), libmono-corlib4.5-cil (<< 4.6.2.7+dfsg-2), libslang2 (<< 2.3.1a-3), libtinfo5 (<< 6.1), libunibilium0 (<< 2), libunibilium4 (<< 2.0.0-3), zsh-static (<< 5.4.2-4)
+Replaces: alacritty (<< 0.3.4~), dvtm (<< 0.15-3), jfbterm (<< 0.4.7-10), kon2 (<< 0.3.9b-21), libiterm1 (<< 0.5-9), tn5250 (<< 0.17.4-3)
+Filename: ./n/ncurses-term/ncurses-term_6.3-1_all.deb
+Size: 491044
+MD5sum: 3cd2ba68477f6f5870934454be3e0096
+SHA1: e817839a614071acacafc78268eacae0f6c2b7c0
+SHA256: 2a87784094d928abe8b9d25e072535e461a34da836fc585b0dbe42c6126bcfa8
+SHA512: f1476c819e0894c2469f892bb59522c48feee34da37193e2e90786d6c7c98475b4f0e7353e4933a4b82f43c6cacb752c792c4f8b9de3e79ae6367a5c3b9fbd07
+Homepage: https://invisible-island.net/ncurses/
+Description: additional terminal type definitions
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains all of the numerous terminal definitions not found in
+ the ncurses-base package.
+

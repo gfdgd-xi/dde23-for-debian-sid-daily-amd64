@@ -1,0 +1,25 @@
+Package: libdwayland-dev
+Architecture: amd64
+Version: 5.25.0-kwayland.5.24.3
+Priority: optional
+Section: libdevel
+Source: dwayland
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 896
+Depends: libdwaylandclient5 (= 5.25.0-kwayland.5.24.3), libdwaylandserver5 (= 5.25.0-kwayland.5.24.3), libwayland-dev (>= 1.13~), qtbase5-dev (>= 5.15.0~), extra-cmake-modules (>= 5.90.0~)
+Recommends: libdwayland-doc (= 5.25.0-kwayland.5.24.3)
+Breaks: dwayland-dev (<< 4:5.23.0-2~)
+Replaces: dwayland-dev (<< 4:5.23.0-2~)
+Filename: ./l/libdwayland-dev/libdwayland-dev_5.25.0-kwayland.5.24.3_amd64.deb
+Size: 106084
+MD5sum: 6bd2dfd6c0e1ac8ac21cdf42685b0f10
+SHA1: cd88a80e841341d5d9de17c58e3f2d872d1fc396
+SHA256: 23bfa0036aac9757c8cd89ceecdb25398ee230f15440c2f499272347c4aec332
+SHA512: 6eda35bc01aaf4d4bb7b917099bdf43a5c25c6257ecaff6c00bcb73f8371b821fcbe3bf29d297d4a4e46ae91513988d50619ee3af7ccc9cc286ef7d83cd2c98c
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Description: development files for dwayland
+ DWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+ .
+ Contains development files for dwayland.
+

@@ -1,0 +1,27 @@
+Package: qtattributionsscanner-qt5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 105
+Depends: qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libstdc++6 (>= 13.1)
+Breaks: qttools5-dev-tools (<< 5.12.3-2~)
+Replaces: qttools5-dev-tools (<< 5.12.3-2~)
+Filename: ./q/qtattributionsscanner-qt5/qtattributionsscanner-qt5_5.15.7-1+dde_amd64.deb
+Size: 28516
+MD5sum: d82f5a387a354702b6003a124bd2255a
+SHA1: b73ee4ae2e07ee44d620d9ca6d99cc9a4d8bd4f9
+SHA256: bd4591ae96b878f0856a0a0a2528879eadd7a6bdcc08373a5e366dc29ffb3c90
+SHA512: bb9eff3c4283988c04740aa1c95a2bc91867d854be715836fa9769131b820c0254aa822054c42e80876c363778ad726712ea7b13e8904086f173b1de75095dea
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 qtattributionsscanner tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qtattributionsscanner, a command-line tool that
+ scans the source code for qt_attribution.json file and outputs JSON or
+ qdoc files describing the copyright attributions for third party code.
+

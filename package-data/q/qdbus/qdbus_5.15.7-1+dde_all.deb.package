@@ -1,0 +1,24 @@
+Package: qdbus
+Architecture: all
+Version: 4:5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: qttools-opensource-src (5.15.7-1+dde)
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 18
+Depends: qdbus-qt5
+Filename: ./q/qdbus/qdbus_5.15.7-1+dde_all.deb
+Size: 4896
+MD5sum: d541e13e75e954da7659a93fd3ae4a59
+SHA1: 1e3ab01cfef527f85ef7e29f7b2a20b0c9b66a30
+SHA256: 7e2035429b97510b665b8387663f47d6f03b55e2484ac731b9786bea686d54c3
+SHA512: 7133723dbed39a47a2526388f153cda77fe52aae74c3019230e1c4101e405855e459d8112e52aa070d90343a6ac368f17b72f8469ee4429a71d1da2a61f31ff5
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 D-Bus tool — dummy transitional package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package is a dummy transitional package for users upgrading from
+ Qt 4 to Qt 5. It can be safely removed.
+
