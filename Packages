@@ -1,94 +1,94 @@
-Package: deepin-keyring
+Package: realtek-wifi-dkms
 Architecture: all
-Version: 2021.06.07-1
+Version: 1.0.7
 Multi-Arch: foreign
-Priority: important
+Priority: optional
 Section: misc
-Maintainer: lilongyu <leaeasy@linuxdeepin.com>
-Installed-Size: 35
-Depends: gnupg
-Recommends: gpgv
-Filename: ./d/deepin-keyring/deepin-keyring_2021.06.07-1_all.deb
-Size: 8408
-MD5sum: 5bf84a882c64781a31765147909f6949
-SHA1: e0c72479d4268ae0e75b129fa4ff718d186af06c
-SHA256: f21364b031c798d1a0b063f23b608507926480677971b9ebc10f6c28da6504d0
-SHA512: af9c62d64e5a10a4cb7e2b3fccc7b2fae23149f018195c82c426eee2dc6ef9af5e2a9cbd295e3f062d989cb04ba510c47ea85ad45180a4ec18c50661de6fe6b0
-Description: GnuPG keys of the Deepin archive
- The Deepin project digitally signs its Release files. This package
- contains the archive keys used for that.
+Maintainer: Yuanzhi Wang <wangyuanzhi@uniontech.com>
+Installed-Size: 217164
+Provides: realtek-wifi-module
+Depends: flex, bison, libbison-dev, dkms
+Conflicts: backport-iwlwifi-dkms, rtl8188eus-dkms, rtl8188gtvu-dkms, rtl8192eu-dkms, rtl8814au-dkms, rtl8821au-dkms, rtl8821cu-dkms, rtl8852be-dkms, rtl8852bu-dkms, rtl88x2bu-dkms, rtl88x2cu-dkms, rtlwifi-dkms, rtw89-dkms
+Replaces: backport-iwlwifi-dkms, rtl8188eus-dkms, rtl8188gtvu-dkms, rtl8192eu-dkms, rtl8814au-dkms, rtl8821au-dkms, rtl8821cu-dkms, rtl8852be-dkms, rtl8852bu-dkms, rtl88x2bu-dkms, rtl88x2cu-dkms, rtlwifi-dkms, rtw89-dkms
+Filename: ./r/realtek-wifi-dkms/realtek-wifi-dkms_1.0.7_all.deb
+Size: 18101676
+MD5sum: db3992177137319b6a8c3442a70da578
+SHA1: 332e54c49c22a0d6c42ba4e7bfc8424a0d6b45e9
+SHA256: 1ad855069e66cdbefca95825ab0ce6e4df374fa6af3b0a6d535ca7a301cd1860
+SHA512: 5c40e34e440ac475edd28bb850cd0ca29a92a6c77f0a97cf582b834f5ec5f84bbb73b3ccae8911fdc28d27dd2382b7b55de2f602ee4c9b074b0f896b9d0d0fd8
+Homepage: https://github.com/HRex39/rtl8852be
+Description: DKMS files to build and install realtek wifi.
+ The driver provides the driver for USB and PCIE wifi adapter.
+ .
+ This package contains the DKMS files to build and install realtek wifi.
+ .
+ To install this package, you have to install the header files for your
+ current kernel manually (usually included in the "linux-headers-<your
+ architecture>").
 
-Package: deepin-home
+Package: unrar-free
 Architecture: amd64
-Version: 1.4.1
+Version: 1:0.0.1+cvs20140707-4
+Priority: optional
+Section: utils
+Maintainer: Ying-Chun Liu (PaulLiu) <paulliu@debian.org>
+Installed-Size: 74
+Depends: libc6 (>= 2.34)
+Recommends: unar
+Suggests: pike8.0 | pike7.8 | pike7.6 | pike
+Conflicts: unrar-nonfree (<< 1:3.7.8-1)
+Filename: ./u/unrar-free/unrar-free_0.0.1+cvs20140707-4_amd64.deb
+Size: 23412
+MD5sum: fcf76a52ee85036b1718a82295a8d91f
+SHA1: 731a3d76699a2b24276eb93d4951b20850a50a97
+SHA256: fc0671c348a3dc085fc575533e92ba6747f5f97f3d35fb97baac1cd416a49b46
+SHA512: 2d4f2a8246e560e33d4a2bfa7c2525e958adeec9fb2cd8b07b2e020f1b505da3c418efc550c7ecf504430c2168b84d5248795adb36bb94972b28f20669079636
+Homepage: https://gna.org/projects/unrar/
+Description: Unarchiver for .rar files
+ Unrar can extract files from .rar archives. Can't handle some archives in
+ the RAR 3.0 format natively. Package "unar" can be used to extract those
+ archives if installed.
+
+Package: unrar
+Architecture: amd64
+Version: 1:5.6.6-1
+Priority: optional
+Section: non-free/utils
+Source: unrar-nonfree
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 370
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Conflicts: rar (<= 2.60-1)
+Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
+Size: 108900
+MD5sum: 4f4f0ef7235a8555f7f42b621d771978
+SHA1: 9d56867d1063973b30ad4ed9d4b805de09766c88
+SHA256: 8982c1cf26157a5a50232b7d616099f8610231b580c7b702caabd3d017d0cbc2
+SHA512: 56319f2122c2ddc97e993a8a208d9761429a5f6ebd7d17d9af3c1c1e34b39dbe8650d266c4ac46e7db111a585089adab9114c3e7eda7fa3a22b7c055bde4730a
+Homepage: http://www.rarlabs.com/
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: plymouth-theme-deepin-logo
+Architecture: all
+Version: 15.10.20
 Priority: optional
 Section: admin
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 5360
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs
-Filename: ./d/deepin-home/deepin-home_1.4.1_amd64.deb
-Size: 1176428
-MD5sum: eb96a24a5369ab58b69bee08bfad51a4
-SHA1: 114c58cf6bf898ea414cbe18829fd91addef4515
-SHA256: 435beb0d36442cd8bcbdcd11806e8492359bd30f3aa908a108a113329fdda416
-SHA512: b208e20c9a64259920797a27695dec2f5d9a9b64d8d9d932f8767715980b67137e71c1de1221a760b0097520ed10fbb706c5f4eee830a40abd0ec535ff67f4df
-Description: deepin home
- quick login bbs, bug report.
-
-Package: dtk-exhibition
-Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libs
-Source: dtkdeclarative
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 21985
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.9.0) | libqt5quick5-gles (>= 5.9.0), libqt5quickcontrols2-5 (>= 5.12.2), libstdc++6 (>= 4.1.1), libdtkdeclarative5 (= 5.6.17), qml-module-qtquick-controls2-styles-chameleon (= 5.6.17)
-Filename: ./d/dtk-exhibition/dtk-exhibition_5.6.17_amd64.deb
-Size: 9850348
-MD5sum: 2ed49daf05181a8a7412926608a9d2df
-SHA1: 7061af28b1c17e71fc6ef2c8f5ffb485040a9e3e
-SHA256: 38a48bfce14abff34cf9a68f2575f090852a5e7387aac0ed0a4ef3fdd4d161f5
-SHA512: 9772235358f56e3e4035af672e1f23d02c40675b07227d9cc8948c985d068b3babf3f38b11e54e74882098210269c2ad0258c06a6eafad7396fbea13de974fe0
-Homepage: http://www.deepin.org
-Description: Deepin Tool Kit QML Controls example.
- This package contains a applicatioin.
-
-Package: dde-clipboard
-Architecture: amd64
-Version: 1:6.0.7
-Priority: optional
-Section: admin
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 754
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
-Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_amd64.deb
-Size: 180440
-MD5sum: 2f3797321f31b2ccac62c771dec58f0a
-SHA1: 178af410facc072d81d8f37c5c3fda3e583b4f8f
-SHA256: a7fb7ad16ead0e391f9d05e3763df74e7b354ddf524235939c149c8c422f1e40
-SHA512: 5502a8d0c73659ae6949cfdc6eaf995c1a3028b76619e4d868f282d83695b54851038bfd037042142f396645c745a656afbdb5869e17c895eecd3e28169ecc11
-Homepage: https://github.com/linuxdeepin/dde-clipboard
-Description: deepin desktop-environment - clipboard module
- Clipboard module of deepin desktop-environment
-
-Package: dde-dock-dev
-Architecture: amd64
-Version: 6.0.22
-Priority: optional
-Section: x11
-Source: dde-dock
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 46
-Filename: ./d/dde-dock-dev/dde-dock-dev_6.0.22_amd64.deb
-Size: 17020
-MD5sum: e3bbb2266e0eff011eb8ce26b5de86a4
-SHA1: 3cbcec082ede26fb8de9df1d59e1b7d0db60ee27
-SHA256: 95ee864c340d77c629a28264a66da9ee8169d15bc7523d97ae415ed9eb76a238
-SHA512: d4fdb0ef17c2b53a7195ed128240a225ca4198fd0a1621a19bc98b6e7a755e23306f3b5dcb4f734694fcdf85f1c11ddfe7311ea9dae55e66d7b30f41cc81250a
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dock module development files
- Dock module development files of deepin desktop-environment
+Source: plymouth-theme-deepin
+Maintainer: Leng Ganghua <hiweed@gmail.com>
+Installed-Size: 4993
+Provides: plymouth-theme
+Depends: plymouth, util-linux (>= 2.30), plymouth-themes
+Replaces: plymouth (<< 0.8.1-1~)
+Filename: ./p/plymouth-theme-deepin-logo/plymouth-theme-deepin-logo_15.10.20_all.deb
+Size: 4777004
+MD5sum: b8294bb36968ac9abdc2792c4ac9d4cc
+SHA1: b06c52127e14d0f27a5d5b6e40a4437051474157
+SHA256: 6ecde7a1dd6fbe103879d8e8babd374001397e688a66aad6f4d4fc0ebe77754a
+SHA512: a09f57cf6723d72295fbe5d66b4b6c519879e986f8de76d5f612a96d0b5a934b31bc7dec58d7e5f4fcda71667d523c4c107c09978fa1121ff848bdeec054bc94
+Description: Plymouth theme for Linux Deepin
+ This theme package contains deepin-logo.
 
 Package: deepin-default-settings
 Architecture: all
@@ -111,85 +111,77 @@ Description: default settings for deepin destkop environment
  This package does tweaking and to provide better experience of deepin desktop
  environment.
 
-Package: deepin-desktop-base
+Package: deepin-wayland-protocols
 Architecture: amd64
-Version: 2023.09.05-deepin
+Version: 1.6.0-deepin.1.2
 Priority: optional
-Section: misc
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 105
-Provides: deepin-appstore-config
-Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
-Conflicts: deepin-desktop-server
-Filename: ./d/deepin-desktop-base/deepin-desktop-base_2023.09.05-deepin_amd64.deb
-Size: 23352
-MD5sum: 1a808d37cef277a00776c73358d26dc4
-SHA1: 0d005cb306dac32929034ed61f8f27662e10bc10
-SHA256: 38add2d678b4dd062151725a2908f4276b39736bce201222c5a4e78764c22eb1
-SHA512: a36745ba9c1a1762ace3a217604123d37429c4197f6325d3b801d6697b75337a19d1ea07062467823bc109e15d60772843e24432e34359a2c3de8b0c0876a3c0
-Description: The basic file of Deepin Desktop,
- provides system attribute description for DDE components
+Section: libdevel
+Maintainer: Debian Qt/Deepin Maintainers <luochaojiang@uniontech.com>
+Installed-Size: 226
+Filename: ./d/deepin-wayland-protocols/deepin-wayland-protocols_1.6.0-deepin.1.2_amd64.deb
+Size: 37316
+MD5sum: aa609661a3215da3756afd468f2ebcdb
+SHA1: b3691ae9d59ef7ee20dbbb863d3f41c9f9abeca2
+SHA256: 7bfd59a8a531c628fdc608cb15c10e19b35721bdc41f08a1d31dd3bc8c9d1f63
+SHA512: 4b2479c68545b655a33b9ea3f539d73b8fe5fa8556465fd83fa4e6411650ddab8f09e299b04809a485a33756f7a1e2994aaeb205381bd0ae50e0a6f50cdf8260
+Homepage: https://gerrit.uniontech.com/admin/repos/snipe/deepin-wayland-protocols
+Description: Wayland protocols for Deepin
+ This package contains protocols for Wayland that are not standard, and used
+ in Deepin.
 
-Package: dde-dconfig-daemon
+Package: dde-dconfig-doc
 Architecture: amd64
 Version: 1.0.23
 Priority: optional
 Section: libdevel
 Source: dde-app-services
 Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
-Installed-Size: 397
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), systemd | systemd-standalone-sysusers | systemd-sysusers
-Conflicts: dconfig-daemon
-Replaces: dconfig-daemon
-Filename: ./d/dde-dconfig-daemon/dde-dconfig-daemon_1.0.23_amd64.deb
-Size: 102876
-MD5sum: e1b0e7fdae376ab1ed75d2c38e9db025
-SHA1: 1e90405d5e03656cf4d68aa988283f8df0f5eee4
-SHA256: b0a951dddf23a09ae1a279fe0bbf464907f16394aad2f2b8a783d62015d9b66c
-SHA512: 1fc3761e6bde9ed90678e880d786675e86e9d5ca314838fbd70c7aaa538855916b7b7a56d838094fea8123b75d1428b16b6eea783c1098ac14a50f59493643cb
-Description: deepin desktop-environment - dde-dconfig-daemon module
- dde-dconfig-daemon provids dbus service for reading and writing DSG configuration.
+Installed-Size: 203
+Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.23_amd64.deb
+Size: 129632
+MD5sum: 3fbad25650dc84d149576f5baea51af3
+SHA1: 222ef05169c84f5e3bb0ec1bfdec97e7f409fbca
+SHA256: 443d4b17cff4dc85c2ba7f40a7a16926ed5abc06532259aa08785541f8aadac6
+SHA512: a4c529554a1cfdefe69dcdd3359c2ebe3c975c3b3912d8898e6e1edd43b6d60f6e8b62b186b8d88d6661018d1189c99eb27fc14bec9e7729b59154c2fd428b48
+Description: Deepin Tool Kit DConfig (document)
+ This package contains the doc files of DConfig
 
-Package: dde-launcher
+Package: dde-application-manager
 Architecture: amd64
-Version: 6.0.17
+Version: 1.0.19
 Priority: optional
-Section: x11
+Section: devel
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 3088
-Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), libxcb-util1, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb1
-Conflicts: dde-workspace (<< 2.90.5)
-Filename: ./d/dde-launcher/dde-launcher_6.0.17_amd64.deb
-Size: 773488
-MD5sum: b1c92acc1900c58b9976e71b63e7030b
-SHA1: 8af371b83c90694ad8b2c984c8752bd82161702a
-SHA256: 8cf2821641ad31b74974621cf3e9a2e8390eb719a69790348774c5e330f5c623
-SHA512: 89aaa7c9a2ee4c642323ffc98b21ff2d1dd7e008676c62b4187094589a40e40b37076c55eebd85fc1051c9552311e67d7630f98d81730789f7fbabac5f18daae
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dde-launcher module
- Deepin desktop environment 2015 - dde-launcher module.
- Display all installation programs, and provide access to open, uninstall, boot and start, which is convenient for users to operate quickly
+Installed-Size: 1666
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
+Filename: ./d/dde-application-manager/dde-application-manager_1.0.19_amd64.deb
+Size: 454676
+MD5sum: 2910489785996889512735e543b6f5a8
+SHA1: f34b6aa18c4ca385ea8509edd98b4a0ab56ac765
+SHA256: f4ec393747e5e3f6dc588999029839fc100e939adf4112816cdd5df621ce3b69
+SHA512: fce6bd0901e44c257f31da96fd3319ad434572d2b4d8fa358ac76133f8edfbc739b4a78c1a1fb60cc0c20ebe5df69e72bb0b4181d1888786ee3745176a3006dc
+Homepage: https://www.deepin.org
+Description: dde application manager module
+ Application manager for DDE.
 
-Package: dde-dconfig-editor
+Package: dtk-exhibition
 Architecture: amd64
-Version: 1.0.23
+Version: 5.6.17
 Priority: optional
-Section: libdevel
-Source: dde-app-services
-Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
-Installed-Size: 340
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
-Conflicts: dconfig-editor
-Replaces: dconfig-editor
-Filename: ./d/dde-dconfig-editor/dde-dconfig-editor_1.0.23_amd64.deb
-Size: 102884
-MD5sum: 46ad42ee73de3e63a3d3df419903b79a
-SHA1: a24d10fc10f9eda860cdcd3ade9d30515bd9c180
-SHA256: 4c123b01233b81076db939a826db7ae359b677a27beb08d2585880fe8ea27305
-SHA512: 8994af20b344e6b7e1f89db38f04317e21bdfe108476f7c89ac02da2ae9c6bf80eaec1930869b9c1194bedcbab6c243f1ad0e767bb9c374d4f21c8ca2e278a8c
-Description: deepin desktop-environment - dde-dconfig-editor module
- dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
- DSG configuration for current user.
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21985
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.9.0) | libqt5quick5-gles (>= 5.9.0), libqt5quickcontrols2-5 (>= 5.12.2), libstdc++6 (>= 4.1.1), libdtkdeclarative5 (= 5.6.17), qml-module-qtquick-controls2-styles-chameleon (= 5.6.17)
+Filename: ./d/dtk-exhibition/dtk-exhibition_5.6.17_amd64.deb
+Size: 9850348
+MD5sum: 2ed49daf05181a8a7412926608a9d2df
+SHA1: 7061af28b1c17e71fc6ef2c8f5ffb485040a9e3e
+SHA256: 38a48bfce14abff34cf9a68f2575f090852a5e7387aac0ed0a4ef3fdd4d161f5
+SHA512: 9772235358f56e3e4035af672e1f23d02c40675b07227d9cc8948c985d068b3babf3f38b11e54e74882098210269c2ad0258c06a6eafad7396fbea13de974fe0
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit QML Controls example.
+ This package contains a applicatioin.
 
 Package: dde-dock
 Architecture: amd64
@@ -212,124 +204,69 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment
 
-Package: dde-launcher-dev
-Architecture: amd64
-Version: 6.0.17
-Priority: optional
-Section: x11
-Source: dde-launcher
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 23
-Depends: dde-launcher (= 6.0.17)
-Filename: ./d/dde-launcher-dev/dde-launcher-dev_6.0.17_amd64.deb
-Size: 8924
-MD5sum: 4dda63a6033e9b446f56e2bb8a99ebce
-SHA1: 8215f14062aaa14b2858735eecbc079dc3cc961f
-SHA256: 1b79eba9993040d428c93ae4c07917f03ffc93492445736f5c7cf2b9740b1887
-SHA512: 9577a451b621199a67829320a08625d50fdf20f930fbfafb81c711f04bc1d441227f6988be7de311eeeb8170115daff5af8dd090b10ec3c0af4977317b5cc5b2
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - launcher module development files
- Launcher module development files of deepin desktop-environment
-
-Package: debian-dde
-Architecture: all
-Version: 2023.10.14
-Priority: standard
-Section: metapackages
-Maintainer: gfdgd-xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
-Installed-Size: 13
-Depends: debian-dde-desktop-environment-base, debian-dde-desktop-environment-cli, debian-dde-desktop-environment-core, debian-dde-desktop-environment-extras, debian-dde-desktop-environment-ll
-Recommends: dde-qt5wayland-plugin, deepin-devicemanager, deepin-boot-maker, deepin-reader, deepin-log-viewer, dde-introduction, deepin-app-store, deepin-editor, deepin-system-monitor, pppoe, uos-remote-assistance, gvfs-fuse, smbclient, python-smbc, deepin-mail, deepin-manual, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, spark-store, linuxqq, com.qq.weixin.spark, org.deepin.browser, org.deepin.chineseime, deepin-defender, spark-deepin-wine-runner, spark-waydroid-runner, wireless-tools, ttf-deepin-opensymbol, deepin-terminal | gnome-terminal, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, dde-manual-content, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, x-display-manager, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-note, xfce4-pulseaudio-plugin, deepin-screen-recorder, deepin-font-manager, deepin-draw, deepin-album, deepin-movie, deepin-deb-installer, deepin-compressor, deepin-compatibility-mode
-Filename: ./d/debian-dde/debian-dde_2023.10.14_all.deb
-Size: 3384
-MD5sum: 2ea0f723cd3fa30b0d3139a070052580
-SHA1: 785c8f93a7d95e70904807ace6d01c06fc3cd6ab
-SHA256: 5e0ea5a444d382b84c8d805b614e68d3ec369bff70575be150a7e64ac30f764e
-SHA512: dd2d8744ff072c2dc8df7b13f6d239f6960cc8bb67d1b675e27ac26738c4407f68c7b068d0768e07a9c96ba9c738d23de21006c8947b710b9c42cbd791f31e89
-Homepage: http://www.linuxdeepin.com
-Description: Deepin New Desktop Environment - Next
- This is a meta package depends Deepin New Desktop Envrionment.
- .
- You can safety remove it after installed.
-
-Package: dde-dock-onboard-plugin
-Architecture: amd64
-Version: 6.0.22
-Priority: optional
-Section: x11
-Source: dde-dock
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 97
-Depends: libc6 (>= 2.4), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
-Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_6.0.22_amd64.deb
-Size: 32732
-MD5sum: c2d94e6787df5b7962227f994ba53d21
-SHA1: 97c3903adf5a237f3ec2a4d78a16a08e817db59c
-SHA256: f7a545a944f55f9837b0e078e457b98a64874491297c38d8a0b68d3ec407644e
-SHA512: 947f93f01f37c8deab18fe7306463bcc58139d2a7ba02980fcf8901f2d1c67e9f40504236649215bac1947e258b016315d11660e8ffc7e4889e800ad9b8604e3
-Homepage: http://www.deepin.org/
-Description: deepin desktop-environment - dock plugin for onboard
- Dock plugin for onboard of deepin desktop-environment
-
-Package: dtkwidget5-examples
+Package: dtkwidget-doc
 Architecture: amd64
 Version: 5.6.17
 Priority: optional
 Section: libdevel
 Source: dtkwidget
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 18461
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (= 5.6.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libstdc++6 (>= 5), libdtkdata
-Filename: ./d/dtkwidget5-examples/dtkwidget5-examples_5.6.17_amd64.deb
-Size: 15005524
-MD5sum: 4ebdbcb7661e8517d283494afbe8d8ab
-SHA1: 1c14c8f52a91a34b83ce631026070082477a3021
-SHA256: 97defb163d6ecea0f7dbbbcfef887acf13055a1c450a9fc225588fd83c364286
-SHA512: 61254a85f2e9e9660a24fdcf079cf1f1582f837564a7370339eee231876725adf9a8d800f12a5f23931edcd4dc1d87f8c82b86ca43dc55045800c220ff3da0fc
-Description: dtkwidget-examples is generated by dtkwidget.
+Installed-Size: 9
+Filename: ./d/dtkwidget-doc/dtkwidget-doc_5.6.17_amd64.deb
+Size: 3704
+MD5sum: 50bae20321eadd4ee22c46cd26d16c82
+SHA1: 0e03ce88009cb43a02ef1472c1e3a63e9fc8ac80
+SHA256: 3a507bdeef381c2cd6a576593a654de65c1dfb11a0289a51985d40ff3eba4171
+SHA512: 8bd5f5ad354732ed9c754ce1c9b19f702ea239a431143c6d7720da851a996df07ae5df83e11d54d68d46f94a0a474a795893c537c5faed0fc0826d926ff3b4dc
+Description: Deepin graphical user interface library (Document)
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
  This package contains example application which are
  needed for developing Deepin applications.
 
-Package: deepin-default-settings-tuning
-Architecture: all
-Version: 2023.08.07
-Priority: optional
-Section: admin
-Source: deepin-default-settings
-Maintainer: sysdev <sysdev@deepin.com>
-Installed-Size: 37219
-Replaces: deepin-default-settings (<= 2018.1.23)
-Filename: ./d/deepin-default-settings-tuning/deepin-default-settings-tuning_2023.08.07_all.deb
-Size: 10656048
-MD5sum: 65da4382e4131439d2b9c67ad2f2ee51
-SHA1: 29c85b08cab88dce994556930e97111ff00add7f
-SHA256: 64515b10ae17309f500ee4dd31bf9923a52ad88c5bcb99eaea458f3ea32863d4
-SHA512: 113a2784a0054818ccc6a97c3d69f35af4b579c97c5d0b91d18d0585024bfaef0e2824b4a77ea494093170270f2e1c77e3e52afe87c7c232bebd25ab0c47ac50
-Description: default settings for deepin destkop environment - misc overrides
- This package does tweaking and to provide better experience of deepin desktop
- environment.
- .
- This package includes files to override cups default page and fcitx icon.
-
-Package: deepin-wayland-protocols
+Package: debian-dde-desktop-environment-base
 Architecture: amd64
-Version: 1.6.0-deepin.1.2
+Version: 2023.10.22
+Priority: standard
+Section: metapackages
+Source: debian-dde-desktop-environment
+Maintainer: gfdgd xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 9
+Provides: deepin-desktop-environment-base
+Depends: adduser, apt, apt-utils, base-files, base-passwd, bash, bsdutils, coreutils, dash, debconf, debianutils, deepin-keyring, diffutils, dpkg, e2fsprogs, fdisk, findutils, gcc, gcc-11, gcc-11-base, gpgv, grep, gzip, hostname, init, libacl1, libattr1, libaudit1, libbz2-1.0, libc-bin, libc6, libcap-ng0, libdebconfclient0, libgcrypt20, libgmp10, libgnutls30, libgpg-error0, libidn2-0, liblocale-gettext-perl, liblz4-1, liblzma5, libncurses6, libp11-kit0, libpam-runtime, libpcre3, libselinux1, libstdc++6, libunistring2, libzstd1, login, lsb-base, mawk, mount, ncurses-base, ncurses-bin, passwd, perl-base, sed, sensible-utils, systemd, tar, tzdata, udev, util-linux, zlib1g, libzip4, unrar, pciutils
+Recommends: libffi6, libsepol1, libsemanage1, libnettle6
+Conflicts: deepin-desktop-environment-base
+Breaks: deepin-desktop-environment-base
+Filename: ./d/debian-dde-desktop-environment-base/debian-dde-desktop-environment-base_2023.10.22_amd64.deb
+Size: 3652
+MD5sum: c8e491accae1ad04cbba474dd0c6999f
+SHA1: 80e9f4bf48075f9424e4d92ea485c9e0d5bc29d5
+SHA256: 67d7bdada5cb276fd791fbdeca2774afce78d856d2bc3844cba319bf960d9637
+SHA512: 2ac8c8befeecde502b88fd935c209d23302995422e9404d607fdab3b0a28a358e062ce95fc3aba0e99172550178db09989cece454447b81573c148b1aa24ed31
+Homepage: http://debiandde.gfdgdxi.top
+Description: Deepin New Desktop Environment - Next
+ This is a base meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: deepin-desktop-base
+Architecture: amd64
+Version: 2023.09.05-deepin
 Priority: optional
-Section: libdevel
-Maintainer: Debian Qt/Deepin Maintainers <luochaojiang@uniontech.com>
-Installed-Size: 226
-Filename: ./d/deepin-wayland-protocols/deepin-wayland-protocols_1.6.0-deepin.1.2_amd64.deb
-Size: 37316
-MD5sum: aa609661a3215da3756afd468f2ebcdb
-SHA1: b3691ae9d59ef7ee20dbbb863d3f41c9f9abeca2
-SHA256: 7bfd59a8a531c628fdc608cb15c10e19b35721bdc41f08a1d31dd3bc8c9d1f63
-SHA512: 4b2479c68545b655a33b9ea3f539d73b8fe5fa8556465fd83fa4e6411650ddab8f09e299b04809a485a33756f7a1e2994aaeb205381bd0ae50e0a6f50cdf8260
-Homepage: https://gerrit.uniontech.com/admin/repos/snipe/deepin-wayland-protocols
-Description: Wayland protocols for Deepin
- This package contains protocols for Wayland that are not standard, and used
- in Deepin.
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 105
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2023.09.05-deepin_amd64.deb
+Size: 23352
+MD5sum: 1a808d37cef277a00776c73358d26dc4
+SHA1: 0d005cb306dac32929034ed61f8f27662e10bc10
+SHA256: 38add2d678b4dd062151725a2908f4276b39736bce201222c5a4e78764c22eb1
+SHA512: a36745ba9c1a1762ace3a217604123d37429c4197f6325d3b801d6697b75337a19d1ea07062467823bc109e15d60772843e24432e34359a2c3de8b0c0876a3c0
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
 
 Package: debian-dde-desktop-environment-cli
 Architecture: amd64
@@ -356,30 +293,198 @@ Description: Deepin New Desktop Environment - Next
  .
  You can safety remove it after installed.
 
-Package: debian-dde-desktop-environment-core
+Package: dde-dconfig-editor
 Architecture: amd64
-Version: 2023.10.22
+Version: 1.0.23
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 340
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Conflicts: dconfig-editor
+Replaces: dconfig-editor
+Filename: ./d/dde-dconfig-editor/dde-dconfig-editor_1.0.23_amd64.deb
+Size: 102884
+MD5sum: 46ad42ee73de3e63a3d3df419903b79a
+SHA1: a24d10fc10f9eda860cdcd3ade9d30515bd9c180
+SHA256: 4c123b01233b81076db939a826db7ae359b677a27beb08d2585880fe8ea27305
+SHA512: 8994af20b344e6b7e1f89db38f04317e21bdfe108476f7c89ac02da2ae9c6bf80eaec1930869b9c1194bedcbab6c243f1ad0e767bb9c374d4f21c8ca2e278a8c
+Description: deepin desktop-environment - dde-dconfig-editor module
+ dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
+ DSG configuration for current user.
+
+Package: dde-device-formatter
+Architecture: amd64
+Version: 0.0.1.15
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 250
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libudisks2-qt5-0 (>= 5.0.6), libx11-6
+Filename: ./d/dde-device-formatter/dde-device-formatter_0.0.1.15_amd64.deb
+Size: 57056
+MD5sum: d1558043e7bf5a49d315e453fcdc746e
+SHA1: 6744ff5626dbc5b29e897dde496530c100368bda
+SHA256: 75ef77e9bce4280bcfdd0b507c94d771beb37c7528926752a195f4220cf329ad
+SHA512: 462824d0801736e4342bb4770fe7abfa7a17457904640b87cc8be7b7fd5deb48d11801e8608a65a26b7096e86df8d7f68371745ef57401273ba808c734f20bc5
+Homepage: http://www.deepin.org
+Description: Device formatter
+ A simple graphical interface for creating file system in a block device.
+
+Package: deepin-keyring
+Architecture: all
+Version: 2021.06.07-1
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Maintainer: lilongyu <leaeasy@linuxdeepin.com>
+Installed-Size: 35
+Depends: gnupg
+Recommends: gpgv
+Filename: ./d/deepin-keyring/deepin-keyring_2021.06.07-1_all.deb
+Size: 8408
+MD5sum: 5bf84a882c64781a31765147909f6949
+SHA1: e0c72479d4268ae0e75b129fa4ff718d186af06c
+SHA256: f21364b031c798d1a0b063f23b608507926480677971b9ebc10f6c28da6504d0
+SHA512: af9c62d64e5a10a4cb7e2b3fccc7b2fae23149f018195c82c426eee2dc6ef9af5e2a9cbd295e3f062d989cb04ba510c47ea85ad45180a4ec18c50661de6fe6b0
+Description: GnuPG keys of the Deepin archive
+ The Deepin project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: dde-clipboard
+Architecture: amd64
+Version: 1:6.0.7
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 754
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
+Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_amd64.deb
+Size: 180440
+MD5sum: 2f3797321f31b2ccac62c771dec58f0a
+SHA1: 178af410facc072d81d8f37c5c3fda3e583b4f8f
+SHA256: a7fb7ad16ead0e391f9d05e3763df74e7b354ddf524235939c149c8c422f1e40
+SHA512: 5502a8d0c73659ae6949cfdc6eaf995c1a3028b76619e4d868f282d83695b54851038bfd037042142f396645c745a656afbdb5869e17c895eecd3e28169ecc11
+Homepage: https://github.com/linuxdeepin/dde-clipboard
+Description: deepin desktop-environment - clipboard module
+ Clipboard module of deepin desktop-environment
+
+Package: deepin-home
+Architecture: amd64
+Version: 1.4.1
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 5360
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs
+Filename: ./d/deepin-home/deepin-home_1.4.1_amd64.deb
+Size: 1176428
+MD5sum: eb96a24a5369ab58b69bee08bfad51a4
+SHA1: 114c58cf6bf898ea414cbe18829fd91addef4515
+SHA256: 435beb0d36442cd8bcbdcd11806e8492359bd30f3aa908a108a113329fdda416
+SHA512: b208e20c9a64259920797a27695dec2f5d9a9b64d8d9d932f8767715980b67137e71c1de1221a760b0097520ed10fbb706c5f4eee830a40abd0ec535ff67f4df
+Description: deepin home
+ quick login bbs, bug report.
+
+Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 6.0.22
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 97
+Depends: libc6 (>= 2.4), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_6.0.22_amd64.deb
+Size: 32732
+MD5sum: c2d94e6787df5b7962227f994ba53d21
+SHA1: 97c3903adf5a237f3ec2a4d78a16a08e817db59c
+SHA256: f7a545a944f55f9837b0e078e457b98a64874491297c38d8a0b68d3ec407644e
+SHA512: 947f93f01f37c8deab18fe7306463bcc58139d2a7ba02980fcf8901f2d1c67e9f40504236649215bac1947e258b016315d11660e8ffc7e4889e800ad9b8604e3
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin for onboard
+ Dock plugin for onboard of deepin desktop-environment
+
+Package: debian-dde
+Architecture: all
+Version: 2023.10.14
 Priority: standard
 Section: metapackages
-Source: debian-dde-desktop-environment
-Maintainer: gfdgd xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
-Installed-Size: 9
-Provides: deepin-desktop-environment-core
-Depends: dde-clipboard, dde-control-center, dde-desktop, dde-dock, dde-file-manager, dde-launcher | dde-launchpad, dde-qt5integration, dde-session-ui, deepin-default-settings, debian-dde-wallpapers-nonfree, deepin-desktop-base, deepin-icon-theme, deepin-desktop-theme, deepin-terminal, deepin-upgrade-manager, lightdm, plymouth-theme-deepin-logo, startdde, lastore-daemon, deepin-face, dde-wldpms, dde-wloutput, dde-wloutput-daemon, kwayland-data, deepin-authenticate, dde-daemon, dde-session-shell, deepin-desktop-schemas, deepin-kwin-x11, deepin-kwin-wayland, dde-session, dde-permission-manager, dde-application-manager, dde-api-proxy
-Recommends: cups, ttf-deepin-opensymbol
-Conflicts: deepin-desktop-environment-core
-Breaks: deepin-desktop-environment-core
-Filename: ./d/debian-dde-desktop-environment-core/debian-dde-desktop-environment-core_2023.10.22_amd64.deb
-Size: 3556
-MD5sum: edab7639a99dcb491a9c5ffd991f8d8a
-SHA1: 402fa742c4bff9a60bb93412f7421ce3ba3b8986
-SHA256: fd161ceb077b460e340e805532f40a8f2518a2f409c46f4599c69dbb78c2560e
-SHA512: 3ec2c6b0a9d3677d9c30a36a0e9185fae46bb28faf20307e6391ccebe687f9b02cd6eb40527e92f4b8d6af70eca32bb92ca6203d78f5f449863d6c7258dbbc0f
-Homepage: http://debiandde.gfdgdxi.top
+Maintainer: gfdgd-xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 13
+Depends: debian-dde-desktop-environment-base, debian-dde-desktop-environment-cli, debian-dde-desktop-environment-core, debian-dde-desktop-environment-extras, debian-dde-desktop-environment-ll
+Recommends: dde-qt5wayland-plugin, deepin-devicemanager, deepin-boot-maker, deepin-reader, deepin-log-viewer, dde-introduction, deepin-app-store, deepin-editor, deepin-system-monitor, pppoe, uos-remote-assistance, gvfs-fuse, smbclient, python-smbc, deepin-mail, deepin-manual, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, spark-store, linuxqq, com.qq.weixin.spark, org.deepin.browser, org.deepin.chineseime, deepin-defender, spark-deepin-wine-runner, spark-waydroid-runner, wireless-tools, ttf-deepin-opensymbol, deepin-terminal | gnome-terminal, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, dde-manual-content, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, x-display-manager, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-note, xfce4-pulseaudio-plugin, deepin-screen-recorder, deepin-font-manager, deepin-draw, deepin-album, deepin-movie, deepin-deb-installer, deepin-compressor, deepin-compatibility-mode
+Filename: ./d/debian-dde/debian-dde_2023.10.14_all.deb
+Size: 3384
+MD5sum: 2ea0f723cd3fa30b0d3139a070052580
+SHA1: 785c8f93a7d95e70904807ace6d01c06fc3cd6ab
+SHA256: 5e0ea5a444d382b84c8d805b614e68d3ec369bff70575be150a7e64ac30f764e
+SHA512: dd2d8744ff072c2dc8df7b13f6d239f6960cc8bb67d1b675e27ac26738c4407f68c7b068d0768e07a9c96ba9c738d23de21006c8947b710b9c42cbd791f31e89
+Homepage: http://www.linuxdeepin.com
 Description: Deepin New Desktop Environment - Next
- This is a dde package depends Deepin New Desktop Envrionment.
+ This is a meta package depends Deepin New Desktop Envrionment.
  .
  You can safety remove it after installed.
+
+Package: dde-dock-dev
+Architecture: amd64
+Version: 6.0.22
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46
+Filename: ./d/dde-dock-dev/dde-dock-dev_6.0.22_amd64.deb
+Size: 17020
+MD5sum: e3bbb2266e0eff011eb8ce26b5de86a4
+SHA1: 3cbcec082ede26fb8de9df1d59e1b7d0db60ee27
+SHA256: 95ee864c340d77c629a28264a66da9ee8169d15bc7523d97ae415ed9eb76a238
+SHA512: d4fdb0ef17c2b53a7195ed128240a225ca4198fd0a1621a19bc98b6e7a755e23306f3b5dcb4f734694fcdf85f1c11ddfe7311ea9dae55e66d7b30f41cc81250a
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Dock module development files of deepin desktop-environment
+
+Package: dde-launcher
+Architecture: amd64
+Version: 6.0.17
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3088
+Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), libxcb-util1, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb1
+Conflicts: dde-workspace (<< 2.90.5)
+Filename: ./d/dde-launcher/dde-launcher_6.0.17_amd64.deb
+Size: 773488
+MD5sum: b1c92acc1900c58b9976e71b63e7030b
+SHA1: 8af371b83c90694ad8b2c984c8752bd82161702a
+SHA256: 8cf2821641ad31b74974621cf3e9a2e8390eb719a69790348774c5e330f5c623
+SHA512: 89aaa7c9a2ee4c642323ffc98b21ff2d1dd7e008676c62b4187094589a40e40b37076c55eebd85fc1051c9552311e67d7630f98d81730789f7fbabac5f18daae
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-launcher module
+ Deepin desktop environment 2015 - dde-launcher module.
+ Display all installation programs, and provide access to open, uninstall, boot and start, which is convenient for users to operate quickly
+
+Package: dtkwidget5-examples
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18461
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (= 5.6.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libstdc++6 (>= 5), libdtkdata
+Filename: ./d/dtkwidget5-examples/dtkwidget5-examples_5.6.17_amd64.deb
+Size: 15005524
+MD5sum: 4ebdbcb7661e8517d283494afbe8d8ab
+SHA1: 1c14c8f52a91a34b83ce631026070082477a3021
+SHA256: 97defb163d6ecea0f7dbbbcfef887acf13055a1c450a9fc225588fd83c364286
+SHA512: 61254a85f2e9e9660a24fdcf079cf1f1582f837564a7370339eee231876725adf9a8d800f12a5f23931edcd4dc1d87f8c82b86ca43dc55045800c220ff3da0fc
+Description: dtkwidget-examples is generated by dtkwidget.
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
 
 Package: debian-dde-desktop-environment-ll
 Architecture: amd64
@@ -407,6 +512,90 @@ Description: Deepin New Desktop Environment - Next
  part of the official deepin release.
  You can safety remove it after installed.
 
+Package: debian-dde-desktop-environment-core
+Architecture: amd64
+Version: 2023.10.22
+Priority: standard
+Section: metapackages
+Source: debian-dde-desktop-environment
+Maintainer: gfdgd xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 9
+Provides: deepin-desktop-environment-core
+Depends: dde-clipboard, dde-control-center, dde-desktop, dde-dock, dde-file-manager, dde-launcher | dde-launchpad, dde-qt5integration, dde-session-ui, deepin-default-settings, debian-dde-wallpapers-nonfree, deepin-desktop-base, deepin-icon-theme, deepin-desktop-theme, deepin-terminal, deepin-upgrade-manager, lightdm, plymouth-theme-deepin-logo, startdde, lastore-daemon, deepin-face, dde-wldpms, dde-wloutput, dde-wloutput-daemon, kwayland-data, deepin-authenticate, dde-daemon, dde-session-shell, deepin-desktop-schemas, deepin-kwin-x11, deepin-kwin-wayland, dde-session, dde-permission-manager, dde-application-manager, dde-api-proxy
+Recommends: cups, ttf-deepin-opensymbol
+Conflicts: deepin-desktop-environment-core
+Breaks: deepin-desktop-environment-core
+Filename: ./d/debian-dde-desktop-environment-core/debian-dde-desktop-environment-core_2023.10.22_amd64.deb
+Size: 3556
+MD5sum: edab7639a99dcb491a9c5ffd991f8d8a
+SHA1: 402fa742c4bff9a60bb93412f7421ce3ba3b8986
+SHA256: fd161ceb077b460e340e805532f40a8f2518a2f409c46f4599c69dbb78c2560e
+SHA512: 3ec2c6b0a9d3677d9c30a36a0e9185fae46bb28faf20307e6391ccebe687f9b02cd6eb40527e92f4b8d6af70eca32bb92ca6203d78f5f449863d6c7258dbbc0f
+Homepage: http://debiandde.gfdgdxi.top
+Description: Deepin New Desktop Environment - Next
+ This is a dde package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
+Package: dwayland-data
+Architecture: amd64
+Version: 5.25.0-kwayland.5.24.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dwayland
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 19
+Filename: ./d/dwayland-data/dwayland-data_5.25.0-kwayland.5.24.3_amd64.deb
+Size: 4676
+MD5sum: 6bc0e0341c8c3b2af589d9441ee728ca
+SHA1: 6e16a61668a52e426cdb6af845c69731ef9800ab
+SHA256: e34365b6d62679bc4241ef88d872d8e56df6cdd8d2648784e1f54319bd3dc9c0
+SHA512: d8a2ac78ad92fc6a0ac1b1c3e23da8b648ad1340cc21fb5311f6e31b9eb2a468377d0268abb6e972b1f50f44560ab0a7168ef4631bd535bb7945b718ba8fd032
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Description: Qt library wrapper for Wayland libraries - data files
+ DWayland provides a Qt-style Server library wrapper for
+ the Wayland libraries.
+
+Package: dde-launcher-dev
+Architecture: amd64
+Version: 6.0.17
+Priority: optional
+Section: x11
+Source: dde-launcher
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 23
+Depends: dde-launcher (= 6.0.17)
+Filename: ./d/dde-launcher-dev/dde-launcher-dev_6.0.17_amd64.deb
+Size: 8924
+MD5sum: 4dda63a6033e9b446f56e2bb8a99ebce
+SHA1: 8215f14062aaa14b2858735eecbc079dc3cc961f
+SHA256: 1b79eba9993040d428c93ae4c07917f03ffc93492445736f5c7cf2b9740b1887
+SHA512: 9577a451b621199a67829320a08625d50fdf20f930fbfafb81c711f04bc1d441227f6988be7de311eeeb8170115daff5af8dd090b10ec3c0af4977317b5cc5b2
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - launcher module development files
+ Launcher module development files of deepin desktop-environment
+
+Package: dde-dconfig-daemon
+Architecture: amd64
+Version: 1.0.23
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 397
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), systemd | systemd-standalone-sysusers | systemd-sysusers
+Conflicts: dconfig-daemon
+Replaces: dconfig-daemon
+Filename: ./d/dde-dconfig-daemon/dde-dconfig-daemon_1.0.23_amd64.deb
+Size: 102876
+MD5sum: e1b0e7fdae376ab1ed75d2c38e9db025
+SHA1: 1e90405d5e03656cf4d68aa988283f8df0f5eee4
+SHA256: b0a951dddf23a09ae1a279fe0bbf464907f16394aad2f2b8a783d62015d9b66c
+SHA512: 1fc3761e6bde9ed90678e880d786675e86e9d5ca314838fbd70c7aaa538855916b7b7a56d838094fea8123b75d1428b16b6eea783c1098ac14a50f59493643cb
+Description: deepin desktop-environment - dde-dconfig-daemon module
+ dde-dconfig-daemon provids dbus service for reading and writing DSG configuration.
+
 Package: debian-dde-desktop-environment-extras
 Architecture: amd64
 Version: 2023.10.22
@@ -433,87 +622,685 @@ Description: Deepin New Desktop Environment - Next
  part of the official deepin release.
  You can safety remove it after installed.
 
-Package: debian-dde-desktop-environment-base
-Architecture: amd64
-Version: 2023.10.22
-Priority: standard
-Section: metapackages
-Source: debian-dde-desktop-environment
-Maintainer: gfdgd xi<3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
-Installed-Size: 9
-Provides: deepin-desktop-environment-base
-Depends: adduser, apt, apt-utils, base-files, base-passwd, bash, bsdutils, coreutils, dash, debconf, debianutils, deepin-keyring, diffutils, dpkg, e2fsprogs, fdisk, findutils, gcc, gcc-11, gcc-11-base, gpgv, grep, gzip, hostname, init, libacl1, libattr1, libaudit1, libbz2-1.0, libc-bin, libc6, libcap-ng0, libdebconfclient0, libgcrypt20, libgmp10, libgnutls30, libgpg-error0, libidn2-0, liblocale-gettext-perl, liblz4-1, liblzma5, libncurses6, libp11-kit0, libpam-runtime, libpcre3, libselinux1, libstdc++6, libunistring2, libzstd1, login, lsb-base, mawk, mount, ncurses-base, ncurses-bin, passwd, perl-base, sed, sensible-utils, systemd, tar, tzdata, udev, util-linux, zlib1g, libzip4, unrar, pciutils
-Recommends: libffi6, libsepol1, libsemanage1, libnettle6
-Conflicts: deepin-desktop-environment-base
-Breaks: deepin-desktop-environment-base
-Filename: ./d/debian-dde-desktop-environment-base/debian-dde-desktop-environment-base_2023.10.22_amd64.deb
-Size: 3652
-MD5sum: c8e491accae1ad04cbba474dd0c6999f
-SHA1: 80e9f4bf48075f9424e4d92ea485c9e0d5bc29d5
-SHA256: 67d7bdada5cb276fd791fbdeca2774afce78d856d2bc3844cba319bf960d9637
-SHA512: 2ac8c8befeecde502b88fd935c209d23302995422e9404d607fdab3b0a28a358e062ce95fc3aba0e99172550178db09989cece454447b81573c148b1aa24ed31
-Homepage: http://debiandde.gfdgdxi.top
-Description: Deepin New Desktop Environment - Next
- This is a base meta package depends Deepin New Desktop Envrionment.
+Package: deepin-default-settings-tuning
+Architecture: all
+Version: 2023.08.07
+Priority: optional
+Section: admin
+Source: deepin-default-settings
+Maintainer: sysdev <sysdev@deepin.com>
+Installed-Size: 37219
+Replaces: deepin-default-settings (<= 2018.1.23)
+Filename: ./d/deepin-default-settings-tuning/deepin-default-settings-tuning_2023.08.07_all.deb
+Size: 10656048
+MD5sum: 65da4382e4131439d2b9c67ad2f2ee51
+SHA1: 29c85b08cab88dce994556930e97111ff00add7f
+SHA256: 64515b10ae17309f500ee4dd31bf9923a52ad88c5bcb99eaea458f3ea32863d4
+SHA512: 113a2784a0054818ccc6a97c3d69f35af4b579c97c5d0b91d18d0585024bfaef0e2824b4a77ea494093170270f2e1c77e3e52afe87c7c232bebd25ab0c47ac50
+Description: default settings for deepin destkop environment - misc overrides
+ This package does tweaking and to provide better experience of deepin desktop
+ environment.
  .
- You can safety remove it after installed.
+ This package includes files to override cups default page and fcitx icon.
 
-Package: dtkwidget-doc
+Package: qttools5-dev
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 1463
+Depends: libqt5designer5 (= 5.15.7-1+dde), libqt5designercomponents5 (= 5.15.7-1+dde), libqt5help5 (= 5.15.7-1+dde), qtbase5-dev, qttools5-dev-tools (= 5.15.7-1+dde)
+Breaks: qttools5-dev-tools (<< 5.9.2-3~)
+Replaces: qttools5-dev-tools (<< 5.9.2-3~)
+Filename: ./q/qttools5-dev/qttools5-dev_5.15.7-1+dde_amd64.deb
+Size: 184680
+MD5sum: a9171bcbeb06ef9dae5c123ee75a11be
+SHA1: 61363e3488136c452a2f10327756daea24e0106e
+SHA256: 99402546bbeda871151816ef75330a2cd573ca595abc79eb91fe4337158f9e36
+SHA512: 134ec4b0ca6ca1df4ce2c1d4388a53bb1cc894a64be5cb951c3c745b6b1cf11b5e4a420a7e310973a5a0c75d8c450eb74cef0f31f81ca8b8a2775248ef67e8ad
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications.
+
+Package: qdbus-qt5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 89
+Depends: qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-15-10
+Filename: ./q/qdbus-qt5/qdbus-qt5_5.15.7-1+dde_amd64.deb
+Size: 23532
+MD5sum: ea391c771df125aaa20d137febb28a2e
+SHA1: 2fdd347ef128d60c298e94802e4cc4a6012a79cc
+SHA256: 7a2ed3a90f90be2c497df905cc1bd015506fb648ba2411140b296c1d5cf0a4f6
+SHA512: bb2f6b4641d659bad29575382d59b43aaaf98e547fca226f79f279b7223c5b259d8ab1e9007c8d3f4c2a096eef9e68570f5d81a04c934cc756033e5fd784a990
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 D-Bus tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qdbus, a command-line tool interface to D-Bus that uses
+ the QtDBus library.
+
+Package: qttools5-private-dev
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 634
+Depends: qttools5-dev (= 5.15.7-1+dde)
+Filename: ./q/qttools5-private-dev/qttools5-private-dev_5.15.7-1+dde_amd64.deb
+Size: 71076
+MD5sum: 51df51fafccc287647a58ee6f3391c14
+SHA1: 56cff16dd1464abcfe0dbd9d93883afe2487cf3e
+SHA256: 653d492f30b3b5a4926f79fa8184de015fcd745652e4c23757b42e6a38ca2e6f
+SHA512: 1ca5ebebad9f70a0624fea768fa76797c276a305c97a920f342c3b2b03631bba735fe0b6ee8cf961810f1cc8e7c275580e63c1fd5b6ff1c708a4328d14c396eb
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains private header development files.
+ .
+ Use at your own risk.
+
+Package: qttools5-dev-tools
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 4481
+Depends: qdoc-qt5 (= 5.15.7-1+dde), qhelpgenerator-qt5 (= 5.15.7-1+dde), qt5-assistant (= 5.15.7-1+dde), qtattributionsscanner-qt5 (= 5.15.7-1+dde), qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5designer5 (>= 5.15.7), libqt5designercomponents5, libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5quick5 (>= 5.15.7~) | libqt5quick5-gles (>= 5.15.7~), libqt5quickwidgets5 (>= 5.15.7~), libqt5webkit5 (>= 5.212.0~alpha4-8~), libqt5widgets5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), qtbase-abi-5-15-10, qtdeclarative-abi-5-15-10
+Filename: ./q/qttools5-dev-tools/qttools5-dev-tools_5.15.7-1+dde_amd64.deb
+Size: 1028136
+MD5sum: 44c2a4ed3a30857bf28b4c12b9cb94a3
+SHA1: b15e267814dedab6f549d8bdad4c4fe48f41a7f3
+SHA256: d4e9be4d665b1ad89bc8dc2423fd3ccce42f3c9f3e67f36f81debe4b387962e9
+SHA512: ce2892e194d40608a9228df62de1e976df7757a53f463355e4bfc90201a2bb0d1cc4910a25dbfe0d6b54bfba9011ad0e901b850bd4cb0fae3be6bd8a8e3b3235
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 development tools
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains a set of applications to browse the documentation,
+ translate applications, generate help files and other stuff that
+ helps in Qt development. These tools are among others:
+  * designer
+  * linguist
+  * pixeltool
+  * qdbusviewer
+
+Package: qml-module-qtquick-controls2-styles-chameleon
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 144
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5qml5 (>= 5.14.1), libstdc++6 (>= 4.1.1), qml-module-qtquick-shapes (>= 5.11.3), qml-module-qtgraphicaleffects, libdtkdeclarative5 (= 5.6.17)
+Filename: ./q/qml-module-qtquick-controls2-styles-chameleon/qml-module-qtquick-controls2-styles-chameleon_5.6.17_amd64.deb
+Size: 18856
+MD5sum: ed17cddac2a1de495e7e4cc344d8b3c8
+SHA1: 9f01d511b5742ace01f7c29bbdb16fddd3231666
+SHA256: 683e96a5ce989a95e18d7162fa283c6b9a2204030f1bb31ecec8415de89a812b
+SHA512: 328f45c99d2c1f1d7055cf05b1dff096c23d405b054689b59ad525f694609f050b62abafdfcb848551e68fc057bfdfb4909a2819e1e1ca89ee725faaf4e3f0cf
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: qttools5-examples
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: x11
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2596
+Depends: libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5designer5 (>= 5.15.7), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5help5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 5)
+Filename: ./q/qttools5-examples/qttools5-examples_5.15.7-1+dde_amd64.deb
+Size: 462040
+MD5sum: cdf98a755bacd14e9f6a2404b001b91b
+SHA1: eba0a719d778c087f853c0c687c17d0e9c387224
+SHA256: ebf344c8f97da61d8d4cc3dade3041442e5c39860ab51f88bc449567027a6348
+SHA512: 547e9acc98aa98252fd21072239ddae1658257b9b6ef47a22e8c6b44887b90c51e9880b4bc95305ef9a7bc75dd4e3731d7cb685aaa2451acf9e36587753fe902
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains examples of the Qt 5 tools module.
+
+Package: qdoc-qt5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 1886
+Depends: qtchooser, libc6 (>= 2.34), libclang1-16 (>= 1:5.0~+rc1~), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5)
+Breaks: qttools5-dev-tools (<< 5.11.3-3~)
+Replaces: qttools5-dev-tools (<< 5.11.3-3~)
+Filename: ./q/qdoc-qt5/qdoc-qt5_5.15.7-1+dde_amd64.deb
+Size: 586212
+MD5sum: c33f168ecb2db059f5815584e43b2a08
+SHA1: 6c1fd18ba1d50a2fc5a6164719a8937fe6460028
+SHA256: 7439bf48e004929ea3507d89a6b7a72dbe298cbbd79b5e5e4b9c3cbd31491175
+SHA512: 151d76224588e4341545d6c1ae4966cca14da77d02e8119d7c655b936be13c57d6e7567ee0a64ee9fc9c63a6cc9d6c68a27899b1d5341a78f785dd4af75278f4
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 qdoc tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qdoc, a command-line tool for generating HTML
+ documentation from .cpp and .qdoc files.
+
+Package: qttools5-doc
+Architecture: all
+Version: 5.15.7-1+dde
+Priority: optional
+Section: doc
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 4192
+Filename: ./q/qttools5-doc/qttools5-doc_5.15.7-1+dde_all.deb
+Size: 3428016
+MD5sum: 3d330d88eefe29b449197619434116eb
+SHA1: bfd875293ef0172dae0cde6fc5c353150ce06b2f
+SHA256: 22c7072b58b177095fd4de6cda3b2c6fc0b9c85b7fe9a2fec67ca2a455e0f462
+SHA512: 61068ff9b1892446d4df02b94afccfb5575fa3e888663f04f260ad8504273ae429a4ce2b08edec8bf1b0ab9d7e8adb29aa1afef583ec98adb2d51f5f52c2f812
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 tools libraries
+ and binaries.
+
+Package: qt5-assistant
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 924
+Depends: libqt5sql5-sqlite, qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5help5 (>= 5.15.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.212.0~alpha4-8~), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5)
+Suggests: qt5-doc
+Breaks: qttools5-dev-tools (<< 5.9.2-5~)
+Replaces: qttools5-dev-tools (<< 5.9.2-5~)
+Filename: ./q/qt5-assistant/qt5-assistant_5.15.7-1+dde_amd64.deb
+Size: 348096
+MD5sum: 6c6bf69dfa315c64b69e1d85454c9fe9
+SHA1: 1105f68336d5edc30ed06975a512e48a73f91eea
+SHA256: 74d763ac12a18f9f8bfb54062f18073ede9221b23b211d1854a2566293730cef
+SHA512: b1c59ab256a4a679c492e0f1d4d813cc9e23689cbd972d98fe61758e0cc90b2c186ab884353ea2581f45b7bb74bcf7ba602ba156cbf5063bf5a40c31254f3239
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 Assistant
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt Assistant is a tool for viewing on-line documentation in Qt help file
+ format.
+
+Package: qdbus
+Architecture: all
+Version: 4:5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: qttools-opensource-src (5.15.7-1+dde)
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 18
+Depends: qdbus-qt5
+Filename: ./q/qdbus/qdbus_5.15.7-1+dde_all.deb
+Size: 4896
+MD5sum: d541e13e75e954da7659a93fd3ae4a59
+SHA1: 1e3ab01cfef527f85ef7e29f7b2a20b0c9b66a30
+SHA256: 7e2035429b97510b665b8387663f47d6f03b55e2484ac731b9786bea686d54c3
+SHA512: 7133723dbed39a47a2526388f153cda77fe52aae74c3019230e1c4101e405855e459d8112e52aa070d90343a6ac368f17b72f8469ee4429a71d1da2a61f31ff5
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 D-Bus tool — dummy transitional package
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package is a dummy transitional package for users upgrading from
+ Qt 4 to Qt 5. It can be safely removed.
+
+Package: qttools5-doc-html
+Architecture: all
+Version: 5.15.7-1+dde
+Priority: optional
+Section: doc
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 10840
+Filename: ./q/qttools5-doc-html/qttools5-doc-html_5.15.7-1+dde_all.deb
+Size: 3212524
+MD5sum: c9476ae8b1a1060c8ce0049f8a3d418d
+SHA1: 85bbbe1d8617a67ea0a6efd06cac183f1d74b116
+SHA256: a4112ee3d3a36c24703105628b3b78e7fb64435bbffa208d5c7531b92e9fff6b
+SHA512: ecb7e0750a265d9a8a5c25c63c8c1f02bce1a01f2d1e8bd7590030f578427b3086c34b1586e88e4af7d6a1bc79cdf0064aa6d5c020b77726ed43ce756fb229bd
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 tools HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 tools
+ libraries and binaries.
+
+Package: qhelpgenerator-qt5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 190
+Depends: libqt5sql5-sqlite, qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5help5 (>= 5.12.2), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5)
+Breaks: qttools5-dev-tools (<< 5.12.3-2~)
+Replaces: qttools5-dev-tools (<< 5.12.3-2~)
+Filename: ./q/qhelpgenerator-qt5/qhelpgenerator-qt5_5.15.7-1+dde_amd64.deb
+Size: 55876
+MD5sum: 57503cf69c37831b457520c8bf0cea76
+SHA1: 9e2c39e0acf3d83c245a1265c33d74c6a7292c88
+SHA256: f604bc18ccc08bbe4f9e57ee352ceda6024a56d858773256335511761d4cfaf8
+SHA512: 0945578cf622f5ce37ec772535495b019917637d7d423e43c53628e6301e7244e3d2778f8054f93557cfcde8f607f3e00693a42671a694c5f62cfb9dd3c08e40
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 qhelpgenerator tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qhelpgenerator, a command-line tool for packaging
+ the HTML documentation generated by qdoc into .qch files.
+
+Package: qtattributionsscanner-qt5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 105
+Depends: qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libstdc++6 (>= 13.1)
+Breaks: qttools5-dev-tools (<< 5.12.3-2~)
+Replaces: qttools5-dev-tools (<< 5.12.3-2~)
+Filename: ./q/qtattributionsscanner-qt5/qtattributionsscanner-qt5_5.15.7-1+dde_amd64.deb
+Size: 28516
+MD5sum: d82f5a387a354702b6003a124bd2255a
+SHA1: b73ee4ae2e07ee44d620d9ca6d99cc9a4d8bd4f9
+SHA256: bd4591ae96b878f0856a0a0a2528879eadd7a6bdcc08373a5e366dc29ffb3c90
+SHA512: bb9eff3c4283988c04740aa1c95a2bc91867d854be715836fa9769131b820c0254aa822054c42e80876c363778ad726712ea7b13e8904086f173b1de75095dea
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 qtattributionsscanner tool
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains qtattributionsscanner, a command-line tool that
+ scans the source code for qt_attribution.json file and outputs JSON or
+ qdoc files describing the copyright attributions for third party code.
+
+Package: golang-github-lofanmi-pinyin-dev
+Architecture: all
+Version: 2.0.0.0
+Priority: optional
+Section: utils
+Maintainer: Uniontechos THIRD Maintainers <uniontechos-third@uniontech.com>
+Installed-Size: 1006
+Filename: ./g/golang-github-lofanmi-pinyin-dev/golang-github-lofanmi-pinyin-dev_2.0.0.0_all.deb
+Size: 247532
+MD5sum: 5a5122aac413de04ed0d35b1796d3f78
+SHA1: 8880452a9dfdedae3b6b57b5ec31a532ec6f5414
+SHA256: 61278229a15fed91ddc7b86cdd1a734144cc24ce786fe8c424d6d1963278c275
+SHA512: 4e825c5b0f1e9be77452ccf9c7f99cc17550514ea9aee09780cc03d1250cb1f1e696eba3dec0b9579ef0f1522304df99a0578fa2e9a1b3e8ac88699967aa83b2
+Homepage: http://www.deepin.com
+Description: Chinese to pinyin class library
+ provide more accurate Chinese to pinyin solutions.
+
+Package: exfat-utils
+Architecture: amd64
+Version: 1.3.0-2
+Priority: optional
+Section: otherosfs
+Maintainer: Sven Hoexter <hoexter@debian.org>
+Installed-Size: 234
+Depends: libc6 (>= 2.34)
+Recommends: exfat-fuse
+Conflicts: exfatprogs
+Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
+Size: 44524
+MD5sum: 4072b1e3a12fba46e990e2838f699df9
+SHA1: 4a6e2c9a002e5d29a4012654024f10ac91e6d598
+SHA256: 5139e75a63eeceb50781433a9da1bca2fca1334f0e1b9ad3908efb674b7330cb
+SHA512: ad3798bd76f0b0d319230883bfecde601d72ea652fc9829b2f804fbc82c7d959b8137c500b4370d78d90e04b068ea0c6cc70142802a548ea01cc4192dbb14859
+Homepage: https://github.com/relan/exfat
+Description: utilities to create, check, label and dump exFAT filesystem
+ Utilities to manage extended file allocation table filesystem.
+ This package provides tools to create, check, dump and label the
+ filesystem. It contains
+  - dumpexfat to dump properties of the filesystem
+  - exfatfsck / fsck.exfat to report errors found on a exFAT filesystem
+  - exfatlabel to label a exFAT filesystem
+  - mkexfatfs / mkfs.exfat to create a exFAT filesystem.
+ The tools included in this package are the exfat-utils developed
+ as an independent implementation by the exfat-fuse author, the tools
+ build by Samsung engineers for the Linux exFAT implementation are
+ available in the exfatprogs package.
+
+Package: lib32ncurses6
+Architecture: amd64
+Version: 6.3-1
+Priority: optional
+Section: libs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 347
+Depends: lib32tinfo6 (= 6.3-1), libc6-i386 (>= 2.7)
+Filename: ./l/lib32ncurses6/lib32ncurses6_6.3-1_amd64.deb
+Size: 110316
+MD5sum: 053c5a8512653e92dab1496e8f866d45
+SHA1: d0d82a71c4af2dfa9f28377916a29cf6bbf4b593
+SHA256: 2227b6924a2647916832c5b92ee2065af8a09fdb2c80fede99142e13983c5ab6
+SHA512: 6c1c54032c5b0c7b186fd4bd85c51d7e90f8aa5278cda451355f32b02f6c7d93372e3dc6be7bd5d642505c861b3b68994c8a80d8abc17b7885243199e293ff64
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (32-bit)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared libraries necessary to run programs
+ compiled with ncurses.
+ .
+ This package supports the 32-bit ABI variant of your system's
+ architecture.
+
+Package: libqt5designer5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 5116
+Depends: libc6 (>= 2.35), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-15-10
+Filename: ./l/libqt5designer5/libqt5designer5_5.15.7-1+dde_amd64.deb
+Size: 2720452
+MD5sum: ad18ba7c109f83442a94fd2071ff43cf
+SHA1: 60e07bebcf9810439e7a2c7f0d2bd3d12ad788a6
+SHA256: c99a626341dbab398e17702af5fb8e74fb5c869c4d13ad71cbec7c99c62fc6a3
+SHA512: c7751421cf828d8e124f8f43ecc78f97d38c0f6bc9d695fc64f944dbf49fb3124d05327cd37ef4593bf669bb2cb19b442807d56a3f7a03fecdbd54b785175323
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 designer module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtDesigner module provides classes that allow you to create your own
+ custom widget plugins for Qt Designer, and classes that enable you to access
+ Qt Designer's components.
+
+Package: lib32ncursesw6
+Architecture: amd64
+Version: 6.3-1
+Priority: optional
+Section: libs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 444
+Depends: lib32tinfo6 (= 6.3-1), libc6-i386 (>= 2.7)
+Filename: ./l/lib32ncursesw6/lib32ncursesw6_6.3-1_amd64.deb
+Size: 145572
+MD5sum: bff472bf02e8a64dd63ba3a064cae5aa
+SHA1: 555e40e1dbd0bf65ebd5282ec581250b96103955
+SHA256: b11c5a1811f3c1a724aea785d762ff1f5cc50497c255f8d3cd67c51c368d1edc
+SHA512: 39d18159c839b21ff5578afc96c26011a4e843eabcfb3496fcf0d08d20070111fe2486d6082ed727dc498c09cb97835826a0b23f6948b23901ad8014e670215e
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (wide character support) (32-bit)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared libraries necessary to run programs
+ compiled with ncursesw, which includes support for wide characters.
+ .
+ This package supports the 32-bit ABI variant of your system's
+ architecture.
+
+Package: libdtkwidget-dev
 Architecture: amd64
 Version: 5.6.17
 Priority: optional
 Section: libdevel
 Source: dtkwidget
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 9
-Filename: ./d/dtkwidget-doc/dtkwidget-doc_5.6.17_amd64.deb
-Size: 3704
-MD5sum: 50bae20321eadd4ee22c46cd26d16c82
-SHA1: 0e03ce88009cb43a02ef1472c1e3a63e9fc8ac80
-SHA256: 3a507bdeef381c2cd6a576593a654de65c1dfb11a0289a51985d40ff3eba4171
-SHA512: 8bd5f5ad354732ed9c754ce1c9b19f702ea239a431143c6d7720da851a996df07ae5df83e11d54d68d46f94a0a474a795893c537c5faed0fc0826d926ff3b4dc
-Description: Deepin graphical user interface library (Document)
+Installed-Size: 506
+Depends: libdtkwidget5 (= 5.6.17), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev, libdtkgui-dev, libcups2-dev
+Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_5.6.17_amd64.deb
+Size: 59628
+MD5sum: a522195c3f466449cc6dbaa2f7039728
+SHA1: ef2d796c20a420b164d4ea83b6dd2bf6c2a7238c
+SHA256: 5dc170e9471ac26887d871161c376c83d196969423cf42aab5541cb50e497f40
+SHA512: 21ac4a952c08156e4033c3d1cd9b94ccabd3f3665e728c06bf4294d7432fd4fe781918a601ccec561af705ae772bca9a17812d38c9deb64006fc6cabddc96289
+Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
- This package contains example application which are
+ This package contains the header files and static libraries which are
  needed for developing Deepin applications.
 
-Package: dde-device-formatter
+Package: libdtkwidget5
 Architecture: amd64
-Version: 0.0.1.15
-Priority: optional
-Section: utils
-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 250
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libudisks2-qt5-0 (>= 5.0.6), libx11-6
-Filename: ./d/dde-device-formatter/dde-device-formatter_0.0.1.15_amd64.deb
-Size: 57056
-MD5sum: d1558043e7bf5a49d315e453fcdc746e
-SHA1: 6744ff5626dbc5b29e897dde496530c100368bda
-SHA256: 75ef77e9bce4280bcfdd0b507c94d771beb37c7528926752a195f4220cf329ad
-SHA512: 462824d0801736e4342bb4770fe7abfa7a17457904640b87cc8be7b7fd5deb48d11801e8608a65a26b7096e86df8d7f68371745ef57401273ba808c734f20bc5
-Homepage: http://www.deepin.org
-Description: Device formatter
- A simple graphical interface for creating file system in a block device.
-
-Package: dde-dconfig-doc
-Architecture: amd64
-Version: 1.0.23
+Version: 5.6.17
+Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: dde-app-services
-Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
-Installed-Size: 203
-Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.23_amd64.deb
-Size: 129632
-MD5sum: 3fbad25650dc84d149576f5baea51af3
-SHA1: 222ef05169c84f5e3bb0ec1bfdec97e7f409fbca
-SHA256: 443d4b17cff4dc85c2ba7f40a7a16926ed5abc06532259aa08785541f8aadac6
-SHA512: a4c529554a1cfdefe69dcdd3359c2ebe3c975c3b3912d8898e6e1edd43b6d60f6e8b62b186b8d88d6661018d1189c99eb27fc14bec9e7729b59154c2fd428b48
-Description: Deepin Tool Kit DConfig (document)
- This package contains the doc files of DConfig
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4036
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.4.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-10, libdtkdata
+Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.17_amd64.deb
+Size: 941716
+MD5sum: 22273c7fb99d7a26a8e02abd6dbd8382
+SHA1: 3c6d0d21030f8ad8e269804b1675eb0f4137a9d7
+SHA256: 365601edd81ab908ad6f30bae59868b422a4414f0c7dda281cb72b25c9ce4361
+SHA512: df0879a559b13060c251f8c10898ac0fbf01c9ad007e22ca4acb2fdd9470218aa692639f873cda428be995a2cd4c049a38b80918ac0434429cfd4dec5a336436
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
 
-Package: dwayland-data
+Package: libdtkdeclarative-dev
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 131
+Depends: libdtkdeclarative5 (= 5.6.17)
+Filename: ./l/libdtkdeclarative-dev/libdtkdeclarative-dev_5.6.17_amd64.deb
+Size: 19852
+MD5sum: 0fb58927537c8a74d158502e5dafd0e0
+SHA1: 60cd28f909161e1bb9747439e5b966f550f77468
+SHA256: 646f2579b4ef1034efb6f94df3a27b953b30ed44a3e602bf93c0ca7a9e13d282
+SHA512: dfcd34eb70f4ee45ef7e5983148ee9de9f5d8ec874855dae6a375af62d9f8c702ffe7d91bfdbe1631f4ce665618e26e4532d0ca78da51b6465fc46fec36dab08
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the header files and shared libraries of DtkDeclarative
+
+Package: libqt5designercomponents5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 2633
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5designer5 (>= 5.15.7), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./l/libqt5designercomponents5/libqt5designercomponents5_5.15.7-1+dde_amd64.deb
+Size: 726860
+MD5sum: c4c946caa97fc586fb0da6bb50424339
+SHA1: 2e3e2f3a19f0072316b0e8278c6a2498cf9860c8
+SHA256: 4bb02dd0f3822be8fdf40983d25a625e1ac25144f8fb217fc799bd7d702531e6
+SHA512: 320567ef18afc5f6e0928349c40182d36842b3853d5c3836c67ad4db5dbef157f69e3d928f1cd8c3ceb309ae3f426ab038a9e593830f0131e81ab640ce98b095
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 Designer components module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package includes components for the Qt 5 Designer module.
+
+Package: libncurses5-dev
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 6
+Depends: libtinfo6 (= 6.3-1), libncurses-dev (= 6.3-1)
+Filename: ./l/libncurses5-dev/libncurses5-dev_6.3-1_amd64.deb
+Size: 932
+MD5sum: 42774b7d3d6453a23de86ae1003917e7
+SHA1: e479896b7a3c6405cbd2f774ad9b705b40c11f6e
+SHA256: 0103acad3972ec44956a447835d25ebbcfd78da9470b6e1d918279cafc05c20e
+SHA512: de0dff9e7440d1456c54094f7fcf15fd6a2f0fadc5c2ea6c89be74620da69a631234a8fd8298e58f8ded9207a5ebf4af4b18ad8e6133dc943c8421ace69a7418
+Homepage: https://invisible-island.net/ncurses/
+Description: transitional package for libncurses-dev
+ This is a transitional package that can safely be removed.
+
+Package: libncursesw5
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 380
+Depends: libtinfo5 (= 6.3-1), libc6 (>= 2.34)
+Recommends: libgpm2
+Filename: ./l/libncursesw5/libncursesw5_6.3-1_amd64.deb
+Size: 120732
+MD5sum: c346dad073b58edcdaa48ae52426411b
+SHA1: 578751ac82d0b9348a832cb81d84f5c9c31ac865
+SHA256: 2be7410b7d8445d448064b076c38b266066abc76db0af2c3b88dc2662b59d75f
+SHA512: fa39e255f983cdef140e00ffb2b933ad145174ce4d7b2a7dcba2b05e57cbcc1a2631724e0e9eaa0c9524693389bca33d18854d234fcd5db5a5871379b5d17d73
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling (wide character legacy version)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the legacy shared libraries necessary to run
+ programs compiled with ncursesw, which includes support for wide
+ characters.
+
+Package: libdtkdeclarative-doc
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6141
+Filename: ./l/libdtkdeclarative-doc/libdtkdeclarative-doc_5.6.17_amd64.deb
+Size: 4896388
+MD5sum: c38bb0f76ac5db3d36166d9bd64b6c77
+SHA1: 04d9c16253842a8db6169ec8425de84f4ac89512
+SHA256: 29835d04b96e479355b095ec35eeb7d7737d42d7d62a3e89ddbb90fb8215a0ea
+SHA512: 282e2854d0a89344427a4b9fd010ffb97ced9f7492ef813f6cd770fe51176f15fa32e6ee5543860fb8aa299ac6ee91edb6090b44b8740a2887623906ae1130e9
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library (Document)
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: libdtkcore-doc
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2491
+Filename: ./l/libdtkcore-doc/libdtkcore-doc_5.6.17_amd64.deb
+Size: 1836452
+MD5sum: d5a70e74027fb29a01fbf621cb1e1af9
+SHA1: 8d11e49f8cc70bdc3d11bf633f822c9f9fa73ef2
+SHA256: e2aa831242dc7c3b4fb2e822f1ef9be4b7b639e431c99ffbe31abdfbdfa7028f
+SHA512: f7028b1f2d6327a0d1c9a49fd4655be8198ebce4852559d060ea77c51ea3d99586813974e65927db016af9231ef737bcd17ecb4725d75e7d553f79291b4bc75b
+Description: Deepin Tool Kit Core (document)
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the doc files of DtkCore
+
+Package: libtinfo-dev
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 6
+Depends: libtinfo6 (= 6.3-1), libncurses-dev (= 6.3-1)
+Filename: ./l/libtinfo-dev/libtinfo-dev_6.3-1_amd64.deb
+Size: 928
+MD5sum: 0fe7c9c85bfb3551b97c068ff6ab68ac
+SHA1: 598612c92cdf9cf417f04fcc288db1ccb49b5fdb
+SHA256: 5b626f172c9618961e30223a9f6f928e6a9775f7677bd5712f2d33b93a61b995
+SHA512: 3433c8be625b7a95e57d78d5572ddd5feb9000575b5b39a9b955ffa50620052902424869b7f5ae974b1beb86f461b8eb1b94d93880f75ae91cc35cf5cb5e5ca0
+Homepage: https://invisible-island.net/ncurses/
+Description: transitional package for libncurses-dev
+ This is a transitional package that can safely be removed.
+
+Package: lib32tinfo6
+Architecture: amd64
+Version: 6.3-1
+Priority: optional
+Section: libs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 507
+Depends: libc6-i386 (>= 2.34)
+Filename: ./l/lib32tinfo6/lib32tinfo6_6.3-1_amd64.deb
+Size: 324896
+MD5sum: 832b4e3b0eec0fcd29821af03962f05b
+SHA1: aa1c76047575896a5d461187e089a0196a2ff55d
+SHA256: bc25720ea848074e7cb20db17582c86027102d6579986344af3cf102703f9d14
+SHA512: 7e9b87bf149ec8128a2ea4c9d606e6ac3af7c4390903e936d51eb6fdb7b4e1f15c6c900232ae5ef4cb5cdf39047f0f15860d33bc4e0524b4016a4ed356408e38
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library for terminal handling (32-bit)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared low-level terminfo library.
+ .
+ This package supports the 32-bit ABI variant of your system's architecture.
+
+Package: libdwaylandclient5
 Architecture: amd64
 Version: 5.25.0-kwayland.5.24.3
 Multi-Arch: same
@@ -521,105 +1308,88 @@ Priority: optional
 Section: libs
 Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 19
-Filename: ./d/dwayland-data/dwayland-data_5.25.0-kwayland.5.24.3_amd64.deb
-Size: 4676
-MD5sum: 6bc0e0341c8c3b2af589d9441ee728ca
-SHA1: 6e16a61668a52e426cdb6af845c69731ef9800ab
-SHA256: e34365b6d62679bc4241ef88d872d8e56df6cdd8d2648784e1f54319bd3dc9c0
-SHA512: d8a2ac78ad92fc6a0ac1b1c3e23da8b648ad1340cc21fb5311f6e31b9eb2a468377d0268abb6e972b1f50f44560ab0a7168ef4631bd535bb7945b718ba8fd032
+Installed-Size: 1403
+Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.20.0)
+Breaks: libkf5plasmaquick5 (<< 5.54)
+Filename: ./l/libdwaylandclient5/libdwaylandclient5_5.25.0-kwayland.5.24.3_amd64.deb
+Size: 231428
+MD5sum: abc2cb9237ddd41bfc551cd1cd3d5bf9
+SHA1: 35db8a7f171f93e53c676f4dd1b8d9347f982946
+SHA256: 27ab7fa3a7601341d88eb95a122d68f9dea8a0e946b17c828704d081274f36f9
+SHA512: 6b2c36f35b7735f2d9d1f277547643f13c7e7ce487c35c9465ebefca9ac8bd4d5257e914afa1285b646a5e51b5d8b310dc7b2ccf80a50b4263ff8b7c2f21fc98
 Homepage: https://invent.kde.org/plasma/kwayland-server
-Description: Qt library wrapper for Wayland libraries - data files
- DWayland provides a Qt-style Server library wrapper for
+Description: Qt library wrapper for Wayland libraries
+ DWayland provides a Qt-style Client library wrapper for
  the Wayland libraries.
 
-Package: dde-application-manager
+Package: libtinfo5
 Architecture: amd64
-Version: 1.0.19
+Version: 6.3-1
+Multi-Arch: same
 Priority: optional
-Section: devel
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1666
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
-Filename: ./d/dde-application-manager/dde-application-manager_1.0.19_amd64.deb
-Size: 454676
-MD5sum: 2910489785996889512735e543b6f5a8
-SHA1: f34b6aa18c4ca385ea8509edd98b4a0ab56ac765
-SHA256: f4ec393747e5e3f6dc588999029839fc100e939adf4112816cdd5df621ce3b69
-SHA512: fce6bd0901e44c257f31da96fd3319ad434572d2b4d8fa358ac76133f8edfbc739b4a78c1a1fb60cc0c20ebe5df69e72bb0b4181d1888786ee3745176a3006dc
-Homepage: https://www.deepin.org
-Description: dde application manager module
- Application manager for DDE.
-
-Package: crda
-Architecture: amd64
-Version: 4.14+git20191112.9856751.1-1+dde
-Multi-Arch: foreign
-Priority: optional
-Section: net
-Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
-Installed-Size: 284
-Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
-Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63468
-MD5sum: a9f1092e41420eff82e1cc82112bb55b
-SHA1: ce1d4ef17156f208c2ea6ca3a892973e2b1c1c78
-SHA256: 33aa4fbad4c20e48058106cc45763130d633655eaf61041e8f74e09cee19c1a3
-SHA512: c9cc44cf9653b5e676f369b92be06bb06d6c0ab8d229b6a9677edc40070f8becde11612f2c1e97530d91a676a170ccc29200a9f213d052f2d37cb7853095acf7
-Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
-Description: wireless Central Regulatory Domain Agent
- This package provides a Central Regulatory Domain Agent (CRDA) to be used by
- the Linux kernel cfg80211 wireless subsystem to query and apply the regulatory
- domain settings wireless devices may operate within for a given location.
+Section: oldlibs
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 516
+Depends: libc6 (>= 2.34)
+Filename: ./l/libtinfo5/libtinfo5_6.3-1_amd64.deb
+Size: 319908
+MD5sum: 1fef9a5586a2366ceda567d8a1e321f8
+SHA1: 2e8f4c32366d1a6ee77023c81302b52dae544757
+SHA256: b19089b8e80a6f590d45529449abc2add91fd8d8d7d059595b3ffdc2ccf47779
+SHA512: e8f9018bbb200bb8b1ac1dd17d1e82d87305b12aa78d065e8aec959e343e7dbcfe7385b47f5108c563d4cce1782628396ccc3fe236adac88e243a1c37e7b377e
+Homepage: https://invisible-island.net/ncurses/
+Description: shared low-level terminfo library (legacy version)
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
  .
- CRDA queries operational frequency regulations stored within the regulatory
- database provided by the wireless-regdb package.
+ This package contains the legacy version of the shared low-level
+ terminfo library.
 
-Package: unrar
+Package: libunrar5
 Architecture: amd64
 Version: 1:5.6.6-1
+Multi-Arch: same
 Priority: optional
-Section: non-free/utils
+Section: non-free/libs
 Source: unrar-nonfree
 Maintainer: Martin Meredith <mez@debian.org>
-Installed-Size: 370
+Installed-Size: 397
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Conflicts: rar (<= 2.60-1)
-Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
-Size: 108904
-MD5sum: 3a2ca8c4fef311d08c4c7e5c0dadbf97
-SHA1: 5ca0137de57285fd143e376de9534510e7a3ca3f
-SHA256: d2af24643ac8bb802b8f22ff531da17e2379f45c2ccffc162f803be468d0fca2
-SHA512: 4089decd1f555110e5a5aef9b94054dc0ff3fe40d48816468ea1ad5f3178ae6f7b65fabbf47eed7c766e432a80b38c6418ce79ba9d893559608608380a4aae48
+Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
+Size: 114320
+MD5sum: aa50e1951da3a6ae13d62ecd351c3d4f
+SHA1: 9a3706fdc9b6b833708677f9c20274d6f16a7380
+SHA256: 42757dc67d13cd2cd437f833a2b7f17737a31c60d0b8ca80b10304e1ee26f645
+SHA512: 5efc96fbd0f132f178bd87fc0007ca50d74017ab160a3af54e7079a513e8b34a2352094090cf110de22350834df2566eb7de87c854311fab408803f64e7c996a
 Homepage: http://www.rarlabs.com/
-Description: Unarchiver for .rar files (non-free version)
- Unrar can extract files from .rar archives. If you want to create .rar
- archives, install package rar.
+Description: Unarchiver for .rar files (non-free version) - shared library
+ library for unarchiving .rar files
 
-Package: libdwayland-dev
+Package: libdwaylandserver5
 Architecture: amd64
 Version: 5.25.0-kwayland.5.24.3
+Multi-Arch: same
 Priority: optional
-Section: libdevel
+Section: libs
 Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 896
-Depends: libdwaylandclient5 (= 5.25.0-kwayland.5.24.3), libdwaylandserver5 (= 5.25.0-kwayland.5.24.3), libwayland-dev (>= 1.13~), qtbase5-dev (>= 5.15.0~), extra-cmake-modules (>= 5.90.0~)
-Recommends: libdwayland-doc (= 5.25.0-kwayland.5.24.3)
-Breaks: dwayland-dev (<< 4:5.23.0-2~)
-Replaces: dwayland-dev (<< 4:5.23.0-2~)
-Filename: ./l/libdwayland-dev/libdwayland-dev_5.25.0-kwayland.5.24.3_amd64.deb
-Size: 106084
-MD5sum: 6bd2dfd6c0e1ac8ac21cdf42685b0f10
-SHA1: cd88a80e841341d5d9de17c58e3f2d872d1fc396
-SHA256: 23bfa0036aac9757c8cd89ceecdb25398ee230f15440c2f499272347c4aec332
-SHA512: 6eda35bc01aaf4d4bb7b917099bdf43a5c25c6257ecaff6c00bcb73f8371b821fcbe3bf29d297d4a4e46ae91513988d50619ee3af7ccc9cc286ef7d83cd2c98c
+Installed-Size: 2357
+Provides: libdwaylandserver5-5.25
+Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libegl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-server0 (>= 1.18~)
+Breaks: libkwin4-effect-builtins1
+Filename: ./l/libdwaylandserver5/libdwaylandserver5_5.25.0-kwayland.5.24.3_amd64.deb
+Size: 397268
+MD5sum: 7a52621d32b04cf9a5011378fa76f0ac
+SHA1: bfea2fed28a6fbf97cd74116c4dd126c85366060
+SHA256: 105c18f29279309a05804a33a8dd677c726e823ff1d4159f11660279959f264b
+SHA512: f760ccad5f76620660529da96a9a45a46d597cfe4dcbf32ac1919f30fa504922d833afa4d75f223a075749ab674217d99df1e9e29970cd0d5236f5131ed1b50a
 Homepage: https://invent.kde.org/plasma/kwayland-server
-Description: development files for dwayland
- DWayland provides a Qt-style Client and Server library wrapper for
+Description: Qt library wrapper for Wayland libraries
+ DWaylandServier provides a Qt-style Server library wrapper for
  the Wayland libraries.
  .
- Contains development files for dwayland.
+ This package contains the shared library.
 
 Package: libncurses5
 Architecture: amd64
@@ -667,90 +1437,51 @@ Description: Deepin Tool Kit Gui library
  .
  This package contains the shared libraries.
 
-Package: libdtkcore-dev
+Package: libdtkgui-doc
 Architecture: amd64
 Version: 5.6.17
 Priority: optional
 Section: libdevel
-Source: dtkcore
+Source: dtkgui
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 307
-Depends: libdtkcore5 (= 5.6.17), libdtkcommon-dev (>= 5.6.16)
-Filename: ./l/libdtkcore-dev/libdtkcore-dev_5.6.17_amd64.deb
-Size: 42540
-MD5sum: f1fbccf375efe18301423334beb57617
-SHA1: 85e12056b73fcf2186387f737ea37177d2183e83
-SHA256: e2e17301cd1fc0c0ca022afe08221d95f16f428e363906596d7a28330f32850e
-SHA512: 3fef903c273e86f264399e3e498bb3bc2d73fe479f23e2715f8d6dba2a6fff83427cdfc091bdb46e7c380671c2cf7ac88be30566bec0a0b03724f138c1f40eef
-Description: Deepin Tool Kit Core Devel library
- DtkCore is base devel library of Deepin Qt/C++ applications.
+Installed-Size: 2739
+Filename: ./l/libdtkgui-doc/libdtkgui-doc_5.6.17_amd64.deb
+Size: 1933620
+MD5sum: 241fb37be545976755ac3856e0560511
+SHA1: 779f32a9660e53970614d6379a37ef0c1c0ba728
+SHA256: 4e4b45d634366661c80f8097e4f2c20279e9f54706f44f258507f4ca96a38fe2
+SHA512: 08a00b530929b8871f5354ecf68eef4b0680a2accb5d689c91fb57342087031b15208dab50cfe529a2b5b686157fad5ec368e58da0d55852e407c9e1d132c1ed
+Description: Deepin Tool Kit Gui (Document)
+ DtkGui is base devel library of Deepin Qt/C++ applications.
  .
- This package contains the header files and static libraries of DtkCore
+ This package contains the qt Document of DtkGui
 
-Package: libdtkcore5-bin
+Package: libunistring2
 Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libdevel
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1061
-Depends: libc6 (>= 2.34), libdtkcore5 (= 5.6.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), qtbase-abi-5-15-10
-Filename: ./l/libdtkcore5-bin/libdtkcore5-bin_5.6.17_amd64.deb
-Size: 266564
-MD5sum: b9280c5723cf856ab49ddff8f2df81a4
-SHA1: b37bb70e429b7ba6a2147d9ff9f0a427fd332d0d
-SHA256: 4ccc33b86fb8318c6305c2acb84605e18a6923ed3c2d5c7d3de7d1ce0338dedf
-SHA512: 5f5fab6cfc9ff693454430cfd0e71305deec6b6efbb35fe3089e7a935fe28fc1b85691eb976b4d588cab7b914b511c04104e4106f29bfcc2af65770f3bd598f2
-Description: Deepin Tool Kit Core Utilities
- DtkCore is base devel library of Deepin Qt/C++ applications.
- .
- This package contains the utilities of DtkCore
-
-Package: lib32ncursesw6
-Architecture: amd64
-Version: 6.3-1
+Version: 0.9.10-6
+Multi-Arch: same
 Priority: optional
 Section: libs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 444
-Depends: lib32tinfo6 (= 6.3-1), libc6-i386 (>= 2.7)
-Filename: ./l/lib32ncursesw6/lib32ncursesw6_6.3-1_amd64.deb
-Size: 145572
-MD5sum: bff472bf02e8a64dd63ba3a064cae5aa
-SHA1: 555e40e1dbd0bf65ebd5282ec581250b96103955
-SHA256: b11c5a1811f3c1a724aea785d762ff1f5cc50497c255f8d3cd67c51c368d1edc
-SHA512: 39d18159c839b21ff5578afc96c26011a4e843eabcfb3496fcf0d08d20070111fe2486d6082ed727dc498c09cb97835826a0b23f6948b23901ad8014e670215e
-Homepage: https://invisible-island.net/ncurses/
-Description: shared libraries for terminal handling (wide character support) (32-bit)
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
+Source: libunistring
+Maintainer: Jörg Frings-Fürst <debian@jff.email>
+Installed-Size: 1602
+Depends: libc6 (>= 2.34)
+Filename: ./l/libunistring2/libunistring2_0.9.10-6_amd64.deb
+Size: 383688
+MD5sum: e6d9891e651a24afe7494799a69783f4
+SHA1: 439af219022a9b0023f7a8295ab741de70d8f3ba
+SHA256: 8b5d06349d9e12563c77cb754a0b7901267e8124b4a9a4f156d17dcc322d58fc
+SHA512: f505d7eb541f111139e40888a8548f95ce8a3bc8dc8d0ba6d91a000697a97b2ef80bd2b92557b4190da26ae50f1f844737d4027d134ac62ef4f90e62f5dd0ffe
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Unicode string library for C
+ The 'libunistring' library implements Unicode strings (in the UTF-8,
+ UTF-16, and UTF-32 encodings), together with functions for Unicode
+ characters (character names, classifications, properties) and
+ functions for string processing (formatted output, width, word
+ breaks, line breaks, normalization, case folding, regular
+ expressions).
  .
- This package contains the shared libraries necessary to run programs
- compiled with ncursesw, which includes support for wide characters.
- .
- This package supports the 32-bit ABI variant of your system's
- architecture.
-
-Package: libdtkcore-doc
-Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libdevel
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2491
-Filename: ./l/libdtkcore-doc/libdtkcore-doc_5.6.17_amd64.deb
-Size: 1836452
-MD5sum: d5a70e74027fb29a01fbf621cb1e1af9
-SHA1: 8d11e49f8cc70bdc3d11bf633f822c9f9fa73ef2
-SHA256: e2aa831242dc7c3b4fb2e822f1ef9be4b7b639e431c99ffbe31abdfbdfa7028f
-SHA512: f7028b1f2d6327a0d1c9a49fd4655be8198ebce4852559d060ea77c51ea3d99586813974e65927db016af9231ef737bcd17ecb4725d75e7d553f79291b4bc75b
-Description: Deepin Tool Kit Core (document)
- DtkCore is base devel library of Deepin Qt/C++ applications.
- .
- This package contains the doc files of DtkCore
+ This package contains the shared library.
 
 Package: libncursesw6
 Architecture: amd64
@@ -777,50 +1508,156 @@ Description: shared libraries for terminal handling (wide character support)
  This package contains the shared libraries necessary to run programs
  compiled with ncursesw, which includes support for wide characters.
 
-Package: libdtkwidget-dev
+Package: libdtkdata
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12
+Filename: ./l/libdtkdata/libdtkdata_5.6.17_amd64.deb
+Size: 3004
+MD5sum: f9a23e87d361657069029893c8993946
+SHA1: 30af20537949fa5d49e024f335eb93db83b2719e
+SHA256: 03c58387887a044ca251d49fd578908290045dec328e209a665cc180bddd45a8
+SHA512: 2bd32cb7c261cdb9e64da8b762401e6a818e80a393828dd1fa767acb3f6a255b0512dc2e61a71112ca4ecfe97f60d299b5c1aaf8073044e332d18b4b27750333
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
+
+Package: libdtkgui-dev
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 129
+Depends: libdtkgui5 (= 5.6.17), libdtkcommon-dev (>= 5.6.16)
+Filename: ./l/libdtkgui-dev/libdtkgui-dev_5.6.17_amd64.deb
+Size: 20276
+MD5sum: 796aaafaa66796379b0be9bd8c17b806
+SHA1: c33f1ec452489a21d6c6049cd4f88d3295522614
+SHA256: b3b8043fb1044c54b5b3d7d0cb0067f2222a3e83a7166bdcc0c2fc0ece22eccc
+SHA512: 85b23373b3432f609628d1f17641c3b654637115fb4fc8a2fc6ad542553eb31172a2c5fc6dc36ff1f316d203d3f33490c41edc604e09c5c92103b12e36922c9b
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
+Package: libdtkwidget5-bin
 Architecture: amd64
 Version: 5.6.17
 Priority: optional
 Section: libdevel
 Source: dtkwidget
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 506
-Depends: libdtkwidget5 (= 5.6.17), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev, libdtkgui-dev, libcups2-dev
-Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_5.6.17_amd64.deb
-Size: 59628
-MD5sum: a522195c3f466449cc6dbaa2f7039728
-SHA1: ef2d796c20a420b164d4ea83b6dd2bf6c2a7238c
-SHA256: 5dc170e9471ac26887d871161c376c83d196969423cf42aab5541cb50e497f40
-SHA512: 21ac4a952c08156e4033c3d1cd9b94ccabd3f3665e728c06bf4294d7432fd4fe781918a601ccec561af705ae772bca9a17812d38c9deb64006fc6cabddc96289
-Description: Deepin graphical user interface library
+Installed-Size: 37
+Depends: libc6 (>= 2.34), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 4.1.1), libdtkwidget5 (= 5.6.17), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget5-bin/libdtkwidget5-bin_5.6.17_amd64.deb
+Size: 10444
+MD5sum: 48854a0afeb64d96dfc2cdad166d5a65
+SHA1: 8f86fc8c19d63b099df4002cac8dc34c66d6388f
+SHA256: ca276069449337b55157a6435a0a22da0e61f2d59c4126cbc77ff504b82f1c89
+SHA512: 820085af5fd63528ecb1d95d09274940e4c9924618358403c08ed6692e7261fa06d09785144105f9874970953632de50d9e55f79a65cfc0d88cf5585f426efe5
+Description: Deepin graphical user interface library utilities
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
- This package contains the header files and static libraries which are
+ This package contains the utilities which are
  needed for developing Deepin applications.
 
-Package: lib32tinfo6
+Package: libdwayland-dev
+Architecture: amd64
+Version: 5.25.0-kwayland.5.24.3
+Priority: optional
+Section: libdevel
+Source: dwayland
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 896
+Depends: libdwaylandclient5 (= 5.25.0-kwayland.5.24.3), libdwaylandserver5 (= 5.25.0-kwayland.5.24.3), libwayland-dev (>= 1.13~), qtbase5-dev (>= 5.15.0~), extra-cmake-modules (>= 5.90.0~)
+Recommends: libdwayland-doc (= 5.25.0-kwayland.5.24.3)
+Breaks: dwayland-dev (<< 4:5.23.0-2~)
+Replaces: dwayland-dev (<< 4:5.23.0-2~)
+Filename: ./l/libdwayland-dev/libdwayland-dev_5.25.0-kwayland.5.24.3_amd64.deb
+Size: 106084
+MD5sum: 6bd2dfd6c0e1ac8ac21cdf42685b0f10
+SHA1: cd88a80e841341d5d9de17c58e3f2d872d1fc396
+SHA256: 23bfa0036aac9757c8cd89ceecdb25398ee230f15440c2f499272347c4aec332
+SHA512: 6eda35bc01aaf4d4bb7b917099bdf43a5c25c6257ecaff6c00bcb73f8371b821fcbe3bf29d297d4a4e46ae91513988d50619ee3af7ccc9cc286ef7d83cd2c98c
+Homepage: https://invent.kde.org/plasma/kwayland-server
+Description: development files for dwayland
+ DWayland provides a Qt-style Client and Server library wrapper for
+ the Wayland libraries.
+ .
+ Contains development files for dwayland.
+
+Package: libqt5help5
+Architecture: amd64
+Version: 5.15.7-1+dde
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: qttools-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 537
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5sql5 (>= 5.3.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5)
+Filename: ./l/libqt5help5/libqt5help5_5.15.7-1+dde_amd64.deb
+Size: 146804
+MD5sum: 902fad81f73a476ed6540c3f7a04a005
+SHA1: 54e1234dec608a94d5d2d1a0557626d77e6ed544
+SHA256: 689dcbce1d719a614e7b3f2982f99754d1fbb7c9ad447e5983636a6290147e89
+SHA512: 11743f0f32a418781fe10e030e848a63c452283d098731d9a2930747241861f0a173ff4996f5fed02d4612ec6fd663efbf258a0e35a28250e8e832841dd7bb41
+Homepage: https://www.qt.io/developers/
+Description: Qt 5 help module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtHelp module provides classes for integrating online documentation in
+ applications.
+
+Package: libdtkcore-dev
+Architecture: amd64
+Version: 5.6.17
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 307
+Depends: libdtkcore5 (= 5.6.17), libdtkcommon-dev (>= 5.6.16)
+Filename: ./l/libdtkcore-dev/libdtkcore-dev_5.6.17_amd64.deb
+Size: 42540
+MD5sum: f1fbccf375efe18301423334beb57617
+SHA1: 85e12056b73fcf2186387f737ea37177d2183e83
+SHA256: e2e17301cd1fc0c0ca022afe08221d95f16f428e363906596d7a28330f32850e
+SHA512: 3fef903c273e86f264399e3e498bb3bc2d73fe479f23e2715f8d6dba2a6fff83427cdfc091bdb46e7c380671c2cf7ac88be30566bec0a0b03724f138c1f40eef
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libtinfo6
 Architecture: amd64
 Version: 6.3-1
+Multi-Arch: same
 Priority: optional
 Section: libs
 Source: ncurses
 Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 507
-Depends: libc6-i386 (>= 2.34)
-Filename: ./l/lib32tinfo6/lib32tinfo6_6.3-1_amd64.deb
-Size: 324896
-MD5sum: 832b4e3b0eec0fcd29821af03962f05b
-SHA1: aa1c76047575896a5d461187e089a0196a2ff55d
-SHA256: bc25720ea848074e7cb20db17582c86027102d6579986344af3cf102703f9d14
-SHA512: 7e9b87bf149ec8128a2ea4c9d606e6ac3af7c4390903e936d51eb6fdb7b4e1f15c6c900232ae5ef4cb5cdf39047f0f15860d33bc4e0524b4016a4ed356408e38
+Installed-Size: 535
+Depends: libc6 (>= 2.34)
+Filename: ./l/libtinfo6/libtinfo6_6.3-1_amd64.deb
+Size: 325168
+MD5sum: cb92cf7ffd47636a170040dc1b1583f9
+SHA1: 138970f14225b1fb1cd9db4523a4af58c9779184
+SHA256: ba555608579a38e76c46fe8d55c53c3aad981ee126de6e156df02b44e1fcfe16
+SHA512: a0c7a5f1da5db31800d097d57c48d84cbc1f7bc6cf326f3c4f88c169cf720971867bbe4b372d9d07d7685cecf19b9b15edad4bfd9bad3a963793bab404825f3f
 Homepage: https://invisible-island.net/ncurses/
-Description: shared low-level terminfo library for terminal handling (32-bit)
+Description: shared low-level terminfo library for terminal handling
  The ncurses library routines are a terminal-independent method of
  updating character screens with reasonable optimization.
  .
  This package contains the shared low-level terminfo library.
- .
- This package supports the 32-bit ABI variant of your system's architecture.
 
 Package: libdtkgui5-bin
 Architecture: amd64
@@ -842,248 +1679,78 @@ Description: Deepin Tool Kit Gui Utilities
  .
  This package contains the utilities of DtkGui
 
-Package: libunrar5
+Package: libncurses-dev
 Architecture: amd64
-Version: 1:5.6.6-1
-Multi-Arch: same
-Priority: optional
-Section: non-free/libs
-Source: unrar-nonfree
-Maintainer: Martin Meredith <mez@debian.org>
-Installed-Size: 397
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
-Size: 114324
-MD5sum: 8d8d664d3b8861de19e7c33b0f0759f9
-SHA1: 9e875bb37c9ec6a7dda2c3235c7adda1b23cdc0a
-SHA256: d38a1eee6510df753a25bbe76177df65ce4e138e14c0f2cd6a12d12785c47827
-SHA512: b6f01b27f26d3d37ba3f1fad14dae35a3f5d5298ead6717ba3de628aedfd4dc03de0e248f37b796fa30e5a45cc465fa4475857a3fc16e07eda93828afc06aad3
-Homepage: http://www.rarlabs.com/
-Description: Unarchiver for .rar files (non-free version) - shared library
- library for unarchiving .rar files
-
-Package: libdtkwidget5
-Architecture: amd64
-Version: 5.6.17
+Version: 6.3-1
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 4036
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.4.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-10, libdtkdata
-Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.17_amd64.deb
-Size: 941716
-MD5sum: 22273c7fb99d7a26a8e02abd6dbd8382
-SHA1: 3c6d0d21030f8ad8e269804b1675eb0f4137a9d7
-SHA256: 365601edd81ab908ad6f30bae59868b422a4414f0c7dda281cb72b25c9ce4361
-SHA512: df0879a559b13060c251f8c10898ac0fbf01c9ad007e22ca4acb2fdd9470218aa692639f873cda428be995a2cd4c049a38b80918ac0434429cfd4dec5a336436
-Description: Deepin graphical user interface library
- DtkWidget is Deepin graphical user interface for deepin desktop development.
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 2353
+Provides: libncurses5-dev (= 6.3-1), libncursesw5-dev (= 6.3-1), libtinfo-dev (= 6.3-1), ncurses-dev
+Depends: libtinfo6 (= 6.3-1), libncurses6 (= 6.3-1), libncursesw6 (= 6.3-1), libc6-dev | libc-dev, ncurses-bin (>= 6.0+20151017)
+Suggests: ncurses-doc
+Conflicts: ncurses-dev
+Breaks: libncurses5-dev (<< 6.1+20180210), libncursesw5-dev (<< 6.1+20180210), libtinfo-dev (<< 6.1+20180210)
+Replaces: libncurses5-dev (<< 6.1+20180210), libncursesw5-dev (<< 6.1+20180210), libtinfo-dev (<< 6.1+20180210), ncurses-bin (<< 6.0+20151017), ncurses-dev
+Filename: ./l/libncurses-dev/libncurses-dev_6.3-1_amd64.deb
+Size: 347628
+MD5sum: afdf28c1a9123ce2c2306d4d8054de82
+SHA1: ddf99d25b899b87106699857da31bebd40eb28ac
+SHA256: f58bf6adc0eac7f11b1a00164e87218471e1131bbe2dc1ebff8b869f559ab3c6
+SHA512: 4beb4982b36e75f09f7f392414758e62cb8fbf9d9498a487eccf9604ebeea5864747b16f80f0f4710c5c3e3d2888d213d59f15f0499c377405e3233fc8e4cd4b
+Homepage: https://invisible-island.net/ncurses/
+Description: developer's libraries for ncurses
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
  .
- This package contains the shared libraries.
+ This package contains the header files, static libraries
+ and symbolic links that developers using ncurses will need.
 
-Package: libdtkcore5
-Architecture: amd64
-Version: 5.6.17
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1761
-Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libspdlog1.10-fmt9, libstdc++6 (>= 13.1), libsystemd0, qtbase-abi-5-15-10, lshw
-Filename: ./l/libdtkcore5/libdtkcore5_5.6.17_amd64.deb
-Size: 468020
-MD5sum: 71a79e4f4fd521189d557760d3314553
-SHA1: 67009cea6796ff23d6cb2a755a70f57694e75329
-SHA256: 6dc3cbe74d23ff3aaf609f4ff0b4d6881e6999cbc0a0ff777d2f3f8616ec4a68
-SHA512: cf49ad4f32d58af11f65e500d6a3430b9d33522df05a03a2b8cac48e96fb95482ece5bf0788792b92032a2a79d17fb1ac9500f3c21cf07eb4cc346322c935892
-Description: Deepin Tool Kit Core library
- DtkCore is base library of Deepin Qt/C++ applications.
- .
- This package contains the shared libraries.
-
-Package: libqt5designercomponents5
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 2633
-Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5designer5 (>= 5.15.7), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5)
-Filename: ./l/libqt5designercomponents5/libqt5designercomponents5_5.15.7-1+dde_amd64.deb
-Size: 726860
-MD5sum: c4c946caa97fc586fb0da6bb50424339
-SHA1: 2e3e2f3a19f0072316b0e8278c6a2498cf9860c8
-SHA256: 4bb02dd0f3822be8fdf40983d25a625e1ac25144f8fb217fc799bd7d702531e6
-SHA512: 320567ef18afc5f6e0928349c40182d36842b3853d5c3836c67ad4db5dbef157f69e3d928f1cd8c3ceb309ae3f426ab038a9e593830f0131e81ab640ce98b095
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 Designer components module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package includes components for the Qt 5 Designer module.
-
-Package: libdwaylandserver5
-Architecture: amd64
+Package: libdwayland-doc
+Architecture: all
 Version: 5.25.0-kwayland.5.24.3
-Multi-Arch: same
+Multi-Arch: foreign
 Priority: optional
-Section: libs
+Section: doc
 Source: dwayland
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 2357
-Provides: libdwaylandserver5-5.25
-Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libegl1, libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-server0 (>= 1.18~)
-Breaks: libkwin4-effect-builtins1
-Filename: ./l/libdwaylandserver5/libdwaylandserver5_5.25.0-kwayland.5.24.3_amd64.deb
-Size: 397268
-MD5sum: 7a52621d32b04cf9a5011378fa76f0ac
-SHA1: bfea2fed28a6fbf97cd74116c4dd126c85366060
-SHA256: 105c18f29279309a05804a33a8dd677c726e823ff1d4159f11660279959f264b
-SHA512: f760ccad5f76620660529da96a9a45a46d597cfe4dcbf32ac1919f30fa504922d833afa4d75f223a075749ab674217d99df1e9e29970cd0d5236f5131ed1b50a
+Installed-Size: 770
+Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
+Size: 519300
+MD5sum: ab92e339c5c55ecec9294241a358e5ae
+SHA1: 733fc557b9ab9b62402888772f21066da668b078
+SHA256: 395f6c4b85840f902bc832056008c22d4df3f44b042163857f9877fa92043269
+SHA512: 6ce29b8224b8fafd6b2b2958b2a72f938f124052297f30a681c52a1233f7fe37e3375f95ae4c4b9155b69516d9a23f161509d772fb0b50b4b158c80dfca75769
 Homepage: https://invent.kde.org/plasma/kwayland-server
-Description: Qt library wrapper for Wayland libraries
- DWaylandServier provides a Qt-style Server library wrapper for
+Description: Qt library wrapper for Wayland libraries (documentation)
+ DWayland provides a Qt-style Client and Server library wrapper for
  the Wayland libraries.
  .
- This package contains the shared library.
+ This package contains the qch documentation files.
 
-Package: libdtkdeclarative-dev
+Package: libdtkdeclarative5
 Architecture: amd64
 Version: 5.6.17
+Multi-Arch: same
 Priority: optional
 Section: libs
 Source: dtkdeclarative
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 131
-Depends: libdtkdeclarative5 (= 5.6.17)
-Filename: ./l/libdtkdeclarative-dev/libdtkdeclarative-dev_5.6.17_amd64.deb
-Size: 19852
-MD5sum: 0fb58927537c8a74d158502e5dafd0e0
-SHA1: 60cd28f909161e1bb9747439e5b966f550f77468
-SHA256: 646f2579b4ef1034efb6f94df3a27b953b30ed44a3e602bf93c0ca7a9e13d282
-SHA512: dfcd34eb70f4ee45ef7e5983148ee9de9f5d8ec874855dae6a375af62d9f8c702ffe7d91bfdbe1631f4ce665618e26e4532d0ca78da51b6465fc46fec36dab08
+Installed-Size: 2870
+Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6.12), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.3), qtbase-abi-5-15-10, qtdeclarative-abi-5-15-10
+Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.17_amd64.deb
+Size: 692708
+MD5sum: f4370609e1f98fdd11866fe501bfcce6
+SHA1: 08c4a4bad0d12dbaf8e23481008ae3d35216da32
+SHA256: 77950c4b9f77cc7c2583ed2759d4d229a1ab8d6eb40bb73a387bf1ae28751f04
+SHA512: 44807ee8e97f01acf91a96874a40799277dae36ccb79518f855df0bf7ed84b4791915b4fc5d2382c1fbda866ae75b9f26f1f88511256087b28d2df18725f77ee
 Homepage: http://www.deepin.org
-Description: Deepin Tool Kit Gui Devel library
+Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
  .
- This package contains the header files and shared libraries of DtkDeclarative
-
-Package: libqt5designer5
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 5116
-Depends: libc6 (>= 2.35), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-15-10
-Filename: ./l/libqt5designer5/libqt5designer5_5.15.7-1+dde_amd64.deb
-Size: 2720452
-MD5sum: ad18ba7c109f83442a94fd2071ff43cf
-SHA1: 60e07bebcf9810439e7a2c7f0d2bd3d12ad788a6
-SHA256: c99a626341dbab398e17702af5fb8e74fb5c869c4d13ad71cbec7c99c62fc6a3
-SHA512: c7751421cf828d8e124f8f43ecc78f97d38c0f6bc9d695fc64f944dbf49fb3124d05327cd37ef4593bf669bb2cb19b442807d56a3f7a03fecdbd54b785175323
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 designer module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- The QtDesigner module provides classes that allow you to create your own
- custom widget plugins for Qt Designer, and classes that enable you to access
- Qt Designer's components.
-
-Package: libtinfo-dev
-Architecture: amd64
-Version: 6.3-1
-Multi-Arch: same
-Priority: optional
-Section: oldlibs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 6
-Depends: libtinfo6 (= 6.3-1), libncurses-dev (= 6.3-1)
-Filename: ./l/libtinfo-dev/libtinfo-dev_6.3-1_amd64.deb
-Size: 928
-MD5sum: 0fe7c9c85bfb3551b97c068ff6ab68ac
-SHA1: 598612c92cdf9cf417f04fcc288db1ccb49b5fdb
-SHA256: 5b626f172c9618961e30223a9f6f928e6a9775f7677bd5712f2d33b93a61b995
-SHA512: 3433c8be625b7a95e57d78d5572ddd5feb9000575b5b39a9b955ffa50620052902424869b7f5ae974b1beb86f461b8eb1b94d93880f75ae91cc35cf5cb5e5ca0
-Homepage: https://invisible-island.net/ncurses/
-Description: transitional package for libncurses-dev
- This is a transitional package that can safely be removed.
-
-Package: libunrar-dev
-Architecture: amd64
-Version: 1:5.6.6-1
-Multi-Arch: same
-Priority: optional
-Section: non-free/libdevel
-Source: unrar-nonfree
-Maintainer: Martin Meredith <mez@debian.org>
-Installed-Size: 937
-Depends: libunrar5 (= 1:5.6.6-1)
-Filename: ./l/libunrar-dev/libunrar-dev_5.6.6-1_amd64.deb
-Size: 170956
-MD5sum: bb0c9c34c81670acc45d348da6af49b4
-SHA1: 6aa7b7a346dd1099ca8c8a4dda9dc734aca4f899
-SHA256: 620918dbc248e403295246b43689a4a4262893627c9b9c70376fa3af2407f2f5
-SHA512: 447136bbc1c62e7ee32ac551dd295d2428058b4caea6673ea63456849409d43e939f42b7f9d2a22f747780bd50ff7a363fef27518141ca89d8f02c4ef6eea31c
-Homepage: http://www.rarlabs.com/
-Description: Unarchiver for .rar files (non-free version) - development files
- This package contains the static library and header files for the
- libunrar library.
-
-Package: libncursesw5
-Architecture: amd64
-Version: 6.3-1
-Multi-Arch: same
-Priority: optional
-Section: oldlibs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 380
-Depends: libtinfo5 (= 6.3-1), libc6 (>= 2.34)
-Recommends: libgpm2
-Filename: ./l/libncursesw5/libncursesw5_6.3-1_amd64.deb
-Size: 120732
-MD5sum: c346dad073b58edcdaa48ae52426411b
-SHA1: 578751ac82d0b9348a832cb81d84f5c9c31ac865
-SHA256: 2be7410b7d8445d448064b076c38b266066abc76db0af2c3b88dc2662b59d75f
-SHA512: fa39e255f983cdef140e00ffb2b933ad145174ce4d7b2a7dcba2b05e57cbcc1a2631724e0e9eaa0c9524693389bca33d18854d234fcd5db5a5871379b5d17d73
-Homepage: https://invisible-island.net/ncurses/
-Description: shared libraries for terminal handling (wide character legacy version)
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
- .
- This package contains the legacy shared libraries necessary to run
- programs compiled with ncursesw, which includes support for wide
- characters.
-
-Package: libncurses5-dev
-Architecture: amd64
-Version: 6.3-1
-Multi-Arch: same
-Priority: optional
-Section: oldlibs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 6
-Depends: libtinfo6 (= 6.3-1), libncurses-dev (= 6.3-1)
-Filename: ./l/libncurses5-dev/libncurses5-dev_6.3-1_amd64.deb
-Size: 932
-MD5sum: 42774b7d3d6453a23de86ae1003917e7
-SHA1: e479896b7a3c6405cbd2f774ad9b705b40c11f6e
-SHA256: 0103acad3972ec44956a447835d25ebbcfd78da9470b6e1d918279cafc05c20e
-SHA512: de0dff9e7440d1456c54094f7fcf15fd6a2f0fadc5c2ea6c89be74620da69a631234a8fd8298e58f8ded9207a5ebf4af4b18ad8e6133dc943c8421ace69a7418
-Homepage: https://invisible-island.net/ncurses/
-Description: transitional package for libncurses-dev
- This is a transitional package that can safely be removed.
+ This package contains the shared libraries.
 
 Package: lib32ncurses-dev
 Architecture: amd64
@@ -1115,268 +1782,45 @@ Description: developer's libraries for ncurses (32-bit)
  This package supports the 32-bit ABI variant of your system's
  architecture.
 
-Package: libdtkgui-doc
+Package: linux-headers-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.1.32-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.1.32-amd64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-amd64/linux-headers-deepin-hwe-amd64_6.1.32-hwe_amd64.deb
+Size: 1936
+MD5sum: c1a2d1d97fc6b01b55fa96006605db80
+SHA1: 4e3bc5dea1a066e1ed3c0d368d3b3e877b7c77e0
+SHA256: 6e7ed17f45a5db419bcfd43db538a6469671f1f8b7450661bb15a27943435215
+SHA512: 023e1639f31602653506b6bef1d02d7d4619b78e8bd244c599cbe6a41a5d44baee873e003e104cc1f7bd5466d87fd2d7d70d352756f4101b3dfcf69adcc53ae8
+Homepage: http://www.deepin.com
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
+
+Package: libdtkcore5-bin
 Architecture: amd64
 Version: 5.6.17
 Priority: optional
 Section: libdevel
-Source: dtkgui
+Source: dtkcore
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2739
-Filename: ./l/libdtkgui-doc/libdtkgui-doc_5.6.17_amd64.deb
-Size: 1933620
-MD5sum: 241fb37be545976755ac3856e0560511
-SHA1: 779f32a9660e53970614d6379a37ef0c1c0ba728
-SHA256: 4e4b45d634366661c80f8097e4f2c20279e9f54706f44f258507f4ca96a38fe2
-SHA512: 08a00b530929b8871f5354ecf68eef4b0680a2accb5d689c91fb57342087031b15208dab50cfe529a2b5b686157fad5ec368e58da0d55852e407c9e1d132c1ed
-Description: Deepin Tool Kit Gui (Document)
- DtkGui is base devel library of Deepin Qt/C++ applications.
+Installed-Size: 1061
+Depends: libc6 (>= 2.34), libdtkcore5 (= 5.6.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), qtbase-abi-5-15-10
+Filename: ./l/libdtkcore5-bin/libdtkcore5-bin_5.6.17_amd64.deb
+Size: 266564
+MD5sum: b9280c5723cf856ab49ddff8f2df81a4
+SHA1: b37bb70e429b7ba6a2147d9ff9f0a427fd332d0d
+SHA256: 4ccc33b86fb8318c6305c2acb84605e18a6923ed3c2d5c7d3de7d1ce0338dedf
+SHA512: 5f5fab6cfc9ff693454430cfd0e71305deec6b6efbb35fe3089e7a935fe28fc1b85691eb976b4d588cab7b914b511c04104e4106f29bfcc2af65770f3bd598f2
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
  .
- This package contains the qt Document of DtkGui
-
-Package: libdtkdeclarative-doc
-Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libs
-Source: dtkdeclarative
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 6141
-Filename: ./l/libdtkdeclarative-doc/libdtkdeclarative-doc_5.6.17_amd64.deb
-Size: 4896388
-MD5sum: c38bb0f76ac5db3d36166d9bd64b6c77
-SHA1: 04d9c16253842a8db6169ec8425de84f4ac89512
-SHA256: 29835d04b96e479355b095ec35eeb7d7737d42d7d62a3e89ddbb90fb8215a0ea
-SHA512: 282e2854d0a89344427a4b9fd010ffb97ced9f7492ef813f6cd770fe51176f15fa32e6ee5543860fb8aa299ac6ee91edb6090b44b8740a2887623906ae1130e9
-Homepage: http://www.deepin.org
-Description: Deepin Tool Kit Gui Devel library (Document)
- Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
-
-Package: libdwaylandclient5
-Architecture: amd64
-Version: 5.25.0-kwayland.5.24.3
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: dwayland
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 1403
-Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.20.0)
-Breaks: libkf5plasmaquick5 (<< 5.54)
-Filename: ./l/libdwaylandclient5/libdwaylandclient5_5.25.0-kwayland.5.24.3_amd64.deb
-Size: 231428
-MD5sum: abc2cb9237ddd41bfc551cd1cd3d5bf9
-SHA1: 35db8a7f171f93e53c676f4dd1b8d9347f982946
-SHA256: 27ab7fa3a7601341d88eb95a122d68f9dea8a0e946b17c828704d081274f36f9
-SHA512: 6b2c36f35b7735f2d9d1f277547643f13c7e7ce487c35c9465ebefca9ac8bd4d5257e914afa1285b646a5e51b5d8b310dc7b2ccf80a50b4263ff8b7c2f21fc98
-Homepage: https://invent.kde.org/plasma/kwayland-server
-Description: Qt library wrapper for Wayland libraries
- DWayland provides a Qt-style Client library wrapper for
- the Wayland libraries.
-
-Package: libdtkgui-dev
-Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libdevel
-Source: dtkgui
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 129
-Depends: libdtkgui5 (= 5.6.17), libdtkcommon-dev (>= 5.6.16)
-Filename: ./l/libdtkgui-dev/libdtkgui-dev_5.6.17_amd64.deb
-Size: 20276
-MD5sum: 796aaafaa66796379b0be9bd8c17b806
-SHA1: c33f1ec452489a21d6c6049cd4f88d3295522614
-SHA256: b3b8043fb1044c54b5b3d7d0cb0067f2222a3e83a7166bdcc0c2fc0ece22eccc
-SHA512: 85b23373b3432f609628d1f17641c3b654637115fb4fc8a2fc6ad542553eb31172a2c5fc6dc36ff1f316d203d3f33490c41edc604e09c5c92103b12e36922c9b
-Description: Deepin Tool Kit Gui Devel library
- DtkGui is base devel library of Deepin Qt/C++ applications.
- .
- This package contains the header files and static libraries of DtkGui
-
-Package: libncurses6
-Architecture: amd64
-Version: 6.3-1
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 339
-Depends: libtinfo6 (= 6.3-1), libc6 (>= 2.34)
-Recommends: libgpm2
-Breaks: cowdancer (<< 0.89~)
-Filename: ./l/libncurses6/libncurses6_6.3-1_amd64.deb
-Size: 103404
-MD5sum: 75845afca4b6499229c3c9d87e94c36f
-SHA1: 742682fd8e4948da5c34520f3da8c07986466afc
-SHA256: 3c0a5a3f94f2b5ca2246e2f21163358824a3165da1e90fc53353f966a98dc29e
-SHA512: e7d7243872d2c5c9a3b89bd1fa3f87f5426e2cdc74ba0f79058ce163f72cd023764f1b8335b6660952f1e70a8324287b69e9e89341f7508ba8edea24c5298cef
-Homepage: https://invisible-island.net/ncurses/
-Description: shared libraries for terminal handling
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
- .
- This package contains the shared libraries necessary to run programs
- compiled with ncurses.
-
-Package: libtinfo5
-Architecture: amd64
-Version: 6.3-1
-Multi-Arch: same
-Priority: optional
-Section: oldlibs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 516
-Depends: libc6 (>= 2.34)
-Filename: ./l/libtinfo5/libtinfo5_6.3-1_amd64.deb
-Size: 319908
-MD5sum: 1fef9a5586a2366ceda567d8a1e321f8
-SHA1: 2e8f4c32366d1a6ee77023c81302b52dae544757
-SHA256: b19089b8e80a6f590d45529449abc2add91fd8d8d7d059595b3ffdc2ccf47779
-SHA512: e8f9018bbb200bb8b1ac1dd17d1e82d87305b12aa78d065e8aec959e343e7dbcfe7385b47f5108c563d4cce1782628396ccc3fe236adac88e243a1c37e7b377e
-Homepage: https://invisible-island.net/ncurses/
-Description: shared low-level terminfo library (legacy version)
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
- .
- This package contains the legacy version of the shared low-level
- terminfo library.
-
-Package: libqt5help5
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 537
-Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5sql5 (>= 5.3.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5)
-Filename: ./l/libqt5help5/libqt5help5_5.15.7-1+dde_amd64.deb
-Size: 146804
-MD5sum: 902fad81f73a476ed6540c3f7a04a005
-SHA1: 54e1234dec608a94d5d2d1a0557626d77e6ed544
-SHA256: 689dcbce1d719a614e7b3f2982f99754d1fbb7c9ad447e5983636a6290147e89
-SHA512: 11743f0f32a418781fe10e030e848a63c452283d098731d9a2930747241861f0a173ff4996f5fed02d4612ec6fd663efbf258a0e35a28250e8e832841dd7bb41
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 help module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- The QtHelp module provides classes for integrating online documentation in
- applications.
-
-Package: libdwayland-doc
-Architecture: all
-Version: 5.25.0-kwayland.5.24.3
-Multi-Arch: foreign
-Priority: optional
-Section: doc
-Source: dwayland
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Installed-Size: 770
-Filename: ./l/libdwayland-doc/libdwayland-doc_5.25.0-kwayland.5.24.3_all.deb
-Size: 519300
-MD5sum: ab92e339c5c55ecec9294241a358e5ae
-SHA1: 733fc557b9ab9b62402888772f21066da668b078
-SHA256: 395f6c4b85840f902bc832056008c22d4df3f44b042163857f9877fa92043269
-SHA512: 6ce29b8224b8fafd6b2b2958b2a72f938f124052297f30a681c52a1233f7fe37e3375f95ae4c4b9155b69516d9a23f161509d772fb0b50b4b158c80dfca75769
-Homepage: https://invent.kde.org/plasma/kwayland-server
-Description: Qt library wrapper for Wayland libraries (documentation)
- DWayland provides a Qt-style Client and Server library wrapper for
- the Wayland libraries.
- .
- This package contains the qch documentation files.
-
-Package: libdtkwidget5-bin
-Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libdevel
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 37
-Depends: libc6 (>= 2.34), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 4.1.1), libdtkwidget5 (= 5.6.17), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
-Filename: ./l/libdtkwidget5-bin/libdtkwidget5-bin_5.6.17_amd64.deb
-Size: 10444
-MD5sum: 48854a0afeb64d96dfc2cdad166d5a65
-SHA1: 8f86fc8c19d63b099df4002cac8dc34c66d6388f
-SHA256: ca276069449337b55157a6435a0a22da0e61f2d59c4126cbc77ff504b82f1c89
-SHA512: 820085af5fd63528ecb1d95d09274940e4c9924618358403c08ed6692e7261fa06d09785144105f9874970953632de50d9e55f79a65cfc0d88cf5585f426efe5
-Description: Deepin graphical user interface library utilities
- DtkWidget is Deepin graphical user interface for deepin desktop development.
- .
- This package contains the utilities which are
- needed for developing Deepin applications.
-
-Package: libncurses-dev
-Architecture: amd64
-Version: 6.3-1
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 2353
-Provides: libncurses5-dev (= 6.3-1), libncursesw5-dev (= 6.3-1), libtinfo-dev (= 6.3-1), ncurses-dev
-Depends: libtinfo6 (= 6.3-1), libncurses6 (= 6.3-1), libncursesw6 (= 6.3-1), libc6-dev | libc-dev, ncurses-bin (>= 6.0+20151017)
-Suggests: ncurses-doc
-Conflicts: ncurses-dev
-Breaks: libncurses5-dev (<< 6.1+20180210), libncursesw5-dev (<< 6.1+20180210), libtinfo-dev (<< 6.1+20180210)
-Replaces: libncurses5-dev (<< 6.1+20180210), libncursesw5-dev (<< 6.1+20180210), libtinfo-dev (<< 6.1+20180210), ncurses-bin (<< 6.0+20151017), ncurses-dev
-Filename: ./l/libncurses-dev/libncurses-dev_6.3-1_amd64.deb
-Size: 347628
-MD5sum: afdf28c1a9123ce2c2306d4d8054de82
-SHA1: ddf99d25b899b87106699857da31bebd40eb28ac
-SHA256: f58bf6adc0eac7f11b1a00164e87218471e1131bbe2dc1ebff8b869f559ab3c6
-SHA512: 4beb4982b36e75f09f7f392414758e62cb8fbf9d9498a487eccf9604ebeea5864747b16f80f0f4710c5c3e3d2888d213d59f15f0499c377405e3233fc8e4cd4b
-Homepage: https://invisible-island.net/ncurses/
-Description: developer's libraries for ncurses
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
- .
- This package contains the header files, static libraries
- and symbolic links that developers using ncurses will need.
-
-Package: libdtkcommon-dev
-Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libdevel
-Source: dtkcommon
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 24
-Conflicts: libdtkcore-dev (<< 5.4.10)
-Replaces: libdtkcore-dev (<< 5.4.10)
-Filename: ./l/libdtkcommon-dev/libdtkcommon-dev_5.6.17_amd64.deb
-Size: 4896
-MD5sum: 27e64d5f39c0d3d96a0d27391247e6e6
-SHA1: f31bbdc247b6a50bcdb1961d1931b55b7bb6987c
-SHA256: 6f12c9ef034fc1d4cd351b9359ee12fb2703c804c86b54085d8030c4d16e5d57
-SHA512: d010fd11f811e34a98478fa6cfb2e7791132adceb095a83c7c599af3610d6d547f9ab1b7621f0a0309548f1d0e9d87acfe94bb05db5142dbf1ed5cda20722944
-Homepage: http://www.deepin.org/
-Description: dtk common files
- Used to store public build files
-
-Package: libdtkdata
-Architecture: amd64
-Version: 5.6.17
-Priority: optional
-Section: libdevel
-Source: dtkcommon
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 12
-Filename: ./l/libdtkdata/libdtkdata_5.6.17_amd64.deb
-Size: 3004
-MD5sum: f9a23e87d361657069029893c8993946
-SHA1: 30af20537949fa5d49e024f335eb93db83b2719e
-SHA256: 03c58387887a044ca251d49fd578908290045dec328e209a665cc180bddd45a8
-SHA512: 2bd32cb7c261cdb9e64da8b762401e6a818e80a393828dd1fa767acb3f6a255b0512dc2e61a71112ca4ecfe97f60d299b5c1aaf8073044e332d18b4b27750333
-Homepage: http://www.deepin.org/
-Description: dtk common files
- Used to store public configuration files
+ This package contains the utilities of DtkCore
 
 Package: libunistring-dev
 Architecture: amd64
@@ -1407,103 +1851,90 @@ Description: Unicode string library for C - development files
  and link against libunistring, as well as the documentation in Info
  and HTML format.
 
-Package: libtinfo6
+Package: libunrar-dev
 Architecture: amd64
-Version: 6.3-1
+Version: 1:5.6.6-1
 Multi-Arch: same
 Priority: optional
-Section: libs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 535
-Depends: libc6 (>= 2.34)
-Filename: ./l/libtinfo6/libtinfo6_6.3-1_amd64.deb
-Size: 325168
-MD5sum: cb92cf7ffd47636a170040dc1b1583f9
-SHA1: 138970f14225b1fb1cd9db4523a4af58c9779184
-SHA256: ba555608579a38e76c46fe8d55c53c3aad981ee126de6e156df02b44e1fcfe16
-SHA512: a0c7a5f1da5db31800d097d57c48d84cbc1f7bc6cf326f3c4f88c169cf720971867bbe4b372d9d07d7685cecf19b9b15edad4bfd9bad3a963793bab404825f3f
-Homepage: https://invisible-island.net/ncurses/
-Description: shared low-level terminfo library for terminal handling
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
- .
- This package contains the shared low-level terminfo library.
+Section: non-free/libdevel
+Source: unrar-nonfree
+Maintainer: Martin Meredith <mez@debian.org>
+Installed-Size: 937
+Depends: libunrar5 (= 1:5.6.6-1)
+Filename: ./l/libunrar-dev/libunrar-dev_5.6.6-1_amd64.deb
+Size: 170952
+MD5sum: 7138694655097443c1f3b898508484f5
+SHA1: e93091834fd467c834d79bd53f14642afc066997
+SHA256: ef5d7be42d67d14cf8e1a1f52fe1407b5ed3b77973d4451cf29fe329b3564aba
+SHA512: bfd6428f580f1b8bae3e2f907b5e2dfcae66fe866da5ee4f8c55215e2a96fa83ece6a7c58defe99f38d86edba309c295c5c5632db5fdd697f30298101b870014
+Homepage: http://www.rarlabs.com/
+Description: Unarchiver for .rar files (non-free version) - development files
+ This package contains the static library and header files for the
+ libunrar library.
 
-Package: libdtkdeclarative5
+Package: libdtkcore5
 Architecture: amd64
 Version: 5.6.17
 Multi-Arch: same
 Priority: optional
-Section: libs
-Source: dtkdeclarative
+Section: libdevel
+Source: dtkcore
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2870
-Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6.12), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.3), qtbase-abi-5-15-10, qtdeclarative-abi-5-15-10
-Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.17_amd64.deb
-Size: 692708
-MD5sum: f4370609e1f98fdd11866fe501bfcce6
-SHA1: 08c4a4bad0d12dbaf8e23481008ae3d35216da32
-SHA256: 77950c4b9f77cc7c2583ed2759d4d229a1ab8d6eb40bb73a387bf1ae28751f04
-SHA512: 44807ee8e97f01acf91a96874a40799277dae36ccb79518f855df0bf7ed84b4791915b4fc5d2382c1fbda866ae75b9f26f1f88511256087b28d2df18725f77ee
-Homepage: http://www.deepin.org
-Description: Deepin Tool Kit Gui library
- Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+Installed-Size: 1761
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libspdlog1.10-fmt9, libstdc++6 (>= 13.1), libsystemd0, qtbase-abi-5-15-10, lshw
+Filename: ./l/libdtkcore5/libdtkcore5_5.6.17_amd64.deb
+Size: 468020
+MD5sum: 71a79e4f4fd521189d557760d3314553
+SHA1: 67009cea6796ff23d6cb2a755a70f57694e75329
+SHA256: 6dc3cbe74d23ff3aaf609f4ff0b4d6881e6999cbc0a0ff777d2f3f8616ec4a68
+SHA512: cf49ad4f32d58af11f65e500d6a3430b9d33522df05a03a2b8cac48e96fb95482ece5bf0788792b92032a2a79d17fb1ac9500f3c21cf07eb4cc346322c935892
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
  .
  This package contains the shared libraries.
 
-Package: lib32ncurses6
+Package: libdtkcommon-dev
 Architecture: amd64
-Version: 6.3-1
+Version: 5.6.17
 Priority: optional
-Section: libs
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 347
-Depends: lib32tinfo6 (= 6.3-1), libc6-i386 (>= 2.7)
-Filename: ./l/lib32ncurses6/lib32ncurses6_6.3-1_amd64.deb
-Size: 110316
-MD5sum: 053c5a8512653e92dab1496e8f866d45
-SHA1: d0d82a71c4af2dfa9f28377916a29cf6bbf4b593
-SHA256: 2227b6924a2647916832c5b92ee2065af8a09fdb2c80fede99142e13983c5ab6
-SHA512: 6c1c54032c5b0c7b186fd4bd85c51d7e90f8aa5278cda451355f32b02f6c7d93372e3dc6be7bd5d642505c861b3b68994c8a80d8abc17b7885243199e293ff64
-Homepage: https://invisible-island.net/ncurses/
-Description: shared libraries for terminal handling (32-bit)
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
- .
- This package contains the shared libraries necessary to run programs
- compiled with ncurses.
- .
- This package supports the 32-bit ABI variant of your system's
- architecture.
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./l/libdtkcommon-dev/libdtkcommon-dev_5.6.17_amd64.deb
+Size: 4896
+MD5sum: 27e64d5f39c0d3d96a0d27391247e6e6
+SHA1: f31bbdc247b6a50bcdb1961d1931b55b7bb6987c
+SHA256: 6f12c9ef034fc1d4cd351b9359ee12fb2703c804c86b54085d8030c4d16e5d57
+SHA512: d010fd11f811e34a98478fa6cfb2e7791132adceb095a83c7c599af3610d6d547f9ab1b7621f0a0309548f1d0e9d87acfe94bb05db5142dbf1ed5cda20722944
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
 
-Package: libunistring2
+Package: linux-image-deepin-hwe-amd64
 Architecture: amd64
-Version: 0.9.10-6
-Multi-Arch: same
-Priority: optional
-Section: libs
-Source: libunistring
-Maintainer: Jörg Frings-Fürst <debian@jff.email>
-Installed-Size: 1602
-Depends: libc6 (>= 2.34)
-Filename: ./l/libunistring2/libunistring2_0.9.10-6_amd64.deb
-Size: 383688
-MD5sum: e6d9891e651a24afe7494799a69783f4
-SHA1: 439af219022a9b0023f7a8295ab741de70d8f3ba
-SHA256: 8b5d06349d9e12563c77cb754a0b7901267e8124b4a9a4f156d17dcc322d58fc
-SHA512: f505d7eb541f111139e40888a8548f95ce8a3bc8dc8d0ba6d91a000697a97b2ef80bd2b92557b4190da26ae50f1f844737d4027d134ac62ef4f90e62f5dd0ffe
-Homepage: https://www.gnu.org/software/libunistring/
-Description: Unicode string library for C
- The 'libunistring' library implements Unicode strings (in the UTF-8,
- UTF-16, and UTF-32 encodings), together with functions for Unicode
- characters (character names, classifications, properties) and
- functions for string processing (formatted output, width, word
- breaks, line breaks, normalization, case folding, regular
- expressions).
+Version: 6.1.32-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-image-6.1.32-amd64-desktop-hwe
+Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.1.32-hwe_amd64.deb
+Size: 2032
+MD5sum: 3ece94dd37df2308a3d4ed41008df377
+SHA1: 1cd9d39ee290ee5cfa4b82a66a9ef9abebb3a30c
+SHA256: e699e345a4d0ee79e2fc1ffd107806713921542d03bb5cd90e14dd9a94530d9b
+SHA512: b2cc354282533004adca1b421edcb9008c3c82ae917e662a1d2e286ab0d9014673fee9abcdab1b2bdffef4d22caca8d94ea78e3e9aa1531ef5628a10c946220c
+Homepage: http://www.deepin.com
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
  .
- This package contains the shared library.
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
 
 Package: libncursesw5-dev
 Architecture: amd64
@@ -1525,403 +1956,55 @@ Homepage: https://invisible-island.net/ncurses/
 Description: transitional package for libncurses-dev
  This is a transitional package that can safely be removed.
 
-Package: exfat-utils
+Package: libncurses6
 Architecture: amd64
-Version: 1.3.0-2
-Priority: optional
-Section: otherosfs
-Maintainer: Sven Hoexter <hoexter@debian.org>
-Installed-Size: 234
-Depends: libc6 (>= 2.34)
-Recommends: exfat-fuse
-Conflicts: exfatprogs
-Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
-Size: 44540
-MD5sum: 55a8d45fc9726dc5f19dbc8375bd8da3
-SHA1: a2c8a412ad3da01fdc9bfa6f545a2e2efefc6599
-SHA256: 88eaa0878bee531b1c5538d687e9b7c4c517831a0181fa9a5d21a4c036843749
-SHA512: 8b40038fd2cf009cec09af97990330bf5a3457180d1fca553a0cea975e61799e9bbce95c7bf72bf455c976abde0b92954f67f92128d012b55d076fac30bc6b07
-Homepage: https://github.com/relan/exfat
-Description: utilities to create, check, label and dump exFAT filesystem
- Utilities to manage extended file allocation table filesystem.
- This package provides tools to create, check, dump and label the
- filesystem. It contains
-  - dumpexfat to dump properties of the filesystem
-  - exfatfsck / fsck.exfat to report errors found on a exFAT filesystem
-  - exfatlabel to label a exFAT filesystem
-  - mkexfatfs / mkfs.exfat to create a exFAT filesystem.
- The tools included in this package are the exfat-utils developed
- as an independent implementation by the exfat-fuse author, the tools
- build by Samsung engineers for the Linux exFAT implementation are
- available in the exfatprogs package.
-
-Package: qttools5-doc-html
-Architecture: all
-Version: 5.15.7-1+dde
-Priority: optional
-Section: doc
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 10840
-Filename: ./q/qttools5-doc-html/qttools5-doc-html_5.15.7-1+dde_all.deb
-Size: 3212524
-MD5sum: c9476ae8b1a1060c8ce0049f8a3d418d
-SHA1: 85bbbe1d8617a67ea0a6efd06cac183f1d74b116
-SHA256: a4112ee3d3a36c24703105628b3b78e7fb64435bbffa208d5c7531b92e9fff6b
-SHA512: ecb7e0750a265d9a8a5c25c63c8c1f02bce1a01f2d1e8bd7590030f578427b3086c34b1586e88e4af7d6a1bc79cdf0064aa6d5c020b77726ed43ce756fb229bd
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 tools HTML documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the HTML documentation for the Qt 5 tools
- libraries and binaries.
-
-Package: qttools5-dev-tools
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 4481
-Depends: qdoc-qt5 (= 5.15.7-1+dde), qhelpgenerator-qt5 (= 5.15.7-1+dde), qt5-assistant (= 5.15.7-1+dde), qtattributionsscanner-qt5 (= 5.15.7-1+dde), qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5designer5 (>= 5.15.7), libqt5designercomponents5, libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5quick5 (>= 5.15.7~) | libqt5quick5-gles (>= 5.15.7~), libqt5quickwidgets5 (>= 5.15.7~), libqt5webkit5 (>= 5.212.0~alpha4-8~), libqt5widgets5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), qtbase-abi-5-15-10, qtdeclarative-abi-5-15-10
-Filename: ./q/qttools5-dev-tools/qttools5-dev-tools_5.15.7-1+dde_amd64.deb
-Size: 1028136
-MD5sum: 44c2a4ed3a30857bf28b4c12b9cb94a3
-SHA1: b15e267814dedab6f549d8bdad4c4fe48f41a7f3
-SHA256: d4e9be4d665b1ad89bc8dc2423fd3ccce42f3c9f3e67f36f81debe4b387962e9
-SHA512: ce2892e194d40608a9228df62de1e976df7757a53f463355e4bfc90201a2bb0d1cc4910a25dbfe0d6b54bfba9011ad0e901b850bd4cb0fae3be6bd8a8e3b3235
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 development tools
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains a set of applications to browse the documentation,
- translate applications, generate help files and other stuff that
- helps in Qt development. These tools are among others:
-  * designer
-  * linguist
-  * pixeltool
-  * qdbusviewer
-
-Package: qt5-assistant
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: foreign
-Priority: optional
-Section: devel
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 924
-Depends: libqt5sql5-sqlite, qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5help5 (>= 5.15.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5webkit5 (>= 5.212.0~alpha4-8~), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5)
-Suggests: qt5-doc
-Breaks: qttools5-dev-tools (<< 5.9.2-5~)
-Replaces: qttools5-dev-tools (<< 5.9.2-5~)
-Filename: ./q/qt5-assistant/qt5-assistant_5.15.7-1+dde_amd64.deb
-Size: 348096
-MD5sum: 6c6bf69dfa315c64b69e1d85454c9fe9
-SHA1: 1105f68336d5edc30ed06975a512e48a73f91eea
-SHA256: 74d763ac12a18f9f8bfb54062f18073ede9221b23b211d1854a2566293730cef
-SHA512: b1c59ab256a4a679c492e0f1d4d813cc9e23689cbd972d98fe61758e0cc90b2c186ab884353ea2581f45b7bb74bcf7ba602ba156cbf5063bf5a40c31254f3239
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 Assistant
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- Qt Assistant is a tool for viewing on-line documentation in Qt help file
- format.
-
-Package: qttools5-private-dev
-Architecture: amd64
-Version: 5.15.7-1+dde
+Version: 6.3-1
 Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 634
-Depends: qttools5-dev (= 5.15.7-1+dde)
-Filename: ./q/qttools5-private-dev/qttools5-private-dev_5.15.7-1+dde_amd64.deb
-Size: 71076
-MD5sum: 51df51fafccc287647a58ee6f3391c14
-SHA1: 56cff16dd1464abcfe0dbd9d93883afe2487cf3e
-SHA256: 653d492f30b3b5a4926f79fa8184de015fcd745652e4c23757b42e6a38ca2e6f
-SHA512: 1ca5ebebad9f70a0624fea768fa76797c276a305c97a920f342c3b2b03631bba735fe0b6ee8cf961810f1cc8e7c275580e63c1fd5b6ff1c708a4328d14c396eb
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 tools private development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains private header development files.
- .
- Use at your own risk.
-
-Package: qhelpgenerator-qt5
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: foreign
-Priority: optional
-Section: utils
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 190
-Depends: libqt5sql5-sqlite, qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5help5 (>= 5.12.2), libqt5sql5 (>= 5.0.2), libstdc++6 (>= 5)
-Breaks: qttools5-dev-tools (<< 5.12.3-2~)
-Replaces: qttools5-dev-tools (<< 5.12.3-2~)
-Filename: ./q/qhelpgenerator-qt5/qhelpgenerator-qt5_5.15.7-1+dde_amd64.deb
-Size: 55876
-MD5sum: 57503cf69c37831b457520c8bf0cea76
-SHA1: 9e2c39e0acf3d83c245a1265c33d74c6a7292c88
-SHA256: f604bc18ccc08bbe4f9e57ee352ceda6024a56d858773256335511761d4cfaf8
-SHA512: 0945578cf622f5ce37ec772535495b019917637d7d423e43c53628e6301e7244e3d2778f8054f93557cfcde8f607f3e00693a42671a694c5f62cfb9dd3c08e40
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 qhelpgenerator tool
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains qhelpgenerator, a command-line tool for packaging
- the HTML documentation generated by qdoc into .qch files.
-
-Package: qdoc-qt5
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: foreign
-Priority: optional
-Section: utils
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 1886
-Depends: qtchooser, libc6 (>= 2.34), libclang1-16 (>= 1:5.0~+rc1~), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5)
-Breaks: qttools5-dev-tools (<< 5.11.3-3~)
-Replaces: qttools5-dev-tools (<< 5.11.3-3~)
-Filename: ./q/qdoc-qt5/qdoc-qt5_5.15.7-1+dde_amd64.deb
-Size: 586212
-MD5sum: c33f168ecb2db059f5815584e43b2a08
-SHA1: 6c1fd18ba1d50a2fc5a6164719a8937fe6460028
-SHA256: 7439bf48e004929ea3507d89a6b7a72dbe298cbbd79b5e5e4b9c3cbd31491175
-SHA512: 151d76224588e4341545d6c1ae4966cca14da77d02e8119d7c655b936be13c57d6e7567ee0a64ee9fc9c63a6cc9d6c68a27899b1d5341a78f785dd4af75278f4
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 qdoc tool
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains qdoc, a command-line tool for generating HTML
- documentation from .cpp and .qdoc files.
-
-Package: qdbus-qt5
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: foreign
-Priority: optional
-Section: utils
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 89
-Depends: qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), qtbase-abi-5-15-10
-Filename: ./q/qdbus-qt5/qdbus-qt5_5.15.7-1+dde_amd64.deb
-Size: 23532
-MD5sum: ea391c771df125aaa20d137febb28a2e
-SHA1: 2fdd347ef128d60c298e94802e4cc4a6012a79cc
-SHA256: 7a2ed3a90f90be2c497df905cc1bd015506fb648ba2411140b296c1d5cf0a4f6
-SHA512: bb2f6b4641d659bad29575382d59b43aaaf98e547fca226f79f279b7223c5b259d8ab1e9007c8d3f4c2a096eef9e68570f5d81a04c934cc756033e5fd784a990
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 D-Bus tool
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains qdbus, a command-line tool interface to D-Bus that uses
- the QtDBus library.
-
-Package: qml-module-qtquick-controls2-styles-chameleon
-Architecture: amd64
-Version: 5.6.17
 Priority: optional
 Section: libs
-Source: dtkdeclarative
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 144
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5qml5 (>= 5.14.1), libstdc++6 (>= 4.1.1), qml-module-qtquick-shapes (>= 5.11.3), qml-module-qtgraphicaleffects, libdtkdeclarative5 (= 5.6.17)
-Filename: ./q/qml-module-qtquick-controls2-styles-chameleon/qml-module-qtquick-controls2-styles-chameleon_5.6.17_amd64.deb
-Size: 18856
-MD5sum: ed17cddac2a1de495e7e4cc344d8b3c8
-SHA1: 9f01d511b5742ace01f7c29bbdb16fddd3231666
-SHA256: 683e96a5ce989a95e18d7162fa283c6b9a2204030f1bb31ecec8415de89a812b
-SHA512: 328f45c99d2c1f1d7055cf05b1dff096c23d405b054689b59ad525f694609f050b62abafdfcb848551e68fc057bfdfb4909a2819e1e1ca89ee725faaf4e3f0cf
-Homepage: http://www.deepin.org
-Description: Deepin Tool Kit Qt Quick Controls 2 QML module
- Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 339
+Depends: libtinfo6 (= 6.3-1), libc6 (>= 2.34)
+Recommends: libgpm2
+Breaks: cowdancer (<< 0.89~)
+Filename: ./l/libncurses6/libncurses6_6.3-1_amd64.deb
+Size: 103404
+MD5sum: 75845afca4b6499229c3c9d87e94c36f
+SHA1: 742682fd8e4948da5c34520f3da8c07986466afc
+SHA256: 3c0a5a3f94f2b5ca2246e2f21163358824a3165da1e90fc53353f966a98dc29e
+SHA512: e7d7243872d2c5c9a3b89bd1fa3f87f5426e2cdc74ba0f79058ce163f72cd023764f1b8335b6660952f1e70a8324287b69e9e89341f7508ba8edea24c5298cef
+Homepage: https://invisible-island.net/ncurses/
+Description: shared libraries for terminal handling
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the shared libraries necessary to run programs
+ compiled with ncurses.
 
-Package: qttools5-examples
+Package: crda
 Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: same
-Priority: optional
-Section: x11
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 2596
-Depends: libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libqt5designer5 (>= 5.15.7), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5help5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.3.0), libstdc++6 (>= 5)
-Filename: ./q/qttools5-examples/qttools5-examples_5.15.7-1+dde_amd64.deb
-Size: 462040
-MD5sum: cdf98a755bacd14e9f6a2404b001b91b
-SHA1: eba0a719d778c087f853c0c687c17d0e9c387224
-SHA256: ebf344c8f97da61d8d4cc3dade3041442e5c39860ab51f88bc449567027a6348
-SHA512: 547e9acc98aa98252fd21072239ddae1658257b9b6ef47a22e8c6b44887b90c51e9880b4bc95305ef9a7bc75dd4e3731d7cb685aaa2451acf9e36587753fe902
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 tools examples
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains examples of the Qt 5 tools module.
-
-Package: qttools5-doc
-Architecture: all
-Version: 5.15.7-1+dde
-Priority: optional
-Section: doc
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 4192
-Filename: ./q/qttools5-doc/qttools5-doc_5.15.7-1+dde_all.deb
-Size: 3428016
-MD5sum: 3d330d88eefe29b449197619434116eb
-SHA1: bfd875293ef0172dae0cde6fc5c353150ce06b2f
-SHA256: 22c7072b58b177095fd4de6cda3b2c6fc0b9c85b7fe9a2fec67ca2a455e0f462
-SHA512: 61068ff9b1892446d4df02b94afccfb5575fa3e888663f04f260ad8504273ae429a4ce2b08edec8bf1b0ab9d7e8adb29aa1afef583ec98adb2d51f5f52c2f812
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 tools documentation
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the documentation for the Qt 5 tools libraries
- and binaries.
-
-Package: qdbus
-Architecture: all
-Version: 4:5.15.7-1+dde
+Version: 4.14+git20191112.9856751.1-1+dde
 Multi-Arch: foreign
 Priority: optional
-Section: oldlibs
-Source: qttools-opensource-src (5.15.7-1+dde)
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 18
-Depends: qdbus-qt5
-Filename: ./q/qdbus/qdbus_5.15.7-1+dde_all.deb
-Size: 4896
-MD5sum: d541e13e75e954da7659a93fd3ae4a59
-SHA1: 1e3ab01cfef527f85ef7e29f7b2a20b0c9b66a30
-SHA256: 7e2035429b97510b665b8387663f47d6f03b55e2484ac731b9786bea686d54c3
-SHA512: 7133723dbed39a47a2526388f153cda77fe52aae74c3019230e1c4101e405855e459d8112e52aa070d90343a6ac368f17b72f8469ee4429a71d1da2a61f31ff5
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 D-Bus tool — dummy transitional package
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
+Section: net
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Installed-Size: 284
+Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
+Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
+Size: 63492
+MD5sum: c0af807b0af47dd1ec3ec5a10241144c
+SHA1: 5c86411f4e5e7bac03a0d794610553f4681abf6d
+SHA256: 1c4970b0a7e8fc9e0fa250b3d08eb8b4790991aa640aaf9312bf4ff9c64f4a7c
+SHA512: 66a74602ad909696f323270aa1bf221d44ecf101421822ee19ef35894dbdf2fa5074a22c18e213fbe346ee0fb1a172ba456a7e1f7eec5895fa343955e4394507
+Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
+Description: wireless Central Regulatory Domain Agent
+ This package provides a Central Regulatory Domain Agent (CRDA) to be used by
+ the Linux kernel cfg80211 wireless subsystem to query and apply the regulatory
+ domain settings wireless devices may operate within for a given location.
  .
- This package is a dummy transitional package for users upgrading from
- Qt 4 to Qt 5. It can be safely removed.
-
-Package: qtattributionsscanner-qt5
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: foreign
-Priority: optional
-Section: utils
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 105
-Depends: qtchooser, libc6 (>= 2.34), libqt5core5a (>= 5.15.1), libstdc++6 (>= 13.1)
-Breaks: qttools5-dev-tools (<< 5.12.3-2~)
-Replaces: qttools5-dev-tools (<< 5.12.3-2~)
-Filename: ./q/qtattributionsscanner-qt5/qtattributionsscanner-qt5_5.15.7-1+dde_amd64.deb
-Size: 28516
-MD5sum: d82f5a387a354702b6003a124bd2255a
-SHA1: b73ee4ae2e07ee44d620d9ca6d99cc9a4d8bd4f9
-SHA256: bd4591ae96b878f0856a0a0a2528879eadd7a6bdcc08373a5e366dc29ffb3c90
-SHA512: bb9eff3c4283988c04740aa1c95a2bc91867d854be715836fa9769131b820c0254aa822054c42e80876c363778ad726712ea7b13e8904086f173b1de75095dea
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 qtattributionsscanner tool
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains qtattributionsscanner, a command-line tool that
- scans the source code for qt_attribution.json file and outputs JSON or
- qdoc files describing the copyright attributions for third party code.
-
-Package: qttools5-dev
-Architecture: amd64
-Version: 5.15.7-1+dde
-Multi-Arch: same
-Priority: optional
-Section: libdevel
-Source: qttools-opensource-src
-Maintainer: Deepin Developer <deepin-dev@deepin.org>
-Installed-Size: 1463
-Depends: libqt5designer5 (= 5.15.7-1+dde), libqt5designercomponents5 (= 5.15.7-1+dde), libqt5help5 (= 5.15.7-1+dde), qtbase5-dev, qttools5-dev-tools (= 5.15.7-1+dde)
-Breaks: qttools5-dev-tools (<< 5.9.2-3~)
-Replaces: qttools5-dev-tools (<< 5.9.2-3~)
-Filename: ./q/qttools5-dev/qttools5-dev_5.15.7-1+dde_amd64.deb
-Size: 184680
-MD5sum: a9171bcbeb06ef9dae5c123ee75a11be
-SHA1: 61363e3488136c452a2f10327756daea24e0106e
-SHA256: 99402546bbeda871151816ef75330a2cd573ca595abc79eb91fe4337158f9e36
-SHA512: 134ec4b0ca6ca1df4ce2c1d4388a53bb1cc894a64be5cb951c3c745b6b1cf11b5e4a420a7e310973a5a0c75d8c450eb74cef0f31f81ca8b8a2775248ef67e8ad
-Homepage: https://www.qt.io/developers/
-Description: Qt 5 tools development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the header development files used for building Qt 5
- applications.
-
-Package: realtek-wifi-dkms
-Architecture: all
-Version: 1.0.7
-Multi-Arch: foreign
-Priority: optional
-Section: misc
-Maintainer: Yuanzhi Wang <wangyuanzhi@uniontech.com>
-Installed-Size: 217164
-Provides: realtek-wifi-module
-Depends: flex, bison, libbison-dev, dkms
-Conflicts: backport-iwlwifi-dkms, rtl8188eus-dkms, rtl8188gtvu-dkms, rtl8192eu-dkms, rtl8814au-dkms, rtl8821au-dkms, rtl8821cu-dkms, rtl8852be-dkms, rtl8852bu-dkms, rtl88x2bu-dkms, rtl88x2cu-dkms, rtlwifi-dkms, rtw89-dkms
-Replaces: backport-iwlwifi-dkms, rtl8188eus-dkms, rtl8188gtvu-dkms, rtl8192eu-dkms, rtl8814au-dkms, rtl8821au-dkms, rtl8821cu-dkms, rtl8852be-dkms, rtl8852bu-dkms, rtl88x2bu-dkms, rtl88x2cu-dkms, rtlwifi-dkms, rtw89-dkms
-Filename: ./r/realtek-wifi-dkms/realtek-wifi-dkms_1.0.7_all.deb
-Size: 18101676
-MD5sum: db3992177137319b6a8c3442a70da578
-SHA1: 332e54c49c22a0d6c42ba4e7bfc8424a0d6b45e9
-SHA256: 1ad855069e66cdbefca95825ab0ce6e4df374fa6af3b0a6d535ca7a301cd1860
-SHA512: 5c40e34e440ac475edd28bb850cd0ca29a92a6c77f0a97cf582b834f5ec5f84bbb73b3ccae8911fdc28d27dd2382b7b55de2f602ee4c9b074b0f896b9d0d0fd8
-Homepage: https://github.com/HRex39/rtl8852be
-Description: DKMS files to build and install realtek wifi.
- The driver provides the driver for USB and PCIE wifi adapter.
- .
- This package contains the DKMS files to build and install realtek wifi.
- .
- To install this package, you have to install the header files for your
- current kernel manually (usually included in the "linux-headers-<your
- architecture>").
-
-Package: plymouth-theme-deepin-logo
-Architecture: all
-Version: 15.10.20
-Priority: optional
-Section: admin
-Source: plymouth-theme-deepin
-Maintainer: Leng Ganghua <hiweed@gmail.com>
-Installed-Size: 4993
-Provides: plymouth-theme
-Depends: plymouth, util-linux (>= 2.30), plymouth-themes
-Replaces: plymouth (<< 0.8.1-1~)
-Filename: ./p/plymouth-theme-deepin-logo/plymouth-theme-deepin-logo_15.10.20_all.deb
-Size: 4777004
-MD5sum: b8294bb36968ac9abdc2792c4ac9d4cc
-SHA1: b06c52127e14d0f27a5d5b6e40a4437051474157
-SHA256: 6ecde7a1dd6fbe103879d8e8babd374001397e688a66aad6f4d4fc0ebe77754a
-SHA512: a09f57cf6723d72295fbe5d66b4b6c519879e986f8de76d5f612a96d0b5a934b31bc7dec58d7e5f4fcda71667d523c4c107c09978fa1121ff848bdeec054bc94
-Description: Plymouth theme for Linux Deepin
- This theme package contains deepin-logo.
+ CRDA queries operational frequency regulations stored within the regulatory
+ database provided by the wireless-regdb package.
 
 Package: ncurses-base
 Architecture: all
@@ -1949,32 +2032,6 @@ Description: basic terminal type definitions
  This package contains terminfo data files to support the most common types of
  terminal, including ansi, dumb, linux, rxvt, screen, sun, vt100, vt102, vt220,
  vt52, and xterm.
-
-Package: ncurses-bin
-Architecture: amd64
-Version: 6.3-1
-Multi-Arch: foreign
-Priority: required
-Essential: yes
-Section: utils
-Source: ncurses
-Maintainer: Craig Small <csmall@debian.org>
-Installed-Size: 630
-Pre-Depends: libc6 (>= 2.34), libtinfo6 (>= 6.3)
-Filename: ./n/ncurses-bin/ncurses-bin_6.3-1_amd64.deb
-Size: 414688
-MD5sum: 0f98c64287eb7abd097bfc868d208add
-SHA1: 71cbd28a7e1d798894062357b6b5883a199eaca3
-SHA256: ad0e9aae7c3eb13cc0ac8ceadff973aff30fcf94e86b7397fd67e5b7d9cf93cb
-SHA512: 0363f6ed7fb37a3fb8b476232943cd319455702e2893801d6071a15a1eea16e83e01383a8b7315f8e2a258a34d7e6df0eb8ea05236d264cfa1b01d5337ac87b8
-Homepage: https://invisible-island.net/ncurses/
-Description: terminal-related programs and man pages
- The ncurses library routines are a terminal-independent method of
- updating character screens with reasonable optimization.
- .
- This package contains the programs used for manipulating the terminfo
- database and individual terminfo entries, as well as some programs for
- resetting terminals and such.
 
 Package: ncurses-doc
 Architecture: all
@@ -2027,6 +2084,32 @@ Description: additional terminal type definitions
  .
  This package contains all of the numerous terminal definitions not found in
  the ncurses-base package.
+
+Package: ncurses-bin
+Architecture: amd64
+Version: 6.3-1
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: utils
+Source: ncurses
+Maintainer: Craig Small <csmall@debian.org>
+Installed-Size: 630
+Pre-Depends: libc6 (>= 2.34), libtinfo6 (>= 6.3)
+Filename: ./n/ncurses-bin/ncurses-bin_6.3-1_amd64.deb
+Size: 414688
+MD5sum: 0f98c64287eb7abd097bfc868d208add
+SHA1: 71cbd28a7e1d798894062357b6b5883a199eaca3
+SHA256: ad0e9aae7c3eb13cc0ac8ceadff973aff30fcf94e86b7397fd67e5b7d9cf93cb
+SHA512: 0363f6ed7fb37a3fb8b476232943cd319455702e2893801d6071a15a1eea16e83e01383a8b7315f8e2a258a34d7e6df0eb8ea05236d264cfa1b01d5337ac87b8
+Homepage: https://invisible-island.net/ncurses/
+Description: terminal-related programs and man pages
+ The ncurses library routines are a terminal-independent method of
+ updating character screens with reasonable optimization.
+ .
+ This package contains the programs used for manipulating the terminfo
+ database and individual terminfo entries, as well as some programs for
+ resetting terminals and such.
 
 Package: ncurses-examples
 Architecture: amd64
