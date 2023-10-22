@@ -715,6 +715,24 @@ Homepage: http://www.deepin.org
 Description: Device formatter
  A simple graphical interface for creating file system in a block device.
 
+Package: deepin-codeporting
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6924
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Filename: ./d/deepin-codeporting/deepin-codeporting_1.0.0_amd64.deb
+Size: 6982068
+MD5sum: c2640a7aade20e424e11dbb1646640d4
+SHA1: 9dddf07f781842306ca961c2d65e3802cbecc16c
+SHA256: e1d7644b12e1d27386efb626a3e16d1743f0ff3525c13d3b3117c11b47ebe41d
+SHA512: d64af7e49eb13b2c1def79a5619f2be550a1b515f367bba6f3b47c4355dec426fe4ea3838da6cbb32c9e5f45281a6f2c1fc4309d1cf02b02f5389de3add2950a
+Homepage: <insert the upstream URL, if relevant>
+Description:
+  A tool that supports multi-architecture code migration
+
 Package: deepin-keyring
 Architecture: all
 Version: 2021.06.07-1
@@ -809,6 +827,25 @@ SHA256: 03c4440848c879f8899bed2ad70a0f8a7a22d766ef521f2c2b7e957516ba26a9
 SHA512: bc153ed8198f5513508e849ee06658014b62465d4f220b9a4d5b674f0a3ce1dd28d9819a40ac1bf1df62b15c13814031cad929fad7fe476919709a0222fe1fff
 Description: Deepin Gtk Themes
  This package contains GTK+ themes for Deepin Desktop Environment.
+
+Package: deepin-unioncode
+Architecture: amd64
+Version: 1.1.20
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 107375
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-16 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libunwind8, libzstd1 (>= 1.5.5)
+Recommends: cmake, make, gdb, g++, gcc, git, npm
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.1.20_amd64.deb
+Size: 72198572
+MD5sum: a87d646b25178a7c7b1856248220113e
+SHA1: 4bda9cb2e6a4a432a38a0db3293d627d261eb254
+SHA256: 4ae9badb480add6324cbc6e305441c3dc4b0db5d66ebc729a502648f28d1078f
+SHA512: 1120b714f754a737de1f0f84238aba258f232587a792b8f3ac49384cd25b795b2545763c589e51478d9c6f2a528d4fff4f5e9c67482b4b7e32971ab5bd2ed14e
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
 
 Package: deepin-home
 Architecture: amd64
@@ -922,6 +959,28 @@ SHA512: d4fdb0ef17c2b53a7195ed128240a225ca4198fd0a1621a19bc98b6e7a755e23306f3b5d
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Dock module development files of deepin desktop-environment
+
+Package: deepin-gettext-tools
+Architecture: all
+Version: 1.0.6-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 50
+Depends: gettext, libconfig-tiny-perl, libxml-libxml-perl, perl, python3
+Filename: ./d/deepin-gettext-tools/deepin-gettext-tools_1.0.6-1_all.deb
+Size: 13008
+MD5sum: 9196026fe372d5729d99985ffd4839b2
+SHA1: 48d6382867b7c8d292778093b20cc021759e4140
+SHA256: 732eb3781699b6fe8134a06fdb4e779279014751075ea67eb72b03015f9eae4e
+SHA512: 1a0d9b8f3b4a5fd673b05815e2fe247ce1685a2c4e828d3dd254c0aa362925f436a20bef85f1fb35d2ad6cef505ab4a132df24e67c17f6e3182d8c46c20e470b
+Homepage: https://github.com/linuxdeepin/deepin-gettext-tools
+Description: Deepin Internationalization utilities
+ This package provides various tools used by Deepin software to extract
+ translatable string and manage i18n works as a supplement to regular gettext
+ tools.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
 
 Package: deepin-defender-vdbup
 Architecture: amd64
@@ -1807,6 +1866,60 @@ Description: Transitional package for golang-github-codegangsta-cli-dev
  This is a transitional package to ease upgrades to the
  golang-github-codegangsta-cli-dev package. It can be safely removed.
 
+Package: seetaface-tracker
+Architecture: amd64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 73
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-tracker/seetaface-tracker_1.0.0.2-1+dde_amd64.deb
+Size: 19448
+MD5sum: 36d1336fab5de29eca164a2af1376365
+SHA1: f25e4660af4fe02e2724daf91bc3afd92debe398
+SHA256: 04c6e01cac69c228d4f627cb1e43ce6b21f76e9ec90521dbb471f62349e5165c
+SHA512: 0f8080fb92884f7f5ea83fa8d9df498d344494b42830f461d2433846f04e5c0dc9d63b095d76e3b415e14cc384e57fcb00357f851dcfabc85103df5d034ace70
+Homepage: https://github.com/SeetaFace6Open/FaceTracker6.git
+Description: tracker for seetaface
+ tracker module for seetaface.
+
+Package: seetaface-open-role-zoo
+Architecture: amd64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 2056
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
+Size: 318164
+MD5sum: 74da1afb5b8dd897d8d16422f831afac
+SHA1: 6ea2d57bd9794532bdabf4e586913892b6db30ed
+SHA256: 8bc589de6ae83af6bbf38f14cfd5941fb417806b7dc4ef10f30e123b6ffc3ddc
+SHA512: 7f482bd84a844261b4a439ca75bf7d5c33cca3e4c3127ba743e8c81bc2706cc9089ca377e64d3f64e3c036ab7c8a40c98240b5d0ae1b020f16a1b5134e6578cf
+Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
+Description: OpenRoleZoo for seetaface
+ OpenRoleZoo is a static library used by seetaface
+
+Package: seetaface-recognizer
+Architecture: amd64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 458
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-recognizer/seetaface-recognizer_1.0.0.2-1+dde_amd64.deb
+Size: 139088
+MD5sum: 25e6eccf62ff850c5d4a77780959493d
+SHA1: 49ba28d39b415b56f94c80ec763d64082c2e3549
+SHA256: 0132574857365a9613a91ee104a516a91002127b09f3dcd6d817afd45dae9495
+SHA512: 331380d32db9850951b4e30147ae6221a23b6ce9cb9207f5273b6a1a43dea8ec668a0d8c761250df8b2b69e91ff1bf78f5728265995040d1ec4067f7cc854db4
+Homepage: https://github.com/SeetaFace6Open/FaceRecognizer6.git
+Description: facerecognizer6 for deepin
+ facerecognizer6 for deepin to using.
+
 Package: sea-icon-theme
 Architecture: all
 Version: 2023.04.03
@@ -1844,6 +1957,41 @@ SHA512: 29bdd2edf33809bcc4ac802f4e2ee2b365bae6dcb8f78fe069249aab61554ba36c174e74
 Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
+
+Package: seetaface-landmarker
+Architecture: amd64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 347
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-landmarker/seetaface-landmarker_1.0.0.1-1+dde_amd64.deb
+Size: 104748
+MD5sum: 5f0731014aba5b32408a608f914415f0
+SHA1: e81ece0de6ede7b7fda2b3d0497b769f4f3c236d
+SHA256: b6e05e3031a63951923f433ac16412d96ae0301e61efd60e53423528d81a3d4a
+SHA512: 7853901e81a492280bae3534d619ca7cbfe6313e6a8f5d6266ac9210912287348ddc1533e5c4067b4bba2b213d6a2dc72f870fe5a7114900ad4fc320408a5719
+Homepage: https://github.com/SeetaFace6Open/Landmarker.git
+Description: landmarker for seetaface
+ landmarker module for seetaface.
+
+Package: seetaface-models
+Architecture: amd64
+Version: 1.0.0-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 73277
+Filename: ./s/seetaface-models/seetaface-models_1.0.0-1_amd64.deb
+Size: 70854288
+MD5sum: 74184fcedbc257fa50f2a6dd62c0da9d
+SHA1: 04a890e0037bde4f1acbeb3abc76fb15c4c24a65
+SHA256: 1011a3fed1f25a5f9caed467e3a30eee0912a3a25eeb2f2a2fd3a605d145f68f
+SHA512: b963e938a5d23c60149d82782976481a7bd121697d6b056d251dd73f01f0feb4831be88b5c8e97677389b68bf2329be9f677f95f081007876e1582fe3b9f5bef
+Homepage: http://www.deepin.org
+Description: seetaface models for deepin
+ seetaface data models for deepin.
 
 Package: startdde
 Architecture: amd64
@@ -1888,6 +2036,96 @@ SHA512: 68a615ae6a77efc43fa72c83334547bc961a356ac78c1889fa33b45470fb3e087563e128
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
+
+Package: seetaface-boxes
+Architecture: amd64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 288
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-boxes/seetaface-boxes_1.0.0.1-1+dde_amd64.deb
+Size: 76472
+MD5sum: 67973653facf0b2ea8f3342a58357bfa
+SHA1: bf0ffb9ed1b2ec005d80a0c44bcd8d858e5370c1
+SHA256: ffd13d58b3272c19f4a063b0f6a5ba548dcf669343887ccc2531b1e4eb08c9e7
+SHA512: 33b5e2c87813ff47df04e2db8899948da410449c601d7c77990b87098795aa8ce658efcdaddf44aca4cedb8783daa6ec030769362a3941b5d807055cbf7432e8
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Faceboxes module of seetaface
+ The faceboxes module of seetaface
+
+Package: seetaface-anti-spoofing-x
+Architecture: amd64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 690
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-anti-spoofing-x/seetaface-anti-spoofing-x_1.0.0.2-1+dde_amd64.deb
+Size: 147724
+MD5sum: cf9a48917030512ae6f28c45b8f7f182
+SHA1: e5a051e1fc7fc2e75b5f86481591493817dd8528
+SHA256: 4bf1fcf65a01ea28c6c82ca9d8d3223cd78fa492577b7950edca304338539539
+SHA512: a3d1a6b2e4be13db65880e7102d0ef641e8a8c27c653c6f6ca847dae495d15996b6ac2ef78153b627aa8d0173580edeabab29fb80248d9cf1290321ffb813d4c
+Homepage: https://github.com/SeetaFace6Open/FaceAntiSpoofingX6.git
+Description: anti-spoofing module of seetaface
+ The anti-spofing library of seetaface.
+
+Package: seetaface-pose-estimation
+Architecture: amd64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 318
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-pose-estimation/seetaface-pose-estimation_1.0.0.1-1+dde_amd64.deb
+Size: 95136
+MD5sum: 585063c477610ba98e266995664f022f
+SHA1: d1437a1b82d1dfa4a4591fa7504f5fdcdc7ef033
+SHA256: 9ba825f75f4995dda665d46960114455a1a0b9b037ab0318fdc528d7342422fa
+SHA512: 3dcfa29b78426955f7faa0ab6b22598d233c60adbd715c8b1fcb4fc6ca4062cb1c169b290b96528728cb3cd365e9a0bab84e696347886f1b9fa950025e2fb8df
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Poseestimator6 for deepin
+ Poseestimator6 for deepin to using.
+
+Package: seetaface-quality-assessor
+Architecture: amd64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 396
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-quality-assessor/seetaface-quality-assessor_1.0.0.2-1+dde_amd64.deb
+Size: 116708
+MD5sum: 76479bf1648af9f143d30e0df7af1f4c
+SHA1: 80f0fc376e87288f117b7f1740044f75fd89d5b9
+SHA256: 2af85601c7a6f765434a09cdcc63094116bffbdadcb5a3cc717e4aca33f9f760
+SHA512: d0d8961d56a7fcf147e9be838c8b90e3895836f58084408dc53826c2e0d0ef98b5f2d383fe8d5599cc8971399526b75dd7c1576f2b4d396c8551f85e27babcb6
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Qualityassessor3 for deepin
+ Qualityassessor3 for deepin to using.
+
+Package: seetaface-authorize
+Architecture: amd64
+Version: 1.0.0.1-1+dde
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 437
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: ./s/seetaface-authorize/seetaface-authorize_1.0.0.1-1+dde_amd64.deb
+Size: 103672
+MD5sum: 9c17526ceb7f6fc543bf10c249c17f12
+SHA1: e8420cd71eccae41d1a0b2cb83e58164189b8b86
+SHA256: ace219513b3ca7ea4809c22a9c2d07111942a25d499fffa4ae2d188a9ec3d872
+SHA512: 8670b5a6784d78f4b498b676d73c8519d58e7abf46821475f68fb1d659738d893085643238e88abfc7b623e13a4d1462daceef95a0915398acb386c9b4e66ce6
+Homepage: https://github.com/SeetaFace6Open/SeetaAuthorize
+Description: seetaface authorize module
+ The authorize module of seetaface.
 
 Package: exfat-utils
 Architecture: amd64
@@ -3342,6 +3580,24 @@ Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
  .
  This package contains the shared libraries.
+
+Package: libdeepin-unioncode-dev
+Architecture: amd64
+Version: 1.1.20
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 79
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.1.20_amd64.deb
+Size: 12524
+MD5sum: e46f93016b401617d66059c3618c5628
+SHA1: beb17d0997031afccbd79eae6011e8e7431930c6
+SHA256: 94bc0fa01667bb8b9cddecd49ca8b05e5bda1a7b7b89261213482394bea87bfd
+SHA512: 622cfd16b801950c9a0fcd65233c3d73d2cdb945c1c0e33461492b30a293a62d3e7ed7aa9fd5eb2e52dade66a2d4dfeefde0cea56123b9969e8cea83a59a5344
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
 
 Package: lib32ncurses-dev
 Architecture: amd64
