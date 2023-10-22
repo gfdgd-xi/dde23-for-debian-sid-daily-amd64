@@ -1,0 +1,18 @@
+Package: desktop-entry-editor
+Architecture: amd64
+Version: 1.0-1
+Priority: optional
+Section: utils
+Maintainer: zhangshuang <zhangshuang@deepin.com>
+Installed-Size: 56
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libqt5xdg3 (>= 3.10.0~), libstdc++6 (>= 5)
+Filename: ./d/desktop-entry-editor/desktop-entry-editor_1.0-1_amd64.deb
+Size: 13012
+MD5sum: a6422f585527663584555994c8d21550
+SHA1: 199664619685498ac5618ee47d2c04e7d19c69fc
+SHA256: 1733d2b34733a744f3b568b0fcfbf3386fa0e3fca1d85724c49904e7a6504687
+SHA512: 84599a889acb8a37905a304b00c132a3f3ed12c075e1c6974a6b2beecdf790125b75f3dca5f9b220d8442a2cf00cb0814c404d3658c353a1bd88300f7403dd5c
+Homepage: https://github.com/linuxdeepin/desktop-entry-editor
+Description: Create and edit desktop files.
+ A simple GUI tool to create and edit desktop files.
+

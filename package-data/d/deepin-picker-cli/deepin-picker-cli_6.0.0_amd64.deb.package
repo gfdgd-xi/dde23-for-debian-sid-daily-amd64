@@ -1,0 +1,20 @@
+Package: deepin-picker-cli
+Architecture: amd64
+Version: 6.0.0
+Priority: optional
+Section: utils
+Source: deepin-picker
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 226
+Depends: libc6 (>= 2.34), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 13.1)
+Conflicts: deepin-picker (<< 5.0.5)
+Filename: ./d/deepin-picker-cli/deepin-picker-cli_6.0.0_amd64.deb
+Size: 58180
+MD5sum: ebac99a463b81a0c93ec2327364f85ad
+SHA1: 484a09713fb09b3b62ea4c99cd7ce519e2cff732
+SHA256: 1fe2d463ad5ae26e0c320e473f694351c8916ad7fbe2ed8f5ae77a248468d384
+SHA512: 5b3af5c42982a11cced186e80df1deb29cc5561277ebcf8621cdfd44697ea384b6b5ad2493a0dca776fa186708e23bdf51df2d23069292d74e79861f0e73854f
+Homepage: http://www.deepin.org
+Description: Color picker tool for deepin
+ A color picker tool for deepin.
+
