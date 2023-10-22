@@ -1,0 +1,19 @@
+Package: libdfm-extension
+Architecture: amd64
+Version: 6.0.31
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 60
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Filename: ./l/libdfm-extension/libdfm-extension_6.0.31_amd64.deb
+Size: 12304
+MD5sum: d2b7ab649b920baa124f70a5cc0cbd16
+SHA1: 11a46720cd5ed37b24dc18539eb8a3611e4d8fa7
+SHA256: de75dcdcc27b82434a4bc6331021f029ef38e495693c74dc1c1b68ddb6e8cacc
+SHA512: b9b41302212e4abb35dad9e0bd2bb1bed9c68db59fa01db0b9c5368df1a3cb0d7da502607a4eb4bac3206311fa2e29d99ad941cc4c5858180b3a6422d1065aea
+Homepage: http://www.deepin.org
+Description: extension library of dde-file-manager
+ Extension library of dde-file-manager which is provided for third parties
+
