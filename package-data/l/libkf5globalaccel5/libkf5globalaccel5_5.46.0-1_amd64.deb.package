@@ -1,0 +1,25 @@
+Package: libkf5globalaccel5
+Architecture: amd64
+Version: 5.46.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: kglobalaccel
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 149
+Depends: libkf5globalaccel-data (= 5.46.0-1), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.8.0~), libqt5gui5 (>= 5.8.0~) | libqt5gui5-gles (>= 5.8.0~), libqt5widgets5 (>= 5.8.0~), libqt5x11extras5 (>= 5.8.0~), libstdc++6 (>= 4.1.1)
+Recommends: libkf5globalaccel-bin (= 5.46.0-1)
+Breaks: libkf5kdelibs4support5 (<< 5.46), libkf5khtml5 (<< 5.46), libkf5plasma5 (<< 5.46), libkf5xmlgui5 (<< 5.46), qml-module-org-kde-kquickcontrols (<< 5.46)
+Filename: ./l/libkf5globalaccel5/libkf5globalaccel5_5.46.0-1_amd64.deb
+Size: 41464
+MD5sum: ad952dffb7ad522b5b0a52ca69de6e24
+SHA1: 75d51b45a74463e68cc0e3e409ad77120bc780d1
+SHA256: ea4af0096a69e652e33e3c6893e75b59248fcb5dfd6d30aa0a3833071490a9fd
+SHA512: ef09f890df3734446273f7fc2da86fa32efc44905872ff679d94dc0ba9462d140f814d332649d7921d49c225003031033864cb067d5071d5bbbd017ca3e14902
+Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel
+Description: Configurable global shortcut support.
+ KGlobalAccel allows you to have global accelerators that are
+ independent of the focused window. Unlike regular shortcuts,
+ the application's window does not need focus for them to be
+ activated.
+
