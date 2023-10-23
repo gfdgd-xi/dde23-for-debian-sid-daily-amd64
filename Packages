@@ -781,6 +781,25 @@ Homepage: https://github.com/gfdgd-xi/debian-dde-icon-theme
 Description: Deepin Icons
  This package is DeepinIconTheme
 
+Package: deepin-camera
+Architecture: amd64
+Version: 6.0.3
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 16621
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libimageeditor, libpciaccess0, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libgl1, libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), libqt5concurrent5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.9), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), zlib1g (>= 1:1.1.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), dde-api
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-camera/deepin-camera_6.0.3_amd64.deb
+Size: 14945684
+MD5sum: a638d63196ed2dd9071eaa1f7817d300
+SHA1: 4828734a10a89b3e2bbb47704759f87f7ea999a3
+SHA256: 61e5f65abe53e3b500c75300fbdece7ae4acb1f81848f5450cc8e436c38831d2
+SHA512: 3feebfc52fd1b71aef6405d50dbbe9d8d2a6365eb804b54705c4976e3b9275bb7b1c2e7315e57ecabb6b2563f729e88fa41e1a941c1463f46d9e4504bc3b1369
+Homepage: http://www.deepin.org
+Description: this package software for  UOS
+ deepin-camera is a tool to view camera, and also a smart take photo and video in life.
+
 Package: deepin-theme-bloom
 Architecture: amd64
 Version: 1.0.8
@@ -1211,11 +1230,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.14_amd64.deb
-Size: 14039840
-MD5sum: 52d2c97318b945741c40b729e4f556f5
-SHA1: 6dfe54ef08faa7a605f2b40a2d52a4ee98e329ae
-SHA256: 9493c4d542614323ef339908d0f9c36fd811349cf98309b6c69b6a47d6a8751d
-SHA512: 554bfc38fc19750c748c5b315164725808e7a7d511f8ab5b12e09bfdd9e3a99f724839d588654adeb5dad6c34f3de5a6e3c4ec73c7e8b0e36b53dd9b80f776e8
+Size: 14039856
+MD5sum: 7e835791966ab9f5537ea8d44f6cc793
+SHA1: 2794513f2438d7a9b635d8145ff696f54eb2b944
+SHA256: 5048c1d37794e85df7938538f80d8720cefc03f4c0acec6b27dedff3cc1887eb
+SHA512: 8154663fc4dcb3f8faefb6bdf563c18a13c51e1d7273f9590d8bb827241564c1165c31daed0765876167044e5c7a664820b53f2aa5b85b334bb716df5f4cab55
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
@@ -1793,13 +1812,13 @@ Priority: optional
 Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 5360
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.18), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs
 Filename: ./d/deepin-home/deepin-home_1.4.1_amd64.deb
 Size: 1176428
-MD5sum: eb96a24a5369ab58b69bee08bfad51a4
-SHA1: 114c58cf6bf898ea414cbe18829fd91addef4515
-SHA256: 435beb0d36442cd8bcbdcd11806e8492359bd30f3aa908a108a113329fdda416
-SHA512: b208e20c9a64259920797a27695dec2f5d9a9b64d8d9d932f8767715980b67137e71c1de1221a760b0097520ed10fbb706c5f4eee830a40abd0ec535ff67f4df
+MD5sum: 78a465779337ebdd036a9de6605d3286
+SHA1: 32c1854202663c2b9ddcea9ef5a58c11b9d66891
+SHA256: d9f6e67348788b3ca7264708ba574d5b6ceb3f7173d61373e7fad5fbd3137cb8
+SHA512: 14192f7d45565264bd269bb7fc999d8bf7acba793a87d9621b91efe9e9abf7e77b87ccd345450733ce936da0ab98e78cd992c30a8d3916fd45aaf81f39c5b01f
 Description: deepin home
  quick login bbs, bug report.
 
@@ -3438,11 +3457,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318580
-MD5sum: 2299bbe93cca59dd3347724d65cfb519
-SHA1: 1b43f9a6207a307fc7e4f194e3b258ac678c8cc8
-SHA256: e8e7132d975654fbb49c0c864b37a1b0dd5be4b0bd8e2e34e2437205306f9638
-SHA512: a6157ca16d54522e7f52d2e30838a7aa9c86b43cc403244314682c505e2f33cf578fa5d011e7c37a3d58c571a93ac4b5d15d1ce090082b389137e225ee8ce449
+Size: 318176
+MD5sum: 3fb5096b17c52ad82dadc1662c4fe965
+SHA1: 5c6a00ed28f36b992fb2d7f955a41b7bb053339f
+SHA256: a4c34984ad87cd3f653e53018ad9cc00f82665260d04bff7c6a9d5646aebf36c
+SHA512: a24aaaf53cc1fa8f82f771ae7601c28176c201eeb2e5062dfcdfed6e8b4663512038b4941baac1d5593c48969fd199e02f38729bddfffe30665cd5844356a359
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
