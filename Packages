@@ -552,13 +552,13 @@ Section: devel
 Source: deepin-turbo
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 58
-Depends: init-system-helpers (>= 1.52), deepin-turbo, libc6 (>= 2.34), libdtkdeclarative5 (>= 5.6.17), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Depends: init-system-helpers (>= 1.52), deepin-turbo, libc6 (>= 2.34), libdtkdeclarative5 (>= 5.6.18), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
 Filename: ./d/deepin-turbo-booster/deepin-turbo-booster_1.0_amd64.deb
 Size: 9552
-MD5sum: 7e2375e36d357ffd22ffbc9271dd9e2d
-SHA1: f01fa0bab3e24845228dc8092aa9f4d23416c77a
-SHA256: 1e40abc702b4ad4bfc09939a467aea7a8cef4c6cfb398e8e0b845ab5e4d66c0a
-SHA512: 3481bdf850622da05a0cad6f61ad1790fa3148f684122954c3519f5568bc2dd1e5ba80df5ccb1cad02d385f0ecfaed90e78c8dce0599be2576c15a13d953035a
+MD5sum: 733e2ac878d97d8b530b4f7008b7ca79
+SHA1: 92713de096f9a6b920eda49d8b3957d89de11551
+SHA256: 2db5181947a54df860393321390c44bc88cece936193bd82ec681de5f6eb6aae
+SHA512: 41e9353597c56db2af348d34ebdd153dc2babf653f4a9951e7a21e3a9ad2536eb8207d2a623f586382da811862991cf9cbc6abb564a08781b382159f46dbd1c7
 Description: DTK application booster binary for deepin-turbo
  A series of boosters for Qt/QML Application.
 
@@ -894,6 +894,24 @@ Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server user interface library
  anything server library developer package.
 
+Package: dpa-ext-gnomekeyring
+Architecture: amd64
+Version: 6.0.1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 104
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5)
+Filename: ./d/dpa-ext-gnomekeyring/dpa-ext-gnomekeyring_6.0.1_amd64.deb
+Size: 19040
+MD5sum: 8992e8998aa52b0c1178048c3eb86600
+SHA1: 13da3eef3ebbb6a607d1b5732eac714ca07bfaab
+SHA256: da6361c6404c2fefe42061380234df88bb362e3570bef7e2e54e772ffef7f588
+SHA512: d8c7b579eadfaba9a16be2b967df99ed080ef7fdee8c314805ae185d1ce3ad41f549b010087bdc8d25420865bbbf99917c929e8ddce53b2c0a02d6ebe63a6b60
+Homepage: https://www.deepin.org
+Description: GNOME keyring extension for dde-polkit-agent.
+ DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
+
 Package: deepin-wallpapers-nonfree
 Architecture: all
 Version: 1.7.9
@@ -1036,14 +1054,14 @@ Version: 1.0-1
 Priority: optional
 Section: utils
 Maintainer: Clay Stan <claystan97@gmail.com>
-Installed-Size: 3530
+Installed-Size: 3505
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/dde-wallpapers/dde-wallpapers_1.0-1_amd64.deb
-Size: 3535932
-MD5sum: b0868a01b5bd857ac353218736c457e4
-SHA1: be4d464d484f3471cb85d0d929b40ee2e9092efb
-SHA256: 9106d0ce0b21da6d74ae5efb75b5a372317da36747b257ca7e7930febdd73a8c
-SHA512: 225673e9593789af1455fce0e070536e27fa597cc4590332edf4bc3874ce161ebebebb2ba6334ac0790fc14b415497c2f9d902d983963cb9437067636d474316
+Size: 3502688
+MD5sum: d6c662ce3ce17b756eb1a5ac146d4af3
+SHA1: b7dc9ad2eda76f4fcf7728f2ddd1055c09c3704d
+SHA256: 16d04cbec7be320f26dd2730856c8c9092733fceb6dbd57805e5681b5ec9a8cb
+SHA512: 9a86cb0c1b1ffbeaee9bcf5ac6b2473fa9024826a8d76f0a4be41efa1c360524fc27fd140b76e7f84736304dc26043bca24eaec6e9485278aa73a5f4b689c7c7
 Homepage: https://github.com/linuxdeepin/dde-wallpapers
 Description: When users are ready to set their own desktop background,
  The dde Wallpaper provides a beautiful background pictures.
@@ -6096,11 +6114,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3848
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.0_amd64.deb
-Size: 818708
-MD5sum: 78548fd8c6b5cc1bb1c6ad590887bb47
-SHA1: 6f67470e96f671c4236104166fbf92655cd80cb6
-SHA256: 72074df2641750f1e59151225f64870fe6a6845f35d9b1cb311603efa117c117
-SHA512: e5ebf2004b70c2e355436a3788c4e80a90a5d67b96ded820a906f6641041e59a557e0f8cf07d621aaefc69647c92c786f04c69c382534b9435072a70cb242979
+Size: 818880
+MD5sum: 6ccce413a5a265b73405b0fc9d53cfda
+SHA1: 86519e98e4bf0b50566573f16c5d54313eb6d340
+SHA256: d97b754d409c0bd8204881fd4aa955a3b68dde106a1e80af4ceed164236de6c5
+SHA512: 6aa51fa72ea013d541dfcf32535344d1b94963e452127a4a386acd8ad5653960d188999bed038fc9e0cd473289720b99cc486edc893afead77725e4f57a297d3
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -6216,10 +6234,10 @@ Installed-Size: 1061
 Depends: libc6 (>= 2.34), libdtkcore5 (= 5.6.18), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), qtbase-abi-5-15-10
 Filename: ./l/libdtkcore5-bin/libdtkcore5-bin_5.6.18_amd64.deb
 Size: 266572
-MD5sum: 3db8b9765ff41995ca75634b0516a837
-SHA1: 2c1c38d032edabf05f07e986ab0ca3864410bee3
-SHA256: 0100b74557fc4e664409e773532c0195e55cbf9f6aa4a89d5853d60b5c385ef6
-SHA512: 63777b5b41bcdeccc5d24a3ba0a2479c83343069916072a47de5c8066fb760a5fcefa2b8a58f67995cf43e1b6534d6a7847d52d92a45d4c9ccf9a8c88cf7121a
+MD5sum: e79a354ca64ce5dc9db0b3b2be3a58c0
+SHA1: 50476a4009d34d7f7b63b5fb80533c5d8f09570f
+SHA256: 2bc582d4618980d76cf744164f24bcceae7a5e93007f01f4770a1d4f3fa50cf1
+SHA512: 00847fdb63f9a4bce9e687dd511befb4c383d28bc30abdb0eaa56eb3e2378a5a723c84bcea7f6df92f5a0056d7225aebafdd19be4e8bf3067e659925d5ef6e6e
 Description: Deepin Tool Kit Core Utilities
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
