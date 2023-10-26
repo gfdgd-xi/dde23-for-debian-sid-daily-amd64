@@ -1,0 +1,22 @@
+Package: dde-qt5xcb-plugin
+Architecture: amd64
+Version: 5.6.16+rb2
+Priority: optional
+Section: devel
+Source: dde-qt5platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 772
+Provides: libqt5dxcb-plugin
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 11), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-10
+Conflicts: libqt5dxcb-plugin, qt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Replaces: qt5dxcb-plugin
+Filename: ./d/dde-qt5platform-plugins/dde-qt5xcb-plugin_5.6.16+rb2_amd64.deb
+Size: 240184
+MD5sum: 14a8f70f23ebc37025cd45358c6735be
+SHA1: ddb24ac00ced1c6402345506b5867fb072e68833
+SHA256: 45d3eb4a72ec5ca4cc0324ef1c6535fec69ff3bf6b28dd396c61493619dd08e0
+SHA512: 6bbe2174d6a04f06336c763d6a173e8a8ca0e0bac7d129bc67c9eebc9677c335f1d02a63709d564a6b5dea2f2c7df8623bd0a8e7bdd4cb8f51cd2ec3f623c5b4
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
