@@ -1,0 +1,21 @@
+Package: libblockdev-fs-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 27
+Depends: libblockdev-fs2 (= 2.26-1deepin), libparted-dev, libmount-dev, libblkid-dev
+Filename: ./l/libblockdev-fs-dev/libblockdev-fs-dev_2.26-1deepin_amd64.deb
+Size: 5460
+MD5sum: 1cd0795bd90bbc9e9f43f9a9b67b1b2e
+SHA1: a0bbee9043a34fac5562216685259ebd6524f1e6
+SHA256: 8f69b4a89043f23fb6b8b1401492c4e7ffd63362d066609ff8fe0ea3dbcecc11
+SHA512: 7324c909cb951da1458de77c5e9b0f471ff0f8fa81e5af5336c17ddac4e15a66027d9548598880b79105b6e222d0a12b58bc6f32e72fc9ec5c7cf4a6a2ec5a92
+Homepage: https://github.com/storaged-project/libblockdev
+Description: file system plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-fs plugin/library.
+

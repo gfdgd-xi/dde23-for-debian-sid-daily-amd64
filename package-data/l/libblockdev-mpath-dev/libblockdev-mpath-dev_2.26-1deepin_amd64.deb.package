@@ -1,0 +1,21 @@
+Package: libblockdev-mpath-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: libblockdev-mpath2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-mpath-dev/libblockdev-mpath-dev_2.26-1deepin_amd64.deb
+Size: 4208
+MD5sum: aecc4b0db1d4117ec0708395fe788a59
+SHA1: a538b5a06203ef9961a4db2af4ec07c7e8f68894
+SHA256: 4bf5eaef0bf6ba8dfaa246128875cedb3e8b2501496b80153dbf65ec20ede1fa
+SHA512: 86c110a845488bfcf1824a24053151b292c8c5af2c5ca7d505cb6edbd8838f4419eb3e84be97377f36887a71b479ac08d2e502008676f6c9e8e3bf3414224817
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Multipath plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-mpath plugin/library.
+

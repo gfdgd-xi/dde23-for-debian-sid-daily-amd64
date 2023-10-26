@@ -1,0 +1,21 @@
+Package: libblockdev-lvm-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 30
+Depends: libblockdev-lvm2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-lvm-dev/libblockdev-lvm-dev_2.26-1deepin_amd64.deb
+Size: 6304
+MD5sum: b172c15ebc455900f07fe59471f23fe0
+SHA1: 2758bc3e2d0955f5a4c5cb5cdcefbb15ff03c353
+SHA256: 07b0e13a836e3668219c1d2fd2edf1afde016892460d85744d89600a2abdb062
+SHA512: 2c7b45c7180beeb715a770c59b6ddc21591dc66296fe1ad5d3253cb68abc26ad46eb49a8f0422a302fc680a55d3849ee7d741958e78c85ef28e4aaf683d1bfed
+Homepage: https://github.com/storaged-project/libblockdev
+Description: LVM plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-lvm plugin/library.
+

@@ -1,0 +1,21 @@
+Package: libblockdev-part-err-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: libblockdev-part-err2 (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-part-err-dev/libblockdev-part-err-dev_2.26-1deepin_amd64.deb
+Size: 3548
+MD5sum: bc1320a417aa5df92627052377dd43bd
+SHA1: 1c736b351a63595406f8ccb2de95a32c547dd803
+SHA256: 96d73e1718bc4279c4669183fac2b73e42201c1ea8f3aa33d23047da213b40bd
+SHA512: ffdc8b21ec22b783fe388db89d173347d1cfa2f3bbd57a323035904bb0cbe2f4c9c89f53885994a079df5b9961368ea46193ee784f02aea09a6e7461ded6e8e8
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partition error utility functions for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-part-err library.
+

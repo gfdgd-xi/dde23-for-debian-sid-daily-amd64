@@ -1,0 +1,21 @@
+Package: libblockdev-lvm-dbus-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: libblockdev-lvm-dbus2 (= 2.26-1deepin)
+Filename: ./l/libblockdev-lvm-dbus-dev/libblockdev-lvm-dbus-dev_2.26-1deepin_amd64.deb
+Size: 3532
+MD5sum: 58a05c640f696e93311eb1e8ff9954be
+SHA1: 3f927337393ff0503fbf3d8663c00e42560711e6
+SHA256: 0e293de02cf0fa7593140bb97b1014f8eec0308f16f9b3f557fdaaf7f851e04a
+SHA512: 9592379291562fe6a34a8bce35b536890408b8097a831c6465295ff1565f28f41092959b4019f30abe945e0becb99a4c11dbfbe1492c0dd2bbf526ef6ad9a165
+Homepage: https://github.com/storaged-project/libblockdev
+Description: LVM DBus plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-lvm plugin/library.
+

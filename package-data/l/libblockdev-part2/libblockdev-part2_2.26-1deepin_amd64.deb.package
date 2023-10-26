@@ -1,0 +1,21 @@
+Package: libblockdev-part2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 62
+Depends: libblockdev-part-err2 (>= 2.14), libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libglib2.0-0 (>= 2.42.2), libparted2 (>= 3.1), gdisk (>= 0.8.6), fdisk | util-linux (<< 2.29.2-3~)
+Filename: ./l/libblockdev-part2/libblockdev-part2_2.26-1deepin_amd64.deb
+Size: 17308
+MD5sum: 3bc6be9258dd83d7e81c4877c169f401
+SHA1: 395133dc07e862d837babbf2584f2c2cee780e51
+SHA256: 6a31f0bfe0e3e70138726a4e5735d676b826b5e85352c474c03d46ee7b9d240a
+SHA512: 00f27cba211a2d9d1b1ac348ef5e1c67caca61b01e07be2c8095f5ab7cd46ad537bcc7a75d17ad75aec9e114bd19f72503a929ed852c3e7f6af1738da8ce5ae4
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partitioning plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to partitioning devices.
+

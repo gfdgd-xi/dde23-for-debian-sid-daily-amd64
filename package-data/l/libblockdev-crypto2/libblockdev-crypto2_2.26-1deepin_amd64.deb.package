@@ -1,0 +1,21 @@
+Package: libblockdev-crypto2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 66
+Depends: libblkid1 (>= 2.23.0), libblockdev-utils2 (>= 2.20), libc6 (>= 2.25), libcryptsetup12 (>= 2:2.4), libglib2.0-0 (>= 2.42.2), libnss3 (>= 2:3.13.4-2~), libvolume-key1 (>= 0.3.9)
+Filename: ./l/libblockdev-crypto2/libblockdev-crypto2_2.26-1deepin_amd64.deb
+Size: 18216
+MD5sum: fd64ffe937f6bcf4b4d5b5676c46f394
+SHA1: 6398572c2ba956f5cb16735696e17f1105f1f59d
+SHA256: c0f372bd334d64ac6503580081675ff507b934b2de78d9e14de44855c8bbec20
+SHA512: 41d02d4eefcb1dee4c12b60c86e95e049acf981c6a77a23a64324456751f5ac8cad73fda70e5267f47825d96c833bfe7ce395140415d438d40bbb767902aa4dc
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Crypto plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to encrypted devices (LUKS).
+

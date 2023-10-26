@@ -1,0 +1,21 @@
+Package: libblockdev-utils-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 29
+Depends: libblockdev-utils2 (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-utils-dev/libblockdev-utils-dev_2.26-1deepin_amd64.deb
+Size: 6488
+MD5sum: 283f31c6dafe47746a8f1e0ca7223155
+SHA1: 0e21f28b426961419f8bba4c24afd6ea41afc789
+SHA256: dc341818de07878b445ef2b61396e1974dad3cc75f39205379852b0004c1b415
+SHA512: 4fd66c4c7b6ef93109e3bb9d36d66bbe822d8832a1a9500667c0c1e48d92639ce6e2e777544c5aaad715af79863796b5aa6d7c76961448eb454aeedc23c543d4
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Utility functions for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-utils library.
+

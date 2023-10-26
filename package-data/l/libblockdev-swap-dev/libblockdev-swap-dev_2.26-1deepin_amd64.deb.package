@@ -1,0 +1,21 @@
+Package: libblockdev-swap-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: libblockdev-swap2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-swap-dev/libblockdev-swap-dev_2.26-1deepin_amd64.deb
+Size: 4248
+MD5sum: 8cab7c8f28c67aee989d17013c4dae1b
+SHA1: e040756d02068cc43dd4f81dd810e77b662a695d
+SHA256: 171128d155a50ac481a3e209f65c58913de83488f4c6f16a4c50f32653674d91
+SHA512: 36657a6a39787cd746b0baf17b65e9a420be33e535d2e7c6ea69ee9c98d1ff674b93f5aaca833b586b0119e7a59afa3c17ecaa2d8773eec28c0a38ee30ff107e
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Swap plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-swap plugin/library.
+

@@ -1,0 +1,21 @@
+Package: libblockdev-nvdimm-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 18
+Depends: libblockdev-nvdimm2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-nvdimm-dev/libblockdev-nvdimm-dev_2.26-1deepin_amd64.deb
+Size: 4484
+MD5sum: 629057a60be8ee68391651441d57f0a6
+SHA1: 597313e0958e60339f23252d934882907f55580d
+SHA256: 882b14e2a98e1f372ac57efb526bdd704f4de4b6721d538eb3aa48f39fb55e1f
+SHA512: 3b531d2970ffc7a5f2a6c23905cc591517305759731461be7ed2049fd1f464f574dc229fcc8d83ab5bf77678b0cab78d55792cfd4ae20d561648cf602f6d3c94
+Homepage: https://github.com/storaged-project/libblockdev
+Description: NVDIMM plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-nvdimm plugin/library.
+

@@ -1,0 +1,21 @@
+Package: gir1.2-blockdev-2.0
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 91
+Depends: gir1.2-glib-2.0, libblockdev-utils2 (>= 2.24), libblockdev2 (>= 2.25)
+Filename: ./g/gir1.2-blockdev-2.0/gir1.2-blockdev-2.0_2.26-1deepin_amd64.deb
+Size: 21604
+MD5sum: dff7dd2adc85d97005db179f11737371
+SHA1: a900cdd5d14c04f1962b06f7eaabb71a90b5f810
+SHA256: 3a3b7995fd46f96d93dacd7b33e1ee744cabfeb53824398ed7c7de2988ad103d
+SHA512: 723790f242912acb746efe7373496e64ac8d1fcfda35ce66340dd8b379bec6dd7ca5cf915c88415065893acd973f34d91b1286e0252e771e8281d26910e4a175
+Homepage: https://github.com/storaged-project/libblockdev
+Description: libblockdev introspection data
+ This package contains the GObject introspection data of libblockdev in
+ binary typelib format.
+

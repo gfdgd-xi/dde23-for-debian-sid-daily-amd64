@@ -1,0 +1,21 @@
+Package: libblockdev-utils2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 58
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.75.3), libkmod2 (>= 19), libudev1 (>= 216)
+Filename: ./l/libblockdev-utils2/libblockdev-utils2_2.26-1deepin_amd64.deb
+Size: 15464
+MD5sum: 6e02ea2add965ff2b4d0108c408431f1
+SHA1: 572b4d1912af945ed82ae1e0c8f5fada6e7b6c6b
+SHA256: 5b5da1a4341d5cdf00ffe6d85699ec59321dd8e8a985637161cefeb724334493
+SHA512: 12acd3f22f4643d4590f329c8a19d4886c4c232f3ea162da09091fea5fa9b0b11de5a6da591188a425af3b2ef209bf3f36be0dab6eb9a6e04e38f9000db0a3a1
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Utility functions for libblockdev
+ The libblockdev-utils is a library providing utility functions used by the
+ libblockdev library and its plugins.
+

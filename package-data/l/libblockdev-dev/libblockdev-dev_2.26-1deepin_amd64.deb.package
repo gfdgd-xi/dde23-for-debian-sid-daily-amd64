@@ -1,0 +1,25 @@
+Package: libblockdev-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2220
+Depends: libblockdev2 (= 2.26-1deepin), gir1.2-blockdev-2.0 (= 2.26-1deepin)
+Filename: ./l/libblockdev-dev/libblockdev-dev_2.26-1deepin_amd64.deb
+Size: 120748
+MD5sum: 8167d0adb5d88c5d96571162636ff8fa
+SHA1: 5bd0ab4eee2411858f863e1179f0d3be057b2b51
+SHA256: bd2bc7ff518c66b1666b469775ff64a55c40c81878f699f93f3434eee9a5691e
+SHA512: 455eb26c28315cf7a87a7ba404d68005a17e3e523e64e7a27b9079844320d535ce531e8f95524d9f3272f84a33c3a976b4b23feb254ff117f9cb472990535398
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Library for manipulating block devices - development
+ libblockdev is a C library with GObject introspection support that can be used
+ for doing low-level operations with block devices like setting up LVM, BTRFS,
+ LUKS or MD RAID.
+ .
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev library.
+

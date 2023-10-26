@@ -1,0 +1,21 @@
+Package: libblockdev-dm2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libdevmapper1.02.1 (>= 2:1.02.97), libdmraid1.0.0.rc16 (>= 1.0.0.rc16), libglib2.0-0 (>= 2.42.2), libudev1 (>= 216), dmsetup (>= 1.02.93), dmraid
+Filename: ./l/libblockdev-dm2/libblockdev-dm2_2.26-1deepin_amd64.deb
+Size: 11412
+MD5sum: 69314ab8f35c05776844f4cd632149b4
+SHA1: 1e8c6d20d85532d600b5df71e2f03be425bf5c56
+SHA256: 406d9e9e65ae1966f3d70640bc432c767f5a14625b43ca05ddf94f80d5715b10
+SHA512: 8efb35baa13137ab046fc1cf3df17be1509c7450fb322b0d0a2db42d7be6ee1abf8809ece0bca007b9a16b11a612f6fc22c3aadc33bea5e0b02c005cdc19b8af
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Device Mapper plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to Device Mapper.
+

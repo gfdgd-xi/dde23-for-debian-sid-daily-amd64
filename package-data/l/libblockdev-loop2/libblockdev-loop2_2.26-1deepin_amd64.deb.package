@@ -1,0 +1,21 @@
+Package: libblockdev-loop2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 33
+Depends: libblockdev-utils2 (>= 2.14), libc6 (>= 2.27), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev-loop2/libblockdev-loop2_2.26-1deepin_amd64.deb
+Size: 8264
+MD5sum: c01c3635417bc33ad9786b5633eb35d1
+SHA1: d1d478accf09b5bc55cd91eefc248c6a753b86af
+SHA256: 6183b68bca34c7a4d082db2b9c36aaa2819ddda3ac1085ef51493f6fe5cc3941
+SHA512: f1e10ed93f6a2af2211e9accbc7cec4d18307bc1d7d70d7763b4b117c562cff7604e04031e7dc2b360a0bb89816a6540a32239f01cc0dd6c5e280f78726ef04e
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Loop device plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to loop devices.
+

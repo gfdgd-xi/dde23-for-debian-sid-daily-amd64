@@ -1,0 +1,21 @@
+Package: libblockdev-btrfs-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Depends: libblockdev-btrfs2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-btrfs-dev/libblockdev-btrfs-dev_2.26-1deepin_amd64.deb
+Size: 4608
+MD5sum: c0aff1f437639f57dc78a51c416a2d14
+SHA1: 27bbe2150abb220802b1cb44348e10a944e9cfd7
+SHA256: 76bc04afe3e9f8a8dc3a9ca6ace70105c8d9bdafc290d4241a2624f359dced0a
+SHA512: d2aa24a234de693915a332988a7865ba96425f60118dd3680f1fad9bdb50608c71db063729a291855e77b76ffa30dd714315dd9810980fe24107684d9d3562e3
+Homepage: https://github.com/storaged-project/libblockdev
+Description: BTRFS plugin for libblockdev - development
+ Header files and pkg-config files needed for development with the
+ libblockdev-btrfs plugin/library.
+

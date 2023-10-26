@@ -1,0 +1,21 @@
+Package: libblockdev-kbd-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Depends: libblockdev-kbd2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-kbd-dev/libblockdev-kbd-dev_2.26-1deepin_amd64.deb
+Size: 4704
+MD5sum: e6baba9559eac0cdc9db3bb53d1b8216
+SHA1: 9d8fc80704e7f73eadb4c1c1f707219ac4b69424
+SHA256: c54788e8d698d2c042fe9e82294732a6318780638ad9e50d6bf16924fb24446d
+SHA512: 05a3a926ce94ae9e19b07b80065c7b14c0006de03141a10e225fdabdc1ced83dffec24e3c74c7c7690985a6f4a0a979cbcedcc7f9036eea596d12fe7a1591a38
+Homepage: https://github.com/storaged-project/libblockdev
+Description: kernel block device plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-kbd plugin/library.
+

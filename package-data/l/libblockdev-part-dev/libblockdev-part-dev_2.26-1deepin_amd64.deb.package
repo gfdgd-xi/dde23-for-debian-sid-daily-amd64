@@ -1,0 +1,21 @@
+Package: libblockdev-part-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: libblockdev-part2 (= 2.26-1deepin)
+Filename: ./l/libblockdev-part-dev/libblockdev-part-dev_2.26-1deepin_amd64.deb
+Size: 5080
+MD5sum: 16b37259083262d9548b24f5c1daba16
+SHA1: 9f7be9dfd782a73bc7d2808b1d1fc72812b7f065
+SHA256: 38d47d99fec6246af6ef20c1ea24b58b2d6276734cc09e84daba696516141c82
+SHA512: 0fba9712b50c9221ad0418a5dc802fc4dd89e485b7e5743e04b2d9d69b73bd360126c2bed4e911944a765d813528fd5afb57055a8b26c142c4c3469c932bb9b7
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partitioning plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-part plugin/library.
+

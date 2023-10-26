@@ -1,0 +1,21 @@
+Package: libblockdev-swap2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: libblkid1 (>= 2.23.0), libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev-swap2/libblockdev-swap2_2.26-1deepin_amd64.deb
+Size: 10132
+MD5sum: 1a09a71820a718a637488ae955dae13e
+SHA1: 04622ea66c20d496732c00ea497bcb32ea118845
+SHA256: 51c0bebcc11598ed44880295cd044c31ecc6c13beef3f66a18433a5c4e19cdc1
+SHA512: 059b4e5aae6d112a1c27e0fedec25762f40590645956556a989778fe10f3a0e9e291bf6dd40d24a7e7a75022f94bb416795897ef6102033c40828a5ca99e2c41
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Swap plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to swap devices.
+

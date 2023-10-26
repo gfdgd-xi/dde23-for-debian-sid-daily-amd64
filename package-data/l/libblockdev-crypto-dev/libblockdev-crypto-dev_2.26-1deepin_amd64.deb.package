@@ -1,0 +1,21 @@
+Package: libblockdev-crypto-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 26
+Depends: libblockdev-crypto2 (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-crypto-dev/libblockdev-crypto-dev_2.26-1deepin_amd64.deb
+Size: 6020
+MD5sum: 81bb12b8bf237c8ed01e794553fe9386
+SHA1: aeae16d40eb23705e4cd142f3e327a5ebd977113
+SHA256: 625607973dc03d482169ac1248e56603d8935fc7f4da3c09fddd8deff0bad073
+SHA512: d74b5c96d9186a756b3fb0e8d82436f2bef2eb262c1808af8dbc018f30eae9fdfdb28448ab1b5a73823a1f116abb052865c0febd46d65620e7fc628a215e4c69
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Crypto plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-crypto plugin/library.
+

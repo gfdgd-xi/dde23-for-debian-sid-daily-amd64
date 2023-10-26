@@ -1,0 +1,21 @@
+Package: libblockdev-mpath2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libdevmapper1.02.1 (>= 2:1.02.97), libglib2.0-0 (>= 2.42.2), multipath-tools (>= 0.4.9)
+Filename: ./l/libblockdev-mpath2/libblockdev-mpath2_2.26-1deepin_amd64.deb
+Size: 10464
+MD5sum: 12e45c2073dbcdb10dd873d3ab338147
+SHA1: 1adbe6a550c15d431a8da6ff8e2f782e85629eb6
+SHA256: 5f4555b03d1f107e1b7d3c3e414a2ef02c95fa62105ed8f69f90003394e66074
+SHA512: 5d2ae7c1881d4b248c5ec7e2f2367d2c3bc43ef1ca00e9cce55df525fcc419a0378ff522a519a1625552b29a7230649b6335f7e5811e542c7eb84b14ce1c6be7
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Multipath plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to multipath devices.
+

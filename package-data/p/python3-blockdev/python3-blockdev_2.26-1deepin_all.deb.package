@@ -1,0 +1,20 @@
+Package: python3-blockdev
+Architecture: all
+Version: 2.26-1deepin
+Priority: optional
+Section: python
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 64
+Depends: gir1.2-blockdev-2.0 (>= 2.26-1deepin), gir1.2-blockdev-2.0 (<< 2.26-1deepin.1~), python3-gi, python3:any
+Filename: ./p/python3-blockdev/python3-blockdev_2.26-1deepin_all.deb
+Size: 11664
+MD5sum: 09aed11f2c6459b174a39644b1efa2d2
+SHA1: 5f4572739b3da8852ce5f95c7ea8404730e00d8d
+SHA256: a770431d7aa58c51c3d62b1417187ab7a3be69995766ce5381142d5ade31a573
+SHA512: e13e25b4c4044b24d3096d16a2dec9cda963abde99be019198bbde3b8e0b530ce08d3cd3efa033456ac150f370a2d0c67951d04fd9590da8818ba88a7647dbae
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Python 3 gobject-introspection bindings for libblockdev
+ This package contains enhancements to the gobject-introspection bindings for
+ libblockdev in Python3.
+

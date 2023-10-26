@@ -1,0 +1,28 @@
+Package: libblockdev2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 223
+Depends: libblockdev-utils2 (>= 2.14), libc6 (>= 2.34), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev2/libblockdev2_2.26-1deepin_amd64.deb
+Size: 38012
+MD5sum: e6d3f6fd70a8892037354a087f06fe7b
+SHA1: ef033978d5f54b3346a367a7d66ca6899ef0af17
+SHA256: 5d3c611e721ef419c2ee7e0cd07aee797cfcd9a61f621f043bde3395e1f9c238
+SHA512: 1485d50b9314520b2b03149e91c753b42e4c03849121facb0899651866aa317dca1f1f0c0d434cd9da3f74bacf14df69effc9c526836e7117f13d3489a1526ed
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Library for manipulating block devices
+ libblockdev is a C library with GObject introspection support that can be used
+ for doing low-level operations with block devices like setting up LVM, BTRFS,
+ LUKS or MD RAID.
+ .
+ The library uses plugins (LVM, BTRFS,...) and serves as a thin wrapper around
+ its plugins' functionality. All the plugins, however, can be used as
+ standalone libraries. One of the core principles of libblockdev is that it is
+ stateless from the storage configuration's perspective (e.g. it has no
+ information about VGs when creating an LV).
+

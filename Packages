@@ -110,6 +110,26 @@ Description: Allows you to seamlessly transit from Wingdings to Deepin OpenSymbo
  .
  It allows you to seamlessly transit from Wingdings to Deepin OpenSymbol.
 
+Package: python3-blockdev
+Architecture: all
+Version: 2.26-1deepin
+Priority: optional
+Section: python
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 64
+Depends: gir1.2-blockdev-2.0 (>= 2.26-1deepin), gir1.2-blockdev-2.0 (<< 2.26-1deepin.1~), python3-gi, python3:any
+Filename: ./p/python3-blockdev/python3-blockdev_2.26-1deepin_all.deb
+Size: 11664
+MD5sum: 09aed11f2c6459b174a39644b1efa2d2
+SHA1: 5f4572739b3da8852ce5f95c7ea8404730e00d8d
+SHA256: a770431d7aa58c51c3d62b1417187ab7a3be69995766ce5381142d5ade31a573
+SHA512: e13e25b4c4044b24d3096d16a2dec9cda963abde99be019198bbde3b8e0b530ce08d3cd3efa033456ac150f370a2d0c67951d04fd9590da8818ba88a7647dbae
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Python 3 gobject-introspection bindings for libblockdev
+ This package contains enhancements to the gobject-introspection bindings for
+ libblockdev in Python3.
+
 Package: plymouth-theme-deepin-logo
 Architecture: all
 Version: 15.10.20
@@ -451,11 +471,11 @@ Installed-Size: 1048
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libgtk-3-0 (>= 3.0.0), libkf5configcore5 (>= 4.97.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libx11-6, libxcb-randr0, libxcb1, libxcursor1 (>> 1.1.2), libxfixes3
 Conflicts: dde-kwin
 Filename: ./d/dde-appearance/dde-appearance_1.1.6_amd64.deb
-Size: 289648
-MD5sum: 5961beb24149eb3c65829fce9bf0c4b5
-SHA1: af4338d19a3fd702f2b992d682f5d06b9bcb0a67
-SHA256: 267af848c369667dd7b4822e52cf7d35340bfd04290ede042501a8ee5a4d01db
-SHA512: 5bea4cdb1d7c06bac2c8b2721aaa2763161254584666e89bca967ddeb753397d1a8e09525dd48ba6b15fecdb07d0bb2457cbccb7d98d809a032c6b20dc5043b7
+Size: 289332
+MD5sum: 5256f3fd9155ff4a767ff6fd933ccf16
+SHA1: cbfd6e89aa18f3d762c1696b733a887ad8a50522
+SHA256: 8c5d062ca60ff29a5e7d5587462a12344865f957554068fec26a50e616880f8d
+SHA512: bb42c4dd1ec8e57cf5a357619cb07c74bf16d257af4ced0ca624bef01f2a8a81e1fde8ad8f2866121bb4997ac81f5d76462084ef78c0aa28928a7c28d8509d1e
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - dde-appearance module
  dde appearance Provides application resource management and control services for the dde desktop environment.
@@ -644,11 +664,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1671
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
 Filename: ./d/dde-application-manager/dde-application-manager_1.0.20_amd64.deb
-Size: 455192
-MD5sum: e9a69d4ba1ef5b49b50f84deaa798996
-SHA1: 43f16da4415de040df1b53f1abb65ad872619476
-SHA256: ace9419b37847da8ded219b5b2b9e009966c9f381cb217b6104bd182dc3ef33a
-SHA512: 68d6fe68504ec6e688eb04db8b6c23587f316a0c6a295732f4410a6033ca74232537ef5983237f5886010fd9c82c2c677d1ba1c06b0a10887bb460769cc564c4
+Size: 455228
+MD5sum: 4718986a1d6c527a27a48165b54444dd
+SHA1: b23b2f58fccef2eba8c9776b2f0e725c0fe81ed8
+SHA256: 46edb6f5031a7ef5403a50722845a08e21d975405a75ae3155cedfdd4c89027a
+SHA512: 4053e79918c935a398bf3f427ca8539040aada83c42faab568de6ca6b2ee1c604783097fea86cecd3da1d760c161d792aca561232e7c093af9fc3b58c2904afb
 Homepage: https://www.deepin.org
 Description: dde application manager module
  Application manager for DDE.
@@ -835,17 +855,17 @@ Version: 6.0.22
 Priority: optional
 Section: x11
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 6980
+Installed-Size: 6972
 Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxres1 (>= 2:1.2.1), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-qt5xcb-plugin (>= 5.0.25), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), qtxdg-dev-tools, dbus-bin
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dde-network-dialog
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5), dock-hotspot-plugin
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_6.0.22_amd64.deb
-Size: 1500732
-MD5sum: b80fec102f11f9a3ed7af6e4dd4a5182
-SHA1: dc5191609f3f097fd9f9ecb996a89bb0643ceabd
-SHA256: d889954b79729480a85b20a2d00d7000d9d10db1b0e72d044bc336441deb6d60
-SHA512: aa7aafe90ecd0a79c292423b638682351c40e04335ba9467bbe65d79c8a7ecbe04d41f69e0ab7712e03c25d7774e8a7322770ad97482cdba3dbed9dd55365ed9
+Size: 1499252
+MD5sum: c49b7494b45ec0d396b9007717fb1c8e
+SHA1: 788368ec9c2a377db0b6b10e4abd81669de2656d
+SHA256: 1734a64b8e5c85b0fc49732a6f8934270b196ca3b47cb3ac6f0c43bddc42582e
+SHA512: a11ea585c6c924ac8773b5daf5568479fa90eef4d1376970ba3e1f71e754bf1288985ab30677059821911eeb4cb5df6ba5a24b1b1429b368b7c5743870e2872a
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment
@@ -971,17 +991,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51116
+Installed-Size: 51089
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48868360
-MD5sum: c78e57d18e8f7ed58242a854435a6883
-SHA1: 66eab9f2b17fc558d83f03350386896b2ef50d78
-SHA256: a9cfc403dd276d1295c71f7ef7534f529cd88ef0d31333c563511d4349ea6749
-SHA512: 7e392518e6c2a50a6418151996a739a931d64dea15b942a9fb2e965c72988c773122710e82f20ea76c60b045bf761c03eaa06e48b57a43f18ebd97094cf55fba
+Size: 48836640
+MD5sum: c6acd71bb9262cb6dd551dd5813183d3
+SHA1: ad27766cb968ab1f8631fd22ad82005b932e440e
+SHA256: 0e4b03a4a62b5c2bdddc03993e867f806472af7039e56e063b8679358b8cfa3f
+SHA512: 56b93dcc55b55b49773f5c0aebc1183cbcab1d8a41f2ecb86303c23b1ac7635e67989e7ac6cd8fe4de09ca2b8f64196cbb46f009dc0ed595ddd2f288513c57a6
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -1584,11 +1604,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s
 Conflicts: dconfig-editor
 Replaces: dconfig-editor
 Filename: ./d/dde-dconfig-editor/dde-dconfig-editor_1.0.24_amd64.deb
-Size: 105044
-MD5sum: 38c3c012e0500bab9ae45231e126be90
-SHA1: c03278502aa24e75e2a5117ff64056b20400ecae
-SHA256: b4d9399d36f1853ff05e3a89bdd7539ad7ac44d8eb4e3f0bed01127c003e49bd
-SHA512: 63e3706dc65fa98571ea792aa5d652555501b6ced22babc180e294e5907a1019fe86fcafa3533ed40dcdad995379ab591baf37a60a5a83dacb44f64c2a5585d3
+Size: 104992
+MD5sum: 131e37acbfb583bdc31aa89b4219cdd2
+SHA1: d6104878cf7fc442dfa39bc8ad5f50cb5e9edfe0
+SHA256: 41fa16c06da4362458ca626960eb23b5fc860dbe13f3e498eaf27c67f4fddf3c
+SHA512: cd2473f28404c05feed481d139e62f34d3e488b237f28c9d2f9f1f5be8383da50ad4dbb912c513db78319ea5d0f088326f69f9b2868c13a93a9c383af984a04c
 Description: deepin desktop-environment - dde-dconfig-editor module
  dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
  DSG configuration for current user.
@@ -1733,6 +1753,25 @@ Description: GSettings deepin desktop-wide schemas
  deepin-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.
 
+Package: dde-control-center-dev
+Architecture: amd64
+Version: 6.0.30
+Priority: optional
+Section: admin
+Source: dde-control-center
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 117
+Depends: dde-control-center (= 6.0.30)
+Filename: ./d/dde-control-center-dev/dde-control-center-dev_6.0.30_amd64.deb
+Size: 24444
+MD5sum: 94a5ce9a91e0ab35748ef04de168fcdc
+SHA1: d9e268ce6b89c3f9b57574e2b51da8db2a683ccd
+SHA256: 975444fe129691739c1afe184f4170bff9261b0e3236df7e57661c5883dedf69
+SHA512: a9c4fc1d400dba203f311bcb5417540468763687fdb49a67afab1da67e1b7eec7633b9e071c47f386175c2ed1862980c8fffbe35238d4c657122c51ff940b6b2
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment - development files
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
 Package: dde-api-dev
 Architecture: all
 Version: 6.0.8
@@ -1873,11 +1912,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 754
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_amd64.deb
-Size: 180720
-MD5sum: 9f81f1adca0e3567e775e29f3c015106
-SHA1: a4767af017d4dae41db3cb01dbb0c59354d49d77
-SHA256: 20fdfaf989a87930764b0d67f7e464f5bda1e27e8c15e32b3add813ba6d675fb
-SHA512: 305b65e2de5651869478dea42127ed36e96453143367babafa894965169925330d4d7c51895060bf6edc02857a154fa47d3a04e39ac49996691eb90a2a1a7bcd
+Size: 179888
+MD5sum: ea49d1efb2e702b22325b37fba85aadf
+SHA1: a0d7c064d73408e714464aeb073c655475d6aa71
+SHA256: 107a2d59a0678cb4536b4138234a14e2ad8d964286a2db068479cfc412b887d3
+SHA512: cae881ddd59e36d154fce409fc6e88297567439ebfe450e96f7f12aae33e5760b8a1b619e68a51c8e2dab3a80307c51240bc5b483568f6bcd1dbe98f1845aca5
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
@@ -1967,11 +2006,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 11263
 Depends: dde-qt5integration, dde-api, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libical3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-calendar/dde-calendar_5.11.0_amd64.deb
-Size: 2554324
-MD5sum: df5dc7266e70c672b27a9a4085497b7e
-SHA1: 7d946f9bf839b988739a2a9c4e2d797a9fcfb6e4
-SHA256: c5f051dcad2a0ccd5e88deb333578047e7a39e49a6bf7f9d7228239cdb9a065f
-SHA512: 972b38784c1715ce1edf0ef50e97892a1236071bbbf29cfefa109abaf1f1763f2849797ab75bc736040a26be399ae46607834d374d145353d005266392e57d10
+Size: 2554736
+MD5sum: 9da6d4665874ccef12dec78a29a58e9b
+SHA1: 597dc1d3eafd7eb4c97ae90a8c2efcc64c87b16c
+SHA256: 49cc42405871f670f11cfdacd7e73484f1216e9249e73774628af4412d75205c
+SHA512: c2a98a66dba95e819da29a461df0e6da328e0b847d2d78b5a5423fabfa486dd24f6cd57abe35cf6003550c100291a5c677397d43823e2ff957541c79886831bf
 Homepage: http://www.deepin.org
 Description: Calendar is a smart daily planner to schedule all things in life.
  Calendar is a small management tool for personal life that combines time
@@ -2014,6 +2053,31 @@ Homepage: https://www.deepin.org
 Description: dde api proxy index
   dde-api-proxy is used for compatibility with old APIs for DDE.
 
+Package: dde-control-center
+Architecture: amd64
+Version: 6.0.30
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 16940
+Filename: ./d/dde-control-center/dde-control-center_6.0.30_amd64.deb
+Size: 4309756
+MD5sum: a114115b6ebe5099247f25d31623c4d5
+SHA1: 06e5c29080098eee737449c1c68c872523122c52
+SHA256: 3afdb0eba4c7556dbda91c53cf41e14b04c055eda8a35b9229f129e0f152889a
+SHA512: 5ba14bbac5570dd7cfc7b6b4fb8d92bd902fad6aef9d48e3f5bfdf0d3d866d8f807e3c61564e4dc7150490321ad9c8ce34fa9a21dd57b4dab86e1ee87e35f656
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment,
+ Integrated control center with rich functions,Besides providing rich
+ system setting items, the function level is simple, the logic is clear,
+ the user can easily set the system, and the learning cost is low,
+ Provide users with automatic update system and developer mode to meet
+ the various needs of users for the operating system.
+ abrecovery -restore system, Determine whether the system is restored
+ reboot-reminder-dialog -Update restart, Confirm whether to restart the system
+ after the completion of the update.
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
 Package: deepin-home
 Architecture: amd64
 Version: 1.4.1
@@ -2041,11 +2105,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 97
 Depends: libc6 (>= 2.4), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
 Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_6.0.22_amd64.deb
-Size: 32648
-MD5sum: 5653eaa2d1a96b77e86bd1a0c7c95772
-SHA1: de21d005921fbca54a5d0e2cf73735ae0100ec88
-SHA256: 11999285a9f5db0a5093e453ea0328eb02820c7842aa06d04d1cb6089bdc6d0c
-SHA512: 1a98246a21dfaf5f327ad1e71ca6ff9786b746e8b308ea201dcc925bf6b4db8e4c69ae2f41d32a051e16807a4961dc5b27186046f5698e9c2e75a14b86fb01d2
+Size: 32640
+MD5sum: cfc4f23fe6098ff83deae1fe9fe5482a
+SHA1: 2df776ece7e1134b51dcfcee19e64679b93f5f26
+SHA256: 82f7c77c7748b7e1919407890a5246bd2544e6dd44c227f62b93660d1412725c
+SHA512: 6b17981d05d2736a2c65c0af564421f486e95b7b6d2693a573d8d1e24169991ca89078483c961f60a5e5bb7307dd0df9560d3bb2c2364145d93c702f3e5321a7
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin for onboard
  Dock plugin for onboard of deepin desktop-environment
@@ -2298,11 +2362,11 @@ Installed-Size: 2821
 Depends: libavformat60 (>= 7:6.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
 Recommends: deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), deepin-anything-server
 Filename: ./d/dde-grand-search/dde-grand-search_5.4.4_amd64.deb
-Size: 633408
-MD5sum: d91f3bce0aa11728a62363ac273416b1
-SHA1: ffc4bb05ac656417159bd3eff399b35dc2f62ba0
-SHA256: 9cfc1e0c975c6f691f2102f7ae0abaabf22d4b3ea1e40e0e9fd7f73507a5ae23
-SHA512: 1a8e2d8dc6046cb411820b41616b6e2dc9d9d299fc48870c5f37d43c5e2e750ca74d3caad55221e1c52733a6f17dbccf838c39f812ef332a00098651b3731f5b
+Size: 632828
+MD5sum: 49a7aff0a157845da8094afaa2fbdb2c
+SHA1: ce97852b207d2a3bac7ffbb42f078a07f911c192
+SHA256: 8e11b21c290cf388e8094e51f67d0f68c78350f6e337853fa941b9c4d9075a98
+SHA512: bbeaa561595ad7817161ac1e6f94027e26440f89e0d547ea5d47f0e7927be4fab0c428c4c54ff274c16a0540c8068716fe2b2bb7862a44147c4e619db8949bc5
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - search module
  Search module of deepin desktop-environment
@@ -2528,11 +2592,11 @@ Installed-Size: 3093
 Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), libxcb-util1, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb1
 Conflicts: dde-workspace (<< 2.90.5)
 Filename: ./d/dde-launcher/dde-launcher_6.0.17_amd64.deb
-Size: 774832
-MD5sum: 8d4b2e429c6820217d09e33df7f5be98
-SHA1: fac495bb85e79f3cfb41044379d9c79af05a8282
-SHA256: d237b7dbfe4817caf7e031f9428400b1707dd59d78116fb364860c20ed1cd920
-SHA512: b21722c69cd4c50271d0c663981f2a1667b39b19b564da956ca6e50235c0e09e80fbbfb529d2f45d69e555923546b1b929e93135c80897988a02ac27e94c1f91
+Size: 772916
+MD5sum: 133ccaca81d6e045f2dbbe8c2730970f
+SHA1: 2c9936d7a9d1b06848dfa59599f8d1405cb724bd
+SHA256: f6ae91c6c4a2ff74229c872b11765503693e5ea1f0fc1e9007a0eae1ad13a4bd
+SHA512: a00a790a97f905597d86c495472e21919dd8e7baf6dab493e00eb0e919a28ac15abea10366cd52d9022e28e94bde799bbdf6fc5dbc4e131317b61583adedc21b
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
@@ -3293,6 +3357,24 @@ Description: Package Installer helps users install and remove local packages.
  not included in App Store supporting bulk installation, version identification
  and auto completion.
 
+Package: dde-control-center-doc
+Architecture: amd64
+Version: 6.0.30
+Priority: optional
+Section: admin
+Source: dde-control-center
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 729
+Filename: ./d/dde-control-center-doc/dde-control-center-doc_6.0.30_amd64.deb
+Size: 519704
+MD5sum: a9fcb58c5d90985316346d86c352e35c
+SHA1: 299995107e391c81a0f4c0443eb745ff72281550
+SHA256: dbf6caef40debc57e938723f88075c53dbafc0aa800f940a4f8b2031d0b072b2
+SHA512: c35329903de5f50445c771cd9de35cc937a04dcbb53b4825d663484126e9dbe7f008ff846414417ed1f8d18ba9b3e5ad6ccd26043b3b2c05da9682a4ab7c65d2
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: dde-control-center (document)
+ This package contains the doc files of dde-control-center
+
 Package: deepin-home-appstore-daemon
 Architecture: arm64
 Version: 8.0.0.0004-1
@@ -3726,6 +3808,27 @@ SHA512: de0cd0097bf3a8e38116ef6c7c8127bbd678a1c24ced0cb4199c791a4c4a32c6043c3ccf
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Qt Quick Controls 2 QML module
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: gir1.2-blockdev-2.0
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 91
+Depends: gir1.2-glib-2.0, libblockdev-utils2 (>= 2.24), libblockdev2 (>= 2.25)
+Filename: ./g/gir1.2-blockdev-2.0/gir1.2-blockdev-2.0_2.26-1deepin_amd64.deb
+Size: 21604
+MD5sum: dff7dd2adc85d97005db179f11737371
+SHA1: a900cdd5d14c04f1962b06f7eaabb71a90b5f810
+SHA256: 3a3b7995fd46f96d93dacd7b33e1ee744cabfeb53824398ed7c7de2988ad103d
+SHA512: 723790f242912acb746efe7373496e64ac8d1fcfda35ce66340dd8b379bec6dd7ca5cf915c88415065893acd973f34d91b1286e0252e771e8281d26910e4a175
+Homepage: https://github.com/storaged-project/libblockdev
+Description: libblockdev introspection data
+ This package contains the GObject introspection data of libblockdev in
+ binary typelib format.
 
 Package: golang-github-codegangsta-cli-dev
 Architecture: all
@@ -4317,6 +4420,27 @@ Description: Development Tool Kit notifications library
  used to develop applications which want to access and control notifications.
  This package contains the shared libraries.
 
+Package: libblockdev-mdraid-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Depends: libblockdev-mdraid2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-mdraid-dev/libblockdev-mdraid-dev_2.26-1deepin_amd64.deb
+Size: 4752
+MD5sum: 59eac4eed5ebbd501f7c7f26f9ffc58d
+SHA1: e6185ce60be81809c1503813a9655fe850b57747
+SHA256: 2f6e02d4aeb535dd8e3ea7eaf8135496820ee24042529d43d6306cac53c30a9b
+SHA512: 6ce53b8d8d3e78b17b64394ff3f3c4b9c9fcf7db29ae7f859fd141ca1aafa57e39bdb0c2a15cd96d78c3b30926a2296e7548c5874598f347321cf5e936aee0c3
+Homepage: https://github.com/storaged-project/libblockdev
+Description: MD RAID plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-mdraid plugin/library.
+
 Package: libqt5designer5
 Architecture: amd64
 Version: 5.15.7-1+dde
@@ -4341,6 +4465,27 @@ Description: Qt 5 designer module
  The QtDesigner module provides classes that allow you to create your own
  custom widget plugins for Qt Designer, and classes that enable you to access
  Qt Designer's components.
+
+Package: libblockdev-crypto2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 66
+Depends: libblkid1 (>= 2.23.0), libblockdev-utils2 (>= 2.20), libc6 (>= 2.25), libcryptsetup12 (>= 2:2.4), libglib2.0-0 (>= 2.42.2), libnss3 (>= 2:3.13.4-2~), libvolume-key1 (>= 0.3.9)
+Filename: ./l/libblockdev-crypto2/libblockdev-crypto2_2.26-1deepin_amd64.deb
+Size: 18216
+MD5sum: fd64ffe937f6bcf4b4d5b5676c46f394
+SHA1: 6398572c2ba956f5cb16735696e17f1105f1f59d
+SHA256: c0f372bd334d64ac6503580081675ff507b934b2de78d9e14de44855c8bbec20
+SHA512: 41d02d4eefcb1dee4c12b60c86e95e049acf981c6a77a23a64324456751f5ac8cad73fda70e5267f47825d96c833bfe7ce395140415d438d40bbb767902aa4dc
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Crypto plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to encrypted devices (LUKS).
 
 Package: lib32ncursesw6
 Architecture: amd64
@@ -4389,6 +4534,27 @@ Description: Deepin Tool Kit Core library
  .
  This package contains the shared libraries.
 
+Package: libblockdev-fs-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 27
+Depends: libblockdev-fs2 (= 2.26-1deepin), libparted-dev, libmount-dev, libblkid-dev
+Filename: ./l/libblockdev-fs-dev/libblockdev-fs-dev_2.26-1deepin_amd64.deb
+Size: 5460
+MD5sum: 1cd0795bd90bbc9e9f43f9a9b67b1b2e
+SHA1: a0bbee9043a34fac5562216685259ebd6524f1e6
+SHA256: 8f69b4a89043f23fb6b8b1401492c4e7ffd63362d066609ff8fe0ea3dbcecc11
+SHA512: 7324c909cb951da1458de77c5e9b0f471ff0f8fa81e5af5336c17ddac4e15a66027d9548598880b79105b6e222d0a12b58bc6f32e72fc9ec5c7cf4a6a2ec5a92
+Homepage: https://github.com/storaged-project/libblockdev
+Description: file system plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-fs plugin/library.
+
 Package: libdareader1
 Architecture: amd64
 Version: 1.0-1
@@ -4400,11 +4566,11 @@ Maintainer: chenlinxuan <chenlinxuan@uniontech.com>
 Installed-Size: 32
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./l/libdareader1/libdareader1_1.0-1_amd64.deb
-Size: 5648
-MD5sum: 82e4283c443842dfcb24e152484dc7fe
-SHA1: ca31432673234c176ed173da4d7fcf6524a37e01
-SHA256: abeeea384877e490f0e73a00f8c47986c38191eb1779b809f0ca12eed3431d4a
-SHA512: 4e07a83440a9e268a071269b9f6f55865454837e7e218ea0fc3c2de72ce6c6259a31e6d90feefdf6b172441d00c7cda1df499fc7831376d737d466b49ad92266
+Size: 5640
+MD5sum: 1df8281d96a248f53c13894b038d5c52
+SHA1: 909e8dce0708b000da7783b38d901eca02646acc
+SHA256: 743d134217fb6909b19ce61282e3835ca5bf3995f00ed90273508ee26a73df36
+SHA512: 96f446f3b6c5d9b2f252611251b195d69679ef9ef6c8e37274c124ae8f2646d30c883151478b2d1a7d74557df89170f9511a490e525058d4be5bf9aa0490a413
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
@@ -4446,6 +4612,48 @@ SHA512: 3bd980ad611f9b86f84abea280ba231ac49ecc3ea45651743b3d73443175946691afc0dd
 Homepage: https://github.com/linuxdeepin/gio-qt
 Description: Gio wrapper for Qt (documentation)
  A convenient way to bind gio with Qt5.
+
+Package: libblockdev-utils-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 29
+Depends: libblockdev-utils2 (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-utils-dev/libblockdev-utils-dev_2.26-1deepin_amd64.deb
+Size: 6488
+MD5sum: 283f31c6dafe47746a8f1e0ca7223155
+SHA1: 0e21f28b426961419f8bba4c24afd6ea41afc789
+SHA256: dc341818de07878b445ef2b61396e1974dad3cc75f39205379852b0004c1b415
+SHA512: 4fd66c4c7b6ef93109e3bb9d36d66bbe822d8832a1a9500667c0c1e48d92639ce6e2e777544c5aaad715af79863796b5aa6d7c76961448eb454aeedc23c543d4
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Utility functions for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-utils library.
+
+Package: libblockdev-part-err2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 33
+Depends: libc6 (>= 2.3), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev-part-err2/libblockdev-part-err2_2.26-1deepin_amd64.deb
+Size: 5452
+MD5sum: 52e29324ea5e12aa4771c78f2f5fff7d
+SHA1: f4f7be2b00799180bd53cd7ab222a16cdb008dea
+SHA256: d528f7fca01c1337cdc3fcbe05ec2be7fbf8a6de7ce7f186a4ed168a5e271af8
+SHA512: f3baf2ee87708eaa11740fa6f38a47d69e5734d70404bfeac4b602d273088a3f9f9b5de06c55ccfeba103ba7ae38392b08d6d6e64e5f4dbe9c8d56ccb29566bc
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partition error utility functions for libblockdev
+ libblockdev-part-err is a library providing utility functions used by the
+ libblockdev library and its plugins.
 
 Package: libdmr
 Architecture: amd64
@@ -4608,6 +4816,27 @@ SHA256: 41a012eaf7e379e08b1edc0ddd1089b3793f96d32e1c03e5a4fd64fe7543ec43
 SHA512: 3102c05f22bbccdc6d020ab9adbb40d04e20f39cc206d707b4ef336796f399abd5f20e98b9284fc08cdd5f5f2919ccbb5e34ad038a6108b4f01bbbb84c2a60e4
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
+
+Package: libblockdev-loop-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: libblockdev-loop2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-loop-dev/libblockdev-loop-dev_2.26-1deepin_amd64.deb
+Size: 4272
+MD5sum: 328b6b03c8f988ec0b03e521892afb80
+SHA1: 6bcce19b5613a8e46cfd146b928a8757d471df32
+SHA256: 677e1c3fd42876d3ed1cc40905dc9c24f964f5a041f04c74ab3a13d2ce0f63fe
+SHA512: 0f6726c7288e91fcfdfe487004a2df57d09f7d98f0f107d540fd440c89de7a51bb25cd6a50fd299fb656566ff881ebf72360e33b2a6b12efe60ad10932f8f184
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Loop device plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-loop plugin/library.
 
 Package: libdframeworkdbus2
 Architecture: amd64
@@ -4844,6 +5073,27 @@ Description: Deepin Tool Kit Gui Devel library
  .
  This package contains the header files and shared libraries of DtkDeclarative
 
+Package: libblockdev-mdraid2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 53
+Depends: libblockdev-utils2 (>= 2.20), libbytesize1 (>= 2.6), libc6 (>= 2.27), libglib2.0-0 (>= 2.42.2), mdadm (>= 3.3.2)
+Filename: ./l/libblockdev-mdraid2/libblockdev-mdraid2_2.26-1deepin_amd64.deb
+Size: 14624
+MD5sum: f1a5283f7a1123d3119eaae3176925c6
+SHA1: 50450dc97981ee4d7c99a56daccd44f0e7666b6a
+SHA256: e76d0fb869b8ca0445b4026d043958420220e652b54dbf4993a4b873fa3cfd9f
+SHA512: 0acf1ee682e753fd760fac035422575d85ffee3bd018ee841084997e6bde2aa170f76c737dd9e6cb590c0c89922d13aaad72f74bd6717c3dbf9e48e21685afd6
+Homepage: https://github.com/storaged-project/libblockdev
+Description: MD RAID plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to MD RAID.
+
 Package: libncurses5-dev
 Architecture: amd64
 Version: 6.3-1
@@ -4882,6 +5132,27 @@ SHA512: 0aa13ca5cb4d31d88af56a8c26d866614051cc2bd4bd1f6b3b3bddcab414c587f1578893
 Description: Development files for libdocparser
  This package contains the header files and static libraries
  of libdocparser
+
+Package: libblockdev-dm2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libdevmapper1.02.1 (>= 2:1.02.97), libdmraid1.0.0.rc16 (>= 1.0.0.rc16), libglib2.0-0 (>= 2.42.2), libudev1 (>= 216), dmsetup (>= 1.02.93), dmraid
+Filename: ./l/libblockdev-dm2/libblockdev-dm2_2.26-1deepin_amd64.deb
+Size: 11412
+MD5sum: 69314ab8f35c05776844f4cd632149b4
+SHA1: 1e8c6d20d85532d600b5df71e2f03be425bf5c56
+SHA256: 406d9e9e65ae1966f3d70640bc432c767f5a14625b43ca05ddf94f80d5715b10
+SHA512: 8efb35baa13137ab046fc1cf3df17be1509c7450fb322b0d0a2db42d7be6ee1abf8809ece0bca007b9a16b11a612f6fc22c3aadc33bea5e0b02c005cdc19b8af
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Device Mapper plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to Device Mapper.
 
 Package: libdtk6widget-dev
 Architecture: amd64
@@ -5137,6 +5408,27 @@ Homepage: https://invisible-island.net/ncurses/
 Description: transitional package for libncurses-dev
  This is a transitional package that can safely be removed.
 
+Package: libblockdev-swap-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: libblockdev-swap2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-swap-dev/libblockdev-swap-dev_2.26-1deepin_amd64.deb
+Size: 4248
+MD5sum: 8cab7c8f28c67aee989d17013c4dae1b
+SHA1: e040756d02068cc43dd4f81dd810e77b662a695d
+SHA256: 171128d155a50ac481a3e209f65c58913de83488f4c6f16a4c50f32653674d91
+SHA512: 36657a6a39787cd746b0baf17b65e9a420be33e535d2e7c6ea69ee9c98d1ff674b93f5aaca833b586b0119e7a59afa3c17ecaa2d8773eec28c0a38ee30ff107e
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Swap plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-swap plugin/library.
+
 Package: libdlmcontrolui
 Architecture: amd64
 Version: 5.3.76
@@ -5158,6 +5450,34 @@ Homepage: https://www.deepin.org/
 Description: download manager dlmcontrolui lib.
  downloader for deepin desktop environment.
 
+Package: libblockdev2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 223
+Depends: libblockdev-utils2 (>= 2.14), libc6 (>= 2.34), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev2/libblockdev2_2.26-1deepin_amd64.deb
+Size: 38012
+MD5sum: e6d3f6fd70a8892037354a087f06fe7b
+SHA1: ef033978d5f54b3346a367a7d66ca6899ef0af17
+SHA256: 5d3c611e721ef419c2ee7e0cd07aee797cfcd9a61f621f043bde3395e1f9c238
+SHA512: 1485d50b9314520b2b03149e91c753b42e4c03849121facb0899651866aa317dca1f1f0c0d434cd9da3f74bacf14df69effc9c526836e7117f13d3489a1526ed
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Library for manipulating block devices
+ libblockdev is a C library with GObject introspection support that can be used
+ for doing low-level operations with block devices like setting up LVM, BTRFS,
+ LUKS or MD RAID.
+ .
+ The library uses plugins (LVM, BTRFS,...) and serves as a thin wrapper around
+ its plugins' functionality. All the plugins, however, can be used as
+ standalone libraries. One of the core principles of libblockdev is that it is
+ stateless from the storage configuration's perspective (e.g. it has no
+ information about VGs when creating an LV).
+
 Package: libdfm-io
 Architecture: amd64
 Version: 1.2.17
@@ -5177,6 +5497,48 @@ SHA512: ef5ea1429cf988ab1393b31adab95a4a0015bdefd2830f4f5099ede848a6341fff298e02
 Homepage: http://www.deepin.org
 Description: A libaray about I/O.
  A libaray that provides I/O interface.
+
+Package: libblockdev-fs2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 83
+Depends: libblkid1 (>= 2.24.2), libblockdev-part-err2 (>= 2.14), libblockdev-utils2 (>= 2.20), libc6 (>= 2.7), libext2fs2 (>= 1.42.11), libglib2.0-0 (>= 2.42.2), libmount1 (>= 2.30.2), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), e2fsprogs
+Filename: ./l/libblockdev-fs2/libblockdev-fs2_2.26-1deepin_amd64.deb
+Size: 22508
+MD5sum: 83faf82673994131c04dae142a0e105b
+SHA1: 87795aaf6e04dbc0e2382c7556835c70255674cf
+SHA256: 369403cd289d483cc9d06f44b81a54fc692d8b7036eecc5392a69f87335222e9
+SHA512: ca05d122fa0bda626adacd9724e6df35250acc74d00334b5e32c9d9f88e3323ed6766042de98afe686b0dbd16275a9f9fa8e891ece5059d979c3876f9e614484
+Homepage: https://github.com/storaged-project/libblockdev
+Description: file system plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to operations with file systems.
+
+Package: libblockdev-lvm-dbus2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 100
+Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libdevmapper1.02.1 (>= 2:1.02.97), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev-lvm-dbus2/libblockdev-lvm-dbus2_2.26-1deepin_amd64.deb
+Size: 29176
+MD5sum: 91108cde6b8fef9d7f74719a6b849bc0
+SHA1: d4bf550613a067a72035f1c776b751604d156fa0
+SHA256: effffe6192e99bbfaf195c2bf77f18eebd82f206bf652ff6f552eb94d356e78e
+SHA512: 48286e53f7391c9688e40a2397eec2928fbe40d83ee23e661c2c346d7eae5c3cb7e0f75ff4cd32007c76255cf39b740cd80d279e78c1dcf330e2fcefe4f6c92d
+Homepage: https://github.com/storaged-project/libblockdev
+Description: LVM DBus plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the LVM-related functionality utilizing the LVM DBus API.
 
 Package: libkf5globalaccel5
 Architecture: amd64
@@ -5361,6 +5723,31 @@ Description: Qt library wrapper for Wayland libraries
  DWayland provides a Qt-style Client library wrapper for
  the Wayland libraries.
 
+Package: libblockdev-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 2220
+Depends: libblockdev2 (= 2.26-1deepin), gir1.2-blockdev-2.0 (= 2.26-1deepin)
+Filename: ./l/libblockdev-dev/libblockdev-dev_2.26-1deepin_amd64.deb
+Size: 120748
+MD5sum: 8167d0adb5d88c5d96571162636ff8fa
+SHA1: 5bd0ab4eee2411858f863e1179f0d3be057b2b51
+SHA256: bd2bc7ff518c66b1666b469775ff64a55c40c81878f699f93f3434eee9a5691e
+SHA512: 455eb26c28315cf7a87a7ba404d68005a17e3e523e64e7a27b9079844320d535ce531e8f95524d9f3272f84a33c3a976b4b23feb254ff117f9cb472990535398
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Library for manipulating block devices - development
+ libblockdev is a C library with GObject introspection support that can be used
+ for doing low-level operations with block devices like setting up LVM, BTRFS,
+ LUKS or MD RAID.
+ .
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev library.
+
 Package: libtinfo5
 Architecture: amd64
 Version: 6.3-1
@@ -5432,6 +5819,27 @@ Description: Qt DBus interface library for Deepin software (development files)
  .
  This package provides development header files for libdframeworkdbus.
 
+Package: libblockdev-loop2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 33
+Depends: libblockdev-utils2 (>= 2.14), libc6 (>= 2.27), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev-loop2/libblockdev-loop2_2.26-1deepin_amd64.deb
+Size: 8264
+MD5sum: c01c3635417bc33ad9786b5633eb35d1
+SHA1: d1d478accf09b5bc55cd91eefc248c6a753b86af
+SHA256: 6183b68bca34c7a4d082db2b9c36aaa2819ddda3ac1085ef51493f6fe5cc3941
+SHA512: f1e10ed93f6a2af2211e9accbc7cec4d18307bc1d7d70d7763b4b117c562cff7604e04031e7dc2b360a0bb89816a6540a32239f01cc0dd6c5e280f78726ef04e
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Loop device plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to loop devices.
+
 Package: libdtk6gui-bin
 Architecture: amd64
 Version: 6.0.0
@@ -5476,6 +5884,28 @@ Description: Qt library wrapper for Wayland libraries
  the Wayland libraries.
  .
  This package contains the shared library.
+
+Package: libblockdev-kbd2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 61
+Depends: libblockdev-utils2 (>= 2.20), libbytesize1 (>= 2.6), libc6 (>= 2.27), libglib2.0-0 (>= 2.42.2), bcache-tools (>= 1.0.8)
+Filename: ./l/libblockdev-kbd2/libblockdev-kbd2_2.26-1deepin_amd64.deb
+Size: 16148
+MD5sum: 97b35ac55177717cdd08f18d316bfb08
+SHA1: 05d4574358b83e4d7e5734a005631cd47a3048e0
+SHA256: c894e478ed4872afb81ed255ed9abb8598a9960d6a61740efa6a3519d6d52b14
+SHA512: a830ac150e215da51c725a8ab1d0211da2c594bb541c3f2caedb03405beb1cb8d2641de754f9a9f9368ae525808183149fe11268db29bfb31ef548f4b2c352c5
+Homepage: https://github.com/storaged-project/libblockdev
+Description: kernel block device plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to kernel block devices (namely zRAM and
+ Bcache).
 
 Package: libdtk6widget-doc
 Architecture: amd64
@@ -5541,6 +5971,27 @@ Description: shared libraries for terminal handling (legacy version)
  .
  This package contains the legacy shared libraries necessary to run
  programs compiled with ncurses.
+
+Package: libblockdev-kbd-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Depends: libblockdev-kbd2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-kbd-dev/libblockdev-kbd-dev_2.26-1deepin_amd64.deb
+Size: 4704
+MD5sum: e6baba9559eac0cdc9db3bb53d1b8216
+SHA1: 9d8fc80704e7f73eadb4c1c1f707219ac4b69424
+SHA256: c54788e8d698d2c042fe9e82294732a6318780638ad9e50d6bf16924fb24446d
+SHA512: 05a3a926ce94ae9e19b07b80065c7b14c0006de03141a10e225fdabdc1ced83dffec24e3c74c7c7690985a6f4a0a979cbcedcc7f9036eea596d12fe7a1591a38
+Homepage: https://github.com/storaged-project/libblockdev
+Description: kernel block device plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-kbd plugin/library.
 
 Package: libdlmdatabase
 Architecture: amd64
@@ -5694,6 +6145,33 @@ Description: development files for kglobalaccel
  .
  Contains development files for kglobalaccel.
 
+Package: libblockdev-plugins-all
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 10
+Depends: libblockdev2 (= 2.26-1deepin), libblockdev-btrfs2 (= 2.26-1deepin), libblockdev-crypto2 (= 2.26-1deepin), libblockdev-dm2 (= 2.26-1deepin), libblockdev-fs2 (= 2.26-1deepin), libblockdev-kbd2 (= 2.26-1deepin), libblockdev-loop2 (= 2.26-1deepin), libblockdev-lvm2 (= 2.26-1deepin), libblockdev-lvm-dbus2 (= 2.26-1deepin), libblockdev-mdraid2 (= 2.26-1deepin), libblockdev-nvdimm2 (= 2.26-1deepin), libblockdev-mpath2 (= 2.26-1deepin), libblockdev-part2 (= 2.26-1deepin), libblockdev-part-err2 (= 2.26-1deepin), libblockdev-swap2 (= 2.26-1deepin), libblockdev-utils2 (= 2.26-1deepin)
+Filename: ./l/libblockdev-plugins-all/libblockdev-plugins-all_2.26-1deepin_amd64.deb
+Size: 3668
+MD5sum: 5ce2c4ab8167c0cf68916586b0426353
+SHA1: b57d1c5f8fe63cf3848adcdcc6fb8cd29eda69f8
+SHA256: 80970d9bcc305f8c5d00aaa19b8bd2d4ca1c3ba7a5308b44cdba9b50c60e26cd
+SHA512: cbf6e3240093421062b80f6ff7e3fc4e5fa13f74f41044cc960aa9ca7d7a716358346cfd0bc5d791f591be544b5a79bbbdcdf2009fe28c5ac06ab4f6242dd537
+Homepage: https://github.com/storaged-project/libblockdev
+Description: All plugins for libblockdev
+ libblockdev is a C library with GObject introspection support that can be used
+ for doing low-level operations with block devices like setting up LVM, BTRFS,
+ LUKS or MD RAID.
+ .
+ The library uses plugins (LVM, BTRFS,...) and serves as a thin wrapper around
+ its plugins' functionality.
+ .
+ This is a metapackage that depends on all libblockdev plugins.
+
 Package: libdtkgui-doc
 Architecture: amd64
 Version: 5.6.17
@@ -5772,6 +6250,27 @@ Description: deepin graphical user interface library utilities
  This package contains the utilities which are
  needed for developing deepin applications.
 
+Package: libblockdev-part2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 62
+Depends: libblockdev-part-err2 (>= 2.14), libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libglib2.0-0 (>= 2.42.2), libparted2 (>= 3.1), gdisk (>= 0.8.6), fdisk | util-linux (<< 2.29.2-3~)
+Filename: ./l/libblockdev-part2/libblockdev-part2_2.26-1deepin_amd64.deb
+Size: 17308
+MD5sum: 3bc6be9258dd83d7e81c4877c169f401
+SHA1: 395133dc07e862d837babbf2584f2c2cee780e51
+SHA256: 6a31f0bfe0e3e70138726a4e5735d676b826b5e85352c474c03d46ee7b9d240a
+SHA512: 00f27cba211a2d9d1b1ac348ef5e1c67caca61b01e07be2c8095f5ab7cd46ad537bcc7a75d17ad75aec9e114bd19f72503a929ed852c3e7f6af1738da8ce5ae4
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partitioning plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to partitioning devices.
+
 Package: libunistring2
 Architecture: amd64
 Version: 0.9.10-6
@@ -5799,6 +6298,27 @@ Description: Unicode string library for C
  .
  This package contains the shared library.
 
+Package: libblockdev-nvdimm-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 18
+Depends: libblockdev-nvdimm2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-nvdimm-dev/libblockdev-nvdimm-dev_2.26-1deepin_amd64.deb
+Size: 4484
+MD5sum: 629057a60be8ee68391651441d57f0a6
+SHA1: 597313e0958e60339f23252d934882907f55580d
+SHA256: 882b14e2a98e1f372ac57efb526bdd704f4de4b6721d538eb3aa48f39fb55e1f
+SHA512: 3b531d2970ffc7a5f2a6c23905cc591517305759731461be7ed2049fd1f464f574dc229fcc8d83ab5bf77678b0cab78d55792cfd4ae20d561648cf602f6d3c94
+Homepage: https://github.com/storaged-project/libblockdev
+Description: NVDIMM plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-nvdimm plugin/library.
+
 Package: libncursesw6
 Architecture: amd64
 Version: 6.3-1
@@ -5823,6 +6343,27 @@ Description: shared libraries for terminal handling (wide character support)
  .
  This package contains the shared libraries necessary to run programs
  compiled with ncursesw, which includes support for wide characters.
+
+Package: libblockdev-utils2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 58
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.75.3), libkmod2 (>= 19), libudev1 (>= 216)
+Filename: ./l/libblockdev-utils2/libblockdev-utils2_2.26-1deepin_amd64.deb
+Size: 15464
+MD5sum: 6e02ea2add965ff2b4d0108c408431f1
+SHA1: 572b4d1912af945ed82ae1e0c8f5fada6e7b6c6b
+SHA256: 5b5da1a4341d5cdf00ffe6d85699ec59321dd8e8a985637161cefeb724334493
+SHA512: 12acd3f22f4643d4590f329c8a19d4886c4c232f3ea162da09091fea5fa9b0b11de5a6da591188a425af3b2ef209bf3f36be0dab6eb9a6e04e38f9000db0a3a1
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Utility functions for libblockdev
+ The libblockdev-utils is a library providing utility functions used by the
+ libblockdev library and its plugins.
 
 Package: libopencv-mobile-dev
 Architecture: amd64
@@ -5916,6 +6457,27 @@ SHA512: dcdb367a9b26459e53d2dd320c6940f4d1808081ef501d6f447cc4b7e0a986928d2303b7
 Homepage: http://www.deepin.org/
 Description: dtk common files
  Used to store public configuration files
+
+Package: libblockdev-btrfs-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Depends: libblockdev-btrfs2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-btrfs-dev/libblockdev-btrfs-dev_2.26-1deepin_amd64.deb
+Size: 4608
+MD5sum: c0aff1f437639f57dc78a51c416a2d14
+SHA1: 27bbe2150abb220802b1cb44348e10a944e9cfd7
+SHA256: 76bc04afe3e9f8a8dc3a9ca6ace70105c8d9bdafc290d4241a2624f359dced0a
+SHA512: d2aa24a234de693915a332988a7865ba96425f60118dd3680f1fad9bdb50608c71db063729a291855e77b76ffa30dd714315dd9810980fe24107684d9d3562e3
+Homepage: https://github.com/storaged-project/libblockdev
+Description: BTRFS plugin for libblockdev - development
+ Header files and pkg-config files needed for development with the
+ libblockdev-btrfs plugin/library.
 
 Package: libdtkgui-dev
 Architecture: amd64
@@ -6134,6 +6696,27 @@ Homepage: https://github.com/linuxdeepin/gio-qt
 Description: Gio wrapper for Qt.
  A convenient way to bind gio with Qt5.
 
+Package: libblockdev-mpath2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libdevmapper1.02.1 (>= 2:1.02.97), libglib2.0-0 (>= 2.42.2), multipath-tools (>= 0.4.9)
+Filename: ./l/libblockdev-mpath2/libblockdev-mpath2_2.26-1deepin_amd64.deb
+Size: 10464
+MD5sum: 12e45c2073dbcdb10dd873d3ab338147
+SHA1: 1adbe6a550c15d431a8da6ff8e2f782e85629eb6
+SHA256: 5f4555b03d1f107e1b7d3c3e414a2ef02c95fa62105ed8f69f90003394e66074
+SHA512: 5d2ae7c1881d4b248c5ec7e2f2367d2c3bc43ef1ca00e9cce55df525fcc419a0378ff522a519a1625552b29a7230649b6335f7e5811e542c7eb84b14ce1c6be7
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Multipath plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to multipath devices.
+
 Package: libdfm-burn-dev
 Architecture: amd64
 Version: 1.2.17
@@ -6246,6 +6829,27 @@ Description: Deepin Tool Kit Gui (Document)
  .
  This package contains the qt Document of DtkGui
 
+Package: libblockdev-lvm-dbus-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: libblockdev-lvm-dbus2 (= 2.26-1deepin)
+Filename: ./l/libblockdev-lvm-dbus-dev/libblockdev-lvm-dbus-dev_2.26-1deepin_amd64.deb
+Size: 3532
+MD5sum: 58a05c640f696e93311eb1e8ff9954be
+SHA1: 3f927337393ff0503fbf3d8663c00e42560711e6
+SHA256: 0e293de02cf0fa7593140bb97b1014f8eec0308f16f9b3f557fdaaf7f851e04a
+SHA512: 9592379291562fe6a34a8bce35b536890408b8097a831c6465295ff1565f28f41092959b4019f30abe945e0becb99a4c11dbfbe1492c0dd2bbf526ef6ad9a165
+Homepage: https://github.com/storaged-project/libblockdev
+Description: LVM DBus plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-lvm plugin/library.
+
 Package: libdtkcore-dev
 Architecture: amd64
 Version: 5.6.18
@@ -6349,6 +6953,27 @@ SHA512: f684d51ba20567e829d7a3e165c10005401d7fb2cd53ed3ba109e08bc0dc033e432097dd
 Homepage: https://www.deepin.org/
 Description: download manager dlmaria2 lib.
  downloader for deepin desktop environment.
+
+Package: libblockdev-crypto-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 26
+Depends: libblockdev-crypto2 (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-crypto-dev/libblockdev-crypto-dev_2.26-1deepin_amd64.deb
+Size: 6020
+MD5sum: 81bb12b8bf237c8ed01e794553fe9386
+SHA1: aeae16d40eb23705e4cd142f3e327a5ebd977113
+SHA256: 625607973dc03d482169ac1248e56603d8935fc7f4da3c09fddd8deff0bad073
+SHA512: d74b5c96d9186a756b3fb0e8d82436f2bef2eb262c1808af8dbc018f30eae9fdfdb28448ab1b5a73823a1f116abb052865c0febd46d65620e7fc628a215e4c69
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Crypto plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-crypto plugin/library.
 
 Package: libdtkgui5-bin
 Architecture: amd64
@@ -6650,6 +7275,27 @@ Description: Configurable global shortcut support.
  .
  This package contains binaries.
 
+Package: libblockdev-swap2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: libblkid1 (>= 2.23.0), libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libglib2.0-0 (>= 2.42.2)
+Filename: ./l/libblockdev-swap2/libblockdev-swap2_2.26-1deepin_amd64.deb
+Size: 10132
+MD5sum: 1a09a71820a718a637488ae955dae13e
+SHA1: 04622ea66c20d496732c00ea497bcb32ea118845
+SHA256: 51c0bebcc11598ed44880295cd044c31ecc6c13beef3f66a18433a5c4e19cdc1
+SHA512: 059b4e5aae6d112a1c27e0fedec25762f40590645956556a989778fe10f3a0e9e291bf6dd40d24a7e7a75022f94bb416795897ef6102033c40828a5ca99e2c41
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Swap plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to swap devices.
+
 Package: libdtkdeclarative5
 Architecture: amd64
 Version: 5.6.19
@@ -6792,6 +7438,27 @@ Description: Deepin Tool Kit Core (document)
  .
  This package contains the doc files of DtkDevice
 
+Package: libblockdev-lvm-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 30
+Depends: libblockdev-lvm2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-lvm-dev/libblockdev-lvm-dev_2.26-1deepin_amd64.deb
+Size: 6304
+MD5sum: b172c15ebc455900f07fe59471f23fe0
+SHA1: 2758bc3e2d0955f5a4c5cb5cdcefbb15ff03c353
+SHA256: 07b0e13a836e3668219c1d2fd2edf1afde016892460d85744d89600a2abdb062
+SHA512: 2c7b45c7180beeb715a770c59b6ddc21591dc66296fe1ad5d3253cb68abc26ad46eb49a8f0422a302fc680a55d3849ee7d741958e78c85ef28e4aaf683d1bfed
+Homepage: https://github.com/storaged-project/libblockdev
+Description: LVM plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-lvm plugin/library.
+
 Package: lib32ncurses-dev
 Architecture: amd64
 Version: 6.3-1
@@ -6841,6 +7508,48 @@ Description: Deepin Tool Kit template devel library
  libdtkcrypt-dev is base devel library of Deepin Qt/C++ applications.
  .
  This package contains the header files and static libraries.
+
+Package: libblockdev-part-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: libblockdev-part2 (= 2.26-1deepin)
+Filename: ./l/libblockdev-part-dev/libblockdev-part-dev_2.26-1deepin_amd64.deb
+Size: 5080
+MD5sum: 16b37259083262d9548b24f5c1daba16
+SHA1: 9f7be9dfd782a73bc7d2808b1d1fc72812b7f065
+SHA256: 38d47d99fec6246af6ef20c1ea24b58b2d6276734cc09e84daba696516141c82
+SHA512: 0fba9712b50c9221ad0418a5dc802fc4dd89e485b7e5743e04b2d9d69b73bd360126c2bed4e911944a765d813528fd5afb57055a8b26c142c4c3469c932bb9b7
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partitioning plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-part plugin/library.
+
+Package: libblockdev-nvdimm2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 46
+Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libglib2.0-0 (>= 2.42.2), libndctl6 (>= 63-1.2~), libuuid1 (>= 2.16)
+Filename: ./l/libblockdev-nvdimm2/libblockdev-nvdimm2_2.26-1deepin_amd64.deb
+Size: 11168
+MD5sum: d04b82b044a0bf4541f54b81a98e2537
+SHA1: 154f16cbdd107d64ddc4330389cd1f686c924073
+SHA256: c3e0f8755e41ddf5163fea3269aa6e1db2def6d86d42b884ea39c6269e513add
+SHA512: dc42e235f5df42ecfb40edbe58132cd25b934324784aa35f321ef2f2b76eafce6724df48698f4a9c54ea60a30a81f4776f441bcd021dba6121f2e3e615057503
+Homepage: https://github.com/storaged-project/libblockdev
+Description: NVDIMM plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the functionality related to NVDIMM.
 
 Package: libdtk6declarative
 Architecture: amd64
@@ -6905,6 +7614,27 @@ Description: Header files for Linux amd64 configuration (meta-package)
  This package depends on the architecture-specific header files for the
  latest Linux kernel amd64 configuration.
 
+Package: libblockdev-mpath-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: libblockdev-mpath2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-mpath-dev/libblockdev-mpath-dev_2.26-1deepin_amd64.deb
+Size: 4208
+MD5sum: aecc4b0db1d4117ec0708395fe788a59
+SHA1: a538b5a06203ef9961a4db2af4ec07c7e8f68894
+SHA256: 4bf5eaef0bf6ba8dfaa246128875cedb3e8b2501496b80153dbf65ec20ede1fa
+SHA512: 86c110a845488bfcf1824a24053151b292c8c5af2c5ca7d505cb6edbd8838f4419eb3e84be97377f36887a71b479ac08d2e502008676f6c9e8e3bf3414224817
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Multipath plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-mpath plugin/library.
+
 Package: libdeepin-pdfium
 Architecture: amd64
 Version: 1.0.2
@@ -6934,11 +7664,11 @@ Maintainer: chenlinxuan <chenlinxuan@uniontech.com>
 Installed-Size: 17
 Depends: libdareader1 (= 1.0-1)
 Filename: ./l/libdareader-dev/libdareader-dev_1.0-1_amd64.deb
-Size: 2452
-MD5sum: 72aa8688b6fd30e350448c039f4a35d5
-SHA1: 401aeaf0cad34478fa754b2572533fefddf86112
-SHA256: d267e2bc636dfffe2975b68593c980f2bf8af9d59c57f9f14d0b23c2f72860b0
-SHA512: 2143bf3026a0c5fcbb25fd7513de1009aa2b33c6f788a5f31db337c0d0dee4bf97d7af42187f7609797b3bc59893a5dc01276973af26c88467ebcc469f6461c3
+Size: 2448
+MD5sum: 6221a30dc6fb5e67c2830a0dd2fc281b
+SHA1: 6b547edf6b970a8e2431694a10504530dbb21374
+SHA256: 19c28748f915e98c11549434b4869bb3920acc67af0a4bd7e0b84412896a3bb0
+SHA512: 28c2be5fe57c4d5d3889a9c61b7351d0c7e84151b84337383eb61e20d9222407be2794b4b714a99c09391a80e4ea7f7cd5d6dabadc56de26d38ea737bc7fd6a4
 Description: dev lib for read image/video data from deepin-authentication
  this package is a dev lib for read image/video data from deepin-authentication.
 
@@ -7002,6 +7732,27 @@ Description: Deepin Tool Kit Core Utilities
  .
  This package contains the utilities of DtkCore
 
+Package: libblockdev-lvm2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 79
+Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libdevmapper1.02.1 (>= 2:1.02.97), libglib2.0-0 (>= 2.42.2), lvm2 (>= 2.02.116)
+Filename: ./l/libblockdev-lvm2/libblockdev-lvm2_2.26-1deepin_amd64.deb
+Size: 23852
+MD5sum: 2572b10bba21eb2cb95b7081eb28cb45
+SHA1: 55dae3d14717bc7b01b1d6298c18d48316ec8282
+SHA256: 9354c2318da95d594cef3e85d05ca3b29c8d42a912a7c037b8ae12342634fd93
+SHA512: 1291f45b7c00e8b8ab3e7af08104b9b72cd7277bbb8ff3128e847ca609159e528f5d26816973b5cdb0107cfd7d9ba381c876003d0cd2860cc785e317c001d23f
+Homepage: https://github.com/storaged-project/libblockdev
+Description: LVM plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the LVM-related functionality.
+
 Package: libudisks2-qt5
 Architecture: amd64
 Version: 0.0.1
@@ -7038,6 +7789,48 @@ SHA512: 2d884185055e1e7f342d2d56445eae7c13b3501c4aa958920d33e28618dce40ec431899f
 Homepage: https://www.deepin.org
 Description: Deepin sandbox with OCI standard.
  Deepin sandbox...
+
+Package: libblockdev-btrfs2
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 49
+Depends: libblockdev-utils2 (>= 2.20), libbytesize1 (>= 2.6), libc6 (>= 2.4), libglib2.0-0 (>= 2.42.2), btrfs-progs
+Filename: ./l/libblockdev-btrfs2/libblockdev-btrfs2_2.26-1deepin_amd64.deb
+Size: 12524
+MD5sum: 0375b1fcac4a4a7eb8f328cacd880158
+SHA1: 38fe132996a1cb5d90927de0e3317a83d2795a64
+SHA256: 4d59fdae8a91522cf01707d894decc923817b3de8cd92595e5cd8dc50214e816
+SHA512: ff43d3e07b778cfd572b2cf6a7106514ef0351c47edd280e0273cc05608a30f603ebfce95bc61ff118e1438ee83670e312b496167d79ea894c9ca457088faa9d
+Homepage: https://github.com/storaged-project/libblockdev
+Description: BTRFS plugin for libblockdev
+ The libblockdev library plugin (and at the same time a standalone library)
+ providing the BTRFS-related functionality.
+
+Package: libblockdev-dm-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: libblockdev-dm2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev, libdevmapper-dev, libsystemd-dev, libdmraid-dev
+Filename: ./l/libblockdev-dm-dev/libblockdev-dm-dev_2.26-1deepin_amd64.deb
+Size: 4352
+MD5sum: dc32a39f1520331ec530814820e82c7d
+SHA1: e160c2d83c7a42213d2160a42ceeb73d7930ea0e
+SHA256: e7447079b64eef7eb42ace7587b409ccd21dac3a0e213b2d01a497f01c0057fa
+SHA512: 5b2659b8d711107256b2db93094af65a36c23463fee23e17257b9fc3f130caa869cab6d1ec81d45ef39719d0f01351cdc0dfdb57cbda895fc82f57ba0b9def43
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Device Mapper plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-dm plugin/library.
 
 Package: libdeepin-ocr-plugin-manager
 Architecture: amd64
@@ -7313,6 +8106,27 @@ Description: Linux for 64-bit PCs (meta-package)
  .
  This kernel also runs on a Xen hypervisor.  It supports both privileged
  (dom0) and unprivileged (domU) operation.
+
+Package: libblockdev-part-err-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: libblockdev-part-err2 (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-part-err-dev/libblockdev-part-err-dev_2.26-1deepin_amd64.deb
+Size: 3548
+MD5sum: bc1320a417aa5df92627052377dd43bd
+SHA1: 1c736b351a63595406f8ccb2de95a32c547dd803
+SHA256: 96d73e1718bc4279c4669183fac2b73e42201c1ea8f3aa33d23047da213b40bd
+SHA512: ffdc8b21ec22b783fe388db89d173347d1cfa2f3bbd57a323035904bb0cbe2f4c9c89f53885994a079df5b9961368ea46193ee784f02aea09a6e7461ded6e8e8
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Partition error utility functions for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-part-err library.
 
 Package: libdocparser
 Architecture: amd64

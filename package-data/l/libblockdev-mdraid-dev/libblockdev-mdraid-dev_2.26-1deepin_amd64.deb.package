@@ -1,0 +1,21 @@
+Package: libblockdev-mdraid-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Depends: libblockdev-mdraid2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-mdraid-dev/libblockdev-mdraid-dev_2.26-1deepin_amd64.deb
+Size: 4752
+MD5sum: 59eac4eed5ebbd501f7c7f26f9ffc58d
+SHA1: e6185ce60be81809c1503813a9655fe850b57747
+SHA256: 2f6e02d4aeb535dd8e3ea7eaf8135496820ee24042529d43d6306cac53c30a9b
+SHA512: 6ce53b8d8d3e78b17b64394ff3f3c4b9c9fcf7db29ae7f859fd141ca1aafa57e39bdb0c2a15cd96d78c3b30926a2296e7548c5874598f347321cf5e936aee0c3
+Homepage: https://github.com/storaged-project/libblockdev
+Description: MD RAID plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-mdraid plugin/library.
+

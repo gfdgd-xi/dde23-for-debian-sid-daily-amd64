@@ -1,0 +1,21 @@
+Package: libblockdev-loop-dev
+Architecture: amd64
+Version: 2.26-1deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libblockdev
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: libblockdev-loop2 (= 2.26-1deepin), libblockdev-utils-dev (= 2.26-1deepin), libglib2.0-dev
+Filename: ./l/libblockdev-loop-dev/libblockdev-loop-dev_2.26-1deepin_amd64.deb
+Size: 4272
+MD5sum: 328b6b03c8f988ec0b03e521892afb80
+SHA1: 6bcce19b5613a8e46cfd146b928a8757d471df32
+SHA256: 677e1c3fd42876d3ed1cc40905dc9c24f964f5a041f04c74ab3a13d2ce0f63fe
+SHA512: 0f6726c7288e91fcfdfe487004a2df57d09f7d98f0f107d540fd440c89de7a51bb25cd6a50fd299fb656566ff881ebf72360e33b2a6b12efe60ad10932f8f184
+Homepage: https://github.com/storaged-project/libblockdev
+Description: Loop device plugin for libblockdev - development
+ This package contains header files and pkg-config files needed for development
+ with the libblockdev-loop plugin/library.
+
