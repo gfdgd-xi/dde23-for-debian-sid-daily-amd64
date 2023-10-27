@@ -5,15 +5,15 @@ Priority: optional
 Section: utils
 Source: deepin-picker
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 226
+Installed-Size: 222
 Depends: libc6 (>= 2.34), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 13.1)
 Conflicts: deepin-picker (<< 5.0.5)
 Filename: ./d/deepin-picker-cli/deepin-picker-cli_6.0.0_amd64.deb
-Size: 58176
-MD5sum: a2bd5abcade0aca33967e7a8db3afc4f
-SHA1: b8ee0fbc8fc2e200796cb9bdf60098684bee8023
-SHA256: 1ab2ddda8a4f1c8321f44b455c53d375c14c7de4de59d952224e67b978f3fbdc
-SHA512: 9bcb6bf88582e7785f6b06d421c053e103a3cb7decdb49db6f2945eb6a8260fd4c062e8c9e47731d1c66720c90fa2ebf79201beeae871cfcca4db119984399ee
+Size: 58008
+MD5sum: f03a24098d3c595fd17388a6530badc0
+SHA1: 8fa6486cae8502b098e4dd3ac39d61ba476eb2a0
+SHA256: e5808cf2001e38f7df8dd3713cf09c468dc128ca4ab356090acb3aab1bd35a64
+SHA512: 9139511cb60446fe2725634d9b8e77ba4464e4bc1b6022bc0429a4048b79303d06947f61829221b66d744c5eb954588df725a6d7c40955d645307e666bc98043
 Homepage: http://www.deepin.org
 Description: Color picker tool for deepin
  A color picker tool for deepin.
