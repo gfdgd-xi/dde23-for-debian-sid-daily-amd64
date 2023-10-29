@@ -190,11 +190,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318344
-MD5sum: 55f99e93820bf24131e4fbc61a9a5233
-SHA1: bfa3cf7b76ef42337a770527a136a585febd8139
-SHA256: b278eca994fa38fd6ddadd6e6c3d4a6a39624bd836550cdc27bbe9065d277395
-SHA512: a39f48a40a841b2a5f67976f10b49a101db1ef674faf6d550abc118a468a96c2515b39714c847413123ca59ca0ec8f2baff7587a2e8ecd7047a8a70e40d043ec
+Size: 318012
+MD5sum: fdf218f3121b3af96cbeeb26bf71f8b8
+SHA1: 55d3a07e0bdf394e88b97e72a3b5ba7756231778
+SHA256: 939f68377b0aa595e8b9b892b910e2d64705817a877dbaef9d588528153254e2
+SHA512: 5b5d3026e10776f72b59a65be7223d2057b82ad46b6cebc14e005023225bf629eeea186bdef0aa02223ee2e01f3e8fe2e594a7a795af0806ecc1ca17cade4592
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -6464,11 +6464,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.2_amd64.deb
-Size: 2567716
-MD5sum: b01da84c77ae7c723097c5fadb138656
-SHA1: 32d9c5451d5d8b5c2c6df58ab667d88b7049dbe5
-SHA256: e4c7d459dcd3448839c3e8eea3dfddb5eb542671ddc15884ba54787feda9cb4e
-SHA512: 1df9b4adf425e1b6abe5c143bd5f861164ff9e4606ca9230757fe16feb85f435fb79266cf19e59af619093b72dfcc0d6fa63c9c9347f62af849fe9e1e90c9d43
+Size: 2567836
+MD5sum: e06a7312c357fbb75e41431ee118145b
+SHA1: 768252cd93b948b8577c4c28b16b30231efd980c
+SHA256: cd5c73670ad1b8e52f8a3d20c735f46cf1c77b1aec01b4b89b03675b5114f300
+SHA512: c745447ec05db6ecc7434ebc10b68746fa90b3850f9d32936a79f7022f38bca1f48af7549c560f3fe7a4f6ca263efc77e193dd2ae6472a3121b35bd396765cdf
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -7761,17 +7761,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51048
+Installed-Size: 51050
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48790916
-MD5sum: 601153d7734d5a9d7ce2d523bd3c7abc
-SHA1: 0c54820fd4d4770e72e40c2093f23990aaa5cfe7
-SHA256: bc9559db6209b56c44bb77fba3e24877dc0c80098e9819642b5aa153bf69d638
-SHA512: 3a1cd223d9e1711eacdac65b98c8ea2a5d2bdc08cc04e51ba086c00c4b2615747e0a793db7ec3e617f900c932af8e63c9065a940ebdf827ad377fb3c5f49a807
+Size: 48797240
+MD5sum: 97c507848cf424400516bb36795e94d9
+SHA1: c7029572ab630c1bb5bdcb28c5370a97ffa4487a
+SHA256: e78ae3d36f7126d6382da3e3df0ec6343f68e3d7f7ec8a8e0bb9d6e006d1c135
+SHA512: c46280b8d79d2ad8b0b6e7ce74cfd1fb2f2ed5c2876a65f29ece5360b9a004f82b5b56363c08378bb8ae38fea9fa342d7d0f8ce539ce0e1490ad4b9120fea72b
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
