@@ -5,14 +5,14 @@ Priority: optional
 Section: devel
 Source: deepin-screensaver
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1188
-Depends: libc6 (>= 2.34), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5.2), libx11-6, xscreensaver-data-extra, xscreensaver-gl-extra, qml-module-qt-labs-platform
+Installed-Size: 1169
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5.2), libx11-6, xscreensaver-data-extra, xscreensaver-gl-extra, qml-module-qt-labs-platform
 Filename: ./d/deepin-screensaver-xscreensaver-data/deepin-screensaver-xscreensaver-data_5.0.18_amd64.deb
-Size: 714140
-MD5sum: 76090685d25b641d1436304c160a95c6
-SHA1: a49e6bd569c00a8d4b40572db239f40c4fc5742e
-SHA256: ff07b3ea9a0190d8cfd564ac1419b15ca632fe43f4287bffaa1ef74b42cf8631
-SHA512: 699a89991df559a906e05513d9094f59a68023da016d7e7d991184b7fb045e31b187238e99fa1b3e26b808a23613b23449bfee94658466931c8e9e48c7f1866d
+Size: 734176
+MD5sum: 54c5536b27295edf01bc75292dcf3dab
+SHA1: 3a0fbe7e24ecedf45b1ce8c6cc698cf069346080
+SHA256: 9d163cafb74c859797a6f17b7d15ea25d8829a9d69f9a23fee6331569ba4ba7a
+SHA512: 298393bf17022ac7d6af248dc0db33b0d2964ddaacae1e5842729083ffc04773fc0d34c8922806d67cc150d36060c92ab11dd0e5dfdcf18d9179040213febfb6
 Description: Screensaver data
  xscreensaver extra with the Deepin Screensaver.
 
