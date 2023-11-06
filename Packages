@@ -230,11 +230,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14039884
-MD5sum: f57492eff46727996f5c6ec5a19a4a68
-SHA1: 14c08905c337aa2ec2d06f8556541bab052f1672
-SHA256: 28b97d0ae48f1c5a5d788b14675f7aa5d00f0d38c6cd1039466c50313aa9f788
-SHA512: 9fecf8ce4f53f775a44a98a6cbc099fe3609e78755556fa8a8a9b8ee28669f9698d83c4830405ef7b8c7f5739fae8481749db58b0cd244dc5891f1fad67d20b3
+Size: 14039728
+MD5sum: 7eb9982ac233a6ceaed26866a40cc68c
+SHA1: 53c333ad782e1c42872b19c175c8d095e99ea6ee
+SHA256: 64a19356896fa7ab49d577e359bf0dcf9d7e05533430200d5505584a3846f8a3
+SHA512: d4d5b2c4ed1e97a431513982344b96d4e0ccce66619c9a7c937ed041f221ad2c2b94f677ea86984c4ab5c5cfc0f19b9e543926747875dd6c92500b7f1a191582
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
@@ -916,11 +916,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.2_amd64.deb
-Size: 2567404
-MD5sum: 956a7601abdb4bd7613034e3f1943b09
-SHA1: 9507a9510585f05f1e21ecad996ee1387070831a
-SHA256: 7a3b72ca2a44ee0eccc577d00d88184a0a9b4b23b5f06a4d524b0fdf3d42d624
-SHA512: 82fd3508e39f97ac1d67f8f52a2ca4e038b806257b44b591e1a445083a3f283e1e45e62fa2e71144d56efb36a2a5ee475fd0173151b0eba8c78f63ce29301262
+Size: 2567564
+MD5sum: 5e1124b3a8e3d206645f26d640a8859a
+SHA1: 640191bd6ffbede46dc8ac3e68a8c1067bf5de14
+SHA256: 9468912cfad436e62bf494e19a04082f9e733d11ccc3485d9d9faa3252662384
+SHA512: a91de51c24c5ff798941472a13c812dad43b8ce88c6c84846a0706322f5794874aac6ee6d00031572a2be6c90c014be038bd8dce6411588440479685558681d5
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -931,17 +931,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51140
+Installed-Size: 51042
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48892312
-MD5sum: a3c91de97e2e1e7bcae374044b99eba6
-SHA1: 47b5bd3aa4da22f0728c1e20e354d5d2ffd300cc
-SHA256: b4e9800aa510b335a57895f2e6828ff01c5e293ad18ef1135b6fbdcc80326c16
-SHA512: 2ac5305c24a33966c3cd4812805928f1371f1767767371234fdb933beb7c8ad6a1e6fb8b678c3bfd0f1d13763ac7e55ddf3e05b045ebf5ef28116d11a7ea771d
+Size: 48789240
+MD5sum: c34ce3f5799b615ad870d39e4a0c9b70
+SHA1: 3e003e733bca4f137d02e744a570f5d68865bcdf
+SHA256: 5c968ed5cd21c423e693558e1e8c27ab47000e40a61c867320a1878bbaf85ca4
+SHA512: 5e86b205aec478b75e7836d06ee5dc8623c53326b865d35d04580e20574fe7c4cfcfefe7eedd29ecae246e615cb5b1d9b8dc47ea99a3b1e688456c1d68fb9f05
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -9641,11 +9641,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 317768
-MD5sum: 6481d5e9f5fc8fa10c5c9982c2975d13
-SHA1: a57a81bf7773ea60ca334f25f00f1906c18edaa8
-SHA256: e8bed0c106ead2f7a69ee7a4940122fd5d96303195513914b5f95a85ff77a24f
-SHA512: 29113f55b4cea7f2d57805ec1dd12c6f01532df65ff04732c10ec181ab681858a3ad5016535bf7821a1b70f7340a3d84cbd0cb6dd3b0e6acb7abe6f748fbd122
+Size: 318020
+MD5sum: 4b28a47371d8c8bdc0e1d1898b528138
+SHA1: 8e8f2e1ae9df4a79dbe49f458112d80d75b74d31
+SHA256: 056882a9ac9480384c51f5d16ea5d32e2e5bc71d3fc4ecc86faca15efb56bb3e
+SHA512: 1f4106649669f671d6ec9cab3cb60ad49dc9c8b617cc4d321f1ca322d4a58b1225d2fe0a0399e8d88b5297fd72ae7d589b172e8d340684ca2bb013d31def719b
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
