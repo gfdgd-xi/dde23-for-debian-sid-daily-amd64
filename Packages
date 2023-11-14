@@ -3673,6 +3673,25 @@ Description: Deepin New Desktop Environment - Next
 
 Package: dde-qt6integration
 Architecture: amd64
+Version: 6.0.1
+Priority: optional
+Section: devel
+Source: qt6integration
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 841
+Provides: libqt6deepintheme-plugin
+Depends: libc6 (>= 2.14), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 11), qt6-base-abi (= 6.4.2), dde-qt6xcb-plugin
+Filename: ./d/dde-qt6integration/dde-qt6integration_6.0.1_amd64.deb
+Size: 210996
+MD5sum: 09acc4e50bcb2d742061701db2fd4111
+SHA1: 3e693d43f4f6f5a47c0a1adf7bb2bf6950d9f408
+SHA256: c81e7c9e1ead5bcbf00450fc857b7fbefb4077f6b4034822da889e921de24daa
+SHA512: 4ad7ac55d4bf7140dd0729d6b0b8d6bdc166b24e0a2e7eca3e025765dab7489d4455a3612b6b9035202474e3cd15c0cf25360b8c9459373c60a33bdeb86d8299
+Description: Qt platform theme integration plugins for DDE
+ Multiple Qt plugins to provide better Qt6 integration for DDE is included.
+
+Package: dde-qt6integration
+Architecture: amd64
 Version: 6.0.0
 Priority: optional
 Section: devel
@@ -5495,11 +5514,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 4041
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.4.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-10, libdtkdata
 Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.19_amd64.deb
-Size: 943364
-MD5sum: 1ad23f556baab6175a8854e55b709698
-SHA1: 7581f586cebde0761f90d23c2906ea6440a07b90
-SHA256: bb3a87dbf4c582a338003b084679bf8dcbd20e8f2da552d48f7674a92f11cb16
-SHA512: 7a06a612ec6f86268d743f3fafd3e18347c6036c3daf563c8b7d74185c644d71e443b9d0dec9d17b68aef7ffe575026d2561ec120b31fb696cfe82f761ae513e
+Size: 943964
+MD5sum: 85bdb488bf80daef0ce3796aecfc395c
+SHA1: db66c74ff1548848ee854fc458f7e38a3abebf65
+SHA256: c027e995f52729034b4a091a13868e7151291dc34f8febe9611e19b7a3f689ce
+SHA512: 26fb36eb969d566a7d6f50f0d84e14c50b44a738b6fd384b31919213c7d5d0c1b36b43142f1148a61f6447354e0b4ac1fb1d9c7bbe164bbcda428e1508d27721
 Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
@@ -6776,11 +6795,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3848
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.1_amd64.deb
-Size: 817256
-MD5sum: 9514deecffaf792e494a756ae8a8b0ea
-SHA1: 146e83bfdef5d50db0783ddd42dc3a3221c258a3
-SHA256: 6f6cec75352d7243eb11be55c5c99b7a5be480bcb2bc0044f12cea6ecf133155
-SHA512: 3f659dafba9807423b8b010ab3b9f03307817f6dffe3219f35e398c6e2c75b63ef0bf5a0ba941a6c8767b455ff2e0c81a67141bcfdd72979f89cce5bf8f8cc27
+Size: 818540
+MD5sum: 9536a9152c9f92bf3fd39e7622a12ab6
+SHA1: ad85821d5711ef35e8b941bfbb772c5a8ca2fce8
+SHA256: 537a216abb32e9e44347037877d1dfd5416c9e4ea03304b2b7395b200d7306ab
+SHA512: d1caaf4f5b3efe5624b2ca6934606fb2d8cc408161224bc697f26c7053ce59cc9a140163fba04546417d2a49ea0adbd1a036250eed65c73b072cd7ade7095382
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
