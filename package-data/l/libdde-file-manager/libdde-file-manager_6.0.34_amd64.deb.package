@@ -6,14 +6,14 @@ Priority: optional
 Section: libdevel
 Source: dde-file-manager
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 8467
-Depends: libc6 (>= 2.34), libdfm-burn, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.36.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5codecs5 (>= 4.96.0), libmount1 (>= 2.19.1), libpoppler-cpp0v5 (>= 22.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 9), libx11-6, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend, gvfs-backends (>= 1.27.3), cryptsetup, libdfm-extension (= 6.0.34), dde-file-manager-common-plugins, dde-file-manager-preview-plugins
+Installed-Size: 8487
+Depends: libc6 (>= 2.34), libdfm-burn, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.36.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5codecs5 (>= 4.96.0), libmount1 (>= 2.19.1), libpoppler-cpp0v5 (>= 22.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend, gvfs-backends (>= 1.27.3), cryptsetup, libdfm-extension (= 6.0.34), dde-file-manager-common-plugins, dde-file-manager-preview-plugins
 Filename: ./l/libdde-file-manager/libdde-file-manager_6.0.34_amd64.deb
-Size: 2123724
-MD5sum: d323723cc13f6a8f93e51fed32217c15
-SHA1: 32460fb86cd6a4415a187c6f4edc73ab25bbffb2
-SHA256: 9d2c063bc9149f35ebc10db2c22bcc13dcbbcab9c4a2db20fce46ba55d1a5056
-SHA512: d405106809e8a65185358a1fb0b60a4d6ceb3fe129afd47aad8d0801fde1983451275db9d63a799c4574d190a041e52bf14118e711fed0e3bdc1af9cc9ee76fe
+Size: 2128936
+MD5sum: d1dbe9c32ce4252413520896c58296b7
+SHA1: 9c0793f042252934757aa895055262f5487f7e21
+SHA256: d865aebf270838733c3dd229d975176909a5145699903cf66c061b18d41cd05f
+SHA512: a2205e840c5be2e7f07705152a8b790fbea7bbeb72dbe1078fcc7376a45059e3c6be6c617cd9e0fbefffca3b75ba197dd8a58a277142b816f0183ab4a5fef2f8
 Homepage: http://www.deepin.org
 Description: DDE File Manager core librarys
  This package contains the shared libraries.
