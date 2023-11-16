@@ -1,0 +1,19 @@
+Package: dde-disk-mount-plugin
+Architecture: amd64
+Version: 6.0.35
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 382
+Depends: libc6 (>= 2.34), libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libmount1 (>= 2.19.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), dconf-gsettings-backend | gsettings-backend
+Filename: ./d/dde-disk-mount-plugin/dde-disk-mount-plugin_6.0.35_amd64.deb
+Size: 101172
+MD5sum: 7eb09c913fcc47d25d931ba6d60bea21
+SHA1: e8760bc1e3c70eb50b6d073d2098a56a0ead7373
+SHA256: 42b1dcdb7c38d05b4ec538e9c1c83b154b55df655f6ecde304ce939fd3906521
+SHA512: bbfb29e48296dfc4d2070dd3e224b8e5f5fabb7cf03d9f34bb39e23e1fdc416bf130f692ca524d3e095a1b3447187b7c3831b675087ba0c8491849e83bc94c16
+Homepage: http://www.deepin.org
+Description: plugin of dde-dock
+ Disk mount plugin of dde-dock which is created by dde-file-manager
+
