@@ -151,15 +151,15 @@ Version: 1.1.20
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 109184
+Installed-Size: 109189
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-16 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libunwind8, libzstd1 (>= 1.5.5)
 Recommends: cmake, make, gdb, g++, gcc, git, npm
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.1.20_amd64.deb
-Size: 72619196
-MD5sum: 839ad0c66679dd1db63e32f55112cee0
-SHA1: c5193f018d782144d6fee2337d482798e675e511
-SHA256: 57a7e9835b618fa08aa2a866838754556a0527639b1b46a498b2198d73e3613c
-SHA512: ef3069cfef51c21e317bab7ecbd33962cfdaf2039d40e47ec712942cd64c68056ec5fa88ebf6654a178afe080a7b03b0318b9edec3cdcd99b41963c1d95fd316
+Size: 72591576
+MD5sum: a469d701cce289c3281bec7a6ab20f72
+SHA1: c14960c2701ae38b9dfe1b6953386ced873e2b5d
+SHA256: 5a3b9fac1442b7c2db9f13e923bb4ac729e7a75a6760b97929a01f1d7a967840
+SHA512: 1d56ec9fc642fc1bacfe2fb8b837bfb3523d248f32a7128219049b416d9bc2ace984218b3fc194d6fab04261314d5c8a8b795b8b825cdbebbd86881fd6fc3c71
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -4325,11 +4325,11 @@ Installed-Size: 8730
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-10, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3936080
-MD5sum: 26590651511c0810935777d34312237b
-SHA1: b322347b92f4cf971220c3a0c845655e7b60db18
-SHA256: 43dee4220d14d352e7106716316d1cfb8f08f2229786257e9e89b55cb77ce145
-SHA512: 24238d9cd47eb9761875b6ca6af646655dacb9a8d4475f327318eb1e21184f68b883837bcc6736cb226ad77245b8b5b24a9c243ae863d1081abf1f6e27a379fa
+Size: 3935760
+MD5sum: 217544931f7495ad5e76f9451858c2b7
+SHA1: ff2f6d2dde137609ea6f92bc33fc76c02c34ee73
+SHA256: 4101034bd5310d99f683f7ed23d4940f7c171857dde508203072e408e3fa6e7d
+SHA512: 5a7bcd518a41745d084721504e5c36e588736285e3f740485b7bc8130dc84d0578e47334646d475e6cb3bb61cf1280dbd7650a24b2fa99dd0298c3867cf97106
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -10527,11 +10527,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318376
-MD5sum: fb39fffe7f1506ea03a47ad003c9be2f
-SHA1: 7b0f326370adadb9688ed41e4c6b84cb4607423b
-SHA256: d70cb47d858c523e72ece943371d6085c0c283789bd2f96a52ae457a8a7539fc
-SHA512: 2939ec296a9d378687d76df826d0785568ff83945203d42ecade6913585f98401b35e5bde0a04835efbbb7f82efa75e062b99c23bb5c977544a629233abcb8f1
+Size: 318040
+MD5sum: 2aee5efa5d1ac926904c5b0598e9c9af
+SHA1: b19617485e566126212d3de949855802ceab1116
+SHA256: 2417140cb52b781c8f89be15539cad7b4db4233af2bde016e490cac023690d26
+SHA512: aec364aa37bc155db85f8187c356d660e18c9ea06eba147227c37199268a506fd8207e92b18dacd958419f13fa2113c53eba0df927a1535c54be53a48e8b7986
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
