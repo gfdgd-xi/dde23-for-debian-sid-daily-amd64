@@ -1419,12 +1419,13 @@ Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 293
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2), libsystemd0 (>= 221)
+Recommends: deepin-service-plugin-oom
 Filename: ./d/deepin-service-manager/deepin-service-manager_1.0.3_amd64.deb
-Size: 64984
-MD5sum: 9089c88a7ce0deb6535bf1e64d33cbb6
-SHA1: 0e82610dc96e76cdf79eaf19ea868b160bb0fd42
-SHA256: 91bb910443a8539d8afb42e5d60a5e197cf8829d791a5d63ca0dfd42ed6282fd
-SHA512: 2016d0e1040fe6c41b2682d2940818423d452d5558cf5762298919e098cbdee152d8352747754cbb62d7997d65b3a8849d25a5f23e05a0f1cbae8cbd37fc224b
+Size: 64996
+MD5sum: 8745bc4059266586affebdc1bb5a1d39
+SHA1: 63c9b8be41316770af248685d57e490f78706361
+SHA256: 1f416e160748786eab6f535e16150cc0b0521045f0a87d344158b5592828c7ad
+SHA512: f68015dad85f258e8250dfaf2452183040b4ed4915f542264d9eecafcaefddea2fb5538ff1f5fcb9ff08b03992bba027e9098ceeb6a57361fa31469437bcaba8
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - service manager frame
  Load system plug-ins for unified management
@@ -2934,14 +2935,14 @@ Priority: optional
 Section: admin
 Source: deepin-service-manager
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 59
-Depends: libc6 (>= 2.34), libsystemd0 (>= 243), deepin-service-manager
+Installed-Size: 159
+Depends: libc6 (>= 2.34), libsystemd0 (>= 243), deepin-service-manager, qttools5-dev-tools
 Filename: ./d/deepin-service-plugin-oom/deepin-service-plugin-oom_1.0.3_amd64.deb
-Size: 14960
-MD5sum: 5c576d0c4551befeee5fb366f8bf39b0
-SHA1: c96dd393ef58907e6535b3010df134d9b43c9dac
-SHA256: 58a035abf1f852ba6524f59f726dda9b59900d02ecdfbe13e5c695d2ce4d4373
-SHA512: e0dae0c8dcc1752bfa9a0041b18b1ce27447422c3eac6076c4e2a9432d315947c72a67772154f2cea90c36380ae896ee86864c40357de863d2cf7eb7852fb370
+Size: 21488
+MD5sum: 99328456fefc04c10062246e2d7bfc70
+SHA1: 78b7fb892be8ec5363ac0590bc9cfd9593ea9a52
+SHA256: 08438d9b49b821d3f43425d419ef86043fdbb9f9a5ba34cc9133edce8c4ca2cb
+SHA512: 06765c07217e2a7c7cb9de778b1e7bcc075d3544bbea09fc54e7e959574fd0fdebe8e1a9bef56a166af6aa55819575a3a67c9e4343ab94fd95c759dff5f9871a
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - oom service
 
@@ -5442,11 +5443,11 @@ Source: kwindowsystem
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 798
 Filename: ./l/libkf5windowsystem-doc/libkf5windowsystem-doc_5.46.0-1_all.deb
-Size: 442712
-MD5sum: c39d0ed049c7225476187efd85fbd3a6
-SHA1: 1de18c7b7737a0d561b1a033691842270bfb75a8
-SHA256: 99f8778306dc6df071bbba237a4958fc9f76f1124045955525aa94f9b3d3e3d5
-SHA512: d3d3ce2e835e69c3894b6bf5a3ad856a25263d3a97256caca8687bd82d7e6db900b4bf09ccbf1b20132cfd072f820a4668bc3f76596d6b9bf9864ee8b95b0267
+Size: 442716
+MD5sum: 667382a21969942be52e98607e3ae4ac
+SHA1: 3d64f4cba859770c7c17df3975d0dac498eab2e9
+SHA256: 85b4a10c807db4fea32cc0beb01204ef9124f54cb203414411a9525c9eaee817
+SHA512: c1729bf2a9dd26ee45397fe10458caf8d68a8d87ddc7170fc89f404e4647364f376298d5116df5acb1c3347ff963562eed2c4fe93ea7d3db1a5b31424f86e778
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
 Description: Convenience access to certain properties and features of the window manager
  The class KWindowSystem provides information about the state of the
@@ -7129,11 +7130,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3848
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.1_amd64.deb
-Size: 818808
-MD5sum: 87b07580fdf074175aa1a91334a617a7
-SHA1: 31a78b749b3937bcfb4993ebffdc1975c20c5cc8
-SHA256: efb44f1f54b517bb4a7eac94ae1c7e6139ca108fb5ef1e26994b132c36d8f070
-SHA512: 6f917b88fb069560b91b32714750351cdfe15388319a79acbd52f95056d82c32f17086f81801e37e8a6953e6f3a49344520996561faa4bb1b767dca49930140c
+Size: 817332
+MD5sum: ae8055b0ad40d656bbce2bfa88ee5b96
+SHA1: ed5fa5f0235669758120bbe703e5f38453b97379
+SHA256: 6fae40fe098d0f40becb7ec8193ab6631c732dfdf6697d76c5179c5c09c7477b
+SHA512: 241a5d5137aa44c98ab9063df3d89675b8585ad6522314fb9bd6850e417a15e93d7ff838f0e6f947fd20971693984911f89100402aa375134c22e40e59fdc95a
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
