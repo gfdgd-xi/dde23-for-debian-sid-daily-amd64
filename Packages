@@ -126,10 +126,10 @@ Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_amd64.deb
 Size: 63296
-MD5sum: af7869b4aa78ecdcfb67fab1aa2de494
-SHA1: 6e6f1c3327a3ec2dbded4d470351ea3bb997a725
-SHA256: 51cc1571a938cc4a9bf99aa609417927351be37713e437f02fc655b9c90fc42c
-SHA512: 2aa9d81ce7ff50c00614d801fc76fb46f71994c80b597d8e09105cebb9485e941e90f4e25f04e4a2e874a6e916c908cb14329bb2ace75b013172082198b9ede5
+MD5sum: 13c8a72b0192b2336acee09881d4ed80
+SHA1: 62568e129e7bdced7f6ae312b3f5f97e4c691ef0
+SHA256: 09b1b0e802b60d5076f772513a6e801d994b029a0ebb65471be4eb38ec7857b0
+SHA512: 6df8478be5f45d014db1a4008f6b5cd0c25aba0485544455242cdfc26e0106c58616af4108fdddf776eb48df9afb110782f5bec1593d482d90fe9d0431616ad6
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -886,11 +886,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3808
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_amd64.deb
-Size: 723448
-MD5sum: 86f9f05ea87ee0035ab5796fba4b2f31
-SHA1: e22b43681438573fdb819a0f0c773cb581a966d1
-SHA256: b859ce805ccb2b2398997d5463b0052d2be52d004e006e4b70f11e8bae907584
-SHA512: 2ae2a30e65a841c53655d6f7b68b28c8012fea5f73401542043e0f8ad5fdcbf81fb574c9a6753d67b4e7bf8f52752ac856fb2c23c4d52e24dd10659dfc9840a1
+Size: 723516
+MD5sum: daa198ff542d531251aa5485ca8f7623
+SHA1: 5ec87cc255c3d186417a94c9cae035c46560a805
+SHA256: f9d9fc8fcecd6df513dca3f0f66a44d96f0a086c63d12d83940b0f279bf36861
+SHA512: 00c524349b0a67862fad5b88a160cd20e1b1e540afe1fed4cf07706293a22d19495f3be93b740cf3a2725f3a1078f3332e02d1813f7da4ed8fb9f45f99d52a22
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -928,14 +928,14 @@ Priority: optional
 Section: libdevel
 Source: util-dfm
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 599
+Installed-Size: 591
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.52.0), libmount1 (>= 2.19.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-0 (>= 2.8.1)
 Filename: ./l/libdfm-mount/libdfm-mount_1.2.18_amd64.deb
-Size: 148720
-MD5sum: 6a8f06db1d295841eafc8ed85d6ea691
-SHA1: df50c6c3ec6d2eaa4bb665791532ae18b973c723
-SHA256: 3952d1345218ab70fddc96f68d3121f567e60a1d22d7af1cb8661c1c76a1cf79
-SHA512: 7ce192dded036304cf1555a68e891e11cc5da8375842b65252abd32fcf04257803be16dd4ea1a02f9154f45bd6fb18638ee9d8e18fdd1099cb29332e6dd9ed94
+Size: 147568
+MD5sum: 1b84598fd5156260d0429ec6b6af0113
+SHA1: 9940144582bf78e0ec57e80fb580ea313e942636
+SHA256: 0a541ce3ccfae1d53b3f27355aeff38cd9304c34b807de41141a21f2302a8eaf
+SHA512: f3d67807765e684751560e42cf90830937da2337a1567451a66360d55137803a703a097020d79ff8709fd2db8a0f546c52141a7e6c8b336f33ed88ab9a2f79e6
 Homepage: http://www.deepin.org
 Description: A libaray about mount and umount.
  A libaray that provides mount and umount interface.
@@ -6092,11 +6092,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2436
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_amd64.deb
-Size: 456532
-MD5sum: ef91cf5606658a5afec8092d47f87344
-SHA1: 37941d4c6648038fe63713e09939d5d544ada258
-SHA256: 7d9f216f3e3e7d95d1c32f07de7dd4dd6de4369fe99e25a8383361470c8a7693
-SHA512: 82c7df218d9f1aada33c1ddf1252793782dce7b6ac180647a27cc260e6a30f4b01911d0a1cb71b47e2237f40ffd96ce708aafab4a0df571bb8251d9893d3b728
+Size: 458168
+MD5sum: e9f87dadb4fdaf4ca14a33bd654bcf69
+SHA1: 22cc12a4875bba3b0e039d56a5ad4d9dacafabcb
+SHA256: c0b1c5bf125c3fda4df4b32f17939745ba09cc3fe26167d880eb5c2a9c07064d
+SHA512: 6625006ee5ddeaf1ca63f43dc1ab9124d42d345d8a21f12d3fcb69af72ffab820a303138b237ae6dad4d19c4afce65e1a92543915dc108ad3a076df98bc3ed3d
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -8659,14 +8659,14 @@ Version: 1.1.9
 Priority: optional
 Section: devel
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1267
-Depends: startdde (>= 6.0.4), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5.2), libsystemd0, libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
+Installed-Size: 1273
+Depends: startdde (>= 6.0.11), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5.2), libsystemd0, libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
 Filename: ./d/dde-session/dde-session_1.1.9_amd64.deb
-Size: 218992
-MD5sum: 54e6790edd7ad3c4484f1ee0ed966941
-SHA1: 5eb15d03a56dd7b412aaeafe40822080f0bb322f
-SHA256: d5d04979d3332ba33ccf20b190b445cb2e28e4a2c5508b63f720c3d7b4156702
-SHA512: e6a40a0c03c7d2e0626f1c1ca0689c45de8314fe16bd9f72ee457dcc390d6957f436fb92d4a420ac6cf2335f7a962dbbff63b817d61ee2a018bc39685bc865e5
+Size: 220312
+MD5sum: c70cfeda99b83e0acf0ae318fff3650a
+SHA1: 0ce562b8a5561aff90893a4a903fa81e3de02a82
+SHA256: 911dec4e55e5de962bd04a30c7f695e66c52f0992353a2d830c379bb3dab4f69
+SHA512: 24e3fe31e859b38508ca67c8bf2e6ced7596ad966e9e5815062df0b7737cc0a91a316f2de4a813938c7dafd3fecd944d5b86832f212689ed80c69ec4efe4d4d5
 Homepage: https://www.deepin.org
 Description: dde session module
   dde-session is used for launching DDE components systemd service project.
@@ -9477,11 +9477,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.10_amd64.deb
-Size: 1349784
-MD5sum: 23d47a1a9cd744bf8b31397842c17347
-SHA1: eef30e6a1f2aa222a1acb55c2b11944a2349dccd
-SHA256: 0c4a5e49e51e7cc7c962640101b931d009f2163fd7c9eaa29a4df6df59320875
-SHA512: 332a6c4f4bb312e54c046add9775194ee93aa26b5795d19a2379e057d9a6945c76b4356289183df1887c200662895abec47311370666ff9028788158e4d45388
+Size: 1350924
+MD5sum: f637f34c3c8111175b6e26ce8f3958b5
+SHA1: 8c46cb327e023e0a336f470ac9150b76117c25df
+SHA256: 2ac09979bbb1958a31c74399a3ea9a938373dc3ca8627c8bdd8aea938971af2c
+SHA512: 27d769f1e616e77efa5623c94ec92e5e85d38da239db15243942031efff3274fb604ebfa1c7dd567025d054959998c160b83f0700b2f40556ee123ba67ad97cb
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
@@ -9850,11 +9850,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1671
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
 Filename: ./d/dde-application-manager/dde-application-manager_1.0.20_amd64.deb
-Size: 454908
-MD5sum: ba18b8d43b7ffdb2b0b57e7f37d359de
-SHA1: ef404afc00e9d7acea166cbf5de54ad337c936ba
-SHA256: 8cdb08b4e808ede0b3ec0f2b4bf3497b4bcbb1a12795a3f93752906fc4dfb9b4
-SHA512: 7171f4e5422d1ddb4c19b4aaeac303d04f8d972c5b1347d267812dbd57d01707b6183b0d531bfe5c5b6981c17283f6e124adb41be3a4eb1050a0f928c6c1e6cc
+Size: 455460
+MD5sum: 1fc79b2b2726898f267806fcab3ec058
+SHA1: e81e19519829cf0f2d4e78c0ac52c1b25492001b
+SHA256: 0e0c87b1b097fc8267e69e87d5bb2e44a5ff9881649a07458f7cff91f69a8afd
+SHA512: 9cef41a2714d61bfaebd7d9d8e34a61a49f3beb2a9023d1038baf4828686a7f798d0d61fea1bce66614d786ead86fdb261bccd9cf71a76f77267644348f41326
 Homepage: https://www.deepin.org
 Description: dde application manager module
  Application manager for DDE.
@@ -9982,11 +9982,11 @@ Section: doc
 Maintainer: duanhongyu <duanhongyu@uniontech.com>
 Installed-Size: 107916
 Filename: ./d/dde-manual-content/dde-manual-content_2.0.0.0_all.deb
-Size: 92984076
-MD5sum: faa2d79c2c56f94be10f7a4f17ac19f4
-SHA1: 3bcb1b65da7840fb49ed842cab3165df947c67b9
-SHA256: d9f0056303c04833ac2efa5e7fb36e4b8360973381dc95bff8ad69d73dd826e9
-SHA512: 23c4f19e0a1de9450d2d82b398ff85a26accb637a6a17163b350ee7595df46d7823179666b6f7ac70924425516e837715c76d6aaaa10da635f8cc3ae6b8f8a98
+Size: 92984108
+MD5sum: 6cac6d62d44d89f92d19aeaceea4feb7
+SHA1: a93450750e03fca13f7b11a8e21688ca23b9f615
+SHA256: e4e3014eb4dad338d21ebc84cfb3a64c68f19099d736f1f1923e7f08c0432745
+SHA512: d03e96c8d7ffe784f7d0948cd82be1133898fd9d2f5bf68924431bcef652b8aff7925c94bb117f7635dbb8c6c1b5c84a1ca3d1a1eda256b52127098f37aeae22
 Homepage: https://github.com/linuxdeepin/dde-manual-content
 Description: protocol files
  Deepin protocol files
