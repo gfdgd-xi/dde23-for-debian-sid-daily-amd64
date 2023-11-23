@@ -1,0 +1,20 @@
+Package: dde-file-manager
+Architecture: amd64
+Version: 6.0.36
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 49095
+Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libsecret-1-0 (>= 0.7), libstdc++6 (>= 13.1), qtbase-abi-5-15-10, libgio-qt, libqt5xdg3, socat, cryfs, libblockdev-crypto2, dde-device-formatter, dde-file-manager-plugins, dde-file-manager-daemon-plugins, dde-file-manager-server-plugins
+Recommends: dde-qt5integration, avfs, samba, deepin-anything-server
+Replaces: dde-desktop (<< 6.0.1), dde-file-manager-oem, libdde-file-manager
+Filename: ./d/dde-file-manager/dde-file-manager_6.0.36_amd64.deb
+Size: 27253016
+MD5sum: d9146b4851fa7d204288969cb60bb4f0
+SHA1: f9b168166c8f759b36a5328df8373d41ae5c6f8f
+SHA256: a3eb43c105a82ff4f80b910fc78f90392763e2c53961ddf03fb97d1d0f14b91d
+SHA512: cc28bc277c60d6e28e779d362a11a00413c67cc16b00df68f072bcdfa7307dcd5efd53ab900afc76d9908dd12a666ed6b76a4d341e914cb25cf414e3c1884d51
+Homepage: http://www.deepin.org
+Description: File manager front end
+ File manager front-end of Deepin OS
+
