@@ -9,11 +9,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 62
 Depends: libblockdev-part-err2 (>= 2.14), libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libglib2.0-0 (>= 2.42.2), libparted2 (>= 3.1), gdisk (>= 0.8.6), fdisk | util-linux (<< 2.29.2-3~)
 Filename: ./l/libblockdev-part2/libblockdev-part2_2.26-1deepin_amd64.deb
-Size: 17312
-MD5sum: afc7b24747bdc9529bab2f6fb15282ab
-SHA1: 6fea73fd303cd68938d16b5f2d2c58c34ddd4f23
-SHA256: 82ed53957486e5d347524567b507ad1d3d7b9b51eb85515ffbb61eaeb80d5e80
-SHA512: 74193cde205550d627713064393e3bc6bcc6514e65a775bb5ee9906e141de25b2cef78f5731fe76f8f340c59aecb64a76782da624a5072fecbc0426a03a0c266
+Size: 17316
+MD5sum: 4aaa97431d76b97f7e2730bbc96fdb7b
+SHA1: 8a8f9ea9a7ef1533efac563bca58861a1b00c4e9
+SHA256: 8ae22ce3d6448adb409a28ee2dcdd77395c22a7b82605e71ce1f4b28a72b69e4
+SHA512: a4d29d6a3d71fc2816b8672ac4511309f67dbfd1457f7318c01ea2de5c9a3c4d80c1882e8510be037b6770c05f797d76ae01e4b9db9fa8aa1872d893ad91584f
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Partitioning plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)

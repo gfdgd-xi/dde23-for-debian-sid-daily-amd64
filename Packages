@@ -7,11 +7,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 632
 Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libkf5i18n5 (>= 5.50.0~), libkf5notifications5 (>= 5.50.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~) | libqt5gui5-gles (>= 5.11.0~), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0)
 Filename: ./x/xdg-desktop-portal-dde/xdg-desktop-portal-dde_1.0.5_amd64.deb
-Size: 163868
-MD5sum: 8f79006f7ac06ced556a1ea6d09b3512
-SHA1: 9a322afb9fa98f206fb45824df9691b9e735de0d
-SHA256: 547763ed4b124ee7dd5485e5c15a3e0eab78e62a5237704ee776964f7fb2d986
-SHA512: 342affc7b3bfc5512181938c2723d983d2edff69376dca92288dbc39001dd0c5bda00b8dee02d9a2442d6a93c8a851f2d9fdca6ec393fd97f8566e9de0a0a7e1
+Size: 164308
+MD5sum: 46d029671022a33e221fad2c47eef826
+SHA1: 927dfc38a799690b018be0180d3280b37e737490
+SHA256: 29a5d9a3b544539259070d6a0b9a49e0e73e1bdd3cd8ecde4f6e0f870fb13322
+SHA512: 6623cd208b65ad12907305171d84e9989c2e353e4196caa35fcb7d6685140599bf39a45786d4e5e640e58f20ff4d791228d38ee264e7f1f7124eb2af382025ce
 Description: Dtk poortal backend for xdg-desktop-portal
   xdg-desktop-portal-dde provide a DTK implementation for the
   desktop-agnostic xdg-desktop-portal service. This allows sandboxed
@@ -152,11 +152,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 79
 Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libdevmapper1.02.1 (>= 2:1.02.97), libglib2.0-0 (>= 2.42.2), lvm2 (>= 2.02.116)
 Filename: ./l/libblockdev-lvm2/libblockdev-lvm2_2.26-1deepin_amd64.deb
-Size: 23844
-MD5sum: a0948bb75a53753bc214ea742884a6b3
-SHA1: 1f75b1c2e49c1f2a068a37d85c283a3096c913fd
-SHA256: d9f36dd78f4c2aa8c001fd82ffbd9451ad849a1065524dd8dc8b39baa0b9c372
-SHA512: e6bdc4aed201ccac54ca9f24fc41f9d5d59e034a0a43c1c08fb90e20f0d955b6fcf6aad6f4efea1f5fb99934cb7c7dd933fe58d4ce3e09836f8bc6475ad00ac8
+Size: 23836
+MD5sum: 4ad9ab7a8b3ec0cf527d1ec9183ff0f9
+SHA1: 432fbc41f448bd37a536ea178def7426efdab434
+SHA256: e7f2be436bc7c7e36fd4d4506d3bf333479476878f892ddb8890c7ebcea1f3d6
+SHA512: a5c265e91aeac752ad07df23f11f34702ab637a8a2a6fb42c563ceebd4a5ad1dbc807e5a76ad5b6d460182e3cb115d214cdf7790dc3a9bd29f2f3246d50d6cb8
 Homepage: https://github.com/storaged-project/libblockdev
 Description: LVM plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -350,11 +350,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 8491
 Depends: libc6 (>= 2.34), libdfm-burn, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.36.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5codecs5 (>= 4.96.0), libmount1 (>= 2.19.1), libpoppler-cpp0v5 (>= 22.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend, gvfs-backends (>= 1.27.3), cryptsetup, libdfm-extension (= 6.0.36), dde-file-manager-common-plugins, dde-file-manager-preview-plugins
 Filename: ./l/libdde-file-manager/libdde-file-manager_6.0.36_amd64.deb
-Size: 2130664
-MD5sum: ffcc0d2bbd0f454a7cd2e940e61338ae
-SHA1: 6ebadd3081f21ac6cc1db8b4adae72759d86580c
-SHA256: e64202de0505414a916e9a7b6a61f726c7debd7a4dce06227eb3346e2e0e56b3
-SHA512: 1691e3ec0dfe4e881d451799c82cc357d11d48c9a445f04789293fd9d9ca0dcab4015272f3132e09ae842715055e0ccc95d407edce0edd3250b7fff96d34de3a
+Size: 2129356
+MD5sum: edff9cb5d8200c8423942413285e6e47
+SHA1: 6b29a962e23405c796312921b4d24a3f993fe826
+SHA256: f0e3d6dc2cd6efe137e6b9af09a59aa2d3f9423f7b8db7cdd4c2d863cbd8104b
+SHA512: 600c515b62ef40291d89be2c406a4cfe86dc1311e17bfa1be59adbdd3f8ce3d3820619979b2b13b93031cd52e96f3991ecbc6c41e9f47a3689a3e75fddbaa60a
 Homepage: http://www.deepin.org
 Description: DDE File Manager core librarys
  This package contains the shared libraries.
@@ -683,11 +683,11 @@ Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.75.3), libglib
 Conflicts: libgio-qt0
 Replaces: libgio-qt0
 Filename: ./l/libgio-qt/libgio-qt_0.0.12_amd64.deb
-Size: 75328
-MD5sum: 7a8ed2b9c8d366010335761e41fec350
-SHA1: 394f492c7f9662ed2ca4feafdd7460bf4f5bee16
-SHA256: 5804c42b0cea1c47dcd4f64816b6dee11f7c6624635e9f0a980a1cf8df4d776a
-SHA512: 54ed416deec77f0f8b117b44ba8327e949c27576160d6df4a8244cdc1774308505de6e2c0296de2393d8fa404f6f71a875a82f9c1b59ac83e0745f9ac7d9b27e
+Size: 75432
+MD5sum: 979bb735cfe9235b74f0e7e1b4510c62
+SHA1: 5e01e7673111b7b5f841d04e7d49520f3e69d178
+SHA256: 1cfafe4556295cfe479fe198c4b2d85715d002d2ca10e4c298d80e84fb527456
+SHA512: b7181b996e78f89754d74120eb2ff669e9a05a8cd913cbeef928f64917aa0a02e5a66395a9b2ec9f7272cf9156ae5ff4c28bb7c3001c20b9a4f6fe09350ac786
 Homepage: https://github.com/linuxdeepin/gio-qt
 Description: Gio wrapper for Qt.
  A convenient way to bind gio with Qt5.
@@ -865,11 +865,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 41
 Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libdevmapper1.02.1 (>= 2:1.02.97), libdmraid1.0.0.rc16 (>= 1.0.0.rc16), libglib2.0-0 (>= 2.42.2), libudev1 (>= 216), dmsetup (>= 1.02.93), dmraid
 Filename: ./l/libblockdev-dm2/libblockdev-dm2_2.26-1deepin_amd64.deb
-Size: 11416
-MD5sum: b1822a686ef6342897fbca57974a3a31
-SHA1: 8eb5f058a0ffa074bb92f9c6f47a77993485c00a
-SHA256: f246abf8962ecccbaa6e6165463e1e2939a8e8aac73a36fd6fad8ec129beb31e
-SHA512: fd1f4f79dbd399b6892192632089b084e8bcc0306029c6300ce27e795ad2dafb00890b206a58a27432c9e46dbcb5941845627fa4dc8ba3460c8d02d607925e6d
+Size: 11412
+MD5sum: aea8f5bc1c9fdd26011480c8ae00739e
+SHA1: 516ea0c36e63eee108415a84d7385fa0a4db8646
+SHA256: 9d902fb080e8aaadd79ad8f5f56247b6d025f5f39e6252d86873b0df3aeb2cc9
+SHA512: aafea165caa29ceed59a8fa685705d774b93603c20c45a6e503a3a736c3364c26dde996cf5af716b8537ed7c37b7ecb132fb91b8a88fd21775d330c62ad52a96
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Device Mapper plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -1528,11 +1528,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 40
 Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libdevmapper1.02.1 (>= 2:1.02.97), libglib2.0-0 (>= 2.42.2), multipath-tools (>= 0.4.9)
 Filename: ./l/libblockdev-mpath2/libblockdev-mpath2_2.26-1deepin_amd64.deb
-Size: 10468
-MD5sum: ac9a8306575f2f03d1ece08bc7d189b7
-SHA1: a75d7691688f9f9794db21be4a628b2f9f89777d
-SHA256: 446e5daee29b88c9f44ba95be5393cf36314a2cb93a043bfe12b9d905eee0238
-SHA512: e77a6e095e94ce720fa13d14304da196fb66cc7758676a562679b9e544ecc59008c4c9e2e6b4ce4ac4561a993af86141298dab131a25043b572ea7bce7e0d727
+Size: 10472
+MD5sum: 6a4df8be9c02d31fd502c10ce505a1a1
+SHA1: eeb4bc19bb7bb39ccb0603f4f0db715aa2857c67
+SHA256: e5ebf5fe940ea1407f1c72d9503a0e00e135d915e1525b89b411d8fc87946828
+SHA512: 2607f08aa12baeadda4341c9a7051c8f7a2e25caeb2e0185e22b1300ef88f58e509c38563918d855964153ce9436c52d3a7a7705d9c448fee73041c20000b741
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Multipath plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -1779,11 +1779,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 62
 Depends: libblockdev-part-err2 (>= 2.14), libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libglib2.0-0 (>= 2.42.2), libparted2 (>= 3.1), gdisk (>= 0.8.6), fdisk | util-linux (<< 2.29.2-3~)
 Filename: ./l/libblockdev-part2/libblockdev-part2_2.26-1deepin_amd64.deb
-Size: 17312
-MD5sum: afc7b24747bdc9529bab2f6fb15282ab
-SHA1: 6fea73fd303cd68938d16b5f2d2c58c34ddd4f23
-SHA256: 82ed53957486e5d347524567b507ad1d3d7b9b51eb85515ffbb61eaeb80d5e80
-SHA512: 74193cde205550d627713064393e3bc6bcc6514e65a775bb5ee9906e141de25b2cef78f5731fe76f8f340c59aecb64a76782da624a5072fecbc0426a03a0c266
+Size: 17316
+MD5sum: 4aaa97431d76b97f7e2730bbc96fdb7b
+SHA1: 8a8f9ea9a7ef1533efac563bca58861a1b00c4e9
+SHA256: 8ae22ce3d6448adb409a28ee2dcdd77395c22a7b82605e71ce1f4b28a72b69e4
+SHA512: a4d29d6a3d71fc2816b8672ac4511309f67dbfd1457f7318c01ea2de5c9a3c4d80c1882e8510be037b6770c05f797d76ae01e4b9db9fa8aa1872d893ad91584f
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Partitioning plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -1820,11 +1820,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 61
 Depends: libblockdev-utils2 (>= 2.20), libbytesize1 (>= 2.6), libc6 (>= 2.27), libglib2.0-0 (>= 2.42.2), bcache-tools (>= 1.0.8)
 Filename: ./l/libblockdev-kbd2/libblockdev-kbd2_2.26-1deepin_amd64.deb
-Size: 16152
-MD5sum: b821b8e0a1a12fed8e2ad150f202b180
-SHA1: bfbeeb139a8dd7ffbf42ede3424991854a1cddf9
-SHA256: e82ecf58eb97b49078cc0bc7897a9e943f133db453c550394cabe24343295f6d
-SHA512: 00f3076d9672839eb6244b6ae037b46eac882164d3ea38105360bfecafd7f059682ac19328605f30b3a0c6db5e58ff91f29a96013966ec908471270b2f2b2dc6
+Size: 16168
+MD5sum: 461d94d8e26217c1eee7ad5308738ae7
+SHA1: a3a673faf28b61155cafee9a7376b9b98fdf37ce
+SHA256: cd22bfcef366d86a4ad9176faa93ffcfb41fe315d6def42877ab0ec76880c041
+SHA512: 5e092064a2f16501da5852eaa8f968c9f35c47576edfb93be68deddf8627256d33aad6cc97043feab61d63b28e46150f3f059aea98d9b1574dcfa6332ceab422
 Homepage: https://github.com/storaged-project/libblockdev
 Description: kernel block device plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -1927,10 +1927,10 @@ Installed-Size: 53
 Depends: libblockdev-utils2 (>= 2.20), libbytesize1 (>= 2.6), libc6 (>= 2.27), libglib2.0-0 (>= 2.42.2), mdadm (>= 3.3.2)
 Filename: ./l/libblockdev-mdraid2/libblockdev-mdraid2_2.26-1deepin_amd64.deb
 Size: 14628
-MD5sum: e56a5b683ce0c9a0920479876333c55c
-SHA1: e52bdbe6590e8268c4b04f8de1ad51822978f29f
-SHA256: c4981e8b5840f43631dd74005a950e0ca99fbb023ab9f8ec83d2c7289c48a292
-SHA512: 135f3893872d3501e2eb068cc119fefca162403d95a4ffa410f918fc7948bd82a5581c280a2ea447218487b8e58c601631fe6d2e6b093d75d381cd047e4fff89
+MD5sum: 954e6f6211d8cc75ee2add73f8e11501
+SHA1: 507579eb54e068d512e304c40a848982e1a466af
+SHA256: 5b1eda09ff6071a89923ab44b61bf86dcb2c5956b016a4527c49588ea36e6b14
+SHA512: b42d545d6bc60ab787c0a45b9f4343bc5004f699bff03ce5d9c5b9b7d4e95e87269e9a8a6792659da264696c3d5da83bfb330152a9143f076f04258bf3593495
 Homepage: https://github.com/storaged-project/libblockdev
 Description: MD RAID plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -1987,11 +1987,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 46
 Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libglib2.0-0 (>= 2.42.2), libndctl6 (>= 63-1.2~), libuuid1 (>= 2.16)
 Filename: ./l/libblockdev-nvdimm2/libblockdev-nvdimm2_2.26-1deepin_amd64.deb
-Size: 11172
-MD5sum: aa7542f93b378a58a630db5e45392dd3
-SHA1: af732d3db9d362cd62a089082f1a538b6abd99c2
-SHA256: 883b1f7d1b4c4faa3cfddf537c0cbfff1478905d39eaadda11a41e9de0b7dd00
-SHA512: cbe5334d3d6437d03954b262d40687d02be4e425590abe67b5014ae65c4058eb387d6586063f5971a91448c9fa91aa84e52757ae730955cfc2fce0ab3ea2f2f4
+Size: 11180
+MD5sum: 45c0d89f50f06898e418854c435877e4
+SHA1: 8295ff8d83c3424c9125e7f409587ebf774b26b7
+SHA256: 0e2458ba359a0892285b15147539ae4913c86e752dcb3ef8fb5c360591ac4b60
+SHA512: 702eb12719eb9194b99379d3cf8911691ae529b892ec065477e9d6d7b5b006c0080b57179439d529767c53044d5a282762a6cedec968978e6a55392a74f34403
 Homepage: https://github.com/storaged-project/libblockdev
 Description: NVDIMM plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -2028,11 +2028,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 49
 Depends: libblockdev-utils2 (>= 2.20), libbytesize1 (>= 2.6), libc6 (>= 2.4), libglib2.0-0 (>= 2.42.2), btrfs-progs
 Filename: ./l/libblockdev-btrfs2/libblockdev-btrfs2_2.26-1deepin_amd64.deb
-Size: 12508
-MD5sum: f359553d9a8e5cf6eccf4bf8d233a419
-SHA1: 433d2a1b74dfd254002543b00d66db59646d45b9
-SHA256: 6867b2da98020e7a0c8ed8284957adf04a4cf2c8e6dd0fbe2194a6721ddd8eba
-SHA512: ba7d2d034b630f3b108c554cfb02b1e3718442b5492d6fc8a01ebf99be777eadac3194ebaef9bd75ef6670c3847a1f04e398506f857c679e691eb5ba0d5851bb
+Size: 12516
+MD5sum: ba2a2346ab7e7a99a17c33e5b8ea2ca0
+SHA1: 3653625fd396ee5c679efb94b7ab41c6990472bf
+SHA256: 0337407a1422a43a0640b66b47a696b80761c56c77bb80bad6004f33cdf6b6c6
+SHA512: fb5e152a8c7378f1d60b39db1a6ec3a06814b28783c0bcf60e70ba37bc9f274497f7fa4e0eaac59174fa9ef6cef76e30798cc70b9efb4f47d49f27fec875879b
 Homepage: https://github.com/storaged-project/libblockdev
 Description: BTRFS plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -2120,11 +2120,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 223
 Depends: libblockdev-utils2 (>= 2.14), libc6 (>= 2.34), libglib2.0-0 (>= 2.42.2)
 Filename: ./l/libblockdev2/libblockdev2_2.26-1deepin_amd64.deb
-Size: 38176
-MD5sum: e802c60856cc15417c7791ff5d417bd0
-SHA1: e2cf34bb23e4b5ed18d3b811c7192b4452f90327
-SHA256: e1bc9b02556aa24f73363c016932f57d4c81158665dc93936152b50fa57ec50a
-SHA512: e15e14f7781b60663494ea9dcf564dfb5f4055f88e821299c41d8543bf23bea7b6e77eb021d2a068e765b9764561c6e7dac4061d279d30e2d830ae6f0493e333
+Size: 38196
+MD5sum: 7086e620fada8adae08e73dfce8babb4
+SHA1: f38352480edfdeb985caf0795096cb28c004d50c
+SHA256: 629fde21aa13cd3edb55b51bb005f4881ea5c7c19e476b137c2ac8e49fab397a
+SHA512: e161f44118f811846c9a61accd9dac79ce7d7799e95c0263d5dbc2ea74400ce8e1180285169fa96ffa7f5640d23c5e68f1c8c331625a2d299a344ded651d84e4
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Library for manipulating block devices
  libblockdev is a C library with GObject introspection support that can be used
@@ -2238,10 +2238,10 @@ Installed-Size: 33
 Depends: libc6 (>= 2.3), libglib2.0-0 (>= 2.42.2)
 Filename: ./l/libblockdev-part-err2/libblockdev-part-err2_2.26-1deepin_amd64.deb
 Size: 5452
-MD5sum: 1b1e922e5fc484522230bdab08a9644e
-SHA1: e788c7fa1e54b5a98d2f8f5df4ed517c38f44a5f
-SHA256: 8f8d0c0dba9b8b0176923f9e295d5583b93eb2236b8644e69b2b43468abc9849
-SHA512: 386c3e0960c06da62435e3e363848485aeee145956b18e438edb11e56e944efab7bc52c85e583ef99f3a8fbc68beb794e58111a0240392bc5275fcbf64fe3622
+MD5sum: be4bab5591b2b5359c05c497dba3cf60
+SHA1: ff71e497d3a028b3a4ccebaeddff68f40f527771
+SHA256: c9163bdd63dc98fab83c81632e78a9c320628839c3209dfbc3b9d20ac8aa0126
+SHA512: d87d0af8d0de6845dfd7440d51218facd7cfb2d5d451d41fb3894111fcc4c53aedb49959546d4f4d70adbf07b3f73fa488c87f529552b6a4ed41f8733944db57
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Partition error utility functions for libblockdev
  libblockdev-part-err is a library providing utility functions used by the
@@ -2507,10 +2507,10 @@ Maintainer: Gary Wang <wzc782970009@gmail.com>
 Installed-Size: 326
 Filename: ./l/libgio-qt-doc/libgio-qt-doc_0.0.12_amd64.deb
 Size: 205616
-MD5sum: 996e9210be5d79110fcf675ac899ba1c
-SHA1: 25464ef371f0c1a4270dea2939f63b2e2cb4e725
-SHA256: 3608ae575e0faca14e0471a1c3eebe9735fa94008dc227705b0a26c259e5c36b
-SHA512: dfa64ba19e5a1be4275043c8fba87c76ccdf158228a689e19ac3b77445a7886deeab0c841a10771a20820b93e33785196f35a01ce025ce223a4ce2d95ec2975c
+MD5sum: fe76b572316b52c9dcb90fa7611e4e72
+SHA1: 592cb7afdfc779af72c3673d28b46a31be189b01
+SHA256: 6c025b20735755e975b5ad8f4bc73e6ec947484aeda6e072e1f1444fd45297fe
+SHA512: 12647256b375ddde32904cf7d8b6053061fbd807a457d6c74e99743233ebe8ec86b7410b5ea3a06e86faea4f618b9bf4a94b88bae6a7c12324572f40ee58a992
 Homepage: https://github.com/linuxdeepin/gio-qt
 Description: Gio wrapper for Qt (documentation)
  A convenient way to bind gio with Qt5.
@@ -2566,11 +2566,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 33
 Depends: libblockdev-utils2 (>= 2.14), libc6 (>= 2.27), libglib2.0-0 (>= 2.42.2)
 Filename: ./l/libblockdev-loop2/libblockdev-loop2_2.26-1deepin_amd64.deb
-Size: 8272
-MD5sum: 2d6fca6755bf588ec72fc9efb0cea62c
-SHA1: a1c11d2009875b3c77c37c9c41d775b9bd32a87e
-SHA256: 35b18710729c690e54b812fc1bc17610b86442f8d8b257661623cdf3a35f8df1
-SHA512: 71d196bd7a9f6692b3e8cfc636c3d11734e148616bcecf8a9a8ef4ef18fdf5b166dc6be21fafb4845ea9782c743f245dc3bfcbf47d0190d950d704f6b501ef77
+Size: 8268
+MD5sum: d465b89596f2c76da1a39b19a6aa933e
+SHA1: f0ddbea8a2f24e423bfebf6a5c2e3ddac39bd9f9
+SHA256: 4ff97f77f7d66661a18925687b63c813d04b2b993d165a9b42f52b89a2a64a45
+SHA512: 3530ab1ddcac1cf4eb56521f0bbe97c3126446505a13de9aeed6c65c9a1636bbaac4f9a345de995130c5c02be4f24dedb10f15fdc1da54df10ae12a462b93076
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Loop device plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -3086,10 +3086,10 @@ Installed-Size: 17
 Depends: libdareader1 (= 1.0-1)
 Filename: ./l/libdareader-dev/libdareader-dev_1.0-1_amd64.deb
 Size: 2448
-MD5sum: 5e31b921195704314ab44969ea2f6821
-SHA1: c56e0fafedb82508268e8c3a4972a7244f12ca1f
-SHA256: f9837b316f7d8795f5d4d93531c8edd1dd2775fa83b09d14b0878e45eaf279af
-SHA512: 26938f186dd52ab8455f88e07d838ccdd2a3e9173c74ec2ad0a43c58f20173dd7584f1fd0e7d48d9812c83d6ea7a675954602f74a08d3f7a007aa719596437b6
+MD5sum: 794124eeb90fc8644abe325576fea9b1
+SHA1: a0323730612a5e1caecd496cb9fa38641b52ee34
+SHA256: 570c54c1a91367509edd47ef976c09163a58a960043eac46046b6a7e45f59acd
+SHA512: 0df5e89f9f8252a7ef5788a461f7c51fa0e80351cf7f4edbe59fa65c901f50ca9b601e5d80e60d304d72a09079467e13c7d86ebec1adf7eea9253a6c51e1408a
 Description: dev lib for read image/video data from deepin-authentication
  this package is a dev lib for read image/video data from deepin-authentication.
 
@@ -3104,11 +3104,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 58
 Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.75.3), libkmod2 (>= 19), libudev1 (>= 216)
 Filename: ./l/libblockdev-utils2/libblockdev-utils2_2.26-1deepin_amd64.deb
-Size: 15480
-MD5sum: 017840829814648c5c27a23073c37d95
-SHA1: 759c8747be3e1176185d5429c65ee904b61594fe
-SHA256: ed8508c37d8eafcf622f4c800c3a9d817ec55afdca5cb528f4aa7af8e47b5baa
-SHA512: 270fefb5f9638608e2ffd1be5f8b9dfbef0de68a0fd9bd6067297fa9075c6ad9a8f67aa5b31153aad9283dd015b21daf3507001e41c83940b27f8e2fec280221
+Size: 15460
+MD5sum: 35ec7ce099e552ebefd9fdd345ccb8ef
+SHA1: 20c330c32e37376ed95adfd44d289b70258a32f4
+SHA256: 38d6990aa7f565601fbb1e05e35a391d10ff0e9a9b9f1a347585e7b177a8748a
+SHA512: 222a2b2b6a3797d59ac047943ff8ac1fdf145bbbd61217debf33be7c12b93733f81fda7889982b855ef4638e6d78867bf064b3f292b71cb78c107d5bb17db13c
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Utility functions for libblockdev
  The libblockdev-utils is a library providing utility functions used by the
@@ -3315,11 +3315,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 66
 Depends: libblkid1 (>= 2.23.0), libblockdev-utils2 (>= 2.20), libc6 (>= 2.25), libcryptsetup12 (>= 2:2.4), libglib2.0-0 (>= 2.42.2), libnss3 (>= 2:3.13.4-2~), libvolume-key1 (>= 0.3.9)
 Filename: ./l/libblockdev-crypto2/libblockdev-crypto2_2.26-1deepin_amd64.deb
-Size: 18228
-MD5sum: 2336b0f25ee5d24966b8a68e8d537bca
-SHA1: 4d8b26d229f7357319cc7b0b76e42add3f05973f
-SHA256: a5b0ebc685db14ed106c10d395ce7b5ed19999fe5ebc4dc98ccf65383a1f820e
-SHA512: 5e9255ad2b496795b1632d4b3f2316f4ef5dd000fdf5fd0c01d6985d2348d80e33bdd61f0612b166a65de50a6a49817bacbc0c189fdf9d64caa46edd98a1d506
+Size: 18216
+MD5sum: 60bdf237f4469adfb2c51c5803194b81
+SHA1: 18df85159141c884bc6e0ea67138c8886c8f57f6
+SHA256: c62d809c6f1be43b339bf28bbd7887be928d89f6e2eb5b15a464c9607a2d7526
+SHA512: 193590141ff47d413c336433202145d47ffb04a631b3095b75aee223153443700c36e8fe0cddf90235e9bf69b7fa6ef2bf505da5426252431c8af69c6f895675
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Crypto plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -3667,10 +3667,10 @@ Installed-Size: 57
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Filename: ./l/libdfm-extension/libdfm-extension_6.0.36_amd64.deb
 Size: 12252
-MD5sum: d04e70caea3444f6eaea3f658f2b1cdd
-SHA1: 9132f1d3062cfebc6ff306e8e3c83d813ff77134
-SHA256: 253936c24896ff29fb6d1ae8462ae8d79add1fb2031390d950cdcbc4aa26d5b4
-SHA512: 607f314b28cf638f48929aa8d6acc2b891fcf5a6e336dd855ae71378c6e49aa70684bc70adef8adf959d571c1055d8ba5739b1d7b4c55fe04bbf5c517a74141d
+MD5sum: 0fcc22ec2b2b65656b9c40f200448118
+SHA1: d24e4bc0fc019e40d6294c28a10f231917322058
+SHA256: 4f1ed39a8c7d0e53cd3498346c51ad1fe866558a5a472a93afdc9fe3e8ba193a
+SHA512: b0af54638e90a25dbe8042e4afacd3fd618ba7befd4b0d06f008f3b81564ba0a64fb1f4fd10809a99c14fab5d602098dcfd2928b54d6f4df7b89329d01887816
 Homepage: http://www.deepin.org
 Description: extension library of dde-file-manager
  Extension library of dde-file-manager which is provided for third parties
@@ -3686,11 +3686,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 41
 Depends: libblkid1 (>= 2.23.0), libblockdev-utils2 (>= 2.20), libc6 (>= 2.4), libglib2.0-0 (>= 2.42.2)
 Filename: ./l/libblockdev-swap2/libblockdev-swap2_2.26-1deepin_amd64.deb
-Size: 10124
-MD5sum: 5339b5f36e548da4120a180dd8ee4a96
-SHA1: 68e5a63068c39314527a44ddc44448b18ef3c2fc
-SHA256: 3f05343f77c55e4e00274a89a311344a5def9fc42f3f80263f3408d73b52be04
-SHA512: 987a222850a76b62c96662ceda4c04d7a778aa2eb6f5b6aafe58bd0b0118b178e23edb856a22ced69853306b13ac6baf4da9f0d6e9c11a2d5593cb753170ccb5
+Size: 10128
+MD5sum: 6dcc70381d3ee0514f16b590e4fdf3a6
+SHA1: 24e1f48a36e1b2464c99393ad11d973c5ed964c1
+SHA256: 5f7fe44167a43edce500014b6c5d82d50bab2aa0649c730b1f621e8f1853c42e
+SHA512: 5870d3be68e5bfe63a78dbc1429c3ac709d62cf92d7297099c729f664ace75062d0911ca16ea2ef576a9b51765a0b7d5d57e75e6ed2d838c00ec35a4307613fe
 Homepage: https://github.com/storaged-project/libblockdev
 Description: Swap plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -4282,11 +4282,11 @@ Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.
 Installed-Size: 83
 Depends: libblkid1 (>= 2.24.2), libblockdev-part-err2 (>= 2.14), libblockdev-utils2 (>= 2.20), libc6 (>= 2.7), libext2fs2 (>= 1.42.11), libglib2.0-0 (>= 2.42.2), libmount1 (>= 2.30.2), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), e2fsprogs
 Filename: ./l/libblockdev-fs2/libblockdev-fs2_2.26-1deepin_amd64.deb
-Size: 22496
-MD5sum: 229340a455d504ec9e0c7dacf4c54662
-SHA1: be237008d778323b3cc61c176a163b5b438348c8
-SHA256: b169242b8a224a97baf9567bd833446a4bedc541ca6f5ceeaa3da6b26a324b95
-SHA512: df94c3a357cffc5e44da762bd2cbf9cc0b55b999e00b725e4c236f997d3499b18b13c1e2ce136a4fba71e252d51b4ff08b80494c1575387df17ea54688831c37
+Size: 22440
+MD5sum: a3e3e8e51782c9a750a331a2d0d1fccb
+SHA1: e509a2a415777e9013b5aa4d889b06fa92f32651
+SHA256: 134aeb69ef5ab91cabefddb79641cb1866a17bba9f1f5582815e04b63ce8bb2b
+SHA512: 85f9045701ed407cf6c8c2ae0856ddf08069b6dede3211c6067fa1ab09dc7d6e0625efa54c40daadec4a58ae403ccac2c057de42c0302786e4bc747fa3404f7e
 Homepage: https://github.com/storaged-project/libblockdev
 Description: file system plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -4548,11 +4548,11 @@ Maintainer: chenlinxuan <chenlinxuan@uniontech.com>
 Installed-Size: 32
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./l/libdareader1/libdareader1_1.0-1_amd64.deb
-Size: 5632
-MD5sum: e266fffd8753cc93e5cf9e13b9bdb6a6
-SHA1: cf5ac8066934ca2c1db319c19ac16ae4b63e59af
-SHA256: cdc535d1d4958ec1cc8ab74adeaa4e99621dd0f65c648648dfda95220e02e00d
-SHA512: ac2f31ffc4e22599a4ccc808d0efc3cc617953bf4d8dd084c0b17b7c6c43566d3d94040c099e05b89d9477d372b97cbc30b9df00c03d56dadc348eaade292c1f
+Size: 5652
+MD5sum: f66527dd43395ce36b5016826bdcbcd5
+SHA1: 05e909d2eaadf3f8a5f9969341a2568b50ad7d75
+SHA256: c57b804c05db069d5631d0607ef00f51215bed62bb714a3578091284f6907cb8
+SHA512: d678c6c9c5c276013346b2f4bf58db28a9648e028e9fb7009dca391a6ba9efef58fd396554ada939e9083252a8ddc4425299fa69310a0629ac7d42af3b7d98e2
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
@@ -4623,10 +4623,10 @@ Installed-Size: 100
 Depends: libblockdev-utils2 (>= 2.20), libc6 (>= 2.29), libdevmapper1.02.1 (>= 2:1.02.97), libglib2.0-0 (>= 2.42.2)
 Filename: ./l/libblockdev-lvm-dbus2/libblockdev-lvm-dbus2_2.26-1deepin_amd64.deb
 Size: 29256
-MD5sum: 05b044e290a065aa0a2fe6088a7a1063
-SHA1: df5bc8ca6e115ee9f97af894fc43a50a33c79148
-SHA256: 44271df252327013c45237d609ac12b7138f01ab9bc569726ee2f3b1edb94c2b
-SHA512: 8296ea927a220ca05be9911bfd42f1ab5b575a0cb7f665e78206e8565151c4619375e0815e0006cf18ee42daa425f7e3bfb432a3466ca3dcbabaadc440b7b5d9
+MD5sum: 1f79583a0bd0b124b1466d7f162b5871
+SHA1: 300d23b875e385f4c69cfc865c9bbfde06917fbc
+SHA256: 675a19c37a0b5b9d3a1de8dc134618026fea9e848bd5d7c663f33bf87d132c4e
+SHA512: 3e66d2d30b5fc0fc9f80c2789cd9e60898bbf2f4f7c263a931ba63376886c32677816566073f04de4821a2369009d42887590bb73a0a32431b23ad7c0a85c726
 Homepage: https://github.com/storaged-project/libblockdev
 Description: LVM DBus plugin for libblockdev
  The libblockdev library plugin (and at the same time a standalone library)
@@ -4686,11 +4686,11 @@ Maintainer: Deepin Package Builder <packages@deepin.com>
 Installed-Size: 552
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5)
 Filename: ./l/libudisks2-qt5/libudisks2-qt5_0.0.1_amd64.deb
-Size: 133860
-MD5sum: b1c01c1c2e9b2e5e0d686a7553a068f2
-SHA1: 18808ec5521a21d367f98be76fe980d8d113e3fb
-SHA256: db946b0a67333979ed9487341d54f654a8633915406b8b07efeda43216a353bc
-SHA512: f08c96fb64a025925ddbc4ee90599e8cbb9cf66683d4f508cc4393d4a26c4ba83fc4e53777a07e2410e7ec8ea65388fc2199379be458c6c7660f63f38592cadd
+Size: 133700
+MD5sum: 49b3090c4cb1fe60c44ef0a60d376377
+SHA1: 4cda0ccd2e48dffe87c6664368e79149237cafe2
+SHA256: 34852473655ae8664efc561947aab5c6d90b0213862834df82e9e8765886a2c7
+SHA512: b00167aeb2230ecb87c32f701bbdcfbc195c80f9f72116a590fbebed946315759b463af4e41ac78aa4ac0742e0ba2bc52a0f399e8118ac6dc82e69f87195695d
 Homepage: http://github.com/linuxdeepin/udisks2-qt5
 Description: UDisks2 library with Qt5
  UDisks2 DBus interfaces binding of Qt5.
@@ -6224,11 +6224,11 @@ Maintainer: guonafu <guonafu@uniontech.com>
 Installed-Size: 203
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
 Filename: ./d/dde-wloutput-daemon/dde-wloutput-daemon_2.0.4_amd64.deb
-Size: 51328
-MD5sum: 304c3431c30c72148c282265f1368b80
-SHA1: 1d6bf06e2dcc701081c977c34c376696f16f240c
-SHA256: 33c1c860d800ceeef09920f9079c9449d1d4b317a7928f7853d61c47388b4e1b
-SHA512: ce63a1532df4dd81d4c83d1097fc77c3412659686b7314bd72579222c80d13c0f92fd717965fc5c4c2980914545db7f038317820668a324ee33a98c68c09a86d
+Size: 51460
+MD5sum: 66c7a9a25df910346aa44aaf0c7e0958
+SHA1: 492dd00ffb8d42e509d25bbaca9d1b04689e5b9a
+SHA256: f38e3bd0af70593ac53f7826c5a1ca9007f199d92b480366d5150f4935afdc64
+SHA512: 3f72cb6ee20870d3f2179fcfb8de33c154262c5e50731e5bee50cb89829444f62c802ca2533fcab132ae2aa24b83101cb5f55ade4715fa6e80a2b06ce5eed8cc
 Homepage: http://www.deepin.org/
 Description: this is dde-wloutput-daemom
  for wayland
@@ -6530,11 +6530,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 4105
 Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdfm-mount, libdocparser, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40.0), liblucene++-contrib0v5 (>= 3.0.8), liblucene++0v5 (>= 3.0.8), libpcre3, libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.3.0), libsecret-1-0 (>= 0.7), libssl3 (>= 3.0.0), libstdc++6 (>= 6), cryfs
 Filename: ./d/dde-file-manager-plugins/dde-file-manager-plugins_6.0.36_amd64.deb
-Size: 937244
-MD5sum: 1508ca3b22931c22f12393d2e65eeac3
-SHA1: 3790447744dff35991df20d0d1ff1ff7f3dfe657
-SHA256: 01d68f6068b28b8dde494089281cd880cd05c0b03d652ee55672147aeb93019b
-SHA512: 5551017d0c318c32781f1246bacf0de493fc3d4872f9c2884506ee937bea711db5be7c129943dbc0189c914d125e3bdd50571d51e9f4ae97d9f2890c57b82a95
+Size: 937224
+MD5sum: 5020cf46b3d6c1faa40002c289a1bdf4
+SHA1: 3061d51fc0fffccc485b2b5ec11bc6361bf6f4d2
+SHA256: 2a9b1ae3d26fea21229358b0d446d79ee469b2eb721e4f846c5822d58cf28a36
+SHA512: 589c111f95b914b0845acd34825594c60d65586648644e5fb5b11b5e8f900c014bb21f9bdc9f41503e7c64ce2d13107f7c953825fbcc66552cecfb50f96459fe
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - filemanager edge plugins module
  Deepin Desktop Environment (DDE) - filemanager edge plugins module.
@@ -6629,11 +6629,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 382
 Depends: libc6 (>= 2.34), libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libmount1 (>= 2.19.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2), dconf-gsettings-backend | gsettings-backend
 Filename: ./d/dde-disk-mount-plugin/dde-disk-mount-plugin_6.0.36_amd64.deb
-Size: 101520
-MD5sum: 6ecb06d312fe57c5d71444929e381aca
-SHA1: c0e7fbf27b3b5341fe215f8aa3006a205fd8d94c
-SHA256: cdafa244d1847c6731303d1653b6ed10df2feaf929db8eceb91e619e1267856f
-SHA512: 1a4ef0f5ac3d5c8889612d0056739cc864a713cd2a4f0cde19a7b3baedb191a3ac66dc369af4fa023e7019f9bf19cb226dcd42907a15f02e73836cc4eb8e2f80
+Size: 101252
+MD5sum: 72bbfbf06fcc0ea2f6def79d2a5c180b
+SHA1: 6a96f82a5c6ae79b0021834e05be3eb4df874d50
+SHA256: 12f8c7656af393dfaff45c0cf896235a0c9d7f7da38deaab6ef346d700ca9be7
+SHA512: cae5b79b161c0583f857eca27133572812a446084cdb07ca0d6e3b976470cf9a4bbf3885e69e3bb1fb785eb8993e4e0550f24818133ba4a5010834b4abce3fad
 Homepage: http://www.deepin.org
 Description: plugin of dde-dock
  Disk mount plugin of dde-dock which is created by dde-file-manager
@@ -6833,11 +6833,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1169
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 5.2), libx11-6, xscreensaver-data-extra, xscreensaver-gl-extra, qml-module-qt-labs-platform
 Filename: ./d/deepin-screensaver-xscreensaver-data/deepin-screensaver-xscreensaver-data_5.0.18_amd64.deb
-Size: 734176
-MD5sum: 54c5536b27295edf01bc75292dcf3dab
-SHA1: 3a0fbe7e24ecedf45b1ce8c6cc698cf069346080
-SHA256: 9d163cafb74c859797a6f17b7d15ea25d8829a9d69f9a23fee6331569ba4ba7a
-SHA512: 298393bf17022ac7d6af248dc0db33b0d2964ddaacae1e5842729083ffc04773fc0d34c8922806d67cc150d36060c92ab11dd0e5dfdcf18d9179040213febfb6
+Size: 734168
+MD5sum: 8efde37d5bff1058fa5766ddb05c12b5
+SHA1: 69598c016e182977f7a53ff39e36845663c2d593
+SHA256: e1b5294163b2ebbce7f0ed6358e086b9a233c7438f28145d644385d9c0bd61ce
+SHA512: ae380176547045a2fbc992b277be3e2b942e10fe4331baae48426cd3029ce1f272aaf1c30c69adc18cefab900e01b50e15a441e469e8fbee412a15d738bb7d00
 Description: Screensaver data
  xscreensaver extra with the Deepin Screensaver.
 
@@ -6911,11 +6911,11 @@ Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdfm-mount, libdtkco
 Recommends: dde-qt5integration, avfs, samba, deepin-anything-server
 Replaces: dde-desktop (<< 6.0.1), dde-file-manager-oem, libdde-file-manager
 Filename: ./d/dde-file-manager/dde-file-manager_6.0.36_amd64.deb
-Size: 27254912
-MD5sum: 65d5a53283279a31864e68fad836bf46
-SHA1: 8298a7fb8de3a459efa00027ce91d70c284e54ce
-SHA256: cd9d2dd65796e8f54f6d0ccde7fc7b0616c6c5ee3604cb0acee7ff1276c510af
-SHA512: b33341039b264955c29439eb3a6f2855413e705b9c06d87f942d84e2b30df5b2b6cec940ae204bc468c9b4e8598e616779b6a51a07d2650731d319eee37a36c5
+Size: 27253164
+MD5sum: 33a54319f308de224e90705b5739e6ba
+SHA1: e281e7bc61d24cf17812c1c3ec55411c66816629
+SHA256: b1f57d39c67201696d758ff742abdb407aa44522b7b5ae799799fc1a6fb0e06b
+SHA512: bad4ca67e652d521c771a78c50c4a01979cc1fbe36c5bc5282005afd86b485d05094ea795a7c0b5a77bdaa2f80ae1db88f3a1fdf2444392333ac4477dd8b0482
 Homepage: http://www.deepin.org
 Description: File manager front end
  File manager front-end of Deepin OS
@@ -7025,11 +7025,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 11912
 Depends: dde-qt5integration, dde-api, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libical3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-calendar/dde-calendar_5.11.0_amd64.deb
-Size: 2571624
-MD5sum: 9eb5bfb1382de8bd1632f62489ad1f25
-SHA1: f05ad2e30392f1abaca83b4e6cb798aeba92f0ff
-SHA256: 6114e597cf8929a1b0e14ddb3d3c6e9964cef503998e6fbc3401af4c68866780
-SHA512: 459247ef21671b10b76d38dfbf313b056c834a1271dd2709892ab39f83c99225233d79623e3a66761d5074061a6c64ca215be5ee731e7c8e99d223a36a7e4608
+Size: 2570916
+MD5sum: 20b6cb311af7536e7e2200f12b204d62
+SHA1: 205bab8ab45a6984afeae5ec001a9db06037631c
+SHA256: 34983e0acfefc733957192b0b201e8c4e8704e5c329e460e3d95140c302e9f7f
+SHA512: fb9394f08aab49de4c5843cbed7c56919a1c14b7c8112eba1babfc80ea99599e101fcd55f5d5db63419ab8ede75dd6f15a63c778f1d1755e353dbd7af2a013bc
 Homepage: http://www.deepin.org
 Description: Calendar is a smart daily planner to schedule all things in life.
  Calendar is a small management tool for personal life that combines time
@@ -7120,11 +7120,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 505
 Depends: libc6 (>= 2.33), libcryptsetup12 (>= 2:1.6), libdde-file-manager, libdfm-io, libdfm-mount, libgcc-s1 (>= 3.0), libmount1 (>= 2.20.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 5.2)
 Filename: ./d/dde-file-manager-daemon-plugins/dde-file-manager-daemon-plugins_6.0.36_amd64.deb
-Size: 127232
-MD5sum: 9c1d7b9be8575ca15cbad3af3ae1da72
-SHA1: ce731ec7f127f6b89837554d358e056694e2ae02
-SHA256: 4049d76e324120096d2bccb28e1101e64587c2f1ce6f4a1ed87c70194065af4c
-SHA512: a5afe0411f9ec3440b9e6a07e102836b367795400e03b9ab51e73b3e8dc32cca895ee26f86e9659ccc712f1c804dd11cbc82d5a6b5902c21c32fd5c1de1911e6
+Size: 127096
+MD5sum: 8838e093d95b103b69d0773401aa2be0
+SHA1: f5c43162503b42b004043974ee1785e3855bd01b
+SHA256: 8ba10be8dac86178fce0f7709442dfddc549e7a286dda67fdcdf5d6015b01d92
+SHA512: b7abe7bc579f81b97e19bc1b3cc39bc7ed26b0f2806777928bce340a1b10d9157fa88abfe7f506dab289ecaed49480e0a82d1fbb975eb241b6951e4c9f8109fd
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - daemon edge plugins module
  Deepin Desktop Environment (DDE) - daemon edge plugins module.
@@ -7237,11 +7237,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 767
 Depends: libc6 (>= 2.33), libcryptsetup12 (>= 2:2.4), libdde-file-manager, libdfm-mount, libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
 Filename: ./d/dfmplugin-disk-encrypt/dfmplugin-disk-encrypt_1.1.3_amd64.deb
-Size: 188048
-MD5sum: 8175b226cb47cf8f6a7ebec1687a5a49
-SHA1: 67cd3e6d828f02af86ec16f3fea9a5bdd551c6a0
-SHA256: 1ade5ddbdb3f5f19b53008fc90389ac6cecb48e4d55f0235009e89994c5685be
-SHA512: 340b67b4c5e14d45c9e78d15de2bbee4fc052893d18416a557fa678095dcf1f4dc4aa599370cfda3e821c6327bd3a406fa895a4f4e21442569e510e85ab52e65
+Size: 188272
+MD5sum: 9f2d028febd824ce8725f89c699d5592
+SHA1: 57c7fd2f10552f8b89541de9b3e8c69cc952be71
+SHA256: fa72bd69781a1d6f45105c39eae2745afbb554f0f5193c1966426bb1ed954fba
+SHA512: daea69466cc12d03320b062b988f9baeb35e8ea06a367ed91dc19cad04cff9438e6ef6fd6b186b6913c595ba1d4122278a517467836add397e5040467f6ffdbc
 Homepage: http://www.deepin.org
 Description: Device encrypt plugin for dde-file-manager
  A plugin for dde-file-manager to encrypt disks.
@@ -7627,11 +7627,11 @@ Maintainer: liuyong <liuyong@deepin.com>
 Installed-Size: 77
 Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 13.1)
 Filename: ./d/dde-wloutput/dde-wloutput_2.0.2.1_amd64.deb
-Size: 22240
-MD5sum: f7eca1728d9215751b205c401f2f12c9
-SHA1: 4a57d845f6e51ae0664cd25e8d85db40d9d760ff
-SHA256: 8b249840d999a930ec64e84fd96888b2afcb3cccfdf3179463adad3a4f429c1e
-SHA512: 3beadcd4c6c5c0eddbbe018819c3d4e4138ab626cdc9720f3acae5d4ac2256b7bcfe4a16c6ab0d3ae1d004f237e72ddfed5c37a71ec92b5d4e5d009d4ca821b2
+Size: 22204
+MD5sum: f599c4c200a1acdbb62722c10333c050
+SHA1: bf32d6da3482945dfd0ff532fc83ae7e460a49dd
+SHA256: 8b2b5c4faf385e05cd1c8d8f79aaf70330cba531f401adf5ef90fe5ae6fd8612
+SHA512: 2eacc5c51926969453738ebfc7e172072fc52573a891f7ba2d0006470a4d69d2890309d0f5a3806cfd7044dc1675e7f77a81515fa2e4a99beaee02013555f3b2
 Homepage: https://github.com/linuxdeepin/dde-wloutput
 Description: this is dde-wloutput
  for wayland
@@ -7722,11 +7722,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s
 Conflicts: dconfig-editor
 Replaces: dconfig-editor
 Filename: ./d/dde-dconfig-editor/dde-dconfig-editor_1.0.24_amd64.deb
-Size: 105188
-MD5sum: 9546eb6e69d287928a94ad8e8331d644
-SHA1: d648767f0568c1ff450c552dd7ae045086a02cb2
-SHA256: 3c6c14a85c0bb18a3f7ac8a6c20b37750d5cf8e56e5cbd4d14b8d9d33d0864ff
-SHA512: 0b046ecab6c3222553f46afaa9c9fdf7ec474b001a05d895809704337ee97f2c763702b6caa5e489cd185f167d7972ae68329faadd62c4b9af30099a10b1c7e2
+Size: 105152
+MD5sum: 46473008c721623419b2f03636dfd1fa
+SHA1: dd9a005ca18b0209d618a5a77bb796777539b391
+SHA256: 9e01c9cc2c64dcfb3c9fdf3fbf5721e0b1891de91fcc9027218d39ca3e4b2d27
+SHA512: bce7b1e72758787bf5692b655a3d56e4edd8c1f5122a1b0db1b67aef7da817b967aa27053284fc7eacb747b7d34318df42489a4c24d6ad84c17f3b99b1a5cfe5
 Description: deepin desktop-environment - dde-dconfig-editor module
  dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
  DSG configuration for current user.
@@ -7758,17 +7758,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51150
+Installed-Size: 51020
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48888748
-MD5sum: f96c6250dcab32c045d353d6c9232434
-SHA1: 95160edaba8a44ba9c654ca514fb7b847bda85f8
-SHA256: bab0b186deb436803ae4dd103cc307bf1c5f1016ee79648635949a4a0a806cf9
-SHA512: 3983cd53f6ea184eb4a8f5d158e78c017084985874d48d4c1a556c93bf1039ad3f9c2eea8e6eba0822cc2078a278f172f78e1d306211042a5139cea86504595a
+Size: 48760556
+MD5sum: 5172672e47d2692bcdda0832422ad1a6
+SHA1: f0368d857b2a33890a98024b00e568d81d8044bd
+SHA256: ed22f0bb5f2635fc6c440c96e664eecd99ad54abed8cb671b81b2b760a635945
+SHA512: 58099ac06c4016753c9a9eec6161da9317720d05d426064c3189cc2ec10c60a48e4cc24963ca673bdfeac2a1562539e9718106265e26ea0d454496d21d081b97
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -7824,11 +7824,11 @@ Recommends: qt5dxcb-plugin, deepin-screensaver, dcc-wallpapersetting-plugin
 Conflicts: dde-file-manager-oem, dde-workspace (<< 2.90.5)
 Replaces: dde-file-manager (<< 6.0.1), dde-file-manager-oem
 Filename: ./d/dde-desktop/dde-desktop_6.0.36_amd64.deb
-Size: 627104
-MD5sum: 2c38f6b3921ae46a74c593416c8928b7
-SHA1: ad060e4570832165717adea9ef7c69c14ee579e2
-SHA256: 84685e5f6ad1465301d92530b242537a900506d3f18d78ebe1aec8c3d9547f86
-SHA512: 6427f34a2f39d5b50c1d336d59d7d73cfd184081437d5ba6e9d08773ee0fc6da621d51c127b7a54c3fbb6e80c78ebe9c4759816d937fc39145137a967fce3eeb
+Size: 626740
+MD5sum: dc313d31be6154b4df9f051c02a2b091
+SHA1: b621b328f6d85611a102746002e17a21cd18d101
+SHA256: 7fba07fdbec3af582397802ff53f4fa72ba0b5e1fca88f8985c565701cede9cc
+SHA512: dd9f7f46da134674af480b132c65996006f1369629719f05aa69594691bb48956aa77a9b9c9c20207bde6518b13227d95d6c40136b7cd0841d7e3a14e3b8a929
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - desktop module
  Deepin Desktop Environment (DDE) - desktop module.
@@ -8132,11 +8132,11 @@ Installed-Size: 2829
 Depends: libavformat60 (>= 7:6.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
 Recommends: deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), deepin-anything-server
 Filename: ./d/dde-grand-search/dde-grand-search_5.4.4_amd64.deb
-Size: 637068
-MD5sum: d342d894ca511cd30d8a896562f1666a
-SHA1: 797acc9ab15d4cc284270a5b83fb1fbd5c36859e
-SHA256: 6e5268cced3861060f0db53cde6bcc777bb0c15150945d302511070cbc0b7173
-SHA512: 28545b34f274e43c39ab33e2c00297acb6635aec95401be3b05e25cae9bb5dd3d4be3fe7e58012c5f2ef7cb34e0dc6d9bb5a2fc26a80840dcf2973225f5509f1
+Size: 636576
+MD5sum: 6c674a87707095e353b515e702ef472e
+SHA1: 06cf4d594151fad7515ae7ff4d0fc5b8a331e077
+SHA256: bb7945d67940db9fe75eaef43d74d9e1a3768e082febd6041df9e9a41f937793
+SHA512: 4433b88a7006af0f804bd45280448a2d0ee54a476d5aba57e724b50c2870baf420ea631fb6d5440cdb6989d330a2c2adb107ace6a67a365c1daddb1571eb2337
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - search module
  Search module of deepin desktop-environment
@@ -8223,10 +8223,10 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 730
 Filename: ./d/dde-control-center-doc/dde-control-center-doc_6.0.34_amd64.deb
 Size: 520828
-MD5sum: e31935a23afc3f6c9fbd0f13162ee01d
-SHA1: f216c916c1666d744e48a49e40554f586860994b
-SHA256: 688e35939cc4e62c2be7ba0d8f24fa1ede260bb636277fc9769947ba67cb69c8
-SHA512: ede3b7646ecb5c24c72ec6509794e755391d31b655e911eb7e227e25932add5cf0d829795516e28221f38db2ef8033938736ec444fdc7d0b8cdbe39e0951d594
+MD5sum: 2bcbf5816b8a3d431c9202198fa3349c
+SHA1: e41d9d34fc067ceed7d85d495d73a76b0566ffff
+SHA256: 98473c47ba99b62b0a4f9ce52eeb20bf57de969415d5b04ac7645215d53bfe54
+SHA512: eaeaf4ec04244eadbd197aeb54ef32d7e46181f7c28241e530b996c4d4cdf05e2acb3dbdd4e91872647e65a3f2c1a1e0bdb5d28b5c977e21dab948f50322c4f8
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: dde-control-center (document)
  This package contains the doc files of dde-control-center
@@ -8340,10 +8340,10 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 175
 Filename: ./d/dde-dconfig-doc/dde-dconfig-doc_1.0.24_amd64.deb
 Size: 104720
-MD5sum: 0526d8f10d34ef75998188cddcdba81d
-SHA1: 9af120a7e1c06c9b9981b888643b462418ff0cd5
-SHA256: f4d7ca50f7c37cacd959f0c20065248c44d2ec5e63f4cc90e4ff25564f1f61bc
-SHA512: da188dcb48bebb2a5e5ea8f7a695d0a1b5d931f7a5153f9520c6bb0037228e3cbe0f0d5b4561b88265618ce932f918a11c52ac0f9770f0c8dc8568f96b43b7a7
+MD5sum: 4164e4a9eef146c6734b7355000b9c3d
+SHA1: ab0a7b171b12fb026157837dca68c9677b1277fe
+SHA256: b87eb4818d4040fb4c1bef75db4e14043a06ce7ecacf260fa363b5183cbf5ea7
+SHA512: e4779ff7e7bb49ec09e5fd17b9489590d41eafb62941eb5229ffda9a277add228f197eb55dd2da23cffde68997408ca5b842c37eb0a8c459a7d2e2f37f152d02
 Description: Deepin Tool Kit DConfig (document)
  This package contains the doc files of DConfig
 
@@ -8394,10 +8394,10 @@ Installed-Size: 97
 Depends: libc6 (>= 2.4), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
 Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_6.0.23_amd64.deb
 Size: 32644
-MD5sum: 24de7b153fd977ee465a431a040b386e
-SHA1: 2ea711850761498345a7cae3b379aaf48ca5c356
-SHA256: a10211fbf90f545804b2620790f9f241e7f09d71be79e678fcf87549219292a3
-SHA512: b1922f60490b157d8c7c159791ab4a845f7ad8f1bd508efdf04c2535eca94076f301b7a3700d9455ebbd0fe677d8e595a1ae801f03b85225b3de5a7639b1d28c
+MD5sum: 5398b57f9041ea1407c77988c9592cdf
+SHA1: b8d4726403712cbd453f9c7e2df90a9897ca9bb3
+SHA256: 49566d191b145895c7da488f6a307fe345df5fe5758b33250006efbea5e50602
+SHA512: f92452063b37d43c27ddf2c54663b25940a15f11914ae1842ee7307300bf59b38f5a019acf9043bdc872e203d85522f085dbef5bbeee2d6df23bf0682c25a605
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin for onboard
  Dock plugin for onboard of deepin desktop-environment
@@ -8489,11 +8489,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 3558
 Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-burn, libdfm-extension, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 13.1)
 Filename: ./d/dde-file-manager-common-plugins/dde-file-manager-common-plugins_6.0.36_amd64.deb
-Size: 804024
-MD5sum: 6904729b890abe78929dd3f9d116c1d5
-SHA1: 220387f1c7aa29b73a61e115b8b2234349ee16ff
-SHA256: a18091594198fc80b713c74323b6e72d868c7a784992ba08ca00dcdce19bcccc
-SHA512: 11caefe16c683b057f50439a007418e83fe5cf7b514e07521f17f6478a17e0307e7564dbef6091ce9f8b989e520b7d26afdec84090e25f1dc37d69058da0dbc5
+Size: 802612
+MD5sum: 84fcd9ce59b208389e712e9ca9761d4b
+SHA1: 3a3c3e63593a63fe0cd7e2a7a72ce551da0652d4
+SHA256: 838169b5ee60a6a5e6008594275541a51c81e617121dee6d48eb29475e2b7c8d
+SHA512: eba4ae4424c5263220ef2f2169126997d56c7c5a4990dcfc255797e9d74748590171545f32db0639d2148c780690814353e9204672e7560a5f9f06b707239398
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - filemanager common edge plugins module
  Deepin Desktop Environment (DDE) - filemanager common edge plugins module.
@@ -8601,11 +8601,11 @@ Installed-Size: 1084
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libgtk-3-0 (>= 3.0.0), libkf5configcore5 (>= 4.97.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libx11-6, libxcb-randr0, libxcb1, libxcursor1 (>> 1.1.2), libxfixes3
 Conflicts: dde-kwin
 Filename: ./d/dde-appearance/dde-appearance_1.1.7_amd64.deb
-Size: 293860
-MD5sum: 1f0162eecf7211638eee3fb184ea611f
-SHA1: 7efaf682d777c46b71c4cce93665b7f9feb34aaa
-SHA256: 0f121a2ea57f4aebe1e58008015a5514e7125840be8e37f4718ec09a40f6b6b7
-SHA512: 33946826ba8951b786ceb1066a2378f1f6fd72dc2194336813d0b01258b5190d7a2034a2d26a2b29350df0dd05754977b232f6d4f268c27975e439ca3beb806f
+Size: 294512
+MD5sum: 68defd39f0deed8906f14d954fa79ef1
+SHA1: be2b57f66772a3d0e09c6e63f865314777f07932
+SHA256: 3e54a333c2900e38234ae2a5e3d46586dc37688eaddfe007c3b36d2b7ac72d6c
+SHA512: 4c1ab57cd839ddbac8bcb7815f2b0f4bf5c7dd0402f01524512af262d0b36d8f5ad53899b64cdb0d77a72b1e71707bb08250fe1fe356b5c306b190cfcaca083b
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - dde-appearance module
  dde appearance Provides application resource management and control services for the dde desktop environment.
@@ -8662,11 +8662,11 @@ Installed-Size: 3093
 Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), libxcb-util1, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libxcb-ewmh2 (>= 0.4.1), libxcb1
 Conflicts: dde-workspace (<< 2.90.5)
 Filename: ./d/dde-launcher/dde-launcher_6.0.18_amd64.deb
-Size: 774940
-MD5sum: dbddc764fd3603b243fc2dfd36a07818
-SHA1: 6328fa561c7a50ad797aa49d433db5923b9f259d
-SHA256: 482d6c29a9411575b933abac11c867b38ccd7b6b174a811c52a34e0d96bc43f2
-SHA512: f9d6b96221d37e89ce5a992bcfdf8e005e7d730cde0d8a09ce3a2be7c353644202c25c2a8b39667ed07ab3113872110cf042a346d76530878c6328e4284054ad
+Size: 774504
+MD5sum: 9bd9b354b4b277119a1a3d7ca0ddbe81
+SHA1: 54b0e03fcd308809114dacd9be7345d9c2e541b0
+SHA256: 4956a68190d30070aec2c74ebad42181c53e393391d7fe04d01541b6142e76a2
+SHA512: abffe3fa4eb404c8cb43882af90f6017c0db249350b707cf16a048a874ce072d36c6a6bf6617b61e76c6d04536cefd71a5e1c3cbcb0a0609dd5474b3bdcb53d5
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
@@ -8861,11 +8861,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a
 Conflicts: dconfig-daemon
 Replaces: dconfig-daemon
 Filename: ./d/dde-dconfig-daemon/dde-dconfig-daemon_1.0.24_amd64.deb
-Size: 106700
-MD5sum: b6fcfd12124b46aa21e11c0215c94cfb
-SHA1: c465bbf8a23fb6c76c5cde8c83a232aab3a07844
-SHA256: d17202b52322b40fc12f273ba76d2cc5700654850e902ed985f8264fc7ca3ad7
-SHA512: ebacf03626c76a7c9a4412110cc3860acec994c6f48eb84a3c528171c868f99783f4766a37228719599c82adae4d50854e7caf89fc2929f8f7aa1a7a2222cd51
+Size: 106740
+MD5sum: a91f29333e2e15f3955bbceb56c85a8c
+SHA1: 4442c63db9f497dee97bb3001d566eefb1ea7bb6
+SHA256: 35189885c022dadcb04179e41f40c8af074fabcf5e13d45f34b794b0ca7afb01
+SHA512: 2fc94c88fc7db4019f08cb40e11e5261073c35457f4013462054215da515c28ccf2e25d51e3fae7a5a781e5c9fd1fb76a2622f68173c14332ac2aa8ee2678511
 Description: deepin desktop-environment - dde-dconfig-daemon module
  dde-dconfig-daemon provids dbus service for reading and writing DSG configuration.
 
@@ -8967,17 +8967,17 @@ Version: 6.0.23
 Priority: optional
 Section: x11
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 6980
+Installed-Size: 6976
 Depends: libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxres1 (>= 2:1.2.1), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-qt5xcb-plugin (>= 5.0.25), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), lastore-daemon (>= 5.2.9), qtxdg-dev-tools, dbus-bin
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dock-network-plugin, dde-network-dialog
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5), dock-hotspot-plugin
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_6.0.23_amd64.deb
-Size: 1503268
-MD5sum: 15e9ead1d40b29142e6c3aba093c37af
-SHA1: cb3e5548b2553fba06f88d7a837bd8c66f5d867e
-SHA256: a2a6e0169fb1a21a27b8a77752d0ca66b96b2a07aed1530abcd091f95a734163
-SHA512: e94b01fa6667e56b76b27eda10d2a84040feee6494d92cbb4150dd45766050948efb09483e23e8f546ccfd53de513b5fad74a99fda9004ef4ca722add7353cc4
+Size: 1502648
+MD5sum: e6ece465170d3bbda6b92630fd0037ce
+SHA1: 6fea4e31cd0f131c29a1138168a309c0aaa32697
+SHA256: 611fef32a496f18e27523a6ec97d5a0839325a7fbcb26f0e2e448ac5eb95feaf
+SHA512: 6a08e3c90cdd49c278b5209518a0146f6ddd0353b66a5523721152ebbbf835b692175c057e71ce791746c0edd424239f5bdda7ed360e22c1fea03ec4acac77ee
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment
@@ -9456,11 +9456,11 @@ Maintainer: Gary Wang <wangzichong@deepin.org>
 Installed-Size: 116
 Depends: libc6 (>= 2.14), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpackagekitqt5-1 (>= 1.1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), packagekit
 Filename: ./d/dcc-insider-plugin/dcc-insider-plugin_0.0.2_amd64.deb
-Size: 30888
-MD5sum: f102ccd05fc80f484e1a8bbc0297ccfc
-SHA1: a6e4d3ab8ea914c2799c08bec3bdd8cc2d2e7b55
-SHA256: 8d12dd816d19f9067c3be9ef5e9ae2c8500529db0e2b978d3181f20a8afec649
-SHA512: c0076f83b38ab7c85c400f1083530bca5499e067b3028a88196a1d6655f01ebd6c0c6b97193969d06c7d3c1da34d99ce40d2142d74e35a14e62d6642e417f778
+Size: 30840
+MD5sum: f08d01e0188d178f9f933f3cf1ce1e84
+SHA1: 679d5fce90848d4983c3d3bf1d86f4c48c2b88f4
+SHA256: 53b6675bf15288a0c3c4538bd72947bc94ed669cfbc83bbda34db3d48e685542
+SHA512: 661ec726d6d7af50c56c44db44bc60bd6077af59e07b17eed5c7de008c74839849f668a5e861101369b769853ff0a84be9620a777edb7b0c1fc17863c6eb8ed3
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -9532,11 +9532,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 754
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_amd64.deb
-Size: 180488
-MD5sum: b8407d5179a67770c1619d7102871201
-SHA1: 19343b22272eaac54d9d79408d1b7233d70b108d
-SHA256: 671d2699aca5a56e72755dc52c7013f8b69bdf00758bc1df12a9a223d9e349f3
-SHA512: ab46d1312ec7b2b7f6d03f6a3662fdee2540d72ba5d6f05e8ad1786ec80243c8fe77077252c63c84e602287b6908bf42fddbca667040c42f4f295298c28943ba
+Size: 180088
+MD5sum: db26a64c202a6770d32f4765fc66e85c
+SHA1: e940a1a67e54d13cb0d59ff1ba0e153bacde94d7
+SHA256: ea89e23aca2346d412eecd501c35f2ae877886e11f196b2fac36cf37331664e3
+SHA512: 793fd388936b660c891a64725eb54d65b2de126f7ccf3fea4b22207d61941709b73d4a74bce85fadf3747d551f02269562176cfbfa42d27a770ef610e8d43263
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
@@ -9683,11 +9683,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 748
 Depends: libc6 (>= 2.29), libdde-file-manager, libdeepin-pdfium, libdmr, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libtag1v5 (>= 1.9.1-2.2~)
 Filename: ./d/dde-file-manager-preview-plugins/dde-file-manager-preview-plugins_6.0.36_amd64.deb
-Size: 161288
-MD5sum: 0285e4bb1def27425e20ed00fb4ee055
-SHA1: bbb01a294e6ea3b4f65c587ae28afd02794bdf00
-SHA256: ff96933c421a665bd4c99320f12cb4024f03c032f7c1fd7c7b577d8fd4caaeae
-SHA512: 312e5190a822654c1e60b8b37f741cb987deb2ff0353455773063422cabfd5f272fb89e8b1de37e0b15b04f8e6db095860c4053cb2a0667425ba5d7d7a2319ac
+Size: 161616
+MD5sum: 903d6132f1a29ad68ba4d0a2ee9333b5
+SHA1: a3da4216d01a1f120894926693514658b9a81805
+SHA256: ba48f2d4eb261e6a8dab1d004bd73e5c0ad0755a969b582b9dbff30ef8174044
+SHA512: d19b162d14187562f5aedcb13d9c8146b79085a4be5a83e1a9062169b7ed6d3e0956dbd4925360c84657c5c4aae7cdb6f79131decdb98b8c33688b3a1a0e06d8
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - filemanager preview plugins module
  Deepin Desktop Environment (DDE) - filemanager preview edge plugins module.
@@ -9904,11 +9904,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1671
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb1, libxres1 (>= 2:1.2.1)
 Filename: ./d/dde-application-manager/dde-application-manager_1.0.20_amd64.deb
-Size: 455156
-MD5sum: 6bcb1f71cbb4d974fc4ded9e41efa7dc
-SHA1: 5323a6a188b23b91e505aaac10dea0cf052cd079
-SHA256: 2ee2b0d6b8d81971a1c0d0451d2fae1f8aa5b204dce72dc1730d01ecb8f7dcda
-SHA512: 633ecd38b37ca091cdf5860f022364924adae806d9da6a97eca7ea9dc32863a3ee295111afd07c58e63a8af7ebe763af627afb76415b65159f81c30b7093f699
+Size: 455196
+MD5sum: 8a32b11fd09f6821569395b0443f26ea
+SHA1: 30a76079a2044747a9c4b44251f7db4d23814903
+SHA256: 4e5b690265dff6112e80286ec6716290e5b1349c08f66febecf8f665ce94a2f6
+SHA512: bfa657346daec1a693e3ad696ec9e35c9964385da246d8ede1e91db8386c742d6c70c86872220dc774d08de61d74cfcb8c7942c85172802e54c85a88eaa9fa91
 Homepage: https://www.deepin.org
 Description: dde application manager module
  Application manager for DDE.
@@ -10127,17 +10127,17 @@ Version: 1.7.18
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 28013
+Installed-Size: 28059
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.18_all.deb
-Size: 25521984
-MD5sum: 86044ffdd350ccebec377b64fcb5c7d5
-SHA1: 6a5cc3712d90b3aee2dc169ff2264e196943ad5e
-SHA256: fd08741f7660035938cec0312ec2ba1b892b3076fff42bb9eb34f25a0d5f80bc
-SHA512: 4001e21f616699eed399e9400238275e6465d6f62be91e8b62c72616628fee7a67e703e029bc0ef74c8f38b63eaf889fa80488996d4e1aec7c6781ba2d3ca74c
+Size: 25570724
+MD5sum: c8a04e48d5339abdb6e39c1feb1ab578
+SHA1: bc55d1ae27e8c467cbda688a918bab5ece72f865
+SHA256: 83aea22a84dce5d26382339d68f479326b70d3709b09787b72ba91425d153241
+SHA512: fc83fe4ae536861634a481880323076dbc4d4091f9df24df165ebf22746f0cdc57ebe6755d4d1d1ee244efe2db464eeba0ec2d5718e1f30464d42e643d743a06
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde
@@ -10484,10 +10484,10 @@ Installed-Size: 207
 Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5widgets5 (>= 5.9.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxcb1, libxss1, deepin-screensaver-xscreensaver-data
 Filename: ./d/deepin-screensaver/deepin-screensaver_5.0.18_amd64.deb
 Size: 61272
-MD5sum: 3eabdfeff2fa200b06c01c0fc73aa2f8
-SHA1: e3f93e188378189cac2a46a4cb5731267e18ae29
-SHA256: 2b2a4c59600d9a28b4bfbf40f1adcdea1b09797deccf2e9f6a47776be4b8ac56
-SHA512: 8dfcd4caedb086828c54c0b5bab134283aa14b7b7c592b895a577aa68eec94d90e5fe644f9024be80645fce94e485d8409b4ffe4c1c440930f8da44933f3f930
+MD5sum: 13ccab679dd981f75037c4e7dd93014b
+SHA1: 64af07e7d7aeb8ba2f06556eba48ee5d217b8d14
+SHA256: 0730857b0676ebf3bec70517550458ae34a23849c771e682fa2a312f8ff036e5
+SHA512: 68042ed859a1aecd22f72e6b4b54261e44c7225c0fdde48aa1189589e99957405786c3904c91a9c4d65817f5cc743162e891523d6910e9178eb4539c4c698929
 Description: Screensaver Tool
  Deepin screensaver viewer and tools.
 
@@ -10599,11 +10599,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 93
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.9.0~beta), libstdc++6 (>= 4.1.1)
 Filename: ./d/deepin-shortcut-viewer/deepin-shortcut-viewer_1.0.0_amd64.deb
-Size: 25284
-MD5sum: 3d4edc5b181a7b7258ab2fcb0fea5293
-SHA1: 0f9caa65eab81052512a210be467a15a40ee0f19
-SHA256: db6bf8ff2108778edc1e827c61bf68abce16b1d85a7a75c13ac2ed0a7a99d856
-SHA512: 866cfc224a315559e430c00839bd8bf0e096c96b92146569501beabc059c195ce3af4c93e56b6384a149ff8c388b7e39aee99802b4cd73d4ed3fcd673a972c65
+Size: 25248
+MD5sum: 23f85f0de39f613448aeee4e7c9a7ab8
+SHA1: a9b5766b392103fbafb4ef0d560d2d582f479e5f
+SHA256: 67582cb66e816168ee8cb9d7b65896b250d6158f5f74b825e2813e6b3fea720f
+SHA512: ee3556027502da1aeeaa8801a91c51f4a2adffe1cf742ca4d3a4d57f4babc60d7786be5f4c0f165b7d4af4710ac69fd00c5182dac1bb5c30a166848310fc87df
 Homepage: http://www.deepin.org
 Description: shortcut viewer tools
  A shortcut viewer tool for deepin.
@@ -10808,11 +10808,11 @@ Depends: libappstreamqt2 (>= 0.16.4), libc6 (>= 2.34), libdtkcore5 (>= 5.6), lib
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.2.1_amd64.deb
-Size: 283240
-MD5sum: 3d9308f93580761590fc99bc860134a3
-SHA1: e89d04174958951084719602fa44ed4e30a48e95
-SHA256: 3bdf2e4db14864481f48846c83bc5ebf3d868e4b6649e1e0a88dbc3888b32fba
-SHA512: 44f5fc030c250c10fe3bda71fb6a44c5e283515cc6e389bdeacc22a69309db2e7a755c1c311f9206315c097c4d78e2df3da44340808d57ebbe4e1fff2524b9a2
+Size: 283620
+MD5sum: 6504b4437bff4e002130bc4a4d4142dd
+SHA1: 6fa8bb9272312f879d4d1e73effb8f09771764c8
+SHA256: 23b6d9bec3e2c6b582d244e9dff9c0cbb103eeeea520984c5de07ee95e1aed78
+SHA512: 2b52bda20c2bcd62be3d1c9088251555f777fb4fc8ca06a532736c56b9b3bee83a5e8cb62d44551e2c49f64be1eb603b7a93b92ca6dc51de58875ad0f9d2758a
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
@@ -10883,11 +10883,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 485
 Depends: libc6 (>= 2.14), libdde-file-manager, libdfm-io, libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2)
 Filename: ./d/dde-file-manager-server-plugins/dde-file-manager-server-plugins_6.0.36_amd64.deb
-Size: 113696
-MD5sum: 06b9d7e1e7a4ed1eecd95cabbb292ae2
-SHA1: b479128eca8def8663a214b5683408ededc08788
-SHA256: 7eeaa88a4d898b556cb10179636bd2447c0563c1570cc3520c2e59ee705777e1
-SHA512: bd18f2ec432636a877a2affcf83b970fdc0be1849e6617fa4583719fe1ce8e1aed74afd22f68fd99a091b0097edd9e1c2614073d8894452a82d1cadcd1647542
+Size: 114160
+MD5sum: ff5ae90037ad52e75d48e1d457d36aaa
+SHA1: 5894b991067fece8e8df3a1f254ab95641a4f3ec
+SHA256: ec5268fdbd51a3f617f03994cc46deceed21b7a60c44812d2c20433f3f90ba4f
+SHA512: 9fc442f99a98bfe991b9a6d3520e6b38bcd43b500b86af9a788340d909d3014b1dd8c77c7c707bbe7e3523050c5d5fb203ac4d5bc9d7f4ee87b1c16dbecf209f
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - server edge plugins module
  Deepin Desktop Environment (DDE) - server edge plugins module.
@@ -11038,11 +11038,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 17381
 Depends: libc6 (>= 2.34), libdareader1, libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 11)
 Filename: ./d/dde-control-center/dde-control-center_6.0.34_amd64.deb
-Size: 4381304
-MD5sum: dae60a82e5e3e51378f5f26f3ee275e8
-SHA1: 9b49a4ca3297f730b47273e6f160e32123b0babf
-SHA256: 4fec746e963bb16238ec02950f7c0d6bf4b4c9f98a18bde726c6401732643416
-SHA512: 420724a6cb005bf6ee8d0f482e2f674d93f87b06845d166ac2b63d899f954115126854d6c7f353c6da76181bfd66e6f6da11b8b65dd911eb02b176a4ff7ec7b8
+Size: 4380784
+MD5sum: 73ca070d40976634caab01619f5bf00b
+SHA1: 4c9d8cace4e990b6c3c43c019d6da0cdbd9439e4
+SHA256: 382b3224202d5a7aaaf79eb2094b1974e7b0a2ea4d6fcc5f42c7e271e2536f65
+SHA512: 06f02b86f7093cbeb1878b3659648fc2ca51952ce4dace018bc49ef25b3f952d452aa2ecf1cee9ef557141555acc489f7bcf2712ab22a1402e234f2b4f014144
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment,
  Integrated control center with rich functions,Besides providing rich
@@ -11292,14 +11292,14 @@ Version: 1.7.16
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 26277
+Installed-Size: 26302
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Filename: ./d/deepin-wallpapers/deepin-wallpapers_1.7.16_all.deb
-Size: 25277144
-MD5sum: bface3437b6887badefa3f8af4457318
-SHA1: 4738a8735e3fcf1eed7551e614bf0314e79ec098
-SHA256: 2bd2b1bbecbc563253640ce59b3414ecbeca03aacc8c142529fd3553ff54396c
-SHA512: a210e66207abe62aa376f1051d8cfaa78d21f0a4f7d7c09f72b55d0c30d931f844b634b748545a4a1d092cad7fa182f80d73894cfce9483585403c0e481798b9
+Size: 25310480
+MD5sum: 642f622d129299ed56ca4c1aa3bd3dcc
+SHA1: 72d05303d83089799934e38370d21e8e85f66680
+SHA256: ac4643b7fd90ef5f6ff4b68e0f101d7466b9e0c132c70c865aa02186424915e6
+SHA512: 2aa1d53a47128d83fd333812698bef951cb462605e6dfca62d91f2227ecda0ef59c1bb876aa0e0b461b1c4ffd2af33dae013159c9a1129c97ea60a122d189dfb
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for dde
@@ -11342,11 +11342,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 2594
 Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libxcb1
 Filename: ./d/dde-desktop-plugins/dde-desktop-plugins_6.0.36_amd64.deb
-Size: 621876
-MD5sum: 9c7a66d7e54f0e758f2766c489235a4b
-SHA1: 365eec8f13b97a82d0c9df9758ba855b85c1d062
-SHA256: 7a7bdb19e3f735dd6706aa46ccc1721d36b016c519096d75ec28f6ca099e4d9c
-SHA512: 37757a1777f607f994d94994313e07247b3238418d28f5c0b4f8a0989149f9351fd9608dee494e299f09a6d80e8547afdc92c9d01aa16a3589e4d073ec17d2a3
+Size: 620108
+MD5sum: 0b21273bf80067b8be1b682088f54ec0
+SHA1: 539adbfd2b6f01451a7aac484216323241fb50f8
+SHA256: 8b995cd5b4a110861a425825f5bf161e7ecb9e0277bc11e2778640e1092a7aca
+SHA512: 7f35ca89fe4eeecdb25826ee1f5159cfbd154b0be2683dd61310dfc3245d3aeb667b79a37de96c5df41b06d4bdc1e3f35dce0b185c73e86c5247cc570808ae6d
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - desktop edge plugins module
  Deepin Desktop Environment (DDE) - desktop edge plugins module.
