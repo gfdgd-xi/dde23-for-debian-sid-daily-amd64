@@ -269,10 +269,10 @@ Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.5_amd64.deb
 Size: 16900
-MD5sum: 425bc76a555c2dc7e2b4660d084be6dd
-SHA1: aedcc2edfc407ef13a5ccae3c46e8bda11c9b119
-SHA256: 8f16cb0e8ab5bf0a2a72239656f85bf5152eb1ceeff74f2f13e9f242a2f710e0
-SHA512: 5f1263204d2007fec4603765933363af5a78de92000efad511ffa0437c70a1a9cf96a85678b952792998608ad1ad1789c22bf9ab2f28aa2a02851656e84eb37f
+MD5sum: 24d12edab2fe36ef1670b48443f8a563
+SHA1: f6ba3918e44b438c6fcf41e1ac97ad1fbd001da3
+SHA256: babe35a985cc57889fd61a448ede334337ea7f0ba45bf01ff51f3ee646de9cb1
+SHA512: 7c0c335e876880ba1e2d9d3563447b33a37e53c5afef6a44f13c178be53cb13f52bdee9a31e8121189977f420007426b6012d0719c29537635d2c79f27df97ad
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
@@ -2517,10 +2517,10 @@ Installed-Size: 808
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.5.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libavcodec60, libavformat60, libavutil58, libffmpegthumbnailer4v5, libmpv2, libpulse0 (>= 0.99.1), libqt5concurrent5, libmpris-qt5-1
 Filename: ./l/libdmr/libdmr_6.0.5_amd64.deb
 Size: 239480
-MD5sum: 02aec6a2e00e879226972a4611abccd6
-SHA1: 5b8c4b24d49429a1accd69ce6f003c1df67ae17c
-SHA256: b74dd15323083c2d54b48b32eebe5823b2736d6938ec6c17596d8bc55ae7aeca
-SHA512: 40e3b92dfd18b2424d105567c36f7a6064216324cc778792095547e8eb3ebeaedde61364b4b197b86ae18015fdf32af894ea2717b77b765f32e8fec42eff2a98
+MD5sum: b13b27338f6a74a6283ff5ddaff61ecc
+SHA1: e5c41ceede844ffd225346274a82b69468335437
+SHA256: 3056fbe051c8d7c01f86a3ed7940f4e7c07311b64204628505251c4e155f9640
+SHA512: 142683e5ea3537b1aa308cc1cdc0afc1cd32a723dc90093d6f033011555c0b5c9b7641774144090edbc4b880ca675990e073f01a4881e6f7cc5bc952bce92a61
 Homepage: https://www.deepin.org/
 Description: movie player widget library
  deepin movie player widget library
@@ -2971,17 +2971,17 @@ Priority: optional
 Section: utils
 Source: deepin-log-viewer
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 1080
+Installed-Size: 1088
 Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
 Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.5_amd64.deb
-Size: 301872
-MD5sum: c950a8ec200bc3ca71474a46347b1593
-SHA1: b4bd20e392cc8ca244e08f99dde7a8b3c9998997
-SHA256: ab1d3f1ed9cccc72fa2fe2f28d35b81718ec25e0ac6821c7e5ef268e2a65ee21
-SHA512: 0ad5fc4df8ed10cfa86a46289da28edbdb4916fdbabc5f80325e77e7b170e5c60ff070714b5f0f52641c55d4635767111f803e961cc7d02c59ede8ff365ee0ee
+Size: 304240
+MD5sum: 1054a584ba70e5bb5143dad72420ef7b
+SHA1: e030db25f986f2313c023949c0a5c29ea9d718d0
+SHA256: 6fb67bf36a41b30caa9c0dcd23da98da9ac2f88c3977eb840b5f23ce22e7b713
+SHA512: aa0de4c56cd1e50372031ccd58e7a4583e2c4602f046c5249a46eb6f1aa87476f5b8916616da313bd856f1efd07137222f36aa5c48a9365def0f56b089ba69a4
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -4912,11 +4912,11 @@ Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidge
 Conflicts: org.deepin.downloader (<= 5.3.15)
 Replaces: org.deepin.downloader (<= 5.3.15)
 Filename: ./l/libdlmcontrolui/libdlmcontrolui_5.3.76_amd64.deb
-Size: 475864
-MD5sum: c28b27fe1727ead772bfb3ff058d30fd
-SHA1: 0e53605d9d56dcd835d8eb35c27e73745121af0c
-SHA256: fd0745acc2355e9ceb3a383c76d19ea1fb856d5a52263d4270858fa34764ce2d
-SHA512: bcf6ce9d461515b83d851c3170515ebd32727c43a1b9705509dec0ac385ec37cdc821cfe19bcdee97aafcdc1fd94e64b90dcaac33b631e7fa158ce62564ec8b2
+Size: 476936
+MD5sum: f278b0a99868c5c6d1bcf9d747e03c52
+SHA1: be398e65cae5fbd3b19f0a7d622b89cbb3eb8e38
+SHA256: 074b397fe78e7fa58c014159f530f3cdc1dd7bca88cfa518192a82517098928b
+SHA512: 175c22ac791c471c04e1ff90fadffc5f2f3d9e91904204983ca54ae37d507f3e696283e80defec6efa9e3190a2590f38d0b227694f8a74921d37b8f54f7c55c9
 Homepage: https://www.deepin.org/
 Description: download manager dlmcontrolui lib.
  downloader for deepin desktop environment.
@@ -5905,14 +5905,14 @@ Version: 4.2.9
 Priority: optional
 Section: utils
 Maintainer: shenmo <shenmo@spark-app.store>
-Installed-Size: 1333
+Installed-Size: 1335
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
 Filename: ./s/spark-store/spark-store_4.2.9_amd64.deb
-Size: 713452
-MD5sum: 9130937ac150ed06f3585629ff47ec5e
-SHA1: af4fda57cf7918a5422c7676d20c4de403702c11
-SHA256: 99ff4aa37da7cc55c00eb858b69cc69819a2c1d4f67b672bf3707ef3d71e35b5
-SHA512: 134f71b31abf542af7e938de314bb902117361c9f71a08f39c966cd4fe6a9a08d05e17152d2a86423ddc3d38bce051971b17de801b4781fe953b86f841aaca12
+Size: 714640
+MD5sum: 4166ddbe213f368ee3ab74d39ab49ffa
+SHA1: 508fdfae12e3c880294a56c35c94bfde62033420
+SHA256: 4ee1cab475f49586512acc625d9ad1e23088d990f470e6362bcdf1be50101105
+SHA512: 516077a80f138a471d373ecc1c317367d046e18e7d4425b2eb766c644b68d1333cf94e398f50610afe945e40a1ad21f030d0181ecf7b65d469345f5670272d73
 Homepage: https://www.spark-app.store/
 Description: Spark Store
  A community powered app store, based on DTK.
@@ -6152,11 +6152,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 317980
-MD5sum: 50f45ae7e804d08289976bf4f0f0a770
-SHA1: 71867d488be8865f6a6374714b0ae58f048fdd27
-SHA256: 9a91759ee261b4b6213e548f541c393d11af1db964c6cf6f3e820730c50add10
-SHA512: 29f431a1b28947ee5cbb9e6cc82f34b9e5a9dcf9b05e986692606c0e81ec98109ed6ee7ef1db13ab29d359649f4185a173c62aae323d668de433ff32975d1731
+Size: 318284
+MD5sum: 4ee3ecbe004adb282afc34f7ac07c5fc
+SHA1: 1856da35926fcab08058f1792c82dc3a67c9910c
+SHA256: c2e55f0b235de6f4f611800136f1bb0922ecd99a0a575b522212eefec8f9a0c1
+SHA512: 988d4c45919c19d1714fcb066deacb4d43a5651a17c79f2d91f912a23c39494c925110fe740437f04d70a1a8caa7b0d672e98682e1800245cb114090b24cbd52
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -6791,11 +6791,11 @@ Installed-Size: 222
 Depends: libc6 (>= 2.34), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 13.1)
 Conflicts: deepin-picker (<< 5.0.5)
 Filename: ./d/deepin-picker-cli/deepin-picker-cli_6.0.0_amd64.deb
-Size: 58028
-MD5sum: 38e7497e882164dbf0ba08ba012c275b
-SHA1: 585e9a813fd8b2ac501803fad551274c43f194a9
-SHA256: cf4b9b9b443a27cddeec27ce14acd358fb0cd28502eaa9404ba12c8da9c641f4
-SHA512: 079f5103a244c2622a6bddeb6afee86433f03b65216e537a2870c40ccbdffa685b30237098ebba5d2fd2b065f4892ebb75a701af20d9cd91e99bc32593c0be5c
+Size: 58032
+MD5sum: 37db2b8c782153d7d100cf0a948ffb31
+SHA1: 02bb774d8c02d71d337373fe80ad5c230ef8148e
+SHA256: 4867b48f48d968472e4b55a5a542cc9b26ef15a4a5a50c3f85ba168f55a05276
+SHA512: f3bdde94ca88cd4cf320a821e7801b477c7b0b6ef8e40602e9235f116c7deaa48aec0008f5ccfb8777d8f013b93d9634a15970ba08506816f3415ad5cab2797a
 Homepage: http://www.deepin.org
 Description: Color picker tool for deepin
  A color picker tool for deepin.
@@ -7438,15 +7438,15 @@ Version: 6.1.5
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8596
+Installed-Size: 8600
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.5_amd64.deb
-Size: 5165748
-MD5sum: 8b15748fe0d7768bfba11059b6205a37
-SHA1: 40ce81ae96bf48e5f1285e0f45da634ffce32718
-SHA256: 0bbb676ce342bcea1860c374bab38576cf6291b6a64c859477676a662323165c
-SHA512: 9863ebc6ee46fa40263f83c7371f680f5e2950378e727b8331399e43d15c7aa08d6eedd28a5ecbde123435477df9aa335195adb355b28e3557eaad9fd5545937
+Size: 5168180
+MD5sum: cd0db64bf4bc05a6ef9a95cc94de43d0
+SHA1: f314592e9256cb4055021ac3f84e20c0a0eba06c
+SHA256: e5325a127e74c8dbb895f131b8357c7c31550014480af3a2dff0567bcc635cef
+SHA512: 0543c89c09ee94458ff1a6e2d453b50092d508ef83c34851856654864446d0035d83956b91306b89c27aeec111bf296c252df1c26c146721afa8c0592169df42
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -7586,11 +7586,11 @@ Installed-Size: 30489
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), qt5-image-formats-plugins, deepin-picker-cli
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-draw/deepin-draw_6.0.5_amd64.deb
-Size: 24673988
-MD5sum: dcb01384812fec00124a3e4f8f3169fc
-SHA1: 2ca674390eca9d3a66427a4713a87eec5db01d21
-SHA256: b59d03d8076a1c08edefd87b40e6a14984e46fa2a6973c6fac5ed91def3dbfca
-SHA512: 5913289d00cf6cc80d431f07ba73b6f888be123bcfdaaa49132e1c2d7676bb432956d932ea974bc709c09cb15a3964dae7676a6bae1cb6ccf8d94fcaf476c871
+Size: 24673392
+MD5sum: de888c880b887e2358bd2a9a2ad24d75
+SHA1: 7ed9163df186310b411b98b3cf37458aa3eb25f8
+SHA256: b97910e48ca5c9819de5202327e0a8fe3e85aa4d2d1125a9432e87c6d61e3fd7
+SHA512: 51d774e4b75bb9f2aede2e9a4f8d0d8e6b02f097559057727917247f2a85cf996a34153ba3f14aea9adb452ddd8471a2b46f5db7b179cd37ba0e73f25291d775
 Homepage: http://www.deepin.org
 Description: Draw for UOS
  Draw is a lightweight drawing tool for users to freely draw and simply edit images.
@@ -7604,11 +7604,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 534
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.114.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-polkit-agent/dde-polkit-agent_6.0.5_amd64.deb
-Size: 123880
-MD5sum: 7eae22890a28bdfcfe5a9dbe0bc6bfbc
-SHA1: fa920fa48c67f7b1ec9dae1876bb49ab3575901f
-SHA256: f849ab4c7a5f847a681e6921c3197485b1555c4f63078ec61b57f4c560cf072c
-SHA512: 1fbb3e8f33a6331632e457f8b7661dd973e969f31ad406a366c6c1a53ac66f5b1e6a54434de35d3be2fecbe6d28dabdbaa2a2f2360b6f02ddee544c98c0feee5
+Size: 123772
+MD5sum: 40baa9562c04f564a2043009596767f5
+SHA1: 68fbf5db23bcd791ecb02a0007b89935ae1780ef
+SHA256: 1a5e19c4476dd52103777a976e355167ba2eb45fb86de4e9ba58c31fd2aff08c
+SHA512: d42ab486a6f7b26c194f75498ab857cd7a40f00d0ee2dd6d749e1e96b9fb862d3689e89a1432e0e963cb03aaedd957e50d4703a3969803560d074987e0f7dac3
 Homepage: http://www.deepin.org/
 Description: PolicyKit agent for DDE.
  PolicyKit agent is usually a dialog used to provide a way to let users
@@ -7932,11 +7932,11 @@ Installed-Size: 8402
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 13.1), libudisks2-qt5-0 (>= 5.0.6), qml-module-qt-labs-settings, qml-module-qt-labs-folderlistmodel
 Recommends: deepin-ocr
 Filename: ./d/deepin-album/deepin-album_6.0.4_amd64.deb
-Size: 5586212
-MD5sum: 164ac977041333e096d609c071015c61
-SHA1: f630fa1e6cb9a9913c9d785bbe74ad705a040ab0
-SHA256: 164c49fd2bdb3df696a8af1f5b2887c200524f1fecd5bad3e5fe0e533c435528
-SHA512: b8934c4011f8324d4313290ce41dd5863dd9ac5ae4194e12723a6fc7ae17c67b2a8c4f47e50b390ff600993a136049b5d6d12fffb1793126f7cc2a0dd756dd56
+Size: 5585272
+MD5sum: 00dda9ca76525ca10092119e70ee3528
+SHA1: 541a7eadbe08aa80ad845e6b16b603f4d787cbae
+SHA256: e1982dd1822d184634e4561da5fd82e20c6e14b2f0bdc9cd7e8452bbf34899f2
+SHA512: f95944f18ef71470289a859010478dfe59ba21d1b255b62699c29bd186bb1bba3e81c34d04fdab211a97a09a32d29c29ed6c2f4e6815cafeb700e74eb1d54e54
 Homepage: http://www.deepin.org
 Description: Simple description
  A detailed description.
@@ -8069,11 +8069,11 @@ Installed-Size: 8730
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-10, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3937632
-MD5sum: 3ffecef5f6e30786e3f722f083587f46
-SHA1: 77a74f6f91f46bc6e151c46890536571fbdd61b4
-SHA256: 244a2358a1026cf2baeed40872b99bde0991f13c73a6afec485cacf28d769186
-SHA512: 92d5d776a28505062618115bfef879bdcd322ea9ec9537ba43b83b391a5a5b92c91ea85ebe9f4397afd1f09193e6ca3bdf8db2fccad572217e39530a241671a0
+Size: 3936820
+MD5sum: 36d56bfcf6a950df7379e6687f8d461a
+SHA1: 595b005701814d8cdae3c60f367e5cb182861d14
+SHA256: 4e876c51cc6d9467711bcd4bf5b506aa64a0a9906ef2afaffe935d0226857330
+SHA512: 1edbc3fd56f0271555f53d498a187593660b3bc11b6b568fe96be9e7cf5bf8ffc82e97b75e02f461bf2c6ec57d0db426548192d03f6a09e10122cce49256d84c
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -8111,11 +8111,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidge
 Recommends: qt5dxcb-plugin, uos-reporter, deepin-event-log
 Conflicts: dde-help
 Filename: ./d/deepin-manual/deepin-manual_6.0.6_amd64.deb
-Size: 730632
-MD5sum: 049977fb0bcfd08d1b3ecd0ce369fc1e
-SHA1: 27ffe09bbeb549e725eaedb7ec430251b14c5918
-SHA256: 38dc0e81323c6cc4d4f532139f5e6d507f9fb5faf2d0daa6456361439fcd036e
-SHA512: d2f9f8461e9535dd8ae5c512b0e0c23ede9ee27cd440e137be4de969a386998ae44aa340646d8c3404cc72390e612fca0ae32c5eb39c0f36695f2e6d4bd9a3cc
+Size: 730680
+MD5sum: d0860ceb251f085bb4fc5de61e41bd3c
+SHA1: 8d0df20fe87b23bd3c19168fa7127aa1af03ae76
+SHA256: 10f43be69eb6641731a7d2184184b37a74640c9fe399fecf6e2e07c1f9339526
+SHA512: dc66db45b607010c3ba336a093d93bb5823896a9212c1182b19d7574b7b5ed092116944bc2c6bc3d0104fb698f36eaacf78c751edc153c1a7f1bd4844cf2341f
 Homepage: https://github.com/linuxdeepin/deepin-manual/
 Description: Manual provides user guides of the system and applications.
  Manual is designed to help users learn the operating system and its applications, providing specific instructions and function descriptions.
@@ -8532,17 +8532,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51174
+Installed-Size: 51191
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48930040
-MD5sum: 9363677fb4d06c8715bae9778662f2a9
-SHA1: 081bb082c7c60efcdc481bc439796901398040f5
-SHA256: 1973ab2c3c1822fe99eb4a4ed623c47fb5cde6be89d64e5fdbb359ae3276cf18
-SHA512: 3855bbfcc1fca7b137899bbd5252286c61d5acc63cdd1343240e1515d21bf54e5ece039dba340f76e24949e116deb96cee8e2dbbfc81f71372140097628aa304
+Size: 48945596
+MD5sum: 37f8e0d93a801bd1c0e8ce8aa4c66683
+SHA1: 7e1dfbdba78acc9ced18c3cf3e5baf2c489154d3
+SHA256: 72c7e9026824b2af074b9d7135c66b01f5e7fedfbd4a949dde53aa5813255ab1
+SHA512: 9db4b32654d05b7741f4280e1d0d72dba857b6d66b409b2b7044a65d3b1528c29ef88dcd25b0d1273b2b5952f056a7a83dd73063dce450b22b844f78fc453242
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -9164,6 +9164,27 @@ Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
 
+Package: deepin-font-manager
+Architecture: amd64
+Version: 6.0.3
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 4778
+Depends: libc6 (>= 2.34), libdde-file-manager, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.3)
+Recommends: uos-reporter, deepin-event-log
+Conflicts: deepin-font-installer
+Replaces: deepin-font-installer
+Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
+Size: 2568168
+MD5sum: c85b6afdd4bc8cd28068b7e3d012c107
+SHA1: f562a251bcbf673c65cc2e633db301fd8f1e434c
+SHA256: f3af8f19cfef0c0258c3bec8cba44308bd4d559a45f3e9ebae74ce5e470f02a1
+SHA512: c7a521637a209c423296ad8216133bf4fbdd1c84f0eb8a8b03bc83bc420f790b3be69fe4c3d9f2362f1391f267a36b56a52769ba001622d645b7edddfd8238f7
+Homepage: http://www.deepin.org
+Description: Deepin Font Manager binary
+ Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
+
 Package: dde-dconfig-doc
 Architecture: amd64
 Version: 1.0.24
@@ -9247,11 +9268,11 @@ Installed-Size: 21605
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libva-x11-2 (>= 1.0.3), libva2 (>= 1.0.3), libx11-6, libxcb-shape0, libxcb1, libxtst6, dconf-gsettings-backend | gsettings-backend, va-driver-all, libavcodec60, libavformat60, libavutil58, libffmpegthumbnailer4v5, libmpv2, libpulse0 (>= 0.99.1), libqt5concurrent5
 Recommends: libgpuinfo
 Filename: ./d/deepin-movie/deepin-movie_6.0.5_amd64.deb
-Size: 9540880
-MD5sum: ad087933394ff91facfac5ca38634d08
-SHA1: 68c51214683b210a34689b36b8c636c1d667c18a
-SHA256: 1462454a4017a8e2330d8c8830052624a214651dd381b1d92924044bd6e82bd8
-SHA512: c91a8a4a1cd52d052046e69166be99aef394b29d3e5f831c31571d5add55107b11d0507f410eebbd5d0a8354a30f2be07ca44b1e55489d377424f1dca124d7f9
+Size: 9539188
+MD5sum: 56a9f9a53771783550a5eebc1a1eb2aa
+SHA1: c86bb55e8243fc6d7aea42f68bacef1b405663df
+SHA256: 5500959475e1a759dbc7da434f9f156a9708c9c8c054b4d781e2187432ab812e
+SHA512: 9da1adfc68aac2ae45396b25ed0465b15286ba5fb0dd87d2a8d670d6814e1148ca99023d804d53bfcb1c8af92ca0ff0e4001c35fda577ec709817510f5b35641
 Homepage: https://www.deepin.org/
 Description: movie player
  Movie is a full-featured video player, supporting playing local and streaming media in multiple video formats.
@@ -9885,11 +9906,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 24220
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 4.0), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5-0 (>= 5.0.6), libvlc5, libdtkdeclarative5, qml-module-qt-labs-platform, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
 Filename: ./d/deepin-music/deepin-music_7.0.3_amd64.deb
-Size: 19085344
-MD5sum: 3d5335bfefe6f05a5014fbfae252bdb3
-SHA1: 5156412615caf7e1fa9e6b99908ba35d633437b5
-SHA256: 5d25752d1ab450ba95aa5ffecda01f0e55c4fd8f92a7e403857d36b9be5a53d8
-SHA512: 93b8b2d6d35a3e99e63cbd9f569c7389d3a44143f5d24cfbf308758840bf1b734f2ad0f75fe226c6dcaa8dbf7cc796aeeef87b11eee7d054f5609e30592860d2
+Size: 19085868
+MD5sum: 290d670fac8e6911aed0b2aeeeeafe7d
+SHA1: 9ac55e8f9c805a31de97eca49f506192aae2e390
+SHA256: 3c30f3cf74dd6e3ddfeaa447f80d8c0346237c7bd03d4599101ef60be29e9fb8
+SHA512: 4eef37aeb107fa42691cafba55be22c24db9a7aad13cbf78346422dda9ebc0de6b40f1c07f12b9a6c0ce0b689e5e0a6b8281f6c94998b75c1412efa494399879
 Homepage: http://www.deepin.org
 Description: Music software for UOS
  Music is a local music player with beautiful design and simple functions.
@@ -9942,11 +9963,11 @@ Installed-Size: 16617
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libimageeditor, libpciaccess0, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libgl1, libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), libqt5concurrent5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.9), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), zlib1g (>= 1:1.1.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), dde-api
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-camera/deepin-camera_6.0.3_amd64.deb
-Size: 14945316
-MD5sum: 0cf9ea8b64adb3ca088e69f296a25204
-SHA1: d06e9d3c84ba96663d8070e7fc5b5e955713bf02
-SHA256: a034f0538543d98bfea528ecd3a60deb608bf5ae421f6c1d100fdcc2b527f779
-SHA512: 2ba6588f024b8c1788e5981a2ec91a568477b94cb8c159226d758396f5e9024d80f3b3f198986deb547caf9429739e4668f97dc3edf6f1d1b23e16fc72cb584e
+Size: 14944808
+MD5sum: 480fc2880e126baf21dd6d93ac390c84
+SHA1: 1720f674bc07192b810448c1746b4d6cb884ad51
+SHA256: c962f4c0cdcac6b1fc69268a0ae274690fcefec5b6b30f023ebb2c59143520df
+SHA512: 8cd1d4bc21b43342533ee316d72f2b9be96ae91976a10c7527d9e7558f34bf9b148a42521ae41b2d92b65a56d935aa33355d5649e2ffe5f7c90faaa2bf5b43bf
 Homepage: http://www.deepin.org
 Description: this package software for  UOS
  deepin-camera is a tool to view camera, and also a smart take photo and video in life.
@@ -10149,11 +10170,11 @@ Installed-Size: 18574
 Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgstreamer1.0-0 (>= 1.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libvlc5 (>= 3.0.0), gstreamer1.0-plugins-good, vlc-plugin-base, gstreamer1.0-pulseaudio
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-voice-note/deepin-voice-note_6.0.15_amd64.deb
-Size: 13465944
-MD5sum: e0e8bb8d7cb8f1b3d0126247b74324ca
-SHA1: 3bd051bad99d1189417507ad752c268b23e82a96
-SHA256: 99c543dced4ebfcc2fffdc1ad70ddc8508d161081b3cfeab3f6428338e1b4209
-SHA512: 8b259cff065c684ed82a330c58de70b1c94e71f201d5972a0ed61694ff2b5586bead116f38242ba4255cff2c8d912649e53cad3d9d7a1b85606e63921bbf3004
+Size: 13466340
+MD5sum: 3c4d924f9989bc219233f84ba8319efe
+SHA1: 80b8f54a3c0ea85482bf1cf9870bd1aeecd53212
+SHA256: 7042185e0c40fdb00422ad1f64a1b6528177a64fdd7ecdbf40e725bf1d70bb6f
+SHA512: f73ff089feb0c62e7117b54b9433922e0abcf2f61ddf78cd167dd0259b3a452af08137a74466be66715e3871c7c4ecdd5efad164fc386927ba359bd6aca0e511
 Homepage: <insert the upstream URL, if relevant>
 Description: Voice Notes is a lightweight memo tool to make text notes and voice recordings
   Voice Notes is a simple memo software with texts and voice recordings. You are able to save the recordings as MP3 format or texts.
@@ -10167,11 +10188,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 34611
 Depends: libc6 (>= 2.34), libdframeworkdbus2 (>= 6.0.0), libdmr, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.1.1)
 Filename: ./d/dde-introduction/dde-introduction_6.0.6_amd64.deb
-Size: 26484596
-MD5sum: 5a2ab58669d19d034f0c853eee0ec1fa
-SHA1: b0a4d27603e49d6b13b9dd5f6b1b25f53d32fa7f
-SHA256: 49fe4d64d7f740edc2fb67d141d52459a6e42fa2e08f4c02f322971baf2628d6
-SHA512: 350bdb9a19c7a07c453c90d54c9cc1a3150f0ccaa839e68af596643d7c6999f8c061879a6fddb182fe77e9270089547277eb90fff94878da838d2bfae8441709
+Size: 26484652
+MD5sum: e34355d5c8ed25ba301f581f3d624a2e
+SHA1: b693bb5499dc4f1f6f5d33d153054f9d1f8589d5
+SHA256: bd5f071c5b2f51e7fb474a5e9a107e8cb854a1d6169af25a5845f4d26d3e8cfb
+SHA512: b669e9689cd3802d111ddecad3ae6804e3ba0e2e4037d9ae3799547be2b88f0c1857039ffea32f5b24a65826cf079e40e3446f1513955ebd6a64d8c039aaf38a
 Homepage: http://www.deepin.org
 Description: Introduction for UOS
  When you log into the system for the first time, a welcome program will automatically start.
@@ -10688,11 +10709,11 @@ Maintainer: Deepin Sysdev <sysdev@linuxdeepin.com>
 Installed-Size: 12490
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 11), libusb-1.0-0 (>= 2:1.0.16), libnss-winbind
 Filename: ./d/dde-printer/dde-printer_0.9.20-1_amd64.deb
-Size: 3507352
-MD5sum: c86555939e1125fd32e1fa719d155d68
-SHA1: 711c3437c7953c9a5c871f7a417cb5b9b321f8be
-SHA256: d928eac7565b8a4720087b65b9530ab0e9f7aad6c0532651c0a424fcf58a6884
-SHA512: e5d4e400dd9d5ff3a919b7bcb9c49a09ec65b1b429a190a7f5f8f73f9e1a5a53d53d4f1aabba573843e36e0ecbf160f275b50dec5b19435607362d4b19559318
+Size: 3507752
+MD5sum: 0d88f3c4bc949079cea1896f64699d95
+SHA1: 3e819d4eecf4f80f36aa0c6988976bb8dc91da33
+SHA256: eafd8219fbf786c895f22a7437fc58b7b29b06fb542cfa8e0804a0a19c2227d9
+SHA512: 19b4566d0379942653e0dc2fea06f2c52d92445b5f5cd8350f06ea1c6d3900415d018da5021758929ca7f878b94c4a3464ea96fdcedf3470752ca97932abdca9
 Homepage: http://www.linuxdeepin.com/
 Description: Deepin Print Manager is a eazy tool to manage printers.
  Deepin Print Manager is a printer management tool,which supports adding and removing printers,managing print jobs and so on.
@@ -10704,13 +10725,13 @@ Priority: optional
 Section: admin
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 5670
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.19), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs, inxi
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.20), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs, inxi
 Filename: ./d/deepin-home/deepin-home_1.5.1_amd64.deb
 Size: 1215476
-MD5sum: a2a56dd0158613b181dbefcfa723cd2d
-SHA1: ecb85b84985c5cad9e41f8da39f0b41faa7ad7e9
-SHA256: bf8bd48d85c2ca3513ab07a202160c503ca6f3985b8e9eb0492cf75da110c032
-SHA512: f99bee215401230f7419d80263ce6871ac044fc9b003d5b09e12807f398e643605a74836c0be1076adcb7dbca153594d3c943e12c9e1bd1f03140c9b62ab4efd
+MD5sum: 0289d68d168191772b41096e4fc04b83
+SHA1: 92acbd601c770c4d73ee5e96eb6ebe3aa66e7b03
+SHA256: 55c654c16649955733089d2b727ab487fa4ce528711781c4677cfcad0b5df573
+SHA512: 62565e6c5b98b602948bf856e7d4f30ca10672860488148ff51f326b61181bad8b1d237bebfe7594fab072bef260448a2ed9da8c42f7f5823fc6a7de5b5105c4
 Description: deepin home
  quick login bbs, bug report.
 
@@ -10888,11 +10909,11 @@ Installed-Size: 6928
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-10, expect, zssh
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-terminal/deepin-terminal_6.0.8_amd64.deb
-Size: 3403580
-MD5sum: 1478d1538702d1f6484045f213c9542c
-SHA1: 6d2b294e3437d6410fa834eea8e282a3f480e432
-SHA256: 9c65e3d16676fd7ac418d10b9fa2541afa7fd6b3ca8524b04aa1c7f504953b6b
-SHA512: c551459d0454e4de7bc84cbc5bf9185b52c8b2499d8e440324b6b18dff58051d42528998e81f122999e9dc06abd3f5ee0a0d11d8ae4820e38ee4746bb03c2b25
+Size: 3402752
+MD5sum: bada4ca6577538244ad74ea66989c6c8
+SHA1: 35a6661e132ea292b7da401896b541ca2a589f56
+SHA256: 128fae61598fb31eeec50ac9695e02d98a6ecc310ae71067322398c5a941de5a
+SHA512: 22004cc142175735303c6746e42b8dba43ce30dd1b20a764cd3a2ec7abf9a54ebaf9444eb4bd1524ce06b992d1b3a10261383175fa0eca22ae8f6afd34394c69
 Homepage: https://www.deepin.com/
 Description: Terminal is an advanced terminal emulator with workspace, multiple
  windows, remote management, quake mode and other features.
@@ -11102,11 +11123,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidge
 Recommends: uos-reporter, deepin-event-log
 Replaces: deepin-system-monitor-plugin
 Filename: ./d/deepin-system-monitor/deepin-system-monitor_6.0.9_amd64.deb
-Size: 10995456
-MD5sum: 0c5545a79192ba885e7585a494917fbc
-SHA1: 08f81f119a55aec6a8e3b85ca934727240058e69
-SHA256: cfea93ca98ae674039c85f784a870aac29916a094e0051f8fbe7e705d277703b
-SHA512: 3d12ff310d0c7a4c89fc7ade86d7f38075277deef440e815166c9a7a46a62bf0b1a268f157faf57a769b7a68b78502efdd2e9508474e4f8db566e69c0e6878b0
+Size: 10995872
+MD5sum: 1749ca7c10c8dbd51204152d7170fd49
+SHA1: b76330f7bc23eb9c26ed90e107fbf2693e59baf4
+SHA256: 2908936964e19db377a034bd019acf57f6c4ff517dc8a7f1c51268d6bd3956d9
+SHA512: 63a250e9ee4f5f01d50e980527080d0e905bcfca5af375291e6a99502dcc331f6c848a6759c41cbef2ddf0de962a0f9c00a815bd1ad973b0b961ad43791b43fa
 Homepage: https://github.com/linuxdeepin/deepin-system-monitor
 Description: A system monitor tool.
  System Monitor is a system tool monitoring and managing hardware load, program running and system services. It's capable to real-time monitor CPU status, memory footprint, and upload/download speed, manage system and application processes, search and force end processes as well.
@@ -11149,11 +11170,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 3594
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.2.1)
 Filename: ./d/deepin-calculator/deepin-calculator_6.0.0_amd64.deb
-Size: 1012840
-MD5sum: 9ae2a111c41ff57d1306cdf65325b3ac
-SHA1: 3c5832a0c32acf808aad3ff67642ab33f10f66ca
-SHA256: 532394e7726a1419b9ef98a93acfaaa5bfb7dd5232035ce665906d294d539ab0
-SHA512: 316e6ab3a116179b21940eddfd06e33e277f5b1acc87d4da308685471e8dc39e1fff83081b671866dbcb6c277f96c4cc8acd9ae4c8cc37165e768e140c6c96aa
+Size: 1013052
+MD5sum: 8543617f060d5af4dd6866c986dcd39d
+SHA1: 0302419d4862f8a53deb8c549e06753198988fd7
+SHA256: 42227500c69bef2ab05b369abadfed4548601a21f4c37c573c126cdc00dc071f
+SHA512: 5f31a8d0a92ec6023bd7a49bad28fa25bf2b0b3ad87b20bbbae24811146be3f35896880d120227b349c68774f8b489c0a73759df28e1b91228d3f51eb0f5e0c2
 Homepage: http://www.deepin.org
 Description: Calculator for UOS
  Calculator is a simple and easy-to-use desktop calculator. It supports addition, subtraction, multiplication and division with keyboard input perfectly matched, as well as symbolic fault-tolerant computing and calculation result linkage.
@@ -11927,11 +11948,11 @@ Installed-Size: 2816
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libqapt3-runtime
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-deb-installer/deepin-deb-installer_6.0.14_amd64.deb
-Size: 1070744
-MD5sum: 51c57b2ca8c553192aae4a8945dce771
-SHA1: 7ad04942f9b864043b285c70432a4c661ed40e10
-SHA256: fa010e1aed836fa95f9b69bcf3008d6bea643aa3909a4f57ec564e7257120c4d
-SHA512: 9e0e327b424033e029c0a2d4c5ca6e100a47e840d9265b601cf1e619d64d037d7d020ad67af9cd4912994f2bbb19a2656d6de58267046371f52ff2136d629e6f
+Size: 1070444
+MD5sum: bf0a13572ad5891de33bad263db093b6
+SHA1: 4bcf088156953a80daee19961dfdc099c347db73
+SHA256: c3bbfce259915f62becdba665657ca98fd6da6d083982086654d81b19f43e91e
+SHA512: b2ba87e0b27b9ac9ade4012ba3890f628e8a8d0b84221fd053aebea2aeff3e1999e646e692df84e4521df54ca501e697d8abad45f9f6d52a2ac92dd734aef06f
 Homepage: https://www.deepin.com/
 Description: Package Installer helps users install and remove local packages.
  Package Installer is an easy-to-use .deb package management tool
@@ -12098,11 +12119,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14040184
-MD5sum: f9d88b5415cfd56d66f04b9a25ce537b
-SHA1: a8466e2264055018afe3d4e283f8a231b52be5a0
-SHA256: f6454f73990eccb999dfe49069027f14209ae702295dd5d0ce7bd7c23cd37d86
-SHA512: 467fe568e6e2cb5911cafcead7f968a20bc94f5b7fa2caa2c0553b1543f94642d238fb090fc85354118fefc91e7d1396b8c4074113103b0e943901091697b88b
+Size: 14039992
+MD5sum: 2ddb4e7a5c215ecfa03507af5dbdd6a7
+SHA1: 3b6ff18e51dff97cb38f8421ccb021c18d3c64b0
+SHA256: c0e33de367b4e2c4e5f3042fc2b74aefdb37a948a3dfb86b15275e39b7c31025
+SHA512: ee1424ad72ffcb8268aad17f128ad5872e017e19f0cf8ea67c64c76c9565acf3c3acce0f3abef4b6982c5976eb06f28ff9344febc689d29043de5a9df390f9da
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
@@ -12443,11 +12464,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3695
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5websockets5 (>= 5.6.0), libqt5widgets5 (>= 5.1.0), libstdc++6 (>= 4.1.1), libdlmaria2, libdlmcontrolui, libdlmdatabase, libdlmlog
 Filename: ./o/org.deepin.downloader/org.deepin.downloader_5.3.76_amd64.deb
-Size: 2942268
-MD5sum: 7284eb5cea66cd09ac40865f83e241fe
-SHA1: 010a87c23cb1e6e30510449fa8b906f9d35e8f2a
-SHA256: daf00300b0e83a2e3b9d91a4faee1c9663ec26391b62766b812d3978975655a4
-SHA512: bd8cbe3317b5a90df5d098ca9747b80052d59863c7987a54eb25b3c1509134aed8477e04df3ce952e9d4a2c4be2e996267b05b0b82330ca45669a01bcff76283
+Size: 2942136
+MD5sum: ba52adc4819d3b6a8be95eda36eafade
+SHA1: ce2eda637c5012d9007d217d62401eb0003cb370
+SHA256: e52b58f2b882333ff6a89d6b34c6ef643aa99378484ff36ecdd4f1d157dc5826
+SHA512: 8f69b7f1b1a2a6d0ee4db6e918cbc9ea237c3d9eb4081c1d1db935585beb6226b7515be6ded9417ea5709b7d876222e1295a5deb977c16b2b1447828076ec701
 Homepage: https://www.deepin.org/
 Description: it's a user-friendly download manager, supporting URLs and torrent files.
  downloader for deepin desktop environment.
@@ -12461,11 +12482,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 14843
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11)
 Filename: ./c/com.deepin.gomoku/com.deepin.gomoku_1.0.11_amd64.deb
-Size: 6519944
-MD5sum: 5b3a6195d9c631980b0811874a7f1426
-SHA1: 6f4a5ba1a305cffbb6b478cf656474e8cade5c1c
-SHA256: 37f633c4becd58141e146719a9f5f92576897a7d3ebc9d802891d6160e4eccde
-SHA512: dca24dc3e8de38d35261ebface4d999a9683920b0f16c498c4e046d0f5116afd00d99397f43a2374859e376c34a201ceae2f541d14ce3713931f745bf1096718
+Size: 6519492
+MD5sum: f08171cc0ef9bd9e1c5219639189d7c9
+SHA1: 3fde0df0a0d890333efe81130183efa1885af7b6
+SHA256: d2b867461da29ffd88ef98b091137624636fdec2852d32586d454ff0952b969a
+SHA512: 759431b0d685c8ea08a88a6e658d2ace84904998cbe2299706fd61f8769b275870aa3c0842aa880dedba5d9bb89673d5851064729f6448d465f31f969c9193c5
 Description: Gomoku is a small chess game for two players.
  Gomoku is an easy and funny chess game that is suitable for all ages.
 
@@ -12502,11 +12523,11 @@ Maintainer: Packages <deepin@deepin.com>
 Installed-Size: 19190
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.8)
 Filename: ./c/com.deepin.lianliankan/com.deepin.lianliankan_1.0.12_amd64.deb
-Size: 15633744
-MD5sum: 08d20f33996d4e02de88a93220e489de
-SHA1: 663bfa9f8d5c2fee5759f39cfe6f96d5d12e4432
-SHA256: b0c096fe1b860097066014201b5072ac09acc9cbff57e42765ac0a86be64597d
-SHA512: c24efaacd9e5ce988d6eccde90db832d984e59cf1183f24b1577739981da203895e26bef7dc066ec2f20b9061da984dd4268b3b385dd9b015fbfd87739a574d3
+Size: 15633648
+MD5sum: ba438c77a65aa83d2a6a48f80d4728bf
+SHA1: 38342800f39c49ae49ce2e7ea9eebcec1faef28b
+SHA256: c23444048e7f92966cf18cc3ef5d1d8229452e7b6114857969159da89d88e990
+SHA512: e241c0bae6d3325c17eebd558c9af248f1f41a413134544449e15543b862c8580304e46ec44057256b63fd4f234a901531d9279508102fd37ebbabcce701ea81
 Description: Lianliankan is a puzzle game.
  Lianliankan is an easy-to-play puzzle game with cute interface and countdown timer.
 
