@@ -55,6 +55,23 @@ Description: video wallpaper for fantascene.
 
 Package: fantascene-dynamic-wallpaper
 Architecture: amd64
+Version: 1.6.4-1
+Priority: optional
+Section: utils
+Maintainer: liuminghang <liuminghang0821@gmail.com>
+Installed-Size: 7390
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.36.0), libmpv2 (>= 0.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6
+Filename: ./f/fantascene-dynamic-wallpaper/fantascene-dynamic-wallpaper_1.6.4-1_amd64.deb
+Size: 6657876
+MD5sum: 93a9ae3f4e8e0de7f4b7ea94e23c4f0a
+SHA1: 9f6f8cb4d3f6cdd607d0de121dc712d67bed5377
+SHA256: a4f15ba1564c3a9d640306513d3686594f7dca172bd618d560d99438579c47cb
+SHA512: 6f5057fc064815dee6b5b5744f2349aad18b2df0175b791a8beec917fb3e402424c177f8cca909dc848e567fdd103385e35a648ea7198321b2618f4dd7cc4f21
+Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
+Description: video wallpaper for fantascene.
+
+Package: fantascene-dynamic-wallpaper
+Architecture: amd64
 Version: 1.6.1-1
 Priority: optional
 Section: utils
@@ -125,11 +142,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_amd64.deb
-Size: 63296
-MD5sum: e67356bba57ce3f98ffd091becba763f
-SHA1: 58e6a1d868d67b152955a9e7d821de87807004e0
-SHA256: 98b80f32dc4b1ed5ad03f92c0dc8d9653c6213989740b74bcca9f2542e918929
-SHA512: 5fd3cc286d0e97ae85984af35eac4944923c7f819d4f821b3a525bf718df9063aa9b2c7225e03c356758eeb8342f064e20b95ce006ab337ada07fafe71a48f52
+Size: 63288
+MD5sum: b19b2bac2c49adfabbbeec384c23c83b
+SHA1: 3bf40255a595bd9230ecd6d70d0239a390fe0d2a
+SHA256: 06070a57f5aa59dc886827d2f02791e6ffc06bd4a969402966bae1501f491f11
+SHA512: 2b085e95175cad5b841b6cf5562a1f0bca68c97338cbb2d942cd18bd9e4904b267164dcb7e2cdb5b5dbc454403806fab34729c225583dc486c5843f7be5305e3
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -1024,11 +1041,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3808
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_amd64.deb
-Size: 722956
-MD5sum: 0dbedbaa0fee69d643e1588890f86f98
-SHA1: d4f6963cc18121c9e3282eeff3175046d2b5a783
-SHA256: 0eb1751e337436f7f2c938bdbeb8ab48a14f2ed075dca37fb5a7a12c10dd2163
-SHA512: 7583e4e399acbfff99794f092f7f91da8373779468acb1775a065c9ad66c5dd3325d41c5896ac8c8bd458061600a5a0af2d9ac170a428ed14e86c4b69f2f9845
+Size: 723676
+MD5sum: f6d871a118f57ee0fc25d903b9acc677
+SHA1: 9f658ed5008a5bc5dafa0e6ab2f32374339cab32
+SHA256: c5203fd3a6f9e6d47701c03d3f6bc0edf526debe61285b04004d6baf572446c4
+SHA512: fca3f6df79ae0198d9a87a6b28d66bffa5c1ea54353f58dad115f9915c3a463cf94d0c2e70fff332cd5f755f2bcddaa02a4893f50a5daee31f4bbc0a22a36059
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -6857,11 +6874,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2436
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_amd64.deb
-Size: 457372
-MD5sum: e35b7ecfda53e47bbc64636498d13c85
-SHA1: a150843ef917e6d3eabd7b5223f0d378ea9d7583
-SHA256: 9ecd3fece716be2f9f4c358844d49d0573986d7c2694f3d5c800fd7619e7246c
-SHA512: dc69984c2cc3e909d000b94249f0cad008caf34754a712101a912afefae06959145d84e52a032c5a44505f774b5d92f525a7cef67abc8d8cbf5cc5c2101479f6
+Size: 457412
+MD5sum: 52a13095baa4e90980bd018c5df2c426
+SHA1: a66da60319420acaa461d73f1dbcac5a4be675bb
+SHA256: cd2b078e7fe624f9f01171fee2428d721c6a5729220541cca7662ea3c7e57106
+SHA512: 7f7f8d46420fe3c6890b8fff95c1522499eedbea9991b9a0536369038b97034cd457e8257275f0ad87054cc4045317ae782f1a78a737f9377c03af4ac4c36110
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -8383,6 +8400,25 @@ Description: anything user interface library
 
 Package: deepin-anything-dev
 Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 31
+Depends: deepin-anything-libs (= 6.1.6)
+Filename: ./d/deepin-anything-dev/deepin-anything-dev_6.1.6_amd64.deb
+Size: 5752
+MD5sum: 2ddc7d92fc2115e1f09e3a06d3bc7be7
+SHA1: fdc8666cb7e4e69817634b7fe8d4dd68a77fb47c
+SHA256: 7b7f35c40cbec81472661fe58d6590409362b8c2d6b2dd1716a9c19a4094be1c
+SHA512: 3acc3f62fa67eae19d46a094c1702e2862a9242c68fd87ab48bc5c89a71e5d1456a35e6deee8d9111ec582f0188ad6a6f4bd9181b9193d862e8d911d8662f0e2
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything user interface library
+ anything library developer package.
+
+Package: deepin-anything-dev
+Architecture: amd64
 Version: 6.1.4
 Priority: optional
 Section: admin
@@ -8523,6 +8559,25 @@ SHA512: dc12994ebff7ce30885f3be52ff2cbb32758bf5b16155fefacadf58a9c4f95562dd94764
 Description: When users are ready to set their own account avatars,
  Deepin Account avatars provide many beautiful avatars for users to choose from.
  It is part of Deepin software and DDE (Deepin Desktop Environment).
+
+Package: deepin-anything-server
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 377
+Depends: deepin-anything-libs, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libmount1 (>= 2.24.2), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1), libudisks2-qt5-0 (>= 5.0.6), deepin-anything-dkms
+Filename: ./d/deepin-anything-server/deepin-anything-server_6.1.6_amd64.deb
+Size: 104672
+MD5sum: f28de309e4a2ba92a46feadd6310fa4a
+SHA1: e6f5e8e6eaa53023b1a4776a1eadce4ee043f404
+SHA256: c569f5b420a65116d4f769ff3061fd1141efcfeca36c44caa85a7af5ea2d4b1e
+SHA512: a4cdd47c9e4f02cf4e611b1418b39c591224ed89096d12416a76e4cdc735f3432dab0e306463c6a6487248569a6683ef5575046be0d32e155ef17f0d46c4ef0d
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server application and lib
+ anything server package
 
 Package: deepin-anything-server
 Architecture: amd64
@@ -8956,6 +9011,25 @@ MD5sum: a8adcb03ac6934a7fd20afc9dc77c624
 SHA1: 7a831d3c2449d1d93322bcfa1c5e202126b731ce
 SHA256: ba6a74abc5591f7dda001cc5500f89b46f95f7ed2f162c3fbcbd5a3c60e9a85d
 SHA512: 27722a25bec9bd3749a58f2948aa20e632b09532cd7153050e1f5bb6cc02df9aeb6377c67c28acbd7398103b91c5fb4f14fed644611327a6307d60c7851a76ff
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything module
+ anything kernel module package
+
+Package: deepin-anything-dkms
+Architecture: all
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 79
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_6.1.6_all.deb
+Size: 14632
+MD5sum: 6db639e2bb1805d5b9e2790979b588ae
+SHA1: 57afdae099c2277ecce75b3f625d286149a866a0
+SHA256: 4448f2bc770815a3e126aa40170702a9ce3fb1c7f358cefc8280e3bde5a11233
+SHA512: 22f8c52a522f3620a89f58a52c60f6e8e5f8960c2ca3225e860436e19408af44c3112360868e2438b0df3d61089452dd7eb5b8823f01fb4752a1f627f655c38b
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package
@@ -9815,11 +9889,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1277
 Depends: jq, sed, startdde (>= 6.0.11), systemd, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5.2), libsystemd0, libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
 Filename: ./d/dde-session/dde-session_1.2.0_amd64.deb
-Size: 220420
-MD5sum: 7f107eedac0edaae46c47fc60a5cfad1
-SHA1: 2ad0b9eb71a443f6376c5ad810084ae3be3fdb2c
-SHA256: 7b7f681c8c436d7757762ba00c5b41ff75222eb9fc8957aff0d5e568d4a6fff2
-SHA512: f89ee7e7d59771f45231def8c4f8b6f7927ee55c544f987828ebe5b8348e69d514fd75b4f3ed7e834dfd28518e06aac560f1d1aeb1437cf5976dd8870a16e59b
+Size: 220404
+MD5sum: 48169923118927b6d92ad42237b65fb4
+SHA1: a52b14428c3004fbe4d2b55882c02841a39e1b30
+SHA256: f1c0327b7f0b6147d3d856ce89ab67912738e1938bf3a14bbe17f8276954f2c2
+SHA512: 3dd23cdd13db933e41afbdd45b5a807090d77556b3c34fdbb35e97647df6f2445b7a43b092a74c2594119e089a6fa3407e02c7c51979179a2ab136245857a8b4
 Homepage: https://www.deepin.org
 Description: dde session module
   dde-session is used for launching DDE components systemd service project.
@@ -10690,11 +10764,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.10_amd64.deb
-Size: 1365556
-MD5sum: 37fca23481947087920309e1e72cbcdb
-SHA1: a2c1d4fc1280c5518219bf66fb9992738bff65aa
-SHA256: db146ec86dc5d68ee90e3b08dfb292c6ec266701984e7bfcfe2857d793f79274
-SHA512: f2d7523d6c842b2c166a6b42a0a19c87f5059a95f6b21404bed1482e748ca242a4ad4ba526415d2b010792f2dc350159bc3efe106496ffec64f89ab941ef8516
+Size: 1363736
+MD5sum: 840db405fb0bf68dd0373ea0e7d7df3c
+SHA1: 957ca14b10c07c8c84c226e81af350e341009d77
+SHA256: d314c1bab06a6361e44798c30c9bcf6ff5dae15cbe8a03c8c31eefa72e349964
+SHA512: 304ea69f5f9ad1bd74ec6aaf8a989e93ffe9d31c05916b7a3b9e8d11dfdc7ff10ed231df7ce8612c032efe6232d54bbcfa5090b4ef9d28bfdf452365cf368eae
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
@@ -10902,6 +10976,25 @@ MD5sum: a635819591c568b8b85580a62490221b
 SHA1: 13af271b71e008078b7fd21c5b5a812a65ea5329
 SHA256: 134b7524574ab615adf6c01e5fb38e7bca8df1f26cd22acc2e6cab7ed922b4e2
 SHA512: 30b66497efaa8ddee8701f42756b3fe84bab5474d34a206d097014144cdee1a97cf7eaa3fedc3cf3f6e52120bd9466aa795be868919809e93d7c523143876c44
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything library
+ anything library package
+
+Package: deepin-anything-libs
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 196
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.36.0), libpcre3
+Filename: ./d/deepin-anything-libs/deepin-anything-libs_6.1.6_amd64.deb
+Size: 53368
+MD5sum: 76e83e384ec49855b43aa6a68b554161
+SHA1: 6f6c57da4efa9f76e057586ad97fad929ff5e457
+SHA256: 06b0042fd7989020bd6f4df0802b2d78d83c3647e53ca217baa5e589fb6ccf77
+SHA512: aefe84aabedf4b8084a0ad70d46ec49df7cb4d65233f02b881a97a78386165e26da77ae99cea1a9f947fa01d5ed48543da111484b81ae39b6cc0811a5c8292fa
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything library
  anything library package
@@ -11291,11 +11384,11 @@ Section: doc
 Maintainer: duanhongyu <duanhongyu@uniontech.com>
 Installed-Size: 107916
 Filename: ./d/dde-manual-content/dde-manual-content_2.0.0.0_all.deb
-Size: 92984232
-MD5sum: dcf11667bb93ee2b4d2718d02d19133b
-SHA1: 816531bcd3ad112e75ba5f0b96fd27bbcae7696a
-SHA256: f307a7939f06a84f164c9ac939e86d198fec05a41f834f6fcc3fdd2351c33da1
-SHA512: 76458586b410211479dcd7f62fe12b10f0987f73f8bd5b3baf97b5ce30b7ba6d4b5f473ddde1c3a9decfc4423b78684f5009de4f3ee51cd2a5db821a35aaeb82
+Size: 92984024
+MD5sum: 1a584e2cccb35e043584e055a6232a4e
+SHA1: cff34dcfa5a22f7be3c592475f68b1fc3cc010bc
+SHA256: 0e5bd2e90cf2fbfcd50c94a3c01129690d619b0559a37ed2beb39f99dbd80056
+SHA512: 62412655fafac65e8b3e747fd7d9dab433a82d9eead6b9830bdaf53c50734bea6e2bc16de5361aa5a1b7928d189fccc6b2b354d0b9d650ccc71038954b2c99e9
 Homepage: https://github.com/linuxdeepin/dde-manual-content
 Description: protocol files
  Deepin protocol files
@@ -11573,6 +11666,25 @@ MD5sum: a02c9888d03e6e0fed7dee7f9f791617
 SHA1: 4d535a30b52dd8e64382c45b4a75919d3b33b1df
 SHA256: e8c65190ebfddab68fc3f076b392f0a8fe9d6814fc5fb44fd1cf6d8a35f28b58
 SHA512: 1615483cd3e94686fa83c01bf3ec2bf7cc0e9b9ea499dbd9cdc67db962f8aa54e43dbaf27632fa49312bd156a4f0a4874249183a5b1cde0b2c712f064903617f
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server user interface library
+ anything server library developer package.
+
+Package: deepin-anything-server-dev
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 20
+Depends: deepin-anything-server (= 6.1.6)
+Filename: ./d/deepin-anything-server-dev/deepin-anything-server-dev_6.1.6_amd64.deb
+Size: 4360
+MD5sum: d40d169fd4b7dc06fa2ce6c6cdba6795
+SHA1: 3f20419ce60bbde1af20f795d2c69c111830d232
+SHA256: aeaafe3bb96bcefbbda7c09f3465d21a131826893c792fc86b322b32e6f8926d
+SHA512: 48674b2ee43f82f043685b736cefd236f0e15ae2b92815b46f1b2619bbf2fb33808442f3ac64f8e0938df0cebade6f71e9371c806cc9c94db2f693c3022a421a
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server user interface library
  anything server library developer package.
