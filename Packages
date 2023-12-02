@@ -6313,11 +6313,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318024
-MD5sum: efb2228645130e79a6968bb01615972a
-SHA1: 0c14bd5d44be4bfeba550ea07940580b9998dc1d
-SHA256: cdd15650e64bc60738dd42bb4f8d70dfbbd8f74685b3cecc38a987aba1e79280
-SHA512: 0c98a3a50231715396aa6f491c14ab77bbb23767b2519fa9f00208688ca50c21f3365d95d268519dab9cadbdd02c1137386618542214014eb8a95f4acd3dc144
+Size: 318292
+MD5sum: e536421f2c57273ce51549f079b34747
+SHA1: 171b0e6f46a4854c7a77fdaaa3ef89eb96df3048
+SHA256: b998b92afa5fc20dab945d92a6e8b06805bda8534bf72d9af6130bef4eed70a9
+SHA512: 30f7fe6f78b7afd28a781815b453044b22fd392339763151c97acd7963308b603dd78097d419536c5c9f6cc3b0daac6601a54af872874de12a74d41144463ff2
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -8292,11 +8292,11 @@ Installed-Size: 8730
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-10, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3936096
-MD5sum: 300fa6422c21c2cbb539ab0ce72eb3c2
-SHA1: 0421a5adf48bc3ec3e7dce758308608514443ec1
-SHA256: 12fdf68b4fb753ce745915c23fc8043d97df3cd7bce8adae9316a01e5feb68d1
-SHA512: 8e914e1481c8aa2d9340035f9a866a57e425b72e48438f5cc50a544bb898f91de9a83328592eb0433a9e32fe6c5164eab8522b16657ac41ca08ac72f3a0d2fc0
+Size: 3936848
+MD5sum: efe0a9637fa4c9f9b9bf066412bc8816
+SHA1: 2f10dd0234bf7042fabb91c3ab0deaa4047f1415
+SHA256: 81cb7b22686921455133a8d375517fc3ae545d0bc4d5cd38619a184dabb16671
+SHA512: 7bd759b260ae0f395f8253874b11fe3009de910efe7844b635a65cc74aef23d4e0a68f47e00b8d42161804072f6fbc3fff81b8fdb20ce1409aeff4f2a45b044e
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -8811,17 +8811,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51050
+Installed-Size: 51163
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48797240
-MD5sum: 97c507848cf424400516bb36795e94d9
-SHA1: c7029572ab630c1bb5bdcb28c5370a97ffa4487a
-SHA256: e78ae3d36f7126d6382da3e3df0ec6343f68e3d7f7ec8a8e0bb9d6e006d1c135
-SHA512: c46280b8d79d2ad8b0b6e7ce74cfd1fb2f2ed5c2876a65f29ece5360b9a004f82b5b56363c08378bb8ae38fea9fa342d7d0f8ce539ce0e1490ad4b9120fea72b
+Size: 48914704
+MD5sum: 4466d503d43741c5670bbd2f9eb5199e
+SHA1: 27c745d20a30aadcc69bd20765249c6c3d169c89
+SHA256: a2cf48d41f019ffa8bdbdec39023fab30c2aabc4feb23338730cd4ab4927aa84
+SHA512: 189f7fa9d70a0e2e6e6a2b9b28b7ca5d1777b79d0cf44b45cde36a92002cd5ad46b65601ca699364a9573a863ffe87cc25aac282642d20cb6e0eabe0b727bd00
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
