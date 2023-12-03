@@ -120,11 +120,11 @@ Recommends: unar
 Suggests: pike8.0 | pike7.8 | pike7.6 | pike
 Conflicts: unrar-nonfree (<< 1:3.7.8-1)
 Filename: ./u/unrar-free/unrar-free_0.0.1+cvs20140707-4_amd64.deb
-Size: 23420
-MD5sum: e59437443febe767a76856f53b75ad74
-SHA1: 7b0405b01d36002d2cca6eaf37a7bd259bba4b13
-SHA256: cac0e1913a4add84e17572abc60ce447643db4b866025eb2b3941ba6e726d45c
-SHA512: f6d33d05c3a23dfec12fe303763b813ecd7437aff351a0dfa79658cc8732158093dee5d90019a8cb9e5103fc1da6d991e89432a57d2fc3525cde31de47ad82ea
+Size: 23416
+MD5sum: 9a227f76a4295da7e6c085afc8ba231b
+SHA1: d008045b12d29bccbd9c5a0e8b414a420cd82f34
+SHA256: 36546c1ca465f19acb52489c919bd4c4b3644092c61e33ee42d4776445b3840e
+SHA512: b41abda27b99ce4c13e4fe7a14525dc7b3964ddd62c367418d4c6ce57c16610f985fbd18ac911db4b3674d248b49a5fe9394b524cc83635f4f6c3ed0cdc02efa
 Homepage: https://gna.org/projects/unrar/
 Description: Unarchiver for .rar files
  Unrar can extract files from .rar archives. Can't handle some archives in
@@ -5873,11 +5873,11 @@ Depends: libc6 (>= 2.34)
 Recommends: exfat-fuse
 Conflicts: exfatprogs
 Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
-Size: 44568
-MD5sum: c5fc98b7b8363484c6fa32ec93bf8ac9
-SHA1: 3d884bd0cc4c3a0a03380cec84e8ee697661e9a5
-SHA256: 7bab6bcf0045c0c99deb797f4af8aff26dbba6842ede038a94ca155a17e18756
-SHA512: faa23b09f0d627f4f2a244ebac1820c9e8cd96826bcbcbe6f1a8e037eac80392ae424136f4bfa3a888c7f3ab7b205ecfd1d9c60a9cfe24d910c70085aceeabcf
+Size: 44528
+MD5sum: 6937f764dbdc326534b4f4448966ac9b
+SHA1: 865a2117fa2cc7c0cd03ef038277f41779543a28
+SHA256: 29f40b4c5d9cf6fa60014f7378f815dfe982a0fb3f9c5073c2fb7c8c26721aaa
+SHA512: 96ac1b36ee44f24a2a1c1785b66f0035a15f1746c6215c72f4687fa088509dadcd9479ad4b08e44d45de05a24ea7546ccb0ab3db49cf698ea9d25a1b1125b981
 Homepage: https://github.com/relan/exfat
 Description: utilities to create, check, label and dump exFAT filesystem
  Utilities to manage extended file allocation table filesystem.
@@ -6334,11 +6334,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidge
 Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
-Size: 162012
-MD5sum: e711523c4b80dafe18f38309d3726168
-SHA1: 7dda091dafc34757f3bf807fbc31f896fbbe3c01
-SHA256: 3b6197f1895fd222de264425bc762f0d2667c85fa06cba4b29591e7ac0013905
-SHA512: c43b263b616c3ae9ec8ad4a9d40d4e91de258eafab9bf5c03a67f7b7df33a70525357f15adecf19ee0213c113027474476bb236c24df978cdc15d4c4d4caaf36
+Size: 161612
+MD5sum: 7a7e8b8e3eeaf210099144703a8f85c1
+SHA1: 0369a327ab62dded69919521567ee8198030838b
+SHA256: 0bbebac025a4e0b9217ca8e975d3c455744d792cd8ff7f50e58cdd0ba4bbd428
+SHA512: b0cf8000ac848bb112a79f13b2654054823b7aa8c951c2eca7de3f708d725e3cbfdf6d8ad260a8db815c714c83a6a0854eb63589062c800cc2a29f1f5f3dd9ac
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.
