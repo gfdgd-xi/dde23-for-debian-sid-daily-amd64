@@ -98,11 +98,11 @@ Installed-Size: 370
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Conflicts: rar (<= 2.60-1)
 Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
-Size: 108876
-MD5sum: fded3bb03815184281b896f0ddb58157
-SHA1: 926dc34ed80d4c75447d68a2426ba12d88bf9fbe
-SHA256: 7561af69fc6c9af5dbfe3ca8a8e92831d7c0b5c4d3b6052c8e3c63164ce8b60b
-SHA512: a06e279b63996686e1d25370ee4cd05e3de8a465c3f3487568df228b365ffb488e6f280776581b1b6a816d48169f5b475d1678a4d65faf5159bee0465bfcb976
+Size: 108892
+MD5sum: 51902d9be6979f4b1fefa1e1e544182b
+SHA1: 1b5b8d08860082e5717605abf92cb29d3633f16b
+SHA256: b20bf7f9e93c5a3d6a51373cb69e45303561adbbb8ee21a5536e6dc036cb3cf7
+SHA512: 7b56525ca08d228fce17c5595dcd0c1f61de18c08caeed1bb7fa8a9da25d8f4772dd8e92eddeea58756be41a828465927c61552fa0190408693450be4acd0767
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
@@ -120,11 +120,11 @@ Recommends: unar
 Suggests: pike8.0 | pike7.8 | pike7.6 | pike
 Conflicts: unrar-nonfree (<< 1:3.7.8-1)
 Filename: ./u/unrar-free/unrar-free_0.0.1+cvs20140707-4_amd64.deb
-Size: 23416
-MD5sum: 9a227f76a4295da7e6c085afc8ba231b
-SHA1: d008045b12d29bccbd9c5a0e8b414a420cd82f34
-SHA256: 36546c1ca465f19acb52489c919bd4c4b3644092c61e33ee42d4776445b3840e
-SHA512: b41abda27b99ce4c13e4fe7a14525dc7b3964ddd62c367418d4c6ce57c16610f985fbd18ac911db4b3674d248b49a5fe9394b524cc83635f4f6c3ed0cdc02efa
+Size: 23436
+MD5sum: 2717536e287e640f5a80422ad3350e33
+SHA1: 40583cb5ef7fda10493268f1633d28f7c3ab8ffb
+SHA256: 1e3f28f6d18bea490a59f9b6b9b82a7370d8af5e30d868487369cb1bb3b70778
+SHA512: a1cb26c6f2e1b79528f9368b90f301e4c20f78f49f4705785b06af109152d88935a4bab291cc8eb29645192244487984bdc81dd5522d14d34b8af20ad3f5b365
 Homepage: https://gna.org/projects/unrar/
 Description: Unarchiver for .rar files
  Unrar can extract files from .rar archives. Can't handle some archives in
@@ -4518,11 +4518,11 @@ Maintainer: Martin Meredith <mez@debian.org>
 Installed-Size: 397
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
-Size: 114804
-MD5sum: ebc1012b738ef1eefaea90a8f8edad1c
-SHA1: 9ce480cf161287a6a30293d225c9e1660be94385
-SHA256: a70db69fcee39729d7fd7b14cd7a9cd2e60e0f9e2a37f6b88971d4e574306e1e
-SHA512: bed3499f6eba8aae1c07235668d755d763a0d7bdd4c1df921ad9fa7783c563749db519df530b4ef4e0e785d0bd4909f03f8d3594216444fc74b592027ffa877a
+Size: 114844
+MD5sum: 3b3292a3e4a760b422ad1a370ff1518c
+SHA1: dbd93a6d551ccc83794bdd4282043a575b1fc3b4
+SHA256: 3c210ac8b2d1316d6f865f5cabc004b7cbf79d99656b7a727f0c2a9512352199
+SHA512: 1166a98b27925d57eed5034b7fb7ea28ac5f6fc2f94c5a1207e39b81ac0079a7c91b587b78cb7446b3a2c7f4fcceed2afacabfc28a88bae7c6012392501ca211
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
@@ -5873,11 +5873,11 @@ Depends: libc6 (>= 2.34)
 Recommends: exfat-fuse
 Conflicts: exfatprogs
 Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
-Size: 44528
-MD5sum: 6937f764dbdc326534b4f4448966ac9b
-SHA1: 865a2117fa2cc7c0cd03ef038277f41779543a28
-SHA256: 29f40b4c5d9cf6fa60014f7378f815dfe982a0fb3f9c5073c2fb7c8c26721aaa
-SHA512: 96ac1b36ee44f24a2a1c1785b66f0035a15f1746c6215c72f4687fa088509dadcd9479ad4b08e44d45de05a24ea7546ccb0ab3db49cf698ea9d25a1b1125b981
+Size: 44720
+MD5sum: 6ab307b44acba898f9cab09c97e1c355
+SHA1: 5423940f0f787b5488e9d16a8c05796fb847d086
+SHA256: 28d08be6033b04625942dba9a7a7b0efe217724079f6b68a1caf8b957b3186f7
+SHA512: 25ee231f3a08d9690ef1f45ea9e9f82cd580e6e8e3c39b38f83dfabf4128ce2137d31ae7323ca25e966aa5aea9096ba19fe8074729fba912849819e5fa0211a5
 Homepage: https://github.com/relan/exfat
 Description: utilities to create, check, label and dump exFAT filesystem
  Utilities to manage extended file allocation table filesystem.
@@ -6335,10 +6335,10 @@ Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
 Size: 161612
-MD5sum: 7a7e8b8e3eeaf210099144703a8f85c1
-SHA1: 0369a327ab62dded69919521567ee8198030838b
-SHA256: 0bbebac025a4e0b9217ca8e975d3c455744d792cd8ff7f50e58cdd0ba4bbd428
-SHA512: b0cf8000ac848bb112a79f13b2654054823b7aa8c951c2eca7de3f708d725e3cbfdf6d8ad260a8db815c714c83a6a0854eb63589062c800cc2a29f1f5f3dd9ac
+MD5sum: 9f1cf6dd7eede0a0e79f0c60ccc2eec1
+SHA1: fcafc1041a3f4d119809e1ab5b5818906abf79a9
+SHA256: 2410e3fd74aea7c94f501da4ef5e35713194e96373b3e2930d0f228a26be3a00
+SHA512: bd940bf73060389d204a37c13aba025b8a230f572dc8e083d4ee2466b83afd12bf09bc88c7f073bab6ff3d230edd67d7f4e0bc64ec739ee4aa068c6dee19906a
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.
@@ -13018,11 +13018,11 @@ Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 284
 Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
 Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63472
-MD5sum: 6f4f19fec27d95c9b161989441dd0604
-SHA1: 07b697fc42cc9a9bd4785b551fd4a621d6b43097
-SHA256: 54eb161535371a2541707babf0c49bea74ebd1a27150518474fbd2b3df94c29f
-SHA512: 05f1c438019f7ac800da485af196e5fe918d259e2ca0a5d32618a5969d3cd5bed7e5f5e3f699940dbb9fd8ad320cab37d587c2bf4354ea7f5de7dce89e922df2
+Size: 63488
+MD5sum: 395aad310b36aed1d465f4145bafbaf3
+SHA1: fee057823bfbcd94c6ddb329bef0a9e47bc8c724
+SHA256: d660e60dce3ac91809c54f423dc325c08900ce28722aec2918b23cb2c1f9a433
+SHA512: ef4df6f8b3141c0eb889ac2ce228571d11ecbd26e82d43d58188467b4e86d3c0eab95b069f893df1ee54c3d2acbf9aba3112819e3abd3abf3b37f42634ea915a
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 Description: wireless Central Regulatory Domain Agent
  This package provides a Central Regulatory Domain Agent (CRDA) to be used by
