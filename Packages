@@ -6313,11 +6313,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318100
-MD5sum: 8bb6d71d9431121d18decb2574cd4c05
-SHA1: 8fd0e4bb4cccf1c0b75b74382fc4971c337c0e44
-SHA256: 1cd103292fea5a03c127c561a245d4d89c43ffe9db3c4933356b2b5036454c7d
-SHA512: 9beffa07787c6faba472433aee705b6f5975fe3a318cceb802439a0304caf027557361d40df67940ec895122650041980507421696f05edd88212f0634aba8ad
+Size: 318276
+MD5sum: 11ba98ab2dc3ca45f4a1c32b1b4aa4c2
+SHA1: c2e27f370ba3d7a0228bf7396d08c14ba0c9276a
+SHA256: 40089b8c7b5487b6a7f35f066f4465370751a724cf060c5e07996f9326a2df1a
+SHA512: 84e6a32c3eb4e61421287a4e797ba7fb614a843e0acc44f8dcf5d946ea1bfa53b49aa8dfbc319ff75cb432e60cf0e4f248323796ba4fe98b7d48ad438ebd79c5
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -8311,11 +8311,11 @@ Installed-Size: 8730
 Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-10, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
 Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.14_amd64.deb
-Size: 3935824
-MD5sum: 218c7bbb8aa7cf41a30c95672f5ba451
-SHA1: ef0a59db51e88811b0340c66f3de2ec873f7b60e
-SHA256: ebccce81a0f63e0e2872f952892071803eaa3662950be885f095c5af508e2e62
-SHA512: 7bb324d2cfa7ee986d168ed0ee2451f6422c4607bf2c97cc8c2833092f7ca6d623b591dc7b313297cadd51a050a8a71bda490db7003498d2b6adb4679829990a
+Size: 3937660
+MD5sum: b5880df6b72b91446af54c2f73dcaaf4
+SHA1: ca200a5e9cfc824986a638a93995d27c7dbc8daa
+SHA256: 8cfac30ccf9073225ac3a38e7b633cf7f39c22005e8c374421cc8d8168f0b935
+SHA512: 2354ec0aefc69ba71a6f37eed31f513dfca127e8f1868c254f11a4cb7ff6d9c09c0cf6574feb41fbf45809d4f57ea0e4ad3a6d7e6e7fb8b041d6ed6af8b54df4
 Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
@@ -8830,17 +8830,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51148
+Installed-Size: 51157
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48904620
-MD5sum: 83868fba47b505f6071045855628c04a
-SHA1: 3b0ae774df1cfffa96e56afb5c7457dc4544d6bd
-SHA256: c2634991ffc0b26e1fc7fe08caa1f8d58e23a22cd9f8ce83b3ed963290da829f
-SHA512: 2de244c5186a165c8a383fd61897421319a7deb76687bb41998a4ba18f80ce66dabb3de45a137beb68d2cd48aa3fa1a5b03cbd5ba10bdf4fc783e82fbb2a4fea
+Size: 48913448
+MD5sum: 13d3b122c49cfcb21d51c3f47fd284d3
+SHA1: 6fa04972c0073e5e891c35560858362d23966071
+SHA256: ceb1c76493a1987701e4694233e24bf3352010a93d1ebbcaa430106ac5fa9d17
+SHA512: cc3037ce6449f53bf09b4970d9f6af4ca0b8f90f0e3beff56e247b837595227ec9fde5d778aa3432c4f203987cbe11a16de1d250064c89610a9dfb160c64f95c
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -12675,11 +12675,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14039720
-MD5sum: 9cb4d34116cf29c491bae35471ddb7d1
-SHA1: d3528d640bb9c071cd56cc01565c8a0da82770d4
-SHA256: 1437ca869153a6201dabf0444debced6f912ac56e23144c66afbe01513ec1ac4
-SHA512: f088f423838c3e3fb57a01231456dfcb9e8966fe16a1331325b0b9917e5a71877436ecf1d4f146e8acc49aafe158481b1431b08193e18da7066e9f3fa65bb685
+Size: 14039884
+MD5sum: d9ae095daa994063de6b663b30f7fe10
+SHA1: dca4289840040b0329ccc3441d7f611217c304f2
+SHA256: 32a8d6ae1ac60d13b24094f1cc666bd787ad667ebe3a1ecd73a9c15e42b242b0
+SHA512: bd6b4ff122052bd539ac6902bbe894b910e68797787ad13514540c190e7fa216538beafb097362850fbdd93a06c3362d4d764bb7e2fb5167d5ddc22233a0241a
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
