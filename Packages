@@ -6043,6 +6043,24 @@ Description: facerecognizer6 for deepin
 
 Package: spark-store
 Architecture: amd64
+Version: 4.2.10
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1335
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
+Filename: ./s/spark-store/spark-store_4.2.10_amd64.deb
+Size: 715440
+MD5sum: f9159f951959defb44db8a2f183bb072
+SHA1: f82231255125b5bdc869c401519efbae556d8cea
+SHA256: aecc93c429b8bd63d302b304e978edb2794a5b666930d6c41c32ae264c9391be
+SHA512: 5672b6464fa64812663f3398467d6038a34189308bfd375e544b47fd71ea8d67dd118f235932734de791e4d04866ada92912abefa9b18e1ef1c4197bd969fbb0
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Architecture: amd64
 Version: 4.2.9
 Priority: optional
 Section: utils
@@ -6313,11 +6331,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318276
-MD5sum: 11ba98ab2dc3ca45f4a1c32b1b4aa4c2
-SHA1: c2e27f370ba3d7a0228bf7396d08c14ba0c9276a
-SHA256: 40089b8c7b5487b6a7f35f066f4465370751a724cf060c5e07996f9326a2df1a
-SHA512: 84e6a32c3eb4e61421287a4e797ba7fb614a843e0acc44f8dcf5d946ea1bfa53b49aa8dfbc319ff75cb432e60cf0e4f248323796ba4fe98b7d48ad438ebd79c5
+Size: 318124
+MD5sum: f8c435d89c53e504f4e85768cef192f3
+SHA1: cbe535ea25eeeb691e599613c5b414cada94e310
+SHA256: 5cabca2a5d45edbcd4043cd62a73be1c1822147c367f74f5421b39266d11557f
+SHA512: 64912a6b8ba0b62b3af0ac34942b3935612ed5da7c7879b1e828cb5ada076367d62f554215b0d07047d846bb1ed8f24ce5c25dc21da7567941b29365576bd86e
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -8320,6 +8338,25 @@ Description: Device Manager is a handy tool for viewing hardware information and
  Device Manager helps users manage hardware devices installed on computers,
  through which users can view parameters and export data of all hardware devices running in the system.
 
+Package: deepin-devicemanager
+Architecture: amd64
+Version: 6.0.15
+Priority: optional
+Section: devel
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 8730
+Depends: libc6 (>= 2.34), libcups2 (>= 1.7.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-10, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw, libdeepin-service-framework, deepin-service-manager
+Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
+Filename: ./d/deepin-devicemanager/deepin-devicemanager_6.0.15_amd64.deb
+Size: 3935824
+MD5sum: 5de431198467f9d8599661e7a1a9d9b1
+SHA1: 4ccfcda7102b3294a4831f4bd13f402b48b53658
+SHA256: e50ca647d64d46eba0b89e59252971a646dcfc69880a6e1746a01b9d90a4682b
+SHA512: 4c37b02d7e335f8a2d0f44a5f34753281498d7f690d528e79c890f86e30c425ce3491a77eb4c3ed8a50334580dcab95f0434b7bbbc492732c19175c3737a6023
+Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
+ Device Manager helps users manage hardware devices installed on computers,
+ through which users can view parameters and export data of all hardware devices running in the system.
+
 Package: debian-dde
 Architecture: all
 Version: 2023.10.14
@@ -8830,17 +8867,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51245
+Installed-Size: 51117
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 49010336
-MD5sum: b6409fd75c8596b95048ea866e366fa6
-SHA1: 217afd4a010f6e325f6091edfae241dc9d617daf
-SHA256: 5c784970ac2b29debe268f6a0d6169bcff9d68635aa3548f9ac684ee36e2be07
-SHA512: 9c02fdc704bba577de8b890d4e8c71ec1c010386685a8577fdfa1ab50266865c7cc0eccd02ce75119ada537ce37b11c0168fae0144045bec520a2b4777dc774a
+Size: 48863180
+MD5sum: f801e6ac0077fc256e9b070f7cdffdfe
+SHA1: e855274f2c8ec716c6c6543dcec335a68e2ac037
+SHA256: 384b33ed9d9f0be6b522337ca0e26289b74f89b8f6e6a95df7933029d525f785
+SHA512: e24706f41051774907661334fd8c22c15ba88a87a52bcb4973a94b69488f27c99d017c02ab50fdfe3a82cb0ef027aa5275907087e8c9065efde769e3f558ee9f
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -10364,6 +10401,25 @@ SHA512: 1ea7f4bb0fdcd4c1be4a792c29b1338c9b56314add6c366fb3dd096fdf7bde507af1f5da
 Homepage: https://github.com/linuxdeepin/deepin-icon-theme
 Description: Deepin Icons
  This package is DeepinIconTheme
+
+Package: deepin-camera
+Architecture: amd64
+Version: 6.0.4
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 16617
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libimageeditor, libpciaccess0, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libgl1, libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), libqt5concurrent5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.9), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), zlib1g (>= 1:1.1.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), dde-api
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-camera/deepin-camera_6.0.4_amd64.deb
+Size: 14947932
+MD5sum: 6806781d10b3c5b81530332036561443
+SHA1: ab3ee57a50794c486b47b3bca222c2534288d9df
+SHA256: 6c08b4120f01b1452d41998f19861c8d20b9a998b5c5a21369de5e70f817c4f4
+SHA512: bd6ab5824feac6c463242518aece1990fc01350ead596eb88d96f07f7aea3e3376aac48d185fdb4e97b307e72c6e45d16fe0420956bbdb4e765befca81feaff9
+Homepage: http://www.deepin.org
+Description: this package software for  UOS
+ deepin-camera is a tool to view camera, and also a smart take photo and video in life.
 
 Package: deepin-camera
 Architecture: amd64
@@ -12483,6 +12539,28 @@ MD5sum: 2df420b3d4b2b0be36c0ef7d38512b4f
 SHA1: 00d9aca09de92379a27df7c8a557fdac055968d7
 SHA256: e987b2bc202a2d570a9643b264a9f521d2260aac0fe11512f283fa6c64b12a01
 SHA512: 8058f59805f6976343392900bf593c3e9c862b8d0423734d0d479aac8652b8b7fab29f774a3985cf12c056c18e4c528db2157c18e2b29ec5194036b97fa5e730
+Homepage: https://www.deepin.com/
+Description: Package Installer helps users install and remove local packages.
+ Package Installer is an easy-to-use .deb package management tool
+ with a simple interface for users to quickly install customized applications
+ not included in App Store supporting bulk installation, version identification
+ and auto completion.
+
+Package: deepin-deb-installer
+Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2816
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libqapt3-runtime
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-deb-installer/deepin-deb-installer_6.0.18_amd64.deb
+Size: 1071256
+MD5sum: 3245898aa17b737940ae029a6c73e599
+SHA1: 0df2a8f012dcf35ee2a21fc7623ee63a8fedc5c3
+SHA256: 46c3a97e25d954ea4342e1492bfa2c6f97b9c1dd22a61001f9c1aafd96753d0a
+SHA512: 364c74af36cda30f004e8669139d2a06c65b7b1ba8f6369497d2f4eca4f1516864f9bab24bf90ab43914fac0a48ce04e657b729ec701757c6c677f571a44639a
 Homepage: https://www.deepin.com/
 Description: Package Installer helps users install and remove local packages.
  Package Installer is an easy-to-use .deb package management tool
