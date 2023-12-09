@@ -5,14 +5,14 @@ Priority: optional
 Section: libdevel
 Source: dtkcrypt
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 131
-Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 5)
+Installed-Size: 113
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), librsvg2-2 (>= 2.14.4), libstdc++6 (>= 5)
 Filename: ./l/libdtkcrypt/libdtkcrypt_1.0.0_amd64.deb
-Size: 35876
-MD5sum: f4c91ede276f22efded7972029033eff
-SHA1: c06d75a1f7cc21f8120312078b4e3d8faaea1575
-SHA256: e667151dcf090ab40a1baceebcbea56adf1f23827cd69519827aa957611749a7
-SHA512: 556f1cadfbb5183e7e281c19509f51386aa5fd4a0cf2e0fa3415fe958f3aad43ca2201504478c1260f0b90d7323559466c16cad950ca3b163e53671a38facbe4
+Size: 31096
+MD5sum: 833f14004edcd757c3516412db531259
+SHA1: 68aba73ecdc034d0cb74134c9bf0d6b623342d22
+SHA256: 5754ac8546ffefb723d9e82cc6b8920778f1d0e81c2feec482df7bf7e760f50c
+SHA512: d045fdf367dceca165116a5e3c15d62194fb6baafcfdf11b46ff57ca1272a07206b9f3c4740aa06acd76adc4599f79dca94a82bb35b60eef9ba25fc68939591d
 Description: Deepin Tool Kit template library
  libdtkcrypt is base library of Deepin Qt/C++ applications.
  .

@@ -1,0 +1,21 @@
+Package: libdtkburn
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: libdevel
+Source: dtkio
+Maintainer: Packages Builder <packages@deepin.com>
+Installed-Size: 130
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libisoburn1 (>= 1.5.6), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: ./l/libdtkburn/libdtkburn_1.0.0_amd64.deb
+Size: 35708
+MD5sum: 6ba0ca023fe0cfc3eafd433af6e2278e
+SHA1: f2657eac0cc268c18b64d995e5ae63b01d781058
+SHA256: 5cd530cb77028b49a1b65036c34749d17b26da4b4c5fdfea03bdefba6e960d26
+SHA512: be15e05978d67fd7e8a2787ad510881a11aa2822ca0270d8c594a22078b9e218f3eba603c8bf6a6b17e743fe263879ba683f6972cd9b9ae68d44912e5e63cac2
+Description: A libaray about burning CD
+ libdtkburn is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
