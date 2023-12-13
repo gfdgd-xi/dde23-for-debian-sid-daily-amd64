@@ -3759,11 +3759,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.6_amd64.deb
-Size: 303092
-MD5sum: 04d32abc852636e9531f622eca5a2eb6
-SHA1: fca916556cf7c256664de1ea9b432a16f78ad7df
-SHA256: 89670a4e194dc4bc1164333232532d41b18702037f22973f095a3fbdbf4e47d9
-SHA512: daa9d936b41470b6d25ae0f60532c71d1e26ab8eb9396ae05e31ee00d6bf3a4c139a2781a116b78cb9cd3588920d10208c1a5adc99277c36b45251a3c2b641ba
+Size: 303760
+MD5sum: d3b2369c8fc8bb3b4fc2b5d7c8865f47
+SHA1: 55662eca9bcf8cbe51d9fa27d882493eacda419d
+SHA256: 754130138da248e8a69a348052e7033826551acfd56c79be840538032b8471e4
+SHA512: a29b4fffc97ad45c09e5a56c2153ba1baad32fb7a7ccca85fc2b238b6f7cea30c665e4676d78df05ac6f51829b1c3e29651768ead926bbe674a3647216dd53ed
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -7477,17 +7477,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51053
+Installed-Size: 51082
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48798040
-MD5sum: 31d6a91f4a6c395f0d7d9fd00722b985
-SHA1: 8fff59639e6a9d5f7898059b49acd80d220f19ea
-SHA256: aa808aedf1cffb45b63d2ba0135d591bbeaf06fbf62acc00f0ac32f55c120d7b
-SHA512: b40ed8a33617f329a89d564e80901a63029251549a92d5473bd64ee2583ba11198513c95d504a4df094664e5f11d2978ba43cef5356bc3ea107581610eea2f22
+Size: 48834120
+MD5sum: bb6f438a06418cd714a65e9bb92021f2
+SHA1: f7e06390827198dc4087179953903ff79c5459c0
+SHA256: 0b382b760e1fdccd55b05b5a2767ffbffd8e6f4ffa3077281396752bc44cfc48
+SHA512: 6201568deaec43a3db1be5f48b0ec144cc41d2ed050523a59c9fcf67f0ed599d3e477f4baf5ccdce1dbb04825dfb1dc400dadd025c79c56b06ce0ca9983672ed
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -9115,11 +9115,11 @@ Installed-Size: 8602
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.6_amd64.deb
-Size: 5169204
-MD5sum: f991e4703babe8ce961b517179d9efe8
-SHA1: 5e4cf7f34e1c5f49fa64af36a7112b2fc1f64144
-SHA256: a83b2cec77dc648aa183f2e403588a5c177fff03b3537e1db7c41d9c0e600c4c
-SHA512: 60a5026096ee62bde8e891bb1b24e3f0b3507689c02c5907c0c842953017d3742f0dafefd00a8e0b82de9b6ef4a6ced48419b887705ff3559208c06b3c888bd1
+Size: 5170140
+MD5sum: 3d62b1412014a4c12b676389738abe04
+SHA1: a0ecb12b13fce993e59abb12999bfa959cc058df
+SHA256: 914996b25fde9bcab817bc36f51f092d1925979974abf84a47e81ecf09016588
+SHA512: 804e0fb288f42b41a94ee4c4c797e43acfaa424dd12931d6771411aa830cecae2db21881ef8695d2175d3d9251c8d406a4437ada0cedf0026e8a4fdc77837b76
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -9529,6 +9529,28 @@ Description: Terminal is an advanced terminal emulator with workspace, multiple
  functions such as multi-windows, workspace, remote management, Quake mode
  and etc. You can instantly start and close Terminal smoothly like normal
  file window, allowing you to input commands with facility and no distractions.
+
+Package: deepin-deb-installer
+Architecture: amd64
+Version: 6.0.19
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2816
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqapt3 (>= 3.0.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libqapt3-runtime
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-deb-installer/deepin-deb-installer_6.0.19_amd64.deb
+Size: 1070880
+MD5sum: 06d5c96ef01338009d618ad0a7ab4ce2
+SHA1: 8f8a0e2fd8e30ab587d99bab0e269f9076bc71e7
+SHA256: 4afafd1cb23fc9c354eb57cc09d8e5ee322ff2aaa3b7881ec7d16903684b45b4
+SHA512: 8bd21a48a37457408fc775f7d42c08bac54f33df8421c893c904d54261ae08ba365d749af8bc5d6d06554c2fcf7ace766faf4141f760d1ac0a8a7fc6a08070ef
+Homepage: https://www.deepin.com/
+Description: Package Installer helps users install and remove local packages.
+ Package Installer is an easy-to-use .deb package management tool
+ with a simple interface for users to quickly install customized applications
+ not included in App Store supporting bulk installation, version identification
+ and auto completion.
 
 Package: deepin-deb-installer
 Architecture: amd64
@@ -13245,15 +13267,15 @@ Version: 4.2.10
 Priority: optional
 Section: utils
 Maintainer: shenmo <shenmo@spark-app.store>
-Installed-Size: 1331
+Installed-Size: 1332
 Provides: spark-store-console-in-container
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
 Filename: ./s/spark-store/spark-store_4.2.10_amd64.deb
-Size: 714604
-MD5sum: cb47acd829879b4ff95f0b3910ac0027
-SHA1: 26039c4e6132c4656f8c34a7132814762c3599eb
-SHA256: 16bc8ecb6bc9b74797ef110ed8ac8d487acc29c5e8d64c26c8baf87d24987313
-SHA512: c5a2452d1897da729121b50b0e6124bf138b8c5d55db2f51baf21f219a57faf2095c0246d44476443bfcd67c98e6d9f146d1c270dd005fee34990960e4421ab1
+Size: 714676
+MD5sum: 1cc0c76fcaa3c413ed165001413b9eae
+SHA1: e90e6abada9e4f55ae7740a9d5cbba511e5b9702
+SHA256: a2aa5e1f5e780e3b413736a48a6577fed66a65a117b346c85bf3c2009e57a3c1
+SHA512: f7a64456d837a9ccaf9b796289ee7247d425fcd72da9e95e295130652cc050a1ec362c3fa6d47f046683186bdb5522873166eb4c7b9b6bfdd01cd1d06b5c6401
 Homepage: https://www.spark-app.store/
 Description: Spark Store
  A community powered app store, based on DTK.
@@ -13303,11 +13325,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318340
-MD5sum: 4115677b6fe3df95398abfcbaff1c0ea
-SHA1: 0d481878582c23fff76849b489a8b4c265b91f67
-SHA256: 3171b143104c5e3211cba0ad557b52e4e7067d7126f71b3475ea9b2b6b42ed73
-SHA512: a82e3333d8a83f68cde59e94b729695bd08a0836b2324898f96b0c1631159c85f39f3474f32a3fd88be9c19d7fa29b0d466f122eead3ba00a5d8d8e82ab963e2
+Size: 317908
+MD5sum: 8e29e61a94e33564551fa9fab1d96d4f
+SHA1: e199ca6cca3eaa7404d23978794d8ec089bcaf8d
+SHA256: 28b400499c5116f28e885297cad11fd24a2e4c0009162b9f05fe7e30345351c9
+SHA512: b1f27776a42e99387d96e75bdb006a72456669aaf589201405500f37bbbf142ad5db5262c5bab9c0d210290e3acf0fd417b4fbf4436d040039e4166d95141eed
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
