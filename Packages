@@ -284,11 +284,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318344
-MD5sum: dc6eff75f1f9c995e23c5fdc8d0b991e
-SHA1: 390a1351782725ba63c603e2ba7235c6ac9283aa
-SHA256: d0aa41900063dc311a2f6c00724fcc6549d4ab7b8876c3e5371ecfb68bf607fa
-SHA512: 8d4f7a8de6ebe7c7e06d66c1603e39aff2dfe931c5fba1f8c5078685400a99a3af3df17c919d5bd73a45a8db34624e0acd94388def6478bdbf825ccaa1704c86
+Size: 318264
+MD5sum: dc00551e1cd08da063b39df6734c1914
+SHA1: cdd07957c8b2e4abae187a2d1d8ca7446a1ae177
+SHA256: db87593cc0ca554c993808d9373f279b9c8c56a7299ca203d30470efabc79ca5
+SHA512: 494bb9ced262c437267cd6cbc2d4653e69a4f2180be78cd90ed83849ffc9e76183a65f453b51d9851eaacefa198391b08be258f38d8551bed0af38001ab21cbd
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3486,6 +3486,24 @@ MD5sum: 984e8afe853da55f87646d0aa09163b8
 SHA1: 2f2cc8d97ec1d94f420f42c28dae63407ead5baf
 SHA256: 7dc18cc6e0c9a78619aee3d58fcf03708f615c880297622389ca6d757f54c77c
 SHA512: 889c75e2c6053ef2067e9f67e2937e30701c009d8d50075611814bcae6dbc6f8bdfc99fe843123f7c28ba8d7ffd80f7ddc30deb3727f5a5fbf58efa25e4f8821
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
+
+Package: libdeepin-unioncode-dev
+Architecture: amd64
+Version: 1.2.7
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 79
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.2.7_amd64.deb
+Size: 12984
+MD5sum: 556a6dce9f16185a895bf188567ba41c
+SHA1: adec448a2f3f2086340f2d3b075dccf93e04a789
+SHA256: 402d62f32c006d96ed9847b2c9eee58343d98be9d635604b049feda57240b11a
+SHA512: 4fb8619bc6bd7f8605598b028d189ef00ca8666d6377304ecf81447f1c4bd29dffc7f58e823cbbc2dd134601b9d7ca66cbee1915ce084453a45789b19c0e3a00
 Homepage: http://www.deepin.org
 Description: IDE 'Union Code' devel library
  IDE 'Union Code' development can be carried out through this library
@@ -7032,6 +7050,25 @@ SHA512: c5c33ac0ad49ed77b283d600dd924288395338af52084aaf248b0729e82739db8b3f760e
 Homepage: http://www.deepin.org
 Description: Simple description
  A detailed description.
+
+Package: deepin-unioncode
+Architecture: amd64
+Version: 1.2.7
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 109621
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-16 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libunwind8, libzstd1 (>= 1.5.5)
+Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.7_amd64.deb
+Size: 72533992
+MD5sum: 73050f33f5f2589a27918acf6b7ec89c
+SHA1: b979e3ca353f6f112abeff4915521c456caa0a75
+SHA256: db84f1325c72f9f71690b112bac33bedfe4e4d13cf0717ae8f501b026bae4791
+SHA512: 60afa69396737d01bdcea0e0ce71cf050046f35494eef7b5d796ee1ac5b5a1c11fc75524a60eac7fe6018961efb9ef0dd35458d0ad45919f8d5964e53e61b8ba
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
 
 Package: deepin-unioncode
 Architecture: amd64
@@ -11768,11 +11805,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14040804
-MD5sum: 8eff52e01e5e4f19e3e6a635b3dd943e
-SHA1: 92a5d959cf4937b2d9200476eed8b624f41dc1f6
-SHA256: 7dbe2a007517fe7dcf93c7ad37eeadf2e851f0c50c184ca231947979be3a0ada
-SHA512: 70829aa9c044617ba46a4f9f0c3b98a72b1c8d44d2aec31a8ee3c282f02906de086a11e9eddf4d1a646f4dc755d5323f818b5d0ba77545019af88e813b9dd0cd
+Size: 14040364
+MD5sum: 225658002a8438f12adf4d9391b6ba60
+SHA1: 06f4669c7dbd01ad600c7f2c8c9da618dab1ccee
+SHA256: 862b9d296f73592b646c155abc7b4e123dccf22670eef8ab0fa37b1d1ea334e1
+SHA512: e770d1d8b792ce658b6a6464cb7de41ebbd6633f9642bb5541b535686543729ef412a78eced891338d9304d3b6fc2a4fdb5ae568c3af35f90f955c2da39d6673
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
@@ -12250,17 +12287,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51139
+Installed-Size: 51150
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48890560
-MD5sum: c31fe15996064b421ffba1bcd36a7881
-SHA1: a986c9eb7b5e98872628acd3ace766aa4edde7c6
-SHA256: f883eb8c1bbdcaa72795375edb2001267f8f8d762a7731a860b521bfb002cb09
-SHA512: 59fc72e4b756bf98c29bbef966230d538a5408f412f88cb65758339964960a321b31f200bbf19aaf4ab1bd34c3013b935da45d1922e0a74d32a88632da665940
+Size: 48912164
+MD5sum: 14b8edc0abce9d4645faf5751a8d7f40
+SHA1: 53cd1db0e145abfa9bd9691c9e5f3c8cda3d0aee
+SHA256: f19e83812568ab3012abbb9acdd9e7b90068018990e98d57e989cb1cec5af350
+SHA512: efa15c3e3532faab8939b5de262f37f5161c5dd9f06cb5874d68f40db89c3bdc9e6f0c0dc39577611a8db0669a73a7586d997871314c9d623c597c065065b9cf
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
