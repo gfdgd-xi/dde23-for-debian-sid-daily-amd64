@@ -379,14 +379,14 @@ Multi-Arch: foreign
 Priority: optional
 Section: net
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
-Installed-Size: 284
+Installed-Size: 287
 Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
 Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63488
-MD5sum: 208ea426a0f983d96187e231f47eafb7
-SHA1: 5cacc74ac1745fed7ff81bd8b9aaa246bfc3d018
-SHA256: c14994a8ff96e519633f3217555da136cb121d35b1629038cf940a142b70f978
-SHA512: b9ad7880507bfa29a1c141e51c39aab62adaddcfb043a7998decd81ac91a752d450fbe2dae62559ccc79011d533f6781eafd14308780d161bf1b14fac5267bd7
+Size: 63544
+MD5sum: 2fe4d70bab77f8fcef4a614a10720b73
+SHA1: 102a5746f98ff28b78ddcc8449d8907ee4651936
+SHA256: ecf5d447248c7bfe3a155a7d636f62d554556ddc807d07753d293f25baa4f167
+SHA512: d51e9ce43456ab5ef8982e51c33eda2de0d289589e9a3fd0219346b59a09092cdb32f57cb8f4f09e703975b3396186a63c94dd285af6ff8cec7511525a61a0b8
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 Description: wireless Central Regulatory Domain Agent
  This package provides a Central Regulatory Domain Agent (CRDA) to be used by
@@ -2578,10 +2578,10 @@ Installed-Size: 397
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
 Size: 114552
-MD5sum: 3acd798f916094261b1cf58d8e1ed310
-SHA1: 7bbc39886a3212295112336b6f1fa8053d8cc0c9
-SHA256: 238b4964b313616531c7f4953da5e3e585eac82894f10f437a4fe87abd0d086f
-SHA512: 26dd859b326549e6729e8c1eb30afa61b2f90d099570fc18fecd8a9539be3a088f81234c993cb2a7844da4048745d26730131fe465d5146ca56062ba5e808f7f
+MD5sum: da4055f8c1c729e78c271502eacc7b7b
+SHA1: 40cb23871942891ce309f09b654de1394993ec76
+SHA256: 5ef9970f691aa40c5c8f57fd64eaed29055e9829bc74d6a409d823b9c8af52cd
+SHA512: b1b271c10e714d869d1f5e1be712e93568fcd84d031b907d62c5dac3156b68c49994f2705ba656b652343b31eb0821858e572a89372973b2a4231a7af317cca7
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files

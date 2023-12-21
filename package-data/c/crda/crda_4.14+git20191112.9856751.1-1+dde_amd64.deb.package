@@ -5,14 +5,14 @@ Multi-Arch: foreign
 Priority: optional
 Section: net
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
-Installed-Size: 284
+Installed-Size: 287
 Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
 Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63488
-MD5sum: 208ea426a0f983d96187e231f47eafb7
-SHA1: 5cacc74ac1745fed7ff81bd8b9aaa246bfc3d018
-SHA256: c14994a8ff96e519633f3217555da136cb121d35b1629038cf940a142b70f978
-SHA512: b9ad7880507bfa29a1c141e51c39aab62adaddcfb043a7998decd81ac91a752d450fbe2dae62559ccc79011d533f6781eafd14308780d161bf1b14fac5267bd7
+Size: 63544
+MD5sum: 2fe4d70bab77f8fcef4a614a10720b73
+SHA1: 102a5746f98ff28b78ddcc8449d8907ee4651936
+SHA256: ecf5d447248c7bfe3a155a7d636f62d554556ddc807d07753d293f25baa4f167
+SHA512: d51e9ce43456ab5ef8982e51c33eda2de0d289589e9a3fd0219346b59a09092cdb32f57cb8f4f09e703975b3396186a63c94dd285af6ff8cec7511525a61a0b8
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 Description: wireless Central Regulatory Domain Agent
  This package provides a Central Regulatory Domain Agent (CRDA) to be used by
