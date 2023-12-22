@@ -284,11 +284,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318208
-MD5sum: 676132ef54e0ef2416eee7750883bef6
-SHA1: ef9449a4d9b7d650e4e090548723502d57eb1bf2
-SHA256: e53a9dc3ef1b30ecd79d9447f655ed3c22dd65c163237a7755070b135537cda1
-SHA512: 93b3f3170554a160d473becd274b0d6163e92fdf1056cfa154f1ffe90eca8285736cd28f66fc31b973b92f92c39217f0c123e32441f38eb94056711817fdbdf2
+Size: 318440
+MD5sum: 88de6b4f1b104f233093fbc69524a071
+SHA1: 4ebe1d910487caf288e43b24f1252ec95898b071
+SHA256: 53abca0c10a4297ee5ee20511b2bd4eae2d2eecd810c90d2acb196b1896b76ab
+SHA512: 05d561b9ead4a97d6b21a3921c4b7f0ac0c5f042da488f98f49acd378c40fa3d17a8bf68fa155d1ce5cf8f938da7a5aa880939da11e10ccb0ae23010f3ebe57b
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3630,6 +3630,24 @@ MD5sum: 984e8afe853da55f87646d0aa09163b8
 SHA1: 2f2cc8d97ec1d94f420f42c28dae63407ead5baf
 SHA256: 7dc18cc6e0c9a78619aee3d58fcf03708f615c880297622389ca6d757f54c77c
 SHA512: 889c75e2c6053ef2067e9f67e2937e30701c009d8d50075611814bcae6dbc6f8bdfc99fe843123f7c28ba8d7ffd80f7ddc30deb3727f5a5fbf58efa25e4f8821
+Homepage: http://www.deepin.org
+Description: IDE 'Union Code' devel library
+ IDE 'Union Code' development can be carried out through this library
+
+Package: libdeepin-unioncode-dev
+Architecture: amd64
+Version: 1.2.8
+Priority: optional
+Section: libdevel
+Source: deepin-unioncode
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 79
+Filename: ./l/libdeepin-unioncode-dev/libdeepin-unioncode-dev_1.2.8_amd64.deb
+Size: 13008
+MD5sum: 7a295b83bb88a15a070c1f3677280a39
+SHA1: e39a5d438bcf6a1336ea58fcb297533009f6f98f
+SHA256: f5765d2dcc4976905505d9d5a92734879ad7a614487d5443b0517b52f9cf8edd
+SHA512: 5ed17a7da6f9e2af3398dfac49bcf46a0605bbb2f43ba55c95ff16fc610cabccf12cb8efacfb1b4acc6cd5c1f69e416ccb02f8ba020f03873612b18d4f54ee40
 Homepage: http://www.deepin.org
 Description: IDE 'Union Code' devel library
  IDE 'Union Code' development can be carried out through this library
@@ -7368,6 +7386,25 @@ MD5sum: 8141e48beca1caa245c5a8f7ce91dd94
 SHA1: ef56687722c1fcbd8e5bf41c81b497fc5412f656
 SHA256: 0986e91a25d483bdd43d7550cd67653bd1b98130c1406b43c75e4cc279e2e14d
 SHA512: e4b49fc1ce0651d6883dfbeb834485590d631a0b0ad64ab79afa3733177a32e05915c790a70528a0f3d57627277b4a18b46f613156323bdca9c9c4ee446e7c1b
+Homepage: http://www.deepin.org
+Description: IDE 'Deepin Union Code'
+ Lightweight cross-platform integrated development environment
+
+Package: deepin-unioncode
+Architecture: amd64
+Version: 1.2.8
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 109633
+Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-16 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libunwind8, libzstd1 (>= 1.5.5)
+Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
+Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.8_amd64.deb
+Size: 72531840
+MD5sum: 879a62246d28a93a27ff609cc1fc388e
+SHA1: 12d0f4582c36cbe29a4711213cf3a51951bf8a3e
+SHA256: 2c09f0677d77b96b779522d945644d239ee34df8b2b2c8b8a889bf7702d865dd
+SHA512: d3e65f791b7b357d914cefed57eafb4ae7a966256924d47c6e653c215126476a458c65f684198e61e14109698d5d9732df7b1f8c3ec46b436dff3939547fc4e3
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -11927,10 +11964,10 @@ Installed-Size: 5670
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.20), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs, inxi
 Filename: ./d/deepin-home/deepin-home_1.5.2_amd64.deb
 Size: 1216500
-MD5sum: 4144bebbd043357e30e95d11d913704b
-SHA1: 699ac535ad7354001b3a938a2abce07a7a932f04
-SHA256: 5f8dc596d5527f16e4f37bbc58114c98a57f7bd3e2471eecd7b90fa428009ac3
-SHA512: 422ecfe74210f9395db9b06a10524736b6a2771324bae7fcf61bf4f544f2e7d3af11d9c0f2ba5cdab24223c4f3d8c4c707856757ee2b85e3d8246e54c468015a
+MD5sum: 03e3617f56eb5edff0aeb4704b162180
+SHA1: 232006ce96f119ebcf21405f4979ddc7c245611f
+SHA256: 15effee849040d35a978db3f9bf34cbb235ea2b38c1fa6634cb48ebd128a8517
+SHA512: af18237c674fb273896ab0b90df45e0deed57c3bbe724acb3e0be9c16938aa07c805f96396244746632a61c4ae2b49c6a8343ba149d6b461f5585846d2cf35a8
 Description: deepin home
  quick login bbs, bug report.
 
@@ -12236,11 +12273,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14040804
-MD5sum: 8eff52e01e5e4f19e3e6a635b3dd943e
-SHA1: 92a5d959cf4937b2d9200476eed8b624f41dc1f6
-SHA256: 7dbe2a007517fe7dcf93c7ad37eeadf2e851f0c50c184ca231947979be3a0ada
-SHA512: 70829aa9c044617ba46a4f9f0c3b98a72b1c8d44d2aec31a8ee3c282f02906de086a11e9eddf4d1a646f4dc755d5323f818b5d0ba77545019af88e813b9dd0cd
+Size: 14040364
+MD5sum: 225658002a8438f12adf4d9391b6ba60
+SHA1: 06f4669c7dbd01ad600c7f2c8c9da618dab1ccee
+SHA256: 862b9d296f73592b646c155abc7b4e123dccf22670eef8ab0fa37b1d1ea334e1
+SHA512: e770d1d8b792ce658b6a6464cb7de41ebbd6633f9642bb5541b535686543729ef412a78eced891338d9304d3b6fc2a4fdb5ae568c3af35f90f955c2da39d6673
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
@@ -12528,10 +12565,10 @@ Installed-Size: 24220
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 4.0), libkf5codecs5 (>= 4.96.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.1) | libqt5quick5-gles (>= 5.6.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), libtag1v5 (>= 1.9.1-2.2~), libudisks2-qt5-0 (>= 5.0.6), libvlc5, libdtkdeclarative5, qml-module-qt-labs-platform, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, gvfs-bin, libqt5sql5-sqlite, libqt5multimedia5-plugins, vlc-plugin-base
 Filename: ./d/deepin-music/deepin-music_7.0.3_amd64.deb
 Size: 19085480
-MD5sum: 27af823ef276ae4876a5e063999cb0ca
-SHA1: ee3683e361a7d16a7d1448c8e2a7fe9b098d7306
-SHA256: 3660a973f9bf3182b5944a3d0bc6a67b431c594e31362894c01d480ed535cccc
-SHA512: 0810e06fbc693e59b65b4ffa1e31cc4712dd9f30307895d4a39abda3aadaced8414824ac13bf454767717cd1ef17c9aa04caab20d9112f5678cf4364c07c2f28
+MD5sum: 9452ae7c3f1537ce4f03451c0cda3a1b
+SHA1: 5ad0475dd48b6869b7205fd4d5ce356eac8d444d
+SHA256: d7140ff915b1e1c59f52a4b6c344025807a2e300c44d99ff53d6491950bbc80e
+SHA512: 47a991651ca246f5ef5c5892a80e813f8bae73bb04ca30c5ba1810386865cf0d8675f62027dfe24acb9a995b9032a5776b38a4d45db9922218bf6ebf2bc11598
 Homepage: http://www.deepin.org
 Description: Music software for UOS
  Music is a local music player with beautiful design and simple functions.
@@ -12718,17 +12755,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51150
+Installed-Size: 51160
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48904984
-MD5sum: e5aa46f89387c7fe093623210646b3ad
-SHA1: 8368b235bfbac74481ad307b23f273fb3b31ac25
-SHA256: 2edb8dedb1ccf4cdb1ac7cb67255df8787d43cdcdbaf342ec9ca4349203ff256
-SHA512: 6dbf2250d084181c4edb0e7447fe889bdf42d1f15550d98abe81a051ba8079eb0034c7ed9ee736748f77a558c4c41dfe1c590ea8f4fddda8ad7e4880daaba78a
+Size: 48910656
+MD5sum: b62b104b4dc740bfcd245e0b551bee30
+SHA1: 83fc33b5eea093786bb2dd769166cab4bf0e62b7
+SHA256: ce5d3d3bd2e776c19ffa8a34013f3d063459565a56b6cb03927b7a7133e0a746
+SHA512: 9d60ab8a58b33f45a4a12f51fd23c50d0bae703f43f84857272a4bb482b7d5219ad81e240da3329222fe201580054edf375580eb285185eb261ba93779da0374
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
