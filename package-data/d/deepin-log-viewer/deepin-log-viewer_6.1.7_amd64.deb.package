@@ -4,15 +4,15 @@ Version: 6.1.7
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8602
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Installed-Size: 8614
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.7_amd64.deb
-Size: 5169612
-MD5sum: c229fd2ba50b9612ff96ea19a56accdb
-SHA1: 2c440466ccd9c213cb3a963ba4765bd04cc2ffa5
-SHA256: 7924029ba6ab9118e699b141fd2c2f648bc11628d3b5885e7efe4df0d5a6dfe3
-SHA512: 72236f2d5e5352be849d3257a94c912f34928c66da6b8a32902cf6922b77a86f007f1ad6410a71c3fdc9b131d6041530db7df3617eae1164a04ca7898065ddc9
+Size: 5174244
+MD5sum: 52c34904ba9cde88df56c217476325c6
+SHA1: 484232328e411e2d0f400957be27c27504f30a41
+SHA256: 0cd5597bcf07c9f9a1ba1e19147c705e862783562531b16b3409a2c29ad2713c
+SHA512: 7ed5b2753900ad249a909025168186e8e03a59e3c7105001c9d56b08dea12c1afbfacd7d3c1e0f80bbe4834f60608b33e00681d317ef3255a28c05e47b21ac9f
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
