@@ -1,0 +1,20 @@
+Package: libdtksystemsettings1
+Architecture: amd64
+Version: 5.6.20
+Priority: optional
+Section: libdevel
+Source: dtksystemsettings
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1206
+Depends: libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
+Filename: ./l/libdtksystemsettings1/libdtksystemsettings1_5.6.20_amd64.deb
+Size: 241872
+MD5sum: fd3651f5c12802bc39ed51e62e4c7d9c
+SHA1: 2ac0a33391c111b565cb643690270294abb035d1
+SHA256: 2023048918a4281406d7230d124d2547a07f0cd5ba2f9dbb3c1fc86572312377
+SHA512: b6fd65c613c9052cdb9e6c636fb4ba98a31d2942bd046ef4b6410cd415443bdc5297585b2baa19dccb7d092a426c349f255fe3638ef8edb5bda64b9138e30d5f
+Description: Deepin Tool Kit template library
+ libdtksystemsettings is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
