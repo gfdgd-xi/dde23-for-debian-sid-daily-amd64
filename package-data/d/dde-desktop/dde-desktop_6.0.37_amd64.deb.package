@@ -5,17 +5,17 @@ Priority: optional
 Section: libdevel
 Source: dde-file-manager
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 2533
+Installed-Size: 2541
 Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), dde-desktop-plugins
 Recommends: qt5dxcb-plugin, deepin-screensaver, dcc-wallpapersetting-plugin
 Conflicts: dde-file-manager-oem, dde-workspace (<< 2.90.5)
 Replaces: dde-file-manager (<< 6.0.1), dde-file-manager-oem
 Filename: ./d/dde-desktop/dde-desktop_6.0.37_amd64.deb
-Size: 626608
-MD5sum: 7f8188407863f9cad8b001b95f4b8d77
-SHA1: d14c4fd9e90ec6bb215adc37583b24c554979881
-SHA256: 1d73fe53e7f205964f543e109ab116da947df99016db131ee23c0e9eae778b25
-SHA512: d7c7439f3fe943a1722e9aab1baa83fa95118901cc51fd044197467bcece2149cd741acc30cf863a281efdd9fdee0a02145be3531e27a08df81bc839d57f9723
+Size: 627520
+MD5sum: 309a06f1ff38a3f885db1a7ff2227440
+SHA1: e14b7089d78386ae55b11d9cf2af6a022e817d6c
+SHA256: e5e6e389c3d2f191707c3a174e77131cd21955120acf52cdddb701fcfc402191
+SHA512: 6e26a66fa3cf796143c7a9884778508bd3e517c6f1990cb11c63f358c79bda07a8c5b435c105fe2e12bbb001f36bae0c34af8229ec66abeb6ea6392414b55cf8
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - desktop module
  Deepin Desktop Environment (DDE) - desktop module.
