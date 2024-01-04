@@ -284,11 +284,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318396
-MD5sum: 651aa19c7e1422ce8b7e695b2f3ba565
-SHA1: 8732f873db1b1c5075574ff0d1fa180c527eb68c
-SHA256: a4163b718f68cfb9e529208a63476eb54d20392c8fdcf684ffad02a3dfe3635a
-SHA512: f5338e413cdc1e1acc8bd423503c73f18140d21b1f54a722cba08fe681f24f6b987f145cce0365c80498f143bb294123dd13f8ffd14b30affed83b15dfd750a9
+Size: 318616
+MD5sum: 532fd41f76321baf93f2b6862f37e3b7
+SHA1: 4db7d39dbfbb23aed26e8d6b2df43370638a666d
+SHA256: 88cb8634d62585d16cfbb8a1473e4197f18b67b2e13cd247d99f701b5ff36d31
+SHA512: eb270933fc22c957f8b93c9e5191bb20f32926c35ac0494a80cc416f1b666b2d9b9748e711e7ca007da178362c5350b194684b7e7768a0e9b6e1ecda4f754d27
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -7866,11 +7866,11 @@ Installed-Size: 109670
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-16 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libunwind8, libzstd1 (>= 1.5.5)
 Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.9_amd64.deb
-Size: 72549308
-MD5sum: 25cb263ac36184fb46ed5e82222a7c3b
-SHA1: 48f168b9b863fbf49f29d92000033ee15bc8dd71
-SHA256: fba0024a556d330c4c12630903e613fd0760ed839dfa0c984cc85171cf33f6c5
-SHA512: 29d2b1d29eab19bc5164d97ac411f69c683b67aed13a07b96e4d22286d3f358a9449aaa9ee927bb2fb688a960fe6971dd23a6779a7423c99ccbc56d1371af843
+Size: 72550560
+MD5sum: 50f894ded82ee2995d7c39f550ed30e1
+SHA1: c895c25a494457c3c429d5a4b635f88389ab17e4
+SHA256: d5cf82b6b227e238fab9d399f6a1011d826e80cb75e2a5ef4f96b495be7bc11b
+SHA512: e25023c402163dd67e5f9cbdea35e10cf437d65307aefe259c50d82c9d4b9f3faabb1b981f82813c3c6d00fcb6e84281a0ab5589b2648f983772e79441385fc4
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -9232,6 +9232,25 @@ MD5sum: 368cdf1db3d0c905726f5be6d7de334b
 SHA1: 5d882147b7c5eae1bb61b6f8d49dc2b2c55d7693
 SHA256: ba9d37917928610704fad406fee800db231556041ae764c5eee5377dd9393c60
 SHA512: 56de159e03e70201231dba199e592e394e6f6de3a38c0fde14375303956871c6fa51cd86d222e3cd8bb8f6f9af9680801062c04fa2e7bc057e8ac3fbbf2901cd
+Homepage: http://www.deepin.org
+Description: this package software for  UOS
+ deepin-camera is a tool to view camera, and also a smart take photo and video in life.
+
+Package: deepin-camera
+Architecture: amd64
+Version: 6.0.6
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 16610
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libimageeditor, libpciaccess0, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 11), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libgl1, libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), libqt5concurrent5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.9), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), zlib1g (>= 1:1.1.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), dde-api
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-camera/deepin-camera_6.0.6_amd64.deb
+Size: 14935888
+MD5sum: 5348c0dd501ac6c5188642a89a63aec3
+SHA1: 19191f675ed5a7348b57edb2c50613ded26c6bf6
+SHA256: 0fb46b1b096a0e1e483f96dc7558ef0c31fd6102be5d3571f37f40ffd1d13882
+SHA512: 1b0a63b178b08bc03fe5ea8a9aa39a7d632b386d2514b6ef68ba8fb7ba7e2303730619f724d5259cae15bf8d1facc8dec524e13b9c3da3f465329756e3304340
 Homepage: http://www.deepin.org
 Description: this package software for  UOS
  deepin-camera is a tool to view camera, and also a smart take photo and video in life.
@@ -10829,11 +10848,11 @@ Installed-Size: 6928
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-10, expect, zssh
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-terminal/deepin-terminal_6.0.9_amd64.deb
-Size: 3403424
-MD5sum: 577e789eb98bdd940387d4e974a6798a
-SHA1: 68bfb7975c7ca49b8f5ea38fa6c491a7f87c03a4
-SHA256: 27c0e38557ef18b5f8f03323bde1a5a0437665023574d5575eb365233388cc4c
-SHA512: db8b5f8f962b323627eea2a0eb154d425f63a4aa532778a2f929a40829e5568ec566e1c8cbc57d93d6da935ea64db496372103d5d604ee9d025f147ca51ac6d5
+Size: 3405612
+MD5sum: 824730e54bafbe4d6020bc0db9b87165
+SHA1: e46d9c0fa7eb68e80dbad77201909b0963da7fa0
+SHA256: f557d33d582103c3a5506b7c1cfd6ce6fbbb41fbac8d754b3580f5dc3a8abd65
+SHA512: 839add5829332f176315444b37df955ea3d911288bfc1ffe9fdd541c073966c81e9302975fa9d4f77068b8eaea06d1103d5cc7a290fbe0988de7010df94259aa
 Homepage: https://www.deepin.com/
 Description: Terminal is an advanced terminal emulator with workspace, multiple
  windows, remote management, quake mode and other features.
@@ -12717,11 +12736,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 5674
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkdeclarative5 (>= 5.6.20), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-dialogs, inxi
 Filename: ./d/deepin-home/deepin-home_1.5.3_amd64.deb
-Size: 1219256
-MD5sum: 6d9bb631a7c2c15c9394e11db86cdba4
-SHA1: 1b4911ff713e3c69fbc309c934806811881da3b3
-SHA256: 7c913617bf3528e0cdad4ea64aa17ffa73b8878c96584270f744a4ccd83e4ea2
-SHA512: 96510bdfdb3869a334bb94db087f6fa0d9937ad1ed4a73b542bbe7a92346d18ad3a7723d109b7405e4fbddb01df7f2e1d82332ca848d553431c5d8f3d5cf9c23
+Size: 1219624
+MD5sum: 42c882e0fb5253c9c325ed8d1e454c5b
+SHA1: 5830a829b25fc1a164fb7ed0f46f8c37b56f7359
+SHA256: 1308d888362038d3678240257f244dfecb4fa0e47776733800c6de1f33d0f44d
+SHA512: a4af81ade140aa3c401f499d51aae3749cb314912f58dc2876ec4148ba036665f3b52c80ca7824802ed6614f37efda26ca75b3467d5fc3cb0edbc82444e1f96c
 Description: deepin home
  quick login bbs, bug report.
 
@@ -13579,17 +13598,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51102
+Installed-Size: 51131
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48852700
-MD5sum: 8f8a86d7ca0fe06f36fd60ea60495a06
-SHA1: cc0882c3ce348b562989cc15def28624e39f7776
-SHA256: 33387ed743297690e446947a165a5bc14c66ce8796476c36b1ee7b317b445960
-SHA512: d3577d9e3a74b683996f1130c81ccd8d171fce87d5a54d1bcac308c12e1a0a81bafade088eee25b3c578c802de4a34f532e8b0f4be20e83077db9145fa5abb37
+Size: 48883124
+MD5sum: 8b7b1e6424b7c91deb65f550c6ba600a
+SHA1: 08b8811019656b82359cdc5715f1ec4b18fa202e
+SHA256: 9383cce0a2bef7e79a333640971ee033e3264918144508f1ee2efd82e316642e
+SHA512: 3943bf123e970f7fd4d1f1df59d6788c3b181bb10b92780db4fbdfb952340839c0cd0e11237f1b7f8182d208d501517ae7f26943ce55d15ce98f7b6b3d6bc314
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
