@@ -284,11 +284,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318616
-MD5sum: 532fd41f76321baf93f2b6862f37e3b7
-SHA1: 4db7d39dbfbb23aed26e8d6b2df43370638a666d
-SHA256: 88cb8634d62585d16cfbb8a1473e4197f18b67b2e13cd247d99f701b5ff36d31
-SHA512: eb270933fc22c957f8b93c9e5191bb20f32926c35ac0494a80cc416f1b666b2d9b9748e711e7ca007da178362c5350b194684b7e7768a0e9b6e1ecda4f754d27
+Size: 318440
+MD5sum: 1fe25d7097e435bf084e5283991e53f9
+SHA1: fc8a33c7698a7b4c1782cdb80ff7af43ba17aa72
+SHA256: b2f3dc45869d18e40345dfe658ad126b87a05fd6050594d97c87880ebf459bee
+SHA512: 5c1f42e352be1c2ae6177585ff978c01da4e4e585f947fa09282e882b57148100259802bbc1f30396b19a781867cb8cd3ab24cc67d7bc311f4f2aa3c1b0761df
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -2453,11 +2453,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 808
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.5.0), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libavcodec60, libavformat60, libavutil58, libffmpegthumbnailer4v5, libmpv2, libpulse0 (>= 0.99.1), libqt5concurrent5, libmpris-qt5-1
 Filename: ./l/libdmr/libdmr_6.0.5_amd64.deb
-Size: 239056
-MD5sum: b82592a09b92c4b3a7619aa22c09eecf
-SHA1: 3d05ceff5b5fbce425ba4ea60b18b907d8a4aafa
-SHA256: 1e2d755a79a7fe3c31f6a6a0af0679a9d3ffb96ac16a1cec846c3dcdef0095b7
-SHA512: 29920eb83d1e3c627e6de7c11bff329645da2c978309c8f9428303030b35e33cd955da95f2bcf48e39bfc942249180ab0a749a5525da8f214cb2a3a7020c8d9c
+Size: 239532
+MD5sum: 0a0c33a97ceccab90cf34b3901b3fb59
+SHA1: 28d6fda7db15ccd2a8017897da54e128df021165
+SHA256: 8866d6259f0b0e380bf0135db555c1cda8a874d159a79b25c7ab786ab92e9d57
+SHA512: f316c404c72a461e57de361bf71b24651e7598e622c497a19134751bba6004733be3851c3217e28bcc2a802171c2ee0d45126becdf56d01a114f1a21301ed267
 Homepage: https://www.deepin.org/
 Description: movie player widget library
  deepin movie player widget library
@@ -3367,17 +3367,17 @@ Priority: optional
 Section: utils
 Source: deepin-log-viewer
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 66
+Installed-Size: 67
 Depends: liblogviewerplugin (= 6.1.8)
 Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin-dev
 Replaces: liblog-viewer-plugin-dev
 Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.8_amd64.deb
-Size: 17484
-MD5sum: 230c3bee2abe038cfa86919e0ea24c13
-SHA1: 8a8636edf2dd920aa9af5297c478dc879d071539
-SHA256: e45199061b561028e7bf5e48043f1947959c2cbb16e660672b86b92c2305c576
-SHA512: b4dacb612ada71ce6b8f8938a201e1dccf14d52bd6d310f07f2337e389f8aa6864dc894731b0a0ae4f100a50e947068e7c87b443523e6798febcad0710b0cf68
+Size: 17556
+MD5sum: d49400320b696cbad25f6badb2367899
+SHA1: 5ef130e80420d36f20d92c431fe6a0a160356f61
+SHA256: cfbd8cf7c6103bd048bb7383e38390e6dc93124a37e4f42b1613b1b3a70e9d12
+SHA512: 21c91778ea5a28487b8bbf2559af52cf1ef54774810c348186b77ce8c2fd38e9613f692db09d2cd452aec000e099f53560893130634ebef9a1c24dd845da7cec
 Description: Log Viewer Plugin library development headers.
  Deepin Log Viewer Plugin library development headers.
 
@@ -4724,11 +4724,11 @@ Recommends: libqt5libqgtk2
 Conflicts: liblog-viewer-plugin
 Replaces: liblog-viewer-plugin
 Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.8_amd64.deb
-Size: 306856
-MD5sum: ff68abef9b097116c83ed9d384e678f9
-SHA1: c1a74dd953bf5ea8bc7b1ef3cc0d4503994edb88
-SHA256: caf5da5c4673a902d349d3fc1f0f111d93bc0ca74221f2f646afb8c0ab21ab8b
-SHA512: bcc2ee4866d4254039824ae71a0e54bca6814cc0247206d58f2c270611ffd4f4a6cbf46d363db02bd86ea9d3af995fcbee0924eb077072ecaa3eea5411f492d6
+Size: 306940
+MD5sum: 647f5f8d8524329bc67bed6950ff19f5
+SHA1: 97830e4d706132f2e5cb20bf8e30276dfa346320
+SHA256: a2a6f4dfcf73e9509137afc5141c88eebcd9913da304a5339e56dea4cddd9abb
+SHA512: 088cf8188372e9aeea20351d2c103ff0e18596d63cbf9a627d8ccd562d941785464d1961ab5f0a21d8ccb3d11334c12d614902d4b2c0f7cbc4cf1ec239dcdfc1
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -7549,11 +7549,11 @@ Installed-Size: 21605
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libmpris-qt5-1 (>= 1.0.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libva-x11-2 (>= 1.0.3), libva2 (>= 1.0.3), libx11-6, libxcb-shape0, libxcb1, libxtst6, dconf-gsettings-backend | gsettings-backend, va-driver-all, libavcodec60, libavformat60, libavutil58, libffmpegthumbnailer4v5, libmpv2, libpulse0 (>= 0.99.1), libqt5concurrent5
 Recommends: libgpuinfo
 Filename: ./d/deepin-movie/deepin-movie_6.0.5_amd64.deb
-Size: 9540136
-MD5sum: 46f9acb984d7b86ee0a38a3669213f3b
-SHA1: d601a38d9098e56469fa6cbb65b41aace1e9aa63
-SHA256: 571d050faa377627b75caa6e38913d94c4847bc6ac1e17f86b081cd5e609d174
-SHA512: 30356497684d131b93d7637b179e5ed54f299a428bf5def815c11674f33362eb88b2ef01e2a46f8fd1c9ec6f9613bb4f0da65d309ee2b722e760bf2c0c705224
+Size: 9538884
+MD5sum: f32a95f3c702a95e94a211308a669ba4
+SHA1: 0e545ada6796c2d3497f0c6fb322450df71ce718
+SHA256: 74c2534e965501676662dac583b36d33750939ada1a00d24bb6e057209e3bc72
+SHA512: 3a735072f7b60f7d2217e895db646caf1265dc77d51cb4222fc26f08b3a42ee6e4de2842bd3efc04ed39103ca9c28f5032a5da55d3248bc3e3ce92388309aed8
 Homepage: https://www.deepin.org/
 Description: movie player
  Movie is a full-featured video player, supporting playing local and streaming media in multiple video formats.
@@ -7880,15 +7880,15 @@ Version: 1.2.9
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 109670
+Installed-Size: 109682
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-16 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libunwind8, libzstd1 (>= 1.5.5)
 Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.9_amd64.deb
-Size: 72550560
-MD5sum: 50f894ded82ee2995d7c39f550ed30e1
-SHA1: c895c25a494457c3c429d5a4b635f88389ab17e4
-SHA256: d5cf82b6b227e238fab9d399f6a1011d826e80cb75e2a5ef4f96b495be7bc11b
-SHA512: e25023c402163dd67e5f9cbdea35e10cf437d65307aefe259c50d82c9d4b9f3faabb1b981f82813c3c6d00fcb6e84281a0ab5589b2648f983772e79441385fc4
+Size: 72548320
+MD5sum: f7b846d2d59522f8d8687cdac9b3d6ae
+SHA1: cbb6dc13790659bf6529b7dd4aeca5b81f18abc9
+SHA256: 19f113f6200f1fee0486c4f7843a4ac8cd7d9b8815f482663379f0095a0ee6e1
+SHA512: c6af8c18788291094dcedd309cd55c8dabf22a9472185a790cd6df84632967daf0c2f87e53e11bf7fb99583167adc76c96e5018d8dfcefdff737301bc98a7771
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -12179,15 +12179,15 @@ Version: 6.1.8
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.org>
-Installed-Size: 8642
+Installed-Size: 8646
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.8_amd64.deb
-Size: 5187424
-MD5sum: 8f99f873d2dbb6c599cce16c72c538b8
-SHA1: 1f8f56cf74da45c1d2d6462811b149d08a088960
-SHA256: fde4e810bca2e49a98b4a7401bd9724f5cf485d81ba53d416bf03cbbff96d339
-SHA512: 38be926e0cfa513a8d4303128aa4b1236198d1910444ed61f65a59601bf2d7cf0596f8855ab08fa2e5002ebc612ddc384e427f40b197f4781bb5b5e717ec23e3
+Size: 5184992
+MD5sum: 4234a0e3f9705c74178b8d8e6701a31f
+SHA1: 0e386add06b573db30a4910e5db843646c00d91b
+SHA256: e18bc9b89a16bbca1e03abfc1580acea62524dec294e3d713325a2d0dab80dd3
+SHA512: 8e615bf55d60ace3ac0ec9192c3ba024827bf86885b8f9a46e3ced1d784433d7cbd1a33cb7bc410822dc749736bd4335457458614dc6753ce1ecf59ec8b80e6c
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -13134,11 +13134,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14040804
-MD5sum: 8eff52e01e5e4f19e3e6a635b3dd943e
-SHA1: 92a5d959cf4937b2d9200476eed8b624f41dc1f6
-SHA256: 7dbe2a007517fe7dcf93c7ad37eeadf2e851f0c50c184ca231947979be3a0ada
-SHA512: 70829aa9c044617ba46a4f9f0c3b98a72b1c8d44d2aec31a8ee3c282f02906de086a11e9eddf4d1a646f4dc755d5323f818b5d0ba77545019af88e813b9dd0cd
+Size: 14040364
+MD5sum: 225658002a8438f12adf4d9391b6ba60
+SHA1: 06f4669c7dbd01ad600c7f2c8c9da618dab1ccee
+SHA256: 862b9d296f73592b646c155abc7b4e123dccf22670eef8ab0fa37b1d1ea334e1
+SHA512: e770d1d8b792ce658b6a6464cb7de41ebbd6633f9642bb5541b535686543729ef412a78eced891338d9304d3b6fc2a4fdb5ae568c3af35f90f955c2da39d6673
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
@@ -13656,17 +13656,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51231
+Installed-Size: 51204
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48992408
-MD5sum: bbf5f0b56ed0817aded406b7cbbf8b44
-SHA1: c682c66350e64dcfa02edaac1c5db17c2ef2b645
-SHA256: 5e0917d8f1828a20d919d72c776117cc45d393bdad858633ddf4787bc98b0af7
-SHA512: 3baab503ddc622bad420d2c536f82fa06d117bc92eec083ab3dca0e594a7d3abdeb04f70fb66dfe8e30a7d6996c3e5d54db2c879e4405b1fce998e8313380b82
+Size: 48965284
+MD5sum: 4b6402a346ae4053ed4aa3add7f71f40
+SHA1: 579df00e1051024b45e45cd4819bdd69b51a8758
+SHA256: 2e935b42cbdca8db59de0ca91930c610c0e209edd30d552ab7f8a3b1fcbacb78
+SHA512: 52a72653d4fd1223ba7d087c8216049adbb8833eb913c2366b979052ada6dfa4dce0532a05160fd730b8d23947f1c915a3e70933ed4e11da3857027df14af286
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
