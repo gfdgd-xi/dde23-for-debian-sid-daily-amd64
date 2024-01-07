@@ -284,11 +284,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318484
-MD5sum: 5f23b72eab011b0295910ca563de55ae
-SHA1: 106777f9587accb517b6ad6808973203cb51e6c2
-SHA256: 623c1556b9e657cd69967dd684f393b67482da67139d880cdc30382888b55672
-SHA512: 37b8773847f943aa5df99b4498305c260eccaa23c6ea8bf9f1d015eb5b898b690e3d2d8189336c6930c879cc75e46cf64db4af357c04661c128a353c9e3f9c21
+Size: 318552
+MD5sum: 63caeb844d231f14d2ed2391876fb11d
+SHA1: 9c3ce86270cfbdfe362905167e238ccc4c8fd051
+SHA256: 862a0eed50b824ec690bab5cdd3263908e098373c74aa7c43ae7b1476eee4155
+SHA512: 8905c31d57bee1cdde02ab99e7060d0795347e054f6f7968d0cb62b5b1e35b511860d39c8091e0318c181c953e27b99398c3b46d6c7ecada899cd6bb8cc96df0
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -13252,11 +13252,11 @@ Installed-Size: 19556
 Depends: dde-qt5integration, libc6 (>= 2.34), libchardet1, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libuchardet0 (>= 0.0.6), qtbase-abi-5-15-10
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-editor/deepin-editor_6.0.15_amd64.deb
-Size: 14040364
-MD5sum: 225658002a8438f12adf4d9391b6ba60
-SHA1: 06f4669c7dbd01ad600c7f2c8c9da618dab1ccee
-SHA256: 862b9d296f73592b646c155abc7b4e123dccf22670eef8ab0fa37b1d1ea334e1
-SHA512: e770d1d8b792ce658b6a6464cb7de41ebbd6633f9642bb5541b535686543729ef412a78eced891338d9304d3b6fc2a4fdb5ae568c3af35f90f955c2da39d6673
+Size: 14040804
+MD5sum: 8eff52e01e5e4f19e3e6a635b3dd943e
+SHA1: 92a5d959cf4937b2d9200476eed8b624f41dc1f6
+SHA256: 7dbe2a007517fe7dcf93c7ad37eeadf2e851f0c50c184ca231947979be3a0ada
+SHA512: 70829aa9c044617ba46a4f9f0c3b98a72b1c8d44d2aec31a8ee3c282f02906de086a11e9eddf4d1a646f4dc755d5323f818b5d0ba77545019af88e813b9dd0cd
 Homepage: https://github.com/linuxdeepin/deepin-editor
 Description: Text editor for DDE (Deepin Desktop Environment)
  Advanced text editor based on dtk.
@@ -13774,17 +13774,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51079
+Installed-Size: 51166
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48821552
-MD5sum: 46d0875238df541bfefff64d05802d45
-SHA1: a4395fba4f9541de5e628223ceb8faf80f3b7a7b
-SHA256: c9c0918d705f01639b3427cf0a2546d0aca6c5519bd957d4e4bebc94c6342277
-SHA512: 2235e2f25819b57742828ff9bd0f50405736e1876becc7e439bd492cf3e1a1f826f99df63c9d1a5cba167f8134e9bcc82ab063469d3ca1ac590861f4e57ba661
+Size: 48921180
+MD5sum: 16a6bbcb6ce48b17819c5179b6569c26
+SHA1: 1585875c246537acb0b4d759479c6ab63a87f1f9
+SHA256: 7a80b8d6724ced778fc8483b3db62e2821661d411e60cc07acb46e3c075be043
+SHA512: ca3b3e7db3ae643dd7cee7d37dea950f80a2607283f51ce602e587a8d8d9536f0f79f6f6bbb53f25b404c4c0014284e05f9b97dade5f64efaa25433a27708d61
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
