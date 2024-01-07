@@ -2724,11 +2724,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3850
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.2_amd64.deb
-Size: 820584
-MD5sum: 5952340740bdf3dd6c045dd31bc13359
-SHA1: 38501fd3267ab6d44aaac33b091f8afdfb5fecd2
-SHA256: 55b276e3e2898da3931f349da75d9c0f9094c80b8a01c1e9a759af3cb04d1534
-SHA512: beb8a45425035097662cd5f49c7a110b4d94d682b43340df8b94c815f437bee681b11457eec29a6b8ef92b13b90c2ce26e97b750f8870bcfac8b07a7c1c538d1
+Size: 821812
+MD5sum: d0fcf4ae249024a12149f4b56954332e
+SHA1: 475b526c2055de92f840d898a102380a728f21f2
+SHA256: 5ab7324a470c0d222b157eebde8e172b5db4698fcd00cea984baf2743d1dcd3f
+SHA512: c8ab8e3bdb576aa574622c71d0553288b252ffdda9b80096989daaa1dcbbd13adc230c05a3dce27a5859f5de5f55619ea5b24f473c72e3c498cec50fdadc03e8
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -5523,11 +5523,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1859
 Depends: libdtksystemsettings5 (= 5.6.20)
 Filename: ./l/libdtksystemsettings-dev/libdtksystemsettings-dev_5.6.20_amd64.deb
-Size: 1198644
-MD5sum: d147bab38325ad099e45bce815093363
-SHA1: b2c002047be1fee8e23fcd4faaf73989a5a9d96b
-SHA256: 69e5e9e75c113d92faf726e8396bcf647944ca1f12d27b69c75d44add5cd177e
-SHA512: 6b5e978a28f8b15791ecf665211535dcbbf13ff79f2d0113184d827c9649916aad8bead469ec91183f231a67c397a68b865c18bae5db62bf515495a91482a9e8
+Size: 1199216
+MD5sum: 94305ef3b44d94538d83248a5c8a9f90
+SHA1: 5e37bdb12da361c373d773457873d99cea6eecd8
+SHA256: 6830211e82c0b4421328d036aecc40919f463f92a89e8a78e57f07244ddee915
+SHA512: 8a511158c3fc5813da5fd74662ed4452bb205db124cb4d39662464ed1c4f1147309663f041039383008101bbd02ac453dae49b05dbe790331e7e294e363ef628
 Description: Deepin Tool Kit template devel library
  libdtksystemsettings-dev is base devel library of Deepin Qt/C++ applications.
  .
@@ -6479,11 +6479,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1206
 Depends: libc6 (>= 2.14), libcrypt1 (>= 1:4.1.0), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./l/libdtksystemsettings5/libdtksystemsettings5_5.6.20_amd64.deb
-Size: 241876
-MD5sum: 1f6b05d67d8bed29f757de3524436e3d
-SHA1: 9e083536599089fd8ac5f630ed9b3d56d11f1b0d
-SHA256: e04fa3235e851d8d849339c2b2b63561bdcd78a9ff8121f7d1869e288f6c4d80
-SHA512: 43f38eaf5bae0f1a7051bbbf4f6c719cc0014b9edbf16dd0b9884506d5c59210f2d9cfabed56009b1a9aa4217e03043e36aed2d15b7964d2e3cc2c2c90b18529
+Size: 242848
+MD5sum: deeb2857edf55e23f2f4e48452047cb0
+SHA1: 1b1b05613e53dd59ec2ce63a2f982f0e73a39f7f
+SHA256: d98dc83dbcf7abd0d689025eda78749c52d73455dff9ffce8470f62babe3c270
+SHA512: c6bd2bb4931b48ca50dda8d48cdd9bf21de315d56b40d097af6048318a7a4463253c5c64efaf32d08975a9b6b08543addf8baf39ad5c295d8e3422b8c684fefc
 Description: Deepin Tool Kit template library
  libdtksystemsettings is base library of Deepin Qt/C++ applications.
  .
@@ -10453,11 +10453,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2190
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.15_amd64.deb
-Size: 516664
-MD5sum: 84e3b77ff0a83ac4b3e66a4e789094aa
-SHA1: 3eee0d3866c8e4e8a7467449fca51145c411e711
-SHA256: ebc20cc7e8c9d7e5ecb57f0caad20bdb7bf6c45f3ee5ea121a14ac83d9273601
-SHA512: 9444211ebaa3e962b67b19a4037f3909ba3adfc6e9469230797471808e1680d4d4a6f2ad59c0f30082fc2c4d5a428c4745e38d2992c917fca0877e5af3cfa2c3
+Size: 517864
+MD5sum: ec1f29f5a31729c2c6bbfb877f92d460
+SHA1: 2ccadf15a3c6c4a11712ebff0cbcb37892695901
+SHA256: 7a324ee6007f84601d8695ff5ff6ed988f3da51b141061823b8a42bd98fd472a
+SHA512: 4da6fd691aff9d8756feed4deb0e72b183a77cc18ae74dca85e6283c0e409f009a8807a28d8a6911942ce13702a8aba1d1705e40ac57d4412a00e693efbff8ba
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
