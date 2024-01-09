@@ -1,0 +1,19 @@
+Package: deepin-data-transfer
+Architecture: amd64
+Version: 0.5.5-1
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 4354
+Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 13.1), libzip4 (>= 0.10)
+Filename: ./d/deepin-data-transfer/deepin-data-transfer_0.5.5-1_amd64.deb
+Size: 3496544
+MD5sum: 421c31e818d79a5341550adabff20da7
+SHA1: 5da9425156e85708ebfed11695ed9d25b3226fc6
+SHA256: e7e1b9a4d7a1004e8a968c186ce5a37606232d4781e8a6ed28c85988d463d69b
+SHA512: 74efee46d7daad7ba7dfe37f2c21b00b2448e391852fd4cff42bee42447e64c4a7b08a43fc4a70a98fffc2aeb37ccc6406ea23a6a76f9a6841f94285398ab4e9
+Homepage: http://www.deepin.org
+Description: deepin data transfer frontend
+ Deepin Desktop Environment (DDE) - data transfer frontend.
+
