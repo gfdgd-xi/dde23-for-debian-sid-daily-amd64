@@ -97,11 +97,11 @@ Installed-Size: 1336
 Provides: spark-store-console-in-container
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5gui5, libqt5concurrent5, qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
 Filename: ./s/spark-store/spark-store_4.2.10_amd64.deb
-Size: 715848
-MD5sum: 8c789700d7c7e5be850def3d6893b692
-SHA1: 3e5aa1df80df8ee38c8709b140929fec1c87f65e
-SHA256: 4c4152cf5bb43dede42835b0272f16f0c82638062245f3a9c7a1dee515bbd68b
-SHA512: d3a68404abba83a92118956fdb2fda258b883100a72973426616e41c035406267743684445b55b6b44d9809fa23792f2ceb356bde0bbe47b16627ffc887eb012
+Size: 715840
+MD5sum: 73101f9d07aaac58272dd07be8f583ad
+SHA1: de3e4b110cd3308095a0d4ce661d9597eee49711
+SHA256: 4e6946c47079566f566b9daad1f370b4587b9f4fc57458b24e1bcb9ff08bc81d
+SHA512: bc2a28b75056ea8991f05fa5be4e5192d7375990d633605b83d42e7ee70f95d6b6436e75d7be600f250851b1fc4f91a99358a651ffcedb1e6afada4e98b735ed
 Homepage: https://www.spark-app.store/
 Description: Spark Store
  A community powered app store, based on DTK.
@@ -284,11 +284,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318328
-MD5sum: bf93802f6194b9ad4326368dc1da98a9
-SHA1: e1f2aef7535101751b0a031334e158ded4dec326
-SHA256: 90e9d32deb472a6ebc36aada85d3631af0bb38949a6ccacdb3134b23875018d5
-SHA512: b613d1f0970309556c76d00cbf785879d84a957294b9317f3419472ee7f0f3e65f9d4a9ee68a112087b1f28956b88c349b7cbeae9bcd885eb58a17c07d6f3299
+Size: 318152
+MD5sum: 8a2fa9db0320c5123907b4c79ca184ca
+SHA1: ca3b3986c770f0adbdec0e2f8ef2b10537f5afb1
+SHA256: 5680e304034b09538874c958da28dd101f3e1fb15394bf45884fa33c14c0813b
+SHA512: 09dacf253f4f9c204b7dab98924d80fb2574c3c59ab7f3281a171e64d7668f7e167c76af6bd33868f27d16d2c8f4db45f16073756cd263c76a50604982a6a05c
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -3871,6 +3871,27 @@ Description: Log Viewer Plugin library development headers.
 
 Package: liblogviewerplugin-dev
 Architecture: amd64
+Version: 6.1.10
+Priority: optional
+Section: utils
+Source: deepin-log-viewer
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 67
+Depends: liblogviewerplugin (= 6.1.10)
+Recommends: libqt5libqgtk2
+Conflicts: liblog-viewer-plugin-dev
+Replaces: liblog-viewer-plugin-dev
+Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.1.10_amd64.deb
+Size: 17820
+MD5sum: 9878d05343e9e2c27f5f2b028b162dee
+SHA1: 71b3cb7c3ea8e81062b3239eaf71306722644287
+SHA256: cf334294f1c9862677c45b2d0e69ce9aefa523b6c8afa10c1cb8722697664f3d
+SHA512: 02c1247cf8532c1e33d53b285697e05402a18fac470ed4997908bebf7054f797007f4af86abf21e6e2131f625c51f409a416b64b865cfe3d5bcb173d8001f54a
+Description: Log Viewer Plugin library development headers.
+ Deepin Log Viewer Plugin library development headers.
+
+Package: liblogviewerplugin-dev
+Architecture: amd64
 Version: 6.1.9
 Priority: optional
 Section: utils
@@ -5399,6 +5420,27 @@ MD5sum: 472aa521cd3f00e64d55253b57062d8d
 SHA1: 8dd8acea7cfff55b09bad049331f5f3928f338ea
 SHA256: 5c502acfe748dbf7cccc47f70a59683fc9ee2a7d335dbf28dc7f86b38cb848dd
 SHA512: 30ecce4ef9fab2f2803fa4881b0480143684f41bb0daab231843960f71dd000077f79389647673587166673bbc46e9e423b3706c071d1e6b10a6b1cb3e5fb956
+Description: Log Viewer Plugin library.
+ Deepin Log Viewer Plugin library.
+
+Package: liblogviewerplugin
+Architecture: amd64
+Version: 6.1.10
+Priority: optional
+Section: utils
+Source: deepin-log-viewer
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 1104
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
+Recommends: libqt5libqgtk2
+Conflicts: liblog-viewer-plugin
+Replaces: liblog-viewer-plugin
+Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.1.10_amd64.deb
+Size: 310360
+MD5sum: 90fa8be2036de9dd426164ef7c32f7a4
+SHA1: 1485b00373fb5045f4ccfdf0606c4f4f9241caeb
+SHA256: 6d83b79c503a63883b2b3253a365ea38d2400026f47df12268e01f3c2813374c
+SHA512: b6a04369f0cb3199d897f69e7a772b4121cf29524323ca2ed82dd534b6f9c9230bfed098ee61d08acc435bec1f35836d16a396c960ad773c4715fb7cfaadc371
 Description: Log Viewer Plugin library.
  Deepin Log Viewer Plugin library.
 
@@ -9012,11 +9054,11 @@ Installed-Size: 109682
 Depends: libc6 (>= 2.34), libcapstone4 (>= 4), libclang1-16 (>= 1:5.0~+rc1~), libdbus-1-3 (>= 1.9.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwarf++0 (>= 0.2), libelf++0 (>= 0.2), libgcc-s1 (>= 3.0), libjson-c5 (>= 0.15), libjsoncpp25 (>= 1.9.5), libkf5syntaxhighlighting5 (>= 5.90.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.14.1), libqt5script5 (>= 5.6.0~beta), libqt5scripttools5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), libunwind8, libzstd1 (>= 1.5.5)
 Recommends: cmake, make, gdb, g++, gcc, git, npm, clangd-13
 Filename: ./d/deepin-unioncode/deepin-unioncode_1.2.9_amd64.deb
-Size: 72549548
-MD5sum: 6d3fdf361e2b89a1b80d84a01d178777
-SHA1: e8852081e565807d4e0fc0aa3ab1d1ece6f46210
-SHA256: 281f2e2a094efa18b708a2e732dd7356c63cd7faa4814dc0ba2789d17d837483
-SHA512: 93077a2f47a6096ec7df1cb5f2d3c485d54eade033f9290c049ab990050ab953e060b35f72429ae61b4a02def8af10884faed7c5e31fcc29cf366a132626126a
+Size: 72551544
+MD5sum: fb8b504e5c4b96d1794781ac3bdce106
+SHA1: 5272cc50bb9ab969f7852bd875e9f044c110b89c
+SHA256: 18b50e6a1969909462665c35b8ad08d7725db43ec12951b47cced3e5da1df08c
+SHA512: 3bbde7c27f08359324cc4075f73577353d1fab8998627ee7523cc8d8dc6401d9b767187d30dd082b502c90e1bf255f9b66ef7f5242976a7cb1ab73a4e475c00b
 Homepage: http://www.deepin.org
 Description: IDE 'Deepin Union Code'
  Lightweight cross-platform integrated development environment
@@ -13942,6 +13984,27 @@ Description: Log Viewer is a useful tool for viewing system logs.
 
 Package: deepin-log-viewer
 Architecture: amd64
+Version: 6.1.10
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 8900
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.10_amd64.deb
+Size: 5189244
+MD5sum: ccfbd26b29064efe4aed332cf5053312
+SHA1: 36cffe66efab154cd35ec27c5c46ffbc236e9fc9
+SHA256: f7e9fdbc464e5b8c4ae45fd329a1e56db44d3125874256ea795f559033333eed
+SHA512: 2242545b232529248c831eeb2028eb908ace63739980deb6d7f3970448732693e9cbf34eca811c6c449f641be4c649817eefc229b26902271acf5e3aeab24e14
+Description: Log Viewer is a useful tool for viewing system logs.
+ Log viewer is a tool that collects logs generated when an application
+ is running, for example, logs generated when operating system and
+ applications start up and run. You can do trouble-shooting and solve
+ problems quickly by analyzing logs.
+
+Package: deepin-log-viewer
+Architecture: amd64
 Version: 6.1.4
 Priority: optional
 Section: utils
@@ -15458,17 +15521,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51109
+Installed-Size: 51208
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48855232
-MD5sum: 5b5eb0a77c6668704cf4569afcdce39d
-SHA1: 663c1c871d902b24650c7b545a05e7e3642682b6
-SHA256: 9f80cd02ce0070eb3f9ff67cf57c7328df9218ba082522ee8598eab118641187
-SHA512: 933306459b6f2ee99abbece41ef911f9b67282460ecffbc2a78cd5854b68f1d60600b01bfe926ecc4e0409089a7c5b7c6dfe70e4c4c2a7a836225a989ed67ee7
+Size: 48970188
+MD5sum: b1349f4a68f76403482c200b9b31d79c
+SHA1: bd58f810d752c5338584999fb1adcb2c24fba90a
+SHA256: 97e6b6f8db674003cbbefcb88bba42280b6424afd0532096e6cc97176959fa76
+SHA512: 6563012aa7823f7252d1c38883ec1bb414bc3be1dc7be16ae14a6365ebacc4e6a696559593d7bdb4e63f1ac11c77f427a6839a52071a3894bce65d12a0ccce16
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
