@@ -1,0 +1,22 @@
+Package: libdtk6declarative
+Architecture: amd64
+Version: 6.0.4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3851
+Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
+Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.4_amd64.deb
+Size: 820152
+MD5sum: 5a3133366afe8dd754e4bbfc5e3e1f4c
+SHA1: 714220d2903327a230289ebd9da22b458d79a8d9
+SHA256: a542a6abd6359dfc070512668f4759bb35132a8d26795fd4a672141266ad23c0
+SHA512: 45a3693bbb9db71a785f9c00010dfbab3b468a4ea615a3a22146c65b2de1e4a192362363d624566d21e24fd97e6594ba7a4919c3159a6f69f7568c35626499f9
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the shared libraries.
+
