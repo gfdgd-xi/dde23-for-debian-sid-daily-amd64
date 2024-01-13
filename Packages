@@ -457,6 +457,27 @@ Description: Deepin graphical user interface library
 
 Package: libdtkwidget-dev
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 506
+Depends: libdtkwidget5 (= 5.6.22), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev, libdtkgui-dev, libcups2-dev
+Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_5.6.22_amd64.deb
+Size: 60272
+MD5sum: 4169be1fc9cdc476aa817ee36cae60b3
+SHA1: 61800e3fc3472f3d9f5602f8f257f9cb41f4c709
+SHA256: 66b110946a7bd9026bb1b79bbe05efaf4b8bf7b441d3d062864e4570d4afab22
+SHA512: 6da2b4b6224de3eec71977c601f40a6b46b87df7ca61e5ebfeb5c58a36f1d0d64dae1f38d10b88a421779f13f6fb5c9e433288bdc10ddff15bf120cfbfab252a
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget-dev
+Architecture: amd64
 Version: 5.6.20
 Priority: optional
 Section: libdevel
@@ -757,6 +778,26 @@ MD5sum: a8cc1c0f266303a62f31b2fa93f4acc7
 SHA1: 324e80d0c73b4279cad51843038343394068bd22
 SHA256: 0dd39eb9bce7d9c6c0ffd68da504efceecd29e59e3a0051380001757d65dddcc
 SHA512: 9ec192ba26ac4756dcbdc36680a04eec8b41c944c51a05585d3df8a19ce9ca68132db249f9786e252b5db573e700b7306f85a4ee97bc27457f9726e1571a6fc2
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
+Package: libdtkgui-dev
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 133
+Depends: libdtkgui5 (= 5.6.22), libdtkcommon-dev (>= 5.6.16)
+Filename: ./l/libdtkgui-dev/libdtkgui-dev_5.6.22_amd64.deb
+Size: 21196
+MD5sum: 34b1b94848ba854108d77a7878135b68
+SHA1: 6535ecc497d6853e33e93e15b24c19d5e7bb7480
+SHA256: 1d28d0643ee423f4363833e66bf2fb9adb0b266f32b9dcf7f266e3dc98d792ba
+SHA512: 010dc66580e1024a6a1d1da1e9e622140259b9c3047ffa5e5287f85ecdf8419ef752e835b869c78dce7958f8c1c70ae0ebdc90e494408d1473a8041b3f3c50c8
 Description: Deepin Tool Kit Gui Devel library
  DtkGui is base devel library of Deepin Qt/C++ applications.
  .
@@ -1979,6 +2020,25 @@ Description: Deepin Tool Kit Gui (Document)
 
 Package: libdtkgui-doc
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2795
+Filename: ./l/libdtkgui-doc/libdtkgui-doc_5.6.22_amd64.deb
+Size: 1977656
+MD5sum: 4364617063043a7f60a3faf03cf155d6
+SHA1: 2b281562a95523b2f9810eeba0002a15f0765aa3
+SHA256: 6b4a83faf7dd48ac6f908aacfb7d873223dcf1fbe2779d6e3df100e66e74726a
+SHA512: 6b1bdf866685145e4ec3e2a408476abbb4d09ba1a8ff32f5da29977f7c0d59c2d3c25d2dce722acdb10c3e84e984e0c738a39eeaf00a4779967d3e68fe9e4ee0
+Description: Deepin Tool Kit Gui (Document)
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the qt Document of DtkGui
+
+Package: libdtkgui-doc
+Architecture: amd64
 Version: 5.6.20
 Priority: optional
 Section: libdevel
@@ -2350,6 +2410,27 @@ Description: Deepin graphical user interface library
 
 Package: libdtkwidget5
 Architecture: amd64
+Version: 5.6.22
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4025
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.4.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-10, libdtkdata
+Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.22_amd64.deb
+Size: 941636
+MD5sum: 7b3093b77253694aaad9fb97ad3067dc
+SHA1: 8e9169b1e11dbe9241ec66ef87b0d17928ad4632
+SHA256: d7d9b8a681f90fa26dcee4c137d28623d1e7e084e46aa6a7fad6ee95061e4289
+SHA512: 7626f345848a2f2cfcb3840af55cce2445fa3942e454d0e1b831502e5a9da99a8dd610f113da10c9b5dc2806dfb094de16274a5a225e4c081faf7d2773a14dc7
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkwidget5
+Architecture: amd64
 Version: 5.6.20
 Multi-Arch: same
 Priority: optional
@@ -2517,6 +2598,24 @@ MD5sum: 1e7be2cb08684e76d1e22f9fc40cd6af
 SHA1: a4e7168f5227c25cb7e661e157010dd8d25cc417
 SHA256: d08638bf2536a0b583620bc4c9f9c221ec358bfe6a0516c05a4dcdc14fcbc07f
 SHA512: 6e96b4646d7078fa5573d4247b33167c76fe95aa3ef34fd6e77090fcea6ce7702b1a8206227b45fe761e232f67522d7b09ddb36c0cd08bf22076bd79a89f5908
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library (Document)
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: libdtkdeclarative-doc
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 7581
+Filename: ./l/libdtkdeclarative-doc/libdtkdeclarative-doc_5.6.22_amd64.deb
+Size: 5798696
+MD5sum: 26df61341c887f2866249f94df783687
+SHA1: 1b5adfbed4e99577385cc747f177a233e040e63c
+SHA256: 8511a4ca06b07a709268721cdb8e0c3fb7b700bbe3bd390be342d35f67b8539b
+SHA512: 31e95fe3230e510ee0f49f7f2f6ce63df3cc92bc203f3078a9d721dc48d35358ca54e23af681faaf019cf89516d429a1ed94b8d0a3173d57f496553c347db252
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui Devel library (Document)
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -3049,11 +3148,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3851
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.4_amd64.deb
-Size: 820152
-MD5sum: 5a3133366afe8dd754e4bbfc5e3e1f4c
-SHA1: 714220d2903327a230289ebd9da22b458d79a8d9
-SHA256: a542a6abd6359dfc070512668f4759bb35132a8d26795fd4a672141266ad23c0
-SHA512: 45a3693bbb9db71a785f9c00010dfbab3b468a4ea615a3a22146c65b2de1e4a192362363d624566d21e24fd97e6594ba7a4919c3159a6f69f7568c35626499f9
+Size: 820712
+MD5sum: 6e2bdd557d6a5972ac43049d721d315d
+SHA1: 0ae36d89b491921aafaa4fd15157a8819d14f21a
+SHA256: 2dd10fe6da149cfd23af7acc2e8305eb9a674c0f9f2b39e34a5855e75e0f3f87
+SHA512: 9978f377eb3b7f2429ac86c2b1424b898081f27dce9837a97bd55862f99909963651f99e98eedd7389004184dfef36f48114c3dd437ece765340b4e319b4cc4a
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -3247,6 +3346,26 @@ MD5sum: 24e85830cf39e2a5044ebd45a395f26c
 SHA1: d1d1d7461ec540173b19faefb75f374a7514d019
 SHA256: 64e2c7bb95fe6ec41a7a2f5559c9c5bd0a2bbe03a4ca583014ec6bda9e6bc1af
 SHA512: 224f5e1261e436d01e56b64d7b1138a1f872c3b494a6c47de532c23aba3691761d3edc9fa46c81ec2125daf6148ee3fcb1a2d7863ab20bba22374a9cbf54eaad
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+
+Package: libdtkgui5-bin
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 202
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (= 5.6.22), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 13.1), libx11-6
+Filename: ./l/libdtkgui5-bin/libdtkgui5-bin_5.6.22_amd64.deb
+Size: 48956
+MD5sum: 668d20e54f8a3838227dba2b44cd0290
+SHA1: 2ee26c70b732ddcbb9e9f3914f8c5d1f70dff242
+SHA256: 04505cd7824ddd91bcf9b4a536c827dba4fed326a83cac0f052504f01bd80667
+SHA512: 649f4e0f79d9591a2a9b8c0d3ad1477637013d2033ea464a8c1520820a856e495c5011153ccaee5f92414852a823137850a2d9f98dd32243399712217d201c1f
 Description: Deepin Tool Kit Gui Utilities
  DtkGui is base devel library of Deepin Qt/C++ applications.
  .
@@ -3628,6 +3747,26 @@ MD5sum: 0c720ac08d99d3f71235a53d08ad5c79
 SHA1: 431b1f7a86de86c86669cb760587bd33f4c0a802
 SHA256: 628646822a4263477853ba43893061785aa1ecb744c613b394394ce04dee7ab1
 SHA512: 0f789ef577707ae786c5ee8bb158f7a3d42d7f525c40dc51fe66f7c9c96fb101fe16ca0325145912003dbafd9cde9d622ec235fac2585820dcc0ee54a13f4650
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtkcore5-bin
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1062
+Depends: libc6 (>= 2.34), libdtkcore5 (= 5.6.22), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 13.1), qtbase-abi-5-15-10
+Filename: ./l/libdtkcore5-bin/libdtkcore5-bin_5.6.22_amd64.deb
+Size: 266632
+MD5sum: 39d75da71fbd188f3669d2d3d798ef6b
+SHA1: fcf74305f8d925d561c5693248e34c0518d341c5
+SHA256: ba8cb42c13ab530ffa1fa08f84b267ef079639c488eee9fe23c96c0502950b34
+SHA512: a1ff5980e6eeb1b3f919fc162ec8b3947605e48183b043caa214a7e829031f9ce87971fca941d5674cf2a3565a49c2ed27754efe137e5f3b985a3ef3a1e3c3d7
 Description: Deepin Tool Kit Core Utilities
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
@@ -4037,6 +4176,27 @@ MD5sum: 8716ed3b5a44e84faad39458022f781c
 SHA1: d9c6ebcdfbbef10056ecf1ef79c9a98ba7019de4
 SHA256: a3487736ef225ccc20b64bd2181043e06c367af9264c259dc3a4870a8ced41cf
 SHA512: 27254b51d12c1b6b494d3ef5a31ac4d83ae14a74fd1503909878e47e03464455f241c867980cb0aee85174bbcbf807e163ae0fec599681e6fd4f8e245e0f2a3a
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcore5
+Architecture: amd64
+Version: 5.6.22
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1770
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libspdlog1.12-fmt9, libstdc++6 (>= 13.1), libsystemd0, qtbase-abi-5-15-10, lshw
+Filename: ./l/libdtkcore5/libdtkcore5_5.6.22_amd64.deb
+Size: 472600
+MD5sum: 57b30fa511d9a1f2541b112b479a223a
+SHA1: e7a39201340b13e9c3a039772c268f8e543e8a85
+SHA256: 611df185de48abe9909194dce4147286392fc46b51987a76cbca0c34b1fe4361
+SHA512: fcc8231ef71dc4630d77aeffafa97988f97847ec6c604b5ff1b306bcf94fae6a694282e973c0b600a335f72f0c8baf9067cf7af51659600c667a29a19a38fe8b
 Description: Deepin Tool Kit Core library
  DtkCore is base library of Deepin Qt/C++ applications.
  .
@@ -4627,6 +4787,27 @@ Description: libisoburn wrapper for Qt.
 
 Package: libdtkdeclarative-dev
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 131
+Depends: libdtkdeclarative5 (= 5.6.22)
+Filename: ./l/libdtkdeclarative-dev/libdtkdeclarative-dev_5.6.22_amd64.deb
+Size: 20540
+MD5sum: a10ddf5e4bda16d9851777a5e405b1ea
+SHA1: e1f5e529fdb8291bc842769825a4d9b1853a94ce
+SHA256: 7bf39616d9e089e265497060e2f6dc29b564eca67072187cecc36af18e4134ba
+SHA512: 2f7fec08fe30f02cad48a59a5e4eb154d04ae8f32482d753a3f1ec01324b602e7d465e0d0fd790372307a1a31aec45b88b06cf814ce14b3541b92192ac9f367c
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the header files and shared libraries of DtkDeclarative
+
+Package: libdtkdeclarative-dev
+Architecture: amd64
 Version: 5.6.18
 Priority: optional
 Section: libs
@@ -5031,6 +5212,27 @@ MD5sum: bcc4086cf535b322bbf574e447b135cc
 SHA1: 2d388ea8a02d1bf0c8a8c1b13c2bb90bac2ddd0d
 SHA256: 0cffbf9daead8c9278725418e4be761f802b450a8effb0f2bab189dc3ed84c74
 SHA512: e1eb8cbc8a573d544ec6cbe4deac55160fc50d74ffec07aef65c898ce924adc1a9502deed4cdba4f3fefc3d13eac01f9446a07b994ad306868d23cb6aeaaa89f
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkgui5
+Architecture: amd64
+Version: 5.6.22
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1189
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5xdgiconloader3 (>= 3.10.0~), libstdc++6 (>= 5), qtbase-abi-5-15-10, libdtkdata, qt5-image-formats-plugins
+Filename: ./l/libdtkgui5/libdtkgui5_5.6.22_amd64.deb
+Size: 338176
+MD5sum: ec7ef06a85f6ef0a4d438628af3a7429
+SHA1: 05e984d19a2dc1065c750299704ae80e4beab00d
+SHA256: 2374da2060a4d2918fedc722bf629609b5b3a4c22ef5dba41936a397c28073da
+SHA512: 61beb672375e69ef231a3c76ad28e3274f5a4a9519ec7b3112026db8165384d955fc7c7b4c84fb8697412d057f0b04ab6d8762ea5283f58bbc76fc4dff65668c
 Description: Deepin Tool Kit Gui library
  DtkGui is base library of Deepin Qt/C++ applications.
  .
@@ -6559,6 +6761,27 @@ Description: Deepin graphical user interface library utilities
  This package contains the utilities which are
  needed for developing Deepin applications.
 
+Package: libdtkwidget5-bin
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 38
+Depends: libc6 (>= 2.34), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 4.1.1), libdtkwidget5 (= 5.6.22), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget5-bin/libdtkwidget5-bin_5.6.22_amd64.deb
+Size: 11108
+MD5sum: fa59a141a95850dd6bf50e8d1119120b
+SHA1: e24a041a7c40746a44aafd1f4e59988cf00c5398
+SHA256: 3f4e58e67bc97550779af8d29b738bfa5f38baae17a110934ee3ebbae64ab52f
+SHA512: eb68b2679296de25f6e08c4ee11ab3affbe5599fc2ca3085cf61f72fe9b8da27b8d1817a75e862eb2d1208572710fdb58a728b960f19c33872d8ce94befa6ef1
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+
 Package: libunistring2
 Architecture: amd64
 Version: 0.9.10-6
@@ -6978,11 +7201,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 4239
 Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 11), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2), libdtkdata
 Filename: ./l/libdtk6widget/libdtk6widget_6.0.4_amd64.deb
-Size: 945116
-MD5sum: c1b416afe9068d22ec7bf9e7343bf131
-SHA1: 1ce28b9bf78025a0d3338c16a43fd32972a122f6
-SHA256: 58159901ec91cc013d179143d23685574133b51ceef7f3d8979fbae463c1eb04
-SHA512: 7fad8e7ec278df6ce64b0a6970501900fe28158e3b43c2215eb9ba27ce9b3ded4139b53432b8ef6bb35e59e61f648c139ea92b9db4ff0d564a1ae9960a121613
+Size: 944784
+MD5sum: 13a1e3ee9adb3eb2cb34884e454b88b8
+SHA1: c590390fe899b34638bb8bc7a741309b1b805e34
+SHA256: 02f5fc2f1e8bd4c15cfdc891821da5b7dcc3bbaaa7fe349a5138f007eaac594d
+SHA512: 290138e846b7dc2d112ec722a91c749e7adca9415274b59a8aa037c0b4d58076e09d7f297ef2da959c03a1cf4c0b7eddb74e6dd165e87e4f1b117d8368184a93
 Description: deepin graphical user interface library
  DtkWidget is deepin graphical user interface for deepin desktop development.
  .
@@ -7133,6 +7356,26 @@ Description: Deepin Tool Kit Core Devel library
 
 Package: libdtkcore-dev
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 314
+Depends: libdtkcore5 (= 5.6.22), libdtkcommon-dev (>= 5.6.16)
+Filename: ./l/libdtkcore-dev/libdtkcore-dev_5.6.22_amd64.deb
+Size: 44880
+MD5sum: 84f835db14c07051b1b5b35c486b7985
+SHA1: 7aa90fd54a4a5040ddacbb37f54da94381fb3995
+SHA256: 39892455dfddccbdfb8ffe9cf0be59641f00491a47e06e3dbf1c5d9e0b527e2b
+SHA512: d355abb2ebf9f48e828bf09e41be22ef6b573625da6bf91c913b9a48a6cb4ee09581e74d6612a695e199f3dcf98d4af6c089627074a0c5594efcc54305d5c5f2
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtkcore-dev
+Architecture: amd64
 Version: 5.6.19
 Priority: optional
 Section: libdevel
@@ -7255,6 +7498,28 @@ MD5sum: a6aa11222ee5229949bee7326c709305
 SHA1: f7e18a763e1af0257d588549fbb904030a000396
 SHA256: 206f0033141238ddc1286ac55384f4afac2b284a1219b4d1dd4be445f9b473bd
 SHA512: 954a7789c830d8d7accfb65ecff7cbd6e03b9eeb6a1d27b0e7fc7bed342a1dd65bbc8405f66209c194fb6549fdd9cafd3c2d5a5909ad135cfc629154bb2a4cd2
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkdeclarative5
+Architecture: amd64
+Version: 5.6.22
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2882
+Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6.12), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.3), qtbase-abi-5-15-10, qtdeclarative-abi-5-15-10
+Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.22_amd64.deb
+Size: 696488
+MD5sum: a0986bfbadc3cae1f5b06c9e667cfa8c
+SHA1: e7a0c16308430cb333dae2b3a6256f9329685e74
+SHA256: cd41f12ed74be3987b72b73de921245363659e544930801015ad3d28279373c3
+SHA512: 803cae9188c4d6ea5706120e84c4f67e8f8535af1b5ab5a560f423124bb4be75e9ee8fda66a18f4c63c1f87220e6ad3e27e4d5ffb6d5fbeaec27c1cc9219ba73
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -7401,6 +7666,25 @@ MD5sum: d1b111744a4182fbdd3219fdb0103f85
 SHA1: bf5f76cc2f831433c2d84a51048a74f073f94401
 SHA256: 43e27ab2fb37b023eff1f0d9dee3f62e72788b7930326f6f43451051ba3e8169
 SHA512: 40efea2d9f483d411989490d03717072b43d1d0a4a2e047868c5ee021e9a8971352881b45013685e3452984c8c4276830e320d6e0f4fe4a042ae93b52542d5f1
+Description: Deepin Tool Kit Core (document)
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the doc files of DtkCore
+
+Package: libdtkcore-doc
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2528
+Filename: ./l/libdtkcore-doc/libdtkcore-doc_5.6.22_amd64.deb
+Size: 1855836
+MD5sum: 1c0e8fb1b6ddc8799ed30ef5c3989b6f
+SHA1: 64bb6312715d80fbbd8f07d2fa2c424099f91f53
+SHA256: cebaa6fd4a7ca5d422a8802bdd0717433c1bd50b4b7c5e628ce1a2b739a08a7a
+SHA512: 726bae08f495ba02bbd9e0ff8b4ba530a8dab2b48c6ba7cf3a33b218399fb14e57d73d3ecb0a499dc11634320e5b7dd1e267741cd5b5e5cfa83651871553ff0e
 Description: Deepin Tool Kit Core (document)
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
@@ -8554,6 +8838,25 @@ Description: Qt 5 tools examples
 
 Package: qml-module-qtquick-controls2-styles-chameleon
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 144
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5qml5 (>= 5.14.1), libstdc++6 (>= 4.1.1), qml-module-qtquick-shapes (>= 5.11.3), qml-module-qtgraphicaleffects, libdtkdeclarative5 (= 5.6.22)
+Filename: ./q/qml-module-qtquick-controls2-styles-chameleon/qml-module-qtquick-controls2-styles-chameleon_5.6.22_amd64.deb
+Size: 19520
+MD5sum: bcd2c17190dd790b9eba0159a20bb509
+SHA1: 08891c2a86bdd4e1d72c8818c1b2544353480a46
+SHA256: ef091304ee612b6b4eb238ac9d733abe0b05a4fff2108ec47f4cfb3274cdd33a
+SHA512: 5d3a7d1faf75ed18952716dbd01993e1e3ede874124c10ff75a2592d5c8860ddabfb20e36f5a89e7367d2fbf4d58aca94b2100628f49ab16bc7ec44638b27c52
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
+Package: qml-module-qtquick-controls2-styles-chameleon
+Architecture: amd64
 Version: 5.6.17
 Priority: optional
 Section: libs
@@ -8850,6 +9153,25 @@ MD5sum: 6274d25ba8b555be9fec96b5daa864a3
 SHA1: 502a16fb5ced017a840208cf11e663368927b7f8
 SHA256: 7f97c5eee0a00247702864894fe3edc9953b7c8ff24f577ccbff54fe0456b88a
 SHA512: 6e9176e6b7a8b79ed335dff94fd4b27fd9e3da1e0280f4c4748d5f40faa98e3dad63600c8a9971b3f8f9f14ece438df0e5e25fce90abd55e99868914daea9a47
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit QML Controls example.
+ This package contains a applicatioin.
+
+Package: dtk-exhibition
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21983
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.9.0) | libqt5quick5-gles (>= 5.9.0), libqt5quickcontrols2-5 (>= 5.12.2), libstdc++6 (>= 4.1.1), libdtkdeclarative5 (= 5.6.22), qml-module-qtquick-controls2-styles-chameleon (= 5.6.22)
+Filename: ./d/dtk-exhibition/dtk-exhibition_5.6.22_amd64.deb
+Size: 9850712
+MD5sum: 5ea86a919886c0c8244f0f05753b4680
+SHA1: 3528ce9457f6d0aae2c75c8e4b679827f652df8f
+SHA256: 42507be821921d5e96abc321503ddd0d4a11c161d5f015b6599c2e5dd335965e
+SHA512: 0ad71daa62134256076fe01e0cac94bbcfb79c6c8748051c80e3d76faa2d0f7296b9340c08956e46e9b35897208cfbe1e074bc20cdd4cb9fe368211f77c14e8f
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit QML Controls example.
  This package contains a applicatioin.
@@ -10749,6 +11071,25 @@ Description: <insert up to 60 chars description>
 
 Package: dtk-dev
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtk
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: libdtkcommon-dev (= 5.6.22), libdtkcore-dev (= 5.6.22), libdtkgui-dev (= 5.6.22), libdtkwidget-dev (= 5.6.22), libdtkdeclarative-dev (= 5.6.22)
+Filename: ./d/dtk-dev/dtk-dev_5.6.22_amd64.deb
+Size: 2092
+MD5sum: 16e70ab6ff5c902899694f37f2520d70
+SHA1: faa510efa3d5c91b716f1fdbe550633001a765c2
+SHA256: b1e32ef9ecb30fa3f9cbafabc981c9be73ae89ecd57663c0211fa8d80ef7d45a
+SHA512: 2544dcd3421204fa73e7bc2ae1651bbabe6913acfb356d6c2167c7375ba102f0be63adeb841814d8ed3fc92c8ceefc9286a7928b7a58d860d2a3c59011b72989
+Homepage: https://github.com/linuxdeepin/dtk
+Description: dtk development files
+ Virtual package that provides dtk development files
+
+Package: dtk-dev
+Architecture: amd64
 Version: 5.6.21
 Priority: optional
 Section: libdevel
@@ -11879,14 +12220,14 @@ Version: 6.0.17
 Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
-Installed-Size: 2190
+Installed-Size: 2194
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.17_amd64.deb
-Size: 516492
-MD5sum: c14500cbfaf8ccd142bfcfa267ac5c0a
-SHA1: 0ec88a6c021893d6124e18aadef41167ee761dd0
-SHA256: 6c791f417541a02db81988abe9e8da513d207dc2a2e9596f4935e7090e1fdbdc
-SHA512: 0a804b26c53d6c6b9fd53266ebb5b29cf8c59507dfe75f9554d0ea0d47d25715533f10127ad1391bb583447b2245a35a228128042ecec1c791270b763be63064
+Size: 518716
+MD5sum: 263932d5ccaa8d7ec5b76d1ed6d9be09
+SHA1: 0e3426feeac64adb2f33948d2bdf7b899d7eadb5
+SHA256: 1987db6963dda0d7b1d02ebdd2eea293872111aabf0fcc75932d34fd92bb7ec0
+SHA512: 6c0837a89d7cc67be6317802b2ce08d47ced37f97b5fee4900433ad9f6bfe501b023553830d9e22564169c3543852689990e27f4eb9dbe28b138be3d5011bde9
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
@@ -13705,11 +14046,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 18496
 Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (= 6.0.4), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 5), libdtkdata
 Filename: ./d/dtk6widget-examples/dtk6widget-examples_6.0.4_amd64.deb
-Size: 14771204
-MD5sum: 693be4dac40e8e19e7b62d62ac93c0a6
-SHA1: e67b1a6ee91f2e31442b9ec88fecb38861b73557
-SHA256: 95a1702f2c9f5848c3d76d239388e36be42f6f4722462abb8a3c2c4e0e0cf24b
-SHA512: 730887eb363cea1af13362941b6262904be4c8c4a45c07437b126996dd92b2e4868edf611db2a730ec3495ad861b2dc58b28986229b494ea718f95030f4e6f64
+Size: 14770608
+MD5sum: 246ab4c3a9c33070b3164e9062516423
+SHA1: 283392a2bebcc9db84199599c40d1eff16f579db
+SHA256: 40e1aa19a8885e7665d377cd98964b73350a5260dfc10b45553a23082ef65008
+SHA512: 68563dd3852543009597fbe88032c65a60f988c466b6e7f26650fe710815f38fff5a01f957e5c7d26d0737c7ffc112ece0b4a6768265ec6507462ce3b4ee163c
 Description: dtkwidget-examples is generated by dtkwidget.
  DtkWidget is deepin graphical user interface for deepin desktop development.
  .
@@ -15302,6 +15643,26 @@ Description: Music software for UOS
 
 Package: dtkwidget-doc
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10
+Filename: ./d/dtkwidget-doc/dtkwidget-doc_5.6.22_amd64.deb
+Size: 4376
+MD5sum: eb8c049b26d61cc4e536925bbec7b72d
+SHA1: d40fe7fd56e796b5651a481f541fa9b7b71bde3a
+SHA256: b29b5527ae1e38645f5229f5e3a6a3b368dbc84a7263b4632ae694d07622066f
+SHA512: 706982e6d6db8d36ec82bf610bf997e22a517aee6972ce2af0f9aceba426cdd739682de3600a630d4ea4314661e6a20af5e17da19cf3d86430d7e5eb868915e7
+Description: Deepin graphical user interface library (Document)
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
+
+Package: dtkwidget-doc
+Architecture: amd64
 Version: 5.6.19
 Priority: optional
 Section: libdevel
@@ -16146,6 +16507,25 @@ Description: dtk binary tools
 
 Package: dtk5-bin
 Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: devel
+Source: dtk
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: libdtkcore5-bin (= 5.6.22), libdtkgui5-bin (= 5.6.22), libdtkwidget5-bin (= 5.6.22), libdtkdeclarative5-bin (= 5.6.22)
+Filename: ./d/dtk5-bin/dtk5-bin_5.6.22_amd64.deb
+Size: 2096
+MD5sum: f7870d99e5c5a686b1e4d4b4f58f7b33
+SHA1: 17f8bcfd3c7a715ed1519de1543fac2b3398211c
+SHA256: 1eb8a072f14f0e67683a30e6724dabf8a13987628b6a7b7f917f76909abc403f
+SHA512: 7b4996577973c332d2a7cfd30732559b16fbc29d974e2ff6264b2be37e19738a91124314e8f2e5c5f4e8cae122d5f08147337a278e91409c196ccf53e042ae65
+Homepage: https://github.com/linuxdeepin/dtk
+Description: dtk binary tools
+ Virtual package that provides binary tools of dtk
+
+Package: dtk5-bin
+Architecture: amd64
 Version: 5.6.19
 Priority: optional
 Section: devel
@@ -16701,11 +17081,11 @@ Installed-Size: 869
 Provides: libqt6deepintheme-plugin
 Depends: libc6 (>= 2.14), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 11), qt6-base-abi (= 6.4.2), dde-qt6xcb-plugin
 Filename: ./d/dde-qt6integration/dde-qt6integration_6.0.4_amd64.deb
-Size: 216428
-MD5sum: 1e399a7233800daa7182e648060755e8
-SHA1: 2497a0191e6fd56ceff99292f5b82058a8416334
-SHA256: d72ca17f043a3112c160412d8657a8d51705cc10b1476c37014cd5dce2312db2
-SHA512: 1f409ac84f5ca650a9ea8704daa8dd0edba2e86500576e86eec0c2cfdcf28f66a88cd59e05d20540cd101de84e72952d33462b28990d12a94f8c32d61cc4a4ea
+Size: 216436
+MD5sum: aa5c319a8c3c0bc7d012bd69a2d11950
+SHA1: c0f5b5e6eff9b8c22299fb9d0221003c101a172d
+SHA256: 76563782d5dd7c270cc2e0699be005b14573373f2d1cc0e9233fec47149daa86
+SHA512: 348ac3abd0d4ba54559c99d3c883a52a75a69b7373d71fdcbd9fb3b0942fdd0c18eda380fc72ab0edf3698ea20f61e8ffc72db9c51b19d6236151090f2242433
 Description: Qt platform theme integration plugins for DDE
  Multiple Qt plugins to provide better Qt6 integration for DDE is included.
 
@@ -16940,6 +17320,27 @@ MD5sum: 4ebdbcb7661e8517d283494afbe8d8ab
 SHA1: 1c14c8f52a91a34b83ce631026070082477a3021
 SHA256: 97defb163d6ecea0f7dbbbcfef887acf13055a1c450a9fc225588fd83c364286
 SHA512: 61254a85f2e9e9660a24fdcf079cf1f1582f837564a7370339eee231876725adf9a8d800f12a5f23931edcd4dc1d87f8c82b86ca43dc55045800c220ff3da0fc
+Description: dtkwidget-examples is generated by dtkwidget.
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
+
+Package: dtkwidget5-examples
+Architecture: amd64
+Version: 5.6.22
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18462
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (= 5.6.22), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libstdc++6 (>= 5), libdtkdata
+Filename: ./d/dtkwidget5-examples/dtkwidget5-examples_5.6.22_amd64.deb
+Size: 15005536
+MD5sum: ffdb56d6271f42fdb7e478b3588a7b3a
+SHA1: 93e7eee47f8824229040fb487feecd75beb29ea2
+SHA256: 040faf4e7e2f78556d44274f7277d16579a3b9c8b9b21894cb65776895c0a58b
+SHA512: ec89534fec7e3ca395eec94f15e16990dbe419d4cb21003447db327ad4a17717162ebe9ab5a153337c1bc43620a0b029932656eba1b4ca187308bc3cc3f7a84e
 Description: dtkwidget-examples is generated by dtkwidget.
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
