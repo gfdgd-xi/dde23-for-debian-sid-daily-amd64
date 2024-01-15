@@ -303,11 +303,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318508
-MD5sum: acdc622cf06685e2e3a378e382712291
-SHA1: 1c07c063e67d75e417285bc80876647078ce106a
-SHA256: ec9d6f6ece363c709042c59e667df1642de09b408b9d6637bb23095c669df101
-SHA512: 4993613fa3bfaaf4a3c654c07eb2cd0bc2b35d92d57337816422d82e7a53078d2f32e1787bf69eb0f504734afe334007cf9a144ab038b292c02ac10af1bf6d5d
+Size: 318408
+MD5sum: d4b9369207c0f85447a882af76240b3d
+SHA1: 2cdf4343bdb6c6e30fcb533b8cb9991fcd44a09c
+SHA256: 6cc599a2cc2fa2a794dc2da8aab844fdc9667694e0497943d2766684c5414e9b
+SHA512: 17b2a5b4681e465aa75090ccc5365edd1158f7a139b7081b824925a8999ff6a3d933592147811888b16ba53423e241b0666c5f0f11a5b3df2baf6d4278871350
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -13934,11 +13934,11 @@ Recommends: uos-reporter, deepin-event-log
 Conflicts: deepin-font-installer
 Replaces: deepin-font-installer
 Filename: ./d/deepin-font-manager/deepin-font-manager_6.0.3_amd64.deb
-Size: 2567588
-MD5sum: 0c3ddd953fbd5928d6e83a8527c2b93a
-SHA1: 2eef71971aaa174f1337de17b5bcb8ab305a5504
-SHA256: 03ec44ca458f7eba60be5f10c8abfd9e646ba38a0c134fba9e6a2d01b886dee6
-SHA512: 78585b9ede5d788758c660cebb0d80a2ee6ea9f2979276a69c4b8ba4fc6df5b6c214ae2b196a3a6f81af8277b50a4eb7781c07ef01f6145f3762aa0337baa049
+Size: 2568060
+MD5sum: ff58bee3c3ac0ea0ae3e91602cabb213
+SHA1: c02c654b9714e81615b3f045289cbdf1dc63d111
+SHA256: 52cc3c304f77ed3ee79b0d1431e6b6219e634664c602c5103296e8f72defed8f
+SHA512: 41a3763457c9d5f4a7b70b3aa6ea27aafc8542bb2b867455055279dffbec42f920b2810e025bd994b735ce7b992609affc182e663d9a97bf0ee35cc3d4839020
 Homepage: http://www.deepin.org
 Description: Deepin Font Manager binary
  Font manager is a powerful font management tool. With Font Manager, you are not only able to search, install, enable, disable and delete fonts among others, but also preview fonts by inputting texts and setting the text size. It supports fonts in ttf, ttc and otf formats.
@@ -14390,11 +14390,11 @@ Installed-Size: 8900
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 13.1), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.1.10_amd64.deb
-Size: 5188876
-MD5sum: 1d83ea53d2b5f87e9ce3f87e152a33ba
-SHA1: 4606310481e36fd7eb91054d51981a17ed3a031a
-SHA256: 62b923e87b342b40ec2bde3a3efdcd7ce4c9596e62f450f49c3ebee8e4502f72
-SHA512: f82fd744443f189f0791a5af2378947a901cc14030d12337c69ef6c0c9536c1935280f917726363468e8dcf7339f6850916886eaf6cfceea77a436ff2708f9a5
+Size: 5188892
+MD5sum: 7bbba584da505e235493f98ecb8abbb9
+SHA1: eb3da6ba96a4861e6a68a46d623762ee4c08cf6f
+SHA256: 58d98916b0a00b02b0369f1747969c5f9b6311aa1e8140c10e79b536b043a423
+SHA512: 406ca99a075462cef7bdc7b9d8f0c7dcbdac9382a7accf3fd6152fab5f2dcf36b3ef357eef8045d9cfc4416f6cba6f92247ec8b78f85139555a30f3fa24220f9
 Description: Log Viewer is a useful tool for viewing system logs.
  Log viewer is a tool that collects logs generated when an application
  is running, for example, logs generated when operating system and
@@ -14922,11 +14922,11 @@ Installed-Size: 7844
 Depends: libc6 (>= 2.34), libdeepin-ocr-plugin-manager (>= 1.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.6.0~beta) | libqt5quick5-gles (>= 5.6.0~beta), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.0.2), libraw23 (>= 0.16.0), libstdc++6 (>= 13.1), qml-module-qt-labs-settings, qml-module-qt-labs-folderlistmodel, libqt5sql5-sqlite, qt5-image-formats-plugins
 Recommends: libqt5libqgtk2, deepin-ocr
 Filename: ./d/deepin-image-viewer/deepin-image-viewer_6.0.3_amd64.deb
-Size: 5214264
-MD5sum: 47427f41b0df70713b37aa7c1ce78819
-SHA1: 9cb1b12821bae8b88bfbf17918d9bffde573cfdf
-SHA256: 7b812798568593d7098b891a5f4e7fe100d5d53222bb6af012fc99fe85efc6bc
-SHA512: a3cd4bf4d92bb7145e459d449786a010c4907bb19aeb7754405298b64c0bf030035e5ed9383eeb85bdde8483c88f666bd9d656bf5e7fe270328b722b65f09059
+Size: 5214624
+MD5sum: 8bd9de0fff9ca35f73a2489d6ef5d081
+SHA1: 722aba2b87a2fbce985aa8d3cfda6575cd3c185d
+SHA256: a127de03cfcb5268915ec671602ee25a7bd056190b8372afa6a4d6d55e4ce837
+SHA512: 4c2d66f67577b030be240cbbe2a33ebf6dfb0902444db0608818fe7926c3f9579dde14706dd83a0e7d2a84c71d50881c133a2a958eba57c94e15e7af7bdd09d9
 Homepage: http://www.deepin.org
 Description: Image Viewer is an image viewing tool with fashion interface and smooth performance.
  Deepin Image Viewer is an image viewing tool with fashion interface and smooth performance.
