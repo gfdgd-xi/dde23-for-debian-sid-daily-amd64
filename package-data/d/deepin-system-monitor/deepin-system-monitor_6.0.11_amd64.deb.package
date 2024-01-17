@@ -4,16 +4,16 @@ Version: 6.0.11
 Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 26234
+Installed-Size: 26238
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.24.3-1), libdwaylandserver5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.4.0), libpcap0.8 (>= 1.0.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libudev1 (>= 183), libxcb-icccm4 (>= 0.4.1), libxcb1 (>= 1.6), dconf-gsettings-backend | gsettings-backend, libcap2-bin, deepin-service-manager
 Recommends: uos-reporter, deepin-event-log
 Replaces: deepin-system-monitor-plugin
 Filename: ./d/deepin-system-monitor/deepin-system-monitor_6.0.11_amd64.deb
-Size: 10993592
-MD5sum: a6407169b63e00688e62d01052a6c170
-SHA1: ee1539e6850cb4040e8e9a470d976971465e6e9f
-SHA256: 085c74458b7a2d027480f4cba89956f8adee99ae84ace36ac62387227415be7e
-SHA512: 239333b10ae88589f38fb7add4b577092909f313ad053f057b4055de05c0a9cfef272e262bf4ecc1c77d93995fef4650a6248476b12aae6ff568ff1fbb4f9270
+Size: 10994484
+MD5sum: a7f93e35a83e48f39e602466cdffbf5a
+SHA1: c6f910a678184024483ac976314efe060d5d58be
+SHA256: 055390eaeaacc43cceac66187fa4f19de3a0de6e50f247fd8d31d40b37537695
+SHA512: d9b901081b9cb977d5d7c5c870db29fd3f9f2d5d28f5e8910ffaa42b056021194323d75aa7d8db08e10b2764d0a8892521f83d8c0562033fd430ffbfa2d17bf6
 Homepage: https://github.com/linuxdeepin/deepin-system-monitor
 Description: A system monitor tool.
  System Monitor is a system tool monitoring and managing hardware load, program running and system services. It's capable to real-time monitor CPU status, memory footprint, and upload/download speed, manage system and application processes, search and force end processes as well.
