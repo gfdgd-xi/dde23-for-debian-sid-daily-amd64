@@ -4,17 +4,17 @@ Version: 6.0.27
 Priority: optional
 Section: x11
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 7149
+Installed-Size: 7153
 Depends: dbus-bin, dde-daemon (>= 5.13.12), dde-qt5xcb-plugin (>= 5.0.25), deepin-desktop-schemas (>= 5.9.14), lastore-daemon (>= 5.2.9), qtxdg-dev-tools, startdde (>= 5.8.9), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxres1 (>= 2:1.2.1), libxtst6
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dde-network-dialog, dock-network-plugin
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5), dock-hotspot-plugin
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_6.0.27_amd64.deb
-Size: 1532772
-MD5sum: f112c06f2457ca80dd85763bd6157d0d
-SHA1: 7cdb9afb57a1725e8264c53c99ccc2afaa706b46
-SHA256: c15243a49738eab3bb95bab83ba9aa929a40b97a195186a2cfd6dc9fb07d563b
-SHA512: 065e4bfd11ccc4699e3933826cf67242770c3132b0fa1b4d714a840e6e70a5b977848f83ec0f7a2ad6f3043fd5bf6bdf66083313a2fce89c6fa22f237b355ba1
+Size: 1531920
+MD5sum: 6dc747e00f25a2871c3faecfdecd8e49
+SHA1: 93de5f2e9364a40b004e6788af82cea0e1fb0695
+SHA256: 4a2c1ff32b761916bd779d2017431766f91b9ca4469e7a9ee3ab71f6a9cecd7b
+SHA512: 0b76d4e2ab4342d4bde6a94d5e29e794bb3123d53aed820cac72ba6e694498198d6835569492174932729cd895587ec6841a7077b1f40065b4ef39fcd0b1074c
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Dock module of deepin desktop-environment

@@ -4,16 +4,16 @@ Version: 0.4.2
 Priority: optional
 Section: unknown
 Maintainer: Gary Wang <wangzichong@deepin.org>
-Installed-Size: 917
-Depends: libappstreamqt3 (>= 1.0.1), libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.3.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 11), dde-application-wizard-daemon-compat, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-controls, qml6-module-qtquick-controls2-styles-chameleon, qml6-module-qt5compat-graphicaleffects
+Installed-Size: 925
+Depends: libappstreamqt3 (>= 1.0.1), libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.3.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 11), qt6-base-abi (= 6.4.2), dde-application-wizard-daemon-compat, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-controls, qml6-module-qtquick-controls2-styles-chameleon, qml6-module-qt5compat-graphicaleffects
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.4.2_amd64.deb
-Size: 306740
-MD5sum: 3d9bc8855cc8026868f5d036f93ce6b1
-SHA1: 701754d48a9d5049d87fb236aed9796d3736939e
-SHA256: 3edc356df6e9f5105e5f5589bf7939ec91287dd65950e5583f7e0f897eedb813
-SHA512: f74d2fb8fd669ec5ccb41d9644e82dd7d26312e28c95e13926e1431694a3f0c255cbe8e24b9aed6b9b127342158f704db6f185dbdc2c222278ac101441144588
+Size: 307996
+MD5sum: edf449e5c3afc8b0e3e04367bd414aae
+SHA1: d78bf20283cbfa542def1b4d724450f691f3ad03
+SHA256: e22093d1fe65f37570c94081a01d9ced2f02c11d5f16bea703ac619dc9f502c8
+SHA512: 552be7a8705334304a22ac1edb62d44e02a37a36055002583a54534d2d455ee54f66b98d282fc20336dab1f5e8e62134daf7afb73d2b81a6db8356c460ad5022
 Description: The "launcher" or "start menu" component for DDE
  Display all installed applications and allow user to launch applications, which is convenient for users to operate quickly
 
