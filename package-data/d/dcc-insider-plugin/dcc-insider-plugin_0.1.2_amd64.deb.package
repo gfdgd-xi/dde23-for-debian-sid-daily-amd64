@@ -1,0 +1,18 @@
+Package: dcc-insider-plugin
+Architecture: amd64
+Version: 0.1.2
+Priority: optional
+Section: utils
+Maintainer: Gary Wang <wangzichong@deepin.org>
+Installed-Size: 120
+Depends: libc6 (>= 2.14), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpackagekitqt5-1 (>= 1.1.1), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 11), packagekit
+Filename: ./d/dcc-insider-plugin/dcc-insider-plugin_0.1.2_amd64.deb
+Size: 31192
+MD5sum: ad8070b3082738caa8c4afc79ad5bb10
+SHA1: 826772af8ef64d1030e957c6b91d5a11bd441616
+SHA256: b73c07100720d17b45af941230bf0723005bb82fd8d56a1071694cd3b0612d72
+SHA512: c4e1e9d37df9be88dd457f062c9992d0b5022559e75bb6e4e670a1d67c3ec133a32c739a5e7da6373c2ce36003c0b26dcc0a8135736c9785d9ceb27b052c9500
+Description: Insider plugin for DDE Control Center
+ DCC Insider Plugin is A tool to toggle between
+ preview and production versions
+
