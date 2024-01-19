@@ -1,0 +1,21 @@
+Package: libdtk6declarative-dev
+Architecture: amd64
+Version: 6.0.5
+Priority: optional
+Section: libs
+Source: dtk6declarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 114
+Depends: libdtk6declarative (= 6.0.5), qml6-module-qtquick-controls2-styles-chameleon (= 6.0.5), libdtk6gui-dev, libdtk6core-dev, libdtkcommon-dev, qt6-base-dev, qt6-declarative-dev
+Filename: ./l/libdtk6declarative-dev/libdtk6declarative-dev_6.0.5_amd64.deb
+Size: 18168
+MD5sum: 31b791caa9800a28ff48c1a2afffe31f
+SHA1: 9b833f8032521a26abc2bf83c914c4bc6acb8c1b
+SHA256: 25614f2e9f59417f1f6cd87b1466ceb10d134e5f1eaad656a2e434634536d64a
+SHA512: cb7d76aa53dd2405f8a82fd70a0bd856b986ea395d5b34778f0477eba5fbd273077a984c7520fb27b3af94c646027260b23c4df522bfbdc3086942911e7a116e
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the header files and shared libraries of DtkDeclarative
+
