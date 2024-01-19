@@ -1,0 +1,19 @@
+Package: dde-launchpad
+Architecture: amd64
+Version: 0.4.4
+Priority: optional
+Section: unknown
+Maintainer: Gary Wang <wangzichong@deepin.org>
+Installed-Size: 923
+Depends: libappstreamqt3 (>= 1.0.1), libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40.0), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.3.0), libqt6quick6 (>= 6.2.0), libqt6quickcontrols2-6 (>= 6.2.0), libstdc++6 (>= 11), qt6-base-abi (= 6.4.2), dde-application-wizard-daemon-compat, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtquick-controls, qml6-module-qtquick-controls2-styles-chameleon, qml6-module-qt5compat-graphicaleffects
+Conflicts: dde-launcher
+Replaces: dde-launcher
+Filename: ./d/dde-launchpad/dde-launchpad_0.4.4_amd64.deb
+Size: 308952
+MD5sum: 474ce8c57498a1e284b339c36631362d
+SHA1: 60aeae79ddadfee61fd44dce37c42ea44663a078
+SHA256: 42a16a0c4b8d2da1ce2590203a6939fa1b4dea4039a1d84e17710800ce5f3f2e
+SHA512: 020ee3a925fd5211ff0d883a1e6fa5882d5e8e43f2d1bbc436cfec52b1b076ad5d67fbd1a13c9afa36474c94792679db58266d68acc1f3d96213b24009a31c54
+Description: The "launcher" or "start menu" component for DDE
+ Display all installed applications and allow user to launch applications, which is convenient for users to operate quickly
+
