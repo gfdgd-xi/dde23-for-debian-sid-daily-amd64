@@ -306,10 +306,10 @@ Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
 Size: 161732
-MD5sum: b2e67e68b789fc4012daa464d1eefb90
-SHA1: 45152cfa04cdbed2cf61377c2df57f5e58221d2d
-SHA256: 9fc9a0afdb25032db89176caffd2c1e78b3f72d7e886d2dd3d9720cc847af03c
-SHA512: 521e6ecff39ff649ce629676ad4c204229de76a26a4a30dec0f00728a8f5a88b7609347e4b713689ae3c1470e3a39c05469b147a35219d9985e16d0f32ff6cdf
+MD5sum: e7b7131bd3cf56bb5e9637bc4f9d81fd
+SHA1: 46a8d4d6210b946b19cefb247913596b8e3245b2
+SHA256: ebe93d226f87448e6ada993028c2ae24f0755202f0ae1518e237651e6aa9bdbb
+SHA512: b692ed5bfd8b6ccd4d182995e9ab8b6275381b450c657b881fd1d2876ecbd4723d27784ddb50102716d73548b5249c03305d7a5e31b528f1c9a5bac81aaf04c0
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.
@@ -439,11 +439,11 @@ Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 287
 Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
 Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63544
-MD5sum: 2fe4d70bab77f8fcef4a614a10720b73
-SHA1: 102a5746f98ff28b78ddcc8449d8907ee4651936
-SHA256: ecf5d447248c7bfe3a155a7d636f62d554556ddc807d07753d293f25baa4f167
-SHA512: d51e9ce43456ab5ef8982e51c33eda2de0d289589e9a3fd0219346b59a09092cdb32f57cb8f4f09e703975b3396186a63c94dd285af6ff8cec7511525a61a0b8
+Size: 63500
+MD5sum: ce0252c7605c9ead8f648dce2d47b997
+SHA1: ae9da65142f58ed6a3dcd2bf08451b398fda10f7
+SHA256: cbf83c51a222c4a3a5aa4be19cf666d826794ec1d8fd15f21e4cfb85683ff2d9
+SHA512: 42c1af50abe7529f7893f3704e7384b57526275db3ae00b0439f176f538fa405c13eb0c45323813bd447e1f05e8f0b33c4b5159ce29f95ca009e6f7617ea4f27
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 Description: wireless Central Regulatory Domain Agent
  This package provides a Central Regulatory Domain Agent (CRDA) to be used by
@@ -3348,11 +3348,11 @@ Maintainer: Martin Meredith <mez@debian.org>
 Installed-Size: 397
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
-Size: 114552
-MD5sum: da4055f8c1c729e78c271502eacc7b7b
-SHA1: 40cb23871942891ce309f09b654de1394993ec76
-SHA256: 5ef9970f691aa40c5c8f57fd64eaed29055e9829bc74d6a409d823b9c8af52cd
-SHA512: b1b271c10e714d869d1f5e1be712e93568fcd84d031b907d62c5dac3156b68c49994f2705ba656b652343b31eb0821858e572a89372973b2a4231a7af317cca7
+Size: 114380
+MD5sum: 0ce3dfb09e65e9559ffdb54f57e69483
+SHA1: 111a01a60346d088f244c5845efa0746b0794b49
+SHA256: 5389f323d732df2e4ab206b23c958320f65813c09bab932edbfa301f5c3a1807
+SHA512: 7e02002adcb223c30f49a65cbe6aa1d5a0ee8860e79d2c24e76354d043d6cfaf1b4fb73fa509d2abecd7f200a6e5c06919507bec00f249fdc1a5df0d8eb1fb0a
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
@@ -3704,11 +3704,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 14267
 Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
 Filename: ./l/libncnn/libncnn_1.0.20230223-0deepin1_amd64.deb
-Size: 3409604
-MD5sum: df7a62c1335b7935efad2ac1fa05d591
-SHA1: be48e5c45c8df594bc12dfd60d4e58b5811c1c5e
-SHA256: ea9616e5beda3513122d889a9ed69a50d82b78324346313743ceba9be449630b
-SHA512: a9415c3fa7c953c3bec2fbefe7c8dd0077667f33e69f435ea14d10c291ff7f24481bfd3edf3af70965b8e3d7016fc4fed3cb46b1232ac8a6db433416a3330e50
+Size: 3409852
+MD5sum: 4b84da2fdfcce3073ed907e7151a45a0
+SHA1: 23c2df77d96fd3c1afb62ca151a7b4acd79ab93a
+SHA256: a8fc8c2fb9d3b787bb044786c270878695afab8824b0d6b3372546c8e3120ef9
+SHA512: fda79bf2492221620189afb9b09d4f4ae96a07ad495b70b7e82f17f112c1fade4600f922191f615c785952fc15f69fa7ad90fd5920d819e8f94cbc859521cbca
 Homepage: https://github.com/Tencent/ncnn
 Description: Neural network inference framework.
  ncnn is a high-performance neural network inference framework optimized for the mobile platform.
@@ -8986,11 +8986,11 @@ Depends: libc6 (>= 2.34)
 Recommends: exfat-fuse
 Conflicts: exfatprogs
 Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
-Size: 44512
-MD5sum: 23252c668c78f954b725576ce4fdc657
-SHA1: f1a28b60a7124aa8a638b9f0c3875dc89f1b3d04
-SHA256: 1d30463643fea088fb637591f04db439e696dfe958dce943f174e876b2a06c65
-SHA512: c288a04bf9a72aea2960b5fd2ee4cef26ce011da80e553f2a9e19256aa6baf7f90492f3c516788a9e5914b5200451a99da4f967496f73d6be31f3edbf57acb91
+Size: 44552
+MD5sum: a6773c7acf15cb85716fd04c8cb1cc53
+SHA1: 50e8492b3466890e3f6da9b8ed327520b1ec7073
+SHA256: 8930405e809aff7598105572164061abf2b1090edead20812af1110af571f7ab
+SHA512: eca7afdb69d17d7a98d7c78c1cc99ec59b8b294ba614b8d50828f03a908d18b3bdd0a724db3c4f6863a8117ce729aecc07a4c8c3fc874f54e44b343f4181594b
 Homepage: https://github.com/relan/exfat
 Description: utilities to create, check, label and dump exFAT filesystem
  Utilities to manage extended file allocation table filesystem.
@@ -20386,11 +20386,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 833
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libncnn, libstdc++6 (>= 13.1)
 Filename: ./n/ncnn-tools/ncnn-tools_1.0.20230223-0deepin1_amd64.deb
-Size: 251296
-MD5sum: 2d225389979455930b25963b8552c8b0
-SHA1: 010400a9af822221228bd21c284cff823609e6dc
-SHA256: 5fb50c7eb2938b242aa1bbda2b26b6e41829b23ee479d2ddee13179355f28a81
-SHA512: 99293cc481e5aa128ac39268603bd4198f15127fd3ad8a0fce4e2ecb3c2f60971154d0dc54bb9ea3e899615046b57be3ac6c6d5f0f096eabc282d9ee48265a68
+Size: 251344
+MD5sum: ba48bf8ffcf894b5139b93002626b3c6
+SHA1: 9864183905ef616f976be8514046b5128aac5934
+SHA256: 0d7f593ab846b2b950dcd49554c319806108d9f1f7ed70b6bd81b6b99b6447dc
+SHA512: bf676d8a5cf51dc4aeff22257aee930e98e8de2c0efb280d88e99171e478d82688f3aae120cf06c2a42b2ae36abbf91ce1dc454f378ca89b481af4bca6892032
 Homepage: https://github.com/Tencent/ncnn
 Description: Miscellaneous ncnn utilities.
  miscellaneous ncnn utilities.
@@ -20546,11 +20546,11 @@ Recommends: unar
 Suggests: pike8.0 | pike7.8 | pike7.6 | pike
 Conflicts: unrar-nonfree (<< 1:3.7.8-1)
 Filename: ./u/unrar-free/unrar-free_0.0.1+cvs20140707-4_amd64.deb
-Size: 23416
-MD5sum: a8bf916f60132fa3a95353723bf0ff8b
-SHA1: 1dccb34b1189221bd32ad610545ad6a32a757743
-SHA256: b2f669b32a360a732b3f0ab41d66be4d1386c791f55bd55e4b7da885e0ce982b
-SHA512: c5b1cb39c16d83c2ce0d07dce876f3854c767e2d8d752bad6c4f87ada04303b960e6a00b3660c78ed8c265735cb80989bced49b15fb4f438e95c15ae6510c0f5
+Size: 23440
+MD5sum: 4f73b5fe7262fa50b551634e7b9c471d
+SHA1: cfedae171611baa2bd14dc1019c6fa943e00c039
+SHA256: 30989f417f54bf344d100932e98cb0dab55afe9be9e57305fcd62e691b8cb6f4
+SHA512: a6f9a96cc197eaf0dc9fe8b7ec0bef4dcf0791966270d561bc36a901d0f19f601d7f1eba984f35afb74b7f921210ce6d3e743475654ab1e662ae34094c0fa5ae
 Homepage: https://gna.org/projects/unrar/
 Description: Unarchiver for .rar files
  Unrar can extract files from .rar archives. Can't handle some archives in
@@ -20568,11 +20568,11 @@ Installed-Size: 370
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Conflicts: rar (<= 2.60-1)
 Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
-Size: 108896
-MD5sum: 2f245caba21aa5c07cb6b3d4974aadf5
-SHA1: 4fd583d5dd6edf0eaf334916b4ac15331e765f83
-SHA256: 79db9281f683770459f3db3ff522a9dfcd3e5fe02ea4b1d14aeef34cea44244b
-SHA512: d3b625e3ab34b38d2b1b9cf45774ee3c7fba19d9d897842225bda4b023a09bd7f3ba502f5588deae3e5a5a1d9c310224da47c67a73af1881ced5c228ab90e015
+Size: 108900
+MD5sum: b16858c669c55f410ba2acb2ef1a3df9
+SHA1: a6e7c112840a8485d3391bb5d9b2dbea70a5f10c
+SHA256: 8530b40ea09e11fcad742e0cafcc09370a969d2634297f890ca4bbc8a1919017
+SHA512: 896f50d264e39f2eb8f12b189ffa33111eb5134eaaa137e7ccefb4ebf9438f13d6da39e9cd4b91cdf30bee90591a4a0c06148850da6a535931fc17fe7fced174
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
