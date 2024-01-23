@@ -341,11 +341,11 @@ Maintainer: likier <likier@sina.cn>
 Installed-Size: 2056
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./s/seetaface-open-role-zoo/seetaface-open-role-zoo_1.0.0.2-1+dde_amd64.deb
-Size: 318296
-MD5sum: 5a9d36e9db445604e1b86c8c70519f6e
-SHA1: 328513cb4d206010f4374bbd2dffa77c87790df1
-SHA256: a6f0be1006482eeb4bb30e0431ad7d3559831f91a62b4002a2e4ac44e6576920
-SHA512: 850b2f7b983db1a9f1377c1460869983db6a233e9bc851676935f5f131b1f76c8f93e8c11c7462aa4a9961a00dc478b807f1b0f28c5282992575c6afb2cccfaa
+Size: 318484
+MD5sum: 0c2d4900a3db749277be8ea1e08ca251
+SHA1: 9b3f931e7a14016a2041cd156a938ed40a9b91eb
+SHA256: ec612a04f372c31b21e53d34fc1f23448b7f8660a979aef0604451cdd7835067
+SHA512: c6374479838d6a4f043b043dc524ce4a0bf332d9f1bd4f461f45892d4fd6c6788f3ea0ddc0cb10a6ee79208b6b54c84cf42b8d57d87451fa8ba52add57c0dd41
 Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
@@ -14395,11 +14395,11 @@ Installed-Size: 6928
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libxcb1, qtbase-abi-5-15-10, expect, zssh
 Recommends: uos-reporter, deepin-event-log
 Filename: ./d/deepin-terminal/deepin-terminal_6.0.9_amd64.deb
-Size: 3404488
-MD5sum: 1003c0113e74eb7e222709f1272e4b3c
-SHA1: 722b1e0e52689b3cf72abf87d12bc1e8d231514a
-SHA256: dd31caa56f8d89b7d59772454c799c56d1da6831a427b0f94cb1f2d096aa8ffd
-SHA512: e04b384f3aa4fc1227c68874cf36777a6bec4e93f95bc0aef5901d413b838ca4ea28aba94297b87f97c88609edd27f3eeab0aee0e558f70ca353654a92234c71
+Size: 3404080
+MD5sum: 57b55eece775a8afd3af1d4ea91b4f66
+SHA1: 1e2e7c42b4cc8452206a9f43e86b6ce0d6d4cce5
+SHA256: c8fffc57e8399936957155510771dc00527ad15f45fa22efb929d315382e8aa1
+SHA512: f17f9e1f39218169ec941772f1b906c6062ff919ea7fc2963fda24b07ce3dc0b45a942a2f7e2c303c30af5b73e67e59e6dced7181058677c0eb75f8fc0954253
 Homepage: https://www.deepin.com/
 Description: Terminal is an advanced terminal emulator with workspace, multiple
  windows, remote management, quake mode and other features.
@@ -14648,17 +14648,17 @@ Version: 6.0.7
 Priority: optional
 Section: python
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 3807
+Installed-Size: 4585
 Provides: dde-help
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.3.0), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), qtbase-abi-5-15-10, libqt5sql5-sqlite
 Recommends: qt5dxcb-plugin, uos-reporter, deepin-event-log
 Conflicts: dde-help
 Filename: ./d/deepin-manual/deepin-manual_6.0.7_amd64.deb
-Size: 730508
-MD5sum: 56d5eff36864b7f2605052f4290ed4c8
-SHA1: 7352c9bf8562c24b458d74999ff767edbb3dbd00
-SHA256: 4ad9fd62113eb7a00196ab8943b3483d79851d8b76d3e294d61160e9166957f2
-SHA512: 0733e370c7a9e66712ac62079cb7a99adbe60cc5547adf9d52641d158a107d6f12f7b10d8feaa5517a7cdb90a2b34c643e5e4143d2e30672186f8362cfc55b4e
+Size: 1494728
+MD5sum: d3c00487aac42b32c63b5f49da44afd9
+SHA1: 7b6d04837c3adb36ca153d6060ad2539194ff353
+SHA256: a7d4e3b7fc34ce6113600b0b1f23c81b239b9504aa1e3b0604e35166734577e3
+SHA512: 4c5a06c08a0e9b52e1c18459c27501b70db5a302c0b005b47bd665ebc1650f328787bd37f35fbe77addc2ad533558cf17e267980dfa7f9f1294c2685643514a3
 Homepage: https://github.com/linuxdeepin/deepin-manual/
 Description: Manual provides user guides of the system and applications.
  Manual is designed to help users learn the operating system and its applications, providing specific instructions and function descriptions.
@@ -15505,11 +15505,11 @@ Installed-Size: 1698
 Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 6)
 Conflicts: dde-cooperation (<< 0.4.2-1)
 Filename: ./d/dde-cooperation-transfer/dde-cooperation-transfer_0.6.1_amd64.deb
-Size: 451600
-MD5sum: d012df6fd5a2cb2a1abd20341dc4ad8e
-SHA1: 3827e3dbf3e07fa124ce2e36c1ce88f5494ce9a0
-SHA256: 9488faaa66b47728b152400579b3e6bc926ac92b4c370b93c98eadb930b3271b
-SHA512: 3f53d501cfc00d9bf0c5e4db83ebf9b37eb7df31de2a30a06d44e16f2d730dad887ae9df63f776f3a3d3b624c7ddf655c54a1a2f80c599c89444cc825a7d122b
+Size: 451780
+MD5sum: f6a812e71c1d38ec55b07506eafa1b3e
+SHA1: 9d91b2f115930c55adf206cb8531e5bb4d83cc68
+SHA256: f8c383ce9c004db3606e31496d3e5f2561a701c9bf4c8981f31f2f5162b56157
+SHA512: b2a756630b3502c757f3dd942dac4ebad0a1a7fa2e177fda62f588cd8932f2b40a46d1fe3401fcaae476cc29d80c374f2a728ec15fa29df5b8c2ab7981ab28ba
 Homepage: http://www.deepin.org
 Description: deepin file transfer frontend
  Deepin Desktop Environment (DDE) - file transfer frontend.
@@ -18242,17 +18242,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51183
+Installed-Size: 51072
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48937580
-MD5sum: ac5e0cb88c4c3a492a762e799dda78e5
-SHA1: 9610a9122042274199084e4b6bd49937b60c5392
-SHA256: 5fbdc3801200e403d44ed74f0b08ae1fd22caf51fe8681d1548b14e19276ad8c
-SHA512: cdd6559520f71500652ef060b75c7294d1b1d97dd82f192194c9793ba77417a293d13df3e84600d92706f72dad03142237498355effb4f9995f3a9af864ba3d0
+Size: 48808612
+MD5sum: a40458789692ace2ff5f3548f7ba0410
+SHA1: 45e2764f9fa08b8a164da77ab2e1d512328e5d32
+SHA256: 0eea9b4b64a1b66e11a23c2c25941ec016c1a6d111dadbccacc78120fbf660f5
+SHA512: 0be85970add2eba04b41a3d0a526b362af1b285f0d4fb3d9d19443245b68f2e9251fb9deb5c1e3e544e1e02e896a21ccc3538bcd1a30c332d6d6cfed9349ef28
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -18901,14 +18901,14 @@ Priority: optional
 Section: utils
 Source: dde-cooperation
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 5368
+Installed-Size: 5360
 Depends: dde-cooperation-daemon, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.2.0), libstdc++6 (>= 13.1), libzip4 (>= 0.10)
 Filename: ./d/deepin-data-transfer/deepin-data-transfer_0.6.1_amd64.deb
-Size: 3710628
-MD5sum: ef80c533eee8ec6849f7497fdde02c8c
-SHA1: 2f52e369cddf5ff2ee56d30995d236f131ad74c0
-SHA256: a9d27f4792f47c065a05cfa80c808917d8c49e1854a87c50117cad7d7f30aebd
-SHA512: bbe38d0793731e0451657ca802758a80aa95ccab3627b1d0426d8d7ee71caa02275deeefffa828ea1ce5dbcd1322b8e1318c431617bf338e3dee4cbd0c11c912
+Size: 3702476
+MD5sum: a155eb733ec7e1baacab977ad46a2a9e
+SHA1: b3ea8bd19bdcacbdd9a7012f3b80b9abfad845c0
+SHA256: caa8ab23dfa73d6068fdeb28443e728c424309bf2dc2e3ac6cc8a2ab42a32c30
+SHA512: ed7a9a86ca4987ce68ed1d2bb883df00c9d8c8839506726318edb90404e70992be603839e98e419e9df5ef6c74293178be2ba2234f0ed84dc9c61c6ef36315e8
 Homepage: http://www.deepin.org
 Description: deepin data transfer frontend
  Deepin Desktop Environment (DDE) - data transfer frontend.
