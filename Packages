@@ -734,10 +734,10 @@ Installed-Size: 17
 Depends: libdareader1 (= 1.0-1)
 Filename: ./l/libdareader-dev/libdareader-dev_1.0-1_amd64.deb
 Size: 2448
-MD5sum: ac726133cb2947b016ba72542ac6963d
-SHA1: 00656c5b15ad984ae362ce5d5c96457a128b2b09
-SHA256: 680e1c077d016ed9c4ffb6ad0b4ac7084b3bea400316069757a5f71fabc38c06
-SHA512: 6fb0379e6bf49186ee17167428e0b55bc9f71c25b760590d721b291a4fea7afb5dc4d6f02fa5c879b79338da83eece37a3c0bdda22de000320403fb0bdb5663b
+MD5sum: 9a56adeaeb099508ca8ab1d66c02fa33
+SHA1: 1af567e4e3c538b262be56eb18ddbcbc8848aa09
+SHA256: 1342ebdacd76d317824dad369bd7deaa516d002ee8581ce1d10e102ba3677158
+SHA512: 48607a1441d7732cc1da2ae52094b0e0652d868ccaa24ce6cd0709da03b4e4cbb073663bfed4a830e83c3bd2b1c2809f8fbdd880d1cb4de6a2397131e21e2d55
 Description: dev lib for read image/video data from deepin-authentication
  this package is a dev lib for read image/video data from deepin-authentication.
 
@@ -2297,11 +2297,11 @@ Maintainer: chenlinxuan <chenlinxuan@uniontech.com>
 Installed-Size: 32
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Filename: ./l/libdareader1/libdareader1_1.0-1_amd64.deb
-Size: 5648
-MD5sum: 7ece71e2417b275f2373e79f4bb52501
-SHA1: 5376547581d06b185cfc81b779d54ea047ca85ac
-SHA256: 68dc2b178efc6d87f23cc6a82884bb480071998bdc6866bd5cf9c4b0f8ba30ac
-SHA512: 2205d113ac3e78434b89f0ee14118f34c547cfd059da06ca0b29d27e92c6fe17cf9dfa158386b2fed46bac242ef4cd1d2af7632b0e5b960d6da5751baf3482a5
+Size: 5644
+MD5sum: d8e6649de176c00b53f9af5fd034d984
+SHA1: f999db2ddde55a9fc57162899a52782f8e4cf574
+SHA256: d0d49f5075ebf33bd28984c4decd6bffe93c3c35ea5c6620d732857e3ef97126
+SHA512: 8a0510fa294a76cd84d3fd8d902df3b69753800924df9681dff4937f6fbf1ca7fc3f6394235588ca8570521695ecace8a25941a27c64d14cae4dbe0c07f1baf0
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
@@ -5444,11 +5444,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 8579
 Depends: libc6 (>= 2.34), libdfm-burn, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.36.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkf5codecs5 (>= 4.96.0), libmount1 (>= 2.19.1), libpoppler-cpp0v5 (>= 22.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend, gvfs-backends (>= 1.27.3), cryptsetup, libdfm-extension (= 6.0.40), dde-file-manager-common-plugins, dde-file-manager-preview-plugins
 Filename: ./l/libdde-file-manager/libdde-file-manager_6.0.40_amd64.deb
-Size: 2157852
-MD5sum: 61558df2dbdfb37b060fc54e4272b9e7
-SHA1: c2f2635820ca85f4089b7e85841aa03e8b4a119c
-SHA256: 7a06875bea0f1bdb2f63e3a17fd885cd2985682f84a8a437eecdb7a743de7220
-SHA512: 35dc257d1f422d62c112a6431ba13123a906213932a1cef51f6439d07d41483d414ecb56ece729fb5e924606598b45cb44e31033ff9164fcd125fc9a19193b94
+Size: 2158188
+MD5sum: 7bfdf162f61127a62b0b6505aac7c510
+SHA1: 77ed737bf81f7dd6fed1e01299b7c38da0a9ebcd
+SHA256: 9bf492906e6c5d75025e2a8d3a271881fa2a620babf25e9e13c65679224ac5df
+SHA512: 13415f6a338f7b06bce492c1266878f8da669dd2eef74670179badecb1ace63e0ab539c90800ce776bbca7c4e6de7cc6af81c439a894652644180966291ba696
 Homepage: http://www.deepin.org
 Description: DDE File Manager core librarys
  This package contains the shared libraries.
@@ -9767,6 +9767,24 @@ Description: deepin desktop-environment - dock module development files
 
 Package: dde-dock-dev
 Architecture: amd64
+Version: 6.0.30
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46
+Filename: ./d/dde-dock-dev/dde-dock-dev_6.0.30_amd64.deb
+Size: 17716
+MD5sum: 6b1d2af63e1ecd87d75420a5bd190fa6
+SHA1: e592f3b516c08db75ef73d4c33a1ee29366e1feb
+SHA256: d9ff002ea7e8fdfd9c22765c6ea6f87fada0d1ac4cf08d2c69d4d1f4aa97b97c
+SHA512: 23017e8890a709c6abab42987b2b453d370decf764f3760428a37983a2f609bb7ae6962d889d30f770035e7eb08537f58eb87df79de03aba6aeb6f95b2947655
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Dock module development files of deepin desktop-environment
+
+Package: dde-dock-dev
+Architecture: amd64
 Version: 6.0.25
 Priority: optional
 Section: x11
@@ -10502,16 +10520,16 @@ Priority: optional
 Section: libdevel
 Source: dde-app-services
 Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
-Installed-Size: 344
+Installed-Size: 348
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
 Conflicts: dconfig-editor
 Replaces: dconfig-editor
 Filename: ./d/dde-dconfig-editor/dde-dconfig-editor_1.0.25_amd64.deb
-Size: 106864
-MD5sum: e7589f12761c2a4a728eaac5cc115722
-SHA1: 191fbdfe619a8e229b3698e99202d247f7ec5627
-SHA256: 2168dac4235a842f0e2cf69a3e98acf62ba24bcbe6e574f11e442bde1224a57f
-SHA512: c345c46702efa62f087c2d53ed7dc968836f55c4ad570da4aa75a83093bc74fcfbdcd3b88ea0a3699fa12a132d6fb71d5756393120005f4edd9359b89f22e413
+Size: 107140
+MD5sum: 9d6eedcca4e4e897a4eb1b34f5909a33
+SHA1: 06629392bb9d6da3fcdbcf9a7e5789b42aeaa525
+SHA256: 80af08fad363c3737e34a4c84a4625b106476533cefceb423ca046a3ff78dd8d
+SHA512: f3a1a76f74fea9c8f698ef17f08b23131edfa4a48b9c03edc7205879f372c533229772822740dbc41f053832beb368a6f8096c659d1a17366863b4d2a406c9df
 Description: deepin desktop-environment - dde-dconfig-editor module
  dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
  DSG configuration for current user.
@@ -12047,6 +12065,25 @@ Description: deepin desktop-environment - dde-appearance module
 
 Package: dde-appearance
 Architecture: amd64
+Version: 1.1.24
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1104
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libgtk-3-0 (>= 3.0.0), libkf5configcore5 (>= 4.97.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libx11-6, libxcb-randr0, libxcb1, libxcursor1 (>> 1.1.2), libxfixes3
+Conflicts: dde-kwin
+Filename: ./d/dde-appearance/dde-appearance_1.1.24_amd64.deb
+Size: 300088
+MD5sum: 7f13559d760230aeb56a267ccc7dfb8d
+SHA1: a4982df5c2e77fe6186afa916644324700728660
+SHA256: 46f790cb6254c8fe60bf65f24fa11c692c946b18c0997465c6676e349213fb77
+SHA512: 99c4b34391ac37e741110fb3232479a65d7ac6a564204ede38202d76bdeaf90d0b0eff74be9c5ab7f234d2fdad658deafa2cf194717522eec82e461dfc6ef76d
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - dde-appearance module
+ dde appearance Provides application resource management and control services for the dde desktop environment.
+
+Package: dde-appearance
+Architecture: amd64
 Version: 1.1.21
 Priority: optional
 Section: devel
@@ -12831,6 +12868,32 @@ Description: New control center for Deepin Desktop Environment,
 
 Package: dde-control-center
 Architecture: amd64
+Version: 6.0.42
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 17420
+Depends: libc6 (>= 2.34), libdareader1, libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.12.2), libstdc++6 (>= 11)
+Filename: ./d/dde-control-center/dde-control-center_6.0.42_amd64.deb
+Size: 4390804
+MD5sum: d23486fd0af7cfe71acb0fbaaf6b0e46
+SHA1: 0a34c75577e27b89a378bf829e28b457175d63d6
+SHA256: bf466e2b2598567b4696c2b82b3a87e1b397fa6b93ff94aa185c4fc9fd579fea
+SHA512: 331439ddb268290d958d7783d687a3b2ae8425ab88f1c78ebcfe2d8eb47f88fbe2da0da9c8f5182ddc30b63a8b8fb194a645fddd6d574ecf30795601c72b01d9
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment,
+ Integrated control center with rich functions,Besides providing rich
+ system setting items, the function level is simple, the logic is clear,
+ the user can easily set the system, and the learning cost is low,
+ Provide users with automatic update system and developer mode to meet
+ the various needs of users for the operating system.
+ abrecovery -restore system, Determine whether the system is restored
+ reboot-reminder-dialog -Update restart, Confirm whether to restart the system
+ after the completion of the update.
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center
+Architecture: amd64
 Version: 6.0.31
 Priority: optional
 Section: admin
@@ -13484,11 +13547,11 @@ Maintainer: He YuMing <heyuming@deepin.org>
 Installed-Size: 843
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6concurrent6 (>= 6.1.2), libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.4.0), libstdc++6 (>= 13.1), libsystemd0 (>= 237)
 Filename: ./d/dde-application-manager/dde-application-manager_1.1.7_amd64.deb
-Size: 238468
-MD5sum: fa46a7e18135d145124fe7867b69f761
-SHA1: 3244ab263bc9edf44cac7f3a4e3dee25793b64f0
-SHA256: 2a4cfbf1ac0cc32d9b1d915bc6af4203f221251b5938fba1091240b9c8539e5e
-SHA512: 8382a59c0188a37cf8b0ddb4c12531552d87cfc903637470eae5ecdc1694595210ac1f45d702197987cf76fe413edd090c77ac43faa7f5dd705ecf0e96feae0d
+Size: 239068
+MD5sum: cf0c5a98403384711f26e663b801b92a
+SHA1: 60abccfca851b86441ac9d7da633522508c5f83d
+SHA256: f2fd836392a30a764946806416e1130a30f20f3d68433e751aa225b8f8916843
+SHA512: aa8876c0527ca3886a2849073719527d0a980c99d6e091505342de338d3f33ada9da93ae4f686801e4bc4e41a9c24f7d2f86db91db2b7fb3bd27519438db4e3c
 Homepage: https://github.com/linuxdeepin/dde-application-manager
 Description: Application manager for DDE.
   Launch applications by systemd for more caps.
@@ -14013,11 +14076,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 4147
 Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdfm-mount, libdocparser, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.40.0), liblucene++-contrib0v5 (>= 3.0.8), liblucene++0v5 (>= 3.0.8), libpcre3, libpolkit-qt5-1-1 (>= 0.112.0), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.3.0), libsecret-1-0 (>= 0.7), libssl3 (>= 3.0.0), libstdc++6 (>= 6), cryfs
 Filename: ./d/dde-file-manager-plugins/dde-file-manager-plugins_6.0.40_amd64.deb
-Size: 946128
-MD5sum: 3fbe823f4eaa88c2f353b6deb507f5e9
-SHA1: bf3de0c0775b50911981c19166e23c9913457a56
-SHA256: a87d7b015c0168fb57fc11f0c579a9c119009d9d59265dfcc1181e2fdb7661af
-SHA512: 618e200c59ee5b452058b304084609c0f1fcf0abec0bfa86b58513abac3908e1007e6da5ba337bce0b77372405cc16a186e969e998286addd4ee19ce1f3e7b65
+Size: 945056
+MD5sum: 3bdb2a9ea9b0db6c79cffc1775524648
+SHA1: 3ef0570541be3393045ec7d666c1cc044e01fdba
+SHA256: 8bfc852d0d5ab475c7aa747e8e5a7503c0fe3d0c123f0a90f429458cb56aa8dc
+SHA512: adf3c982dd9bd67d9caadcaafb6e8c96ee912ea40b8adf114f68f8b8c191b5a837255370bd0aa2f6da7b11975babb9644068f70aa448ab927aed1237a73ce7cb
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - filemanager edge plugins module
  Deepin Desktop Environment (DDE) - filemanager edge plugins module.
@@ -14433,11 +14496,11 @@ Depends: qtxdg-dev-tools, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.1
 Conflicts: dde-launchpad, dde-workspace (<< 2.90.5)
 Replaces: dde-launchpad
 Filename: ./d/dde-launcher/dde-launcher_6.0.19_amd64.deb
-Size: 773404
-MD5sum: dd03267d7fd7b1b975b74862dc9f8f48
-SHA1: 601aa4c944541c1b76a88b2d2a4000040c9535d7
-SHA256: 504cf9465e9d07fe759512e42c3a8db8954a4db6860fd5bbb3cd1df1f265662c
-SHA512: 5e660822819347fe0091d22fbf322936688f6235f0bc6a0418f52d7dd727cd23b4f1f6a3bbac3c19d49b9c54d9a581f733148c6ad831745c4939bc7277996d39
+Size: 774160
+MD5sum: 16e984e05532ef23bdae8a97c48fe8d7
+SHA1: e6aab5be75ea40cd2d666de007954f2078e06218
+SHA256: c7374c81f52be18005b3f06773ec8e8d2857c6c196bfbb3ed8635e2fb4515b2e
+SHA512: 3c00a874661ba4fcffed0a53ae43e6193444267f2ad7a8b4b55c78749616e7bba766f989d61b08c6ec093c80aeda88f981f67fedb528d7c3fe123da41b091eeb
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-launcher module
  Deepin desktop environment 2015 - dde-launcher module.
@@ -14932,11 +14995,11 @@ Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdfm-mount, libdtkco
 Recommends: dde-qt5integration, avfs, samba, deepin-anything-server
 Replaces: dde-desktop (<< 6.0.1), dde-file-manager-oem, libdde-file-manager
 Filename: ./d/dde-file-manager/dde-file-manager_6.0.40_amd64.deb
-Size: 27674696
-MD5sum: f96aa2c288cca3bbd47ce125ca2b4571
-SHA1: 232993876527f300df109b1d0868ead063d22fb2
-SHA256: 6a750b1481152ad553dd098406b27bd8f9de68a1b6838c7742073364120e75b2
-SHA512: f1c97aeb0d28032d5ffe2e43c2068f48455b82f189a79cd4f33001642edec5baf822e20354660bd8188fc9ffe47f45c942119770c083b449af1164a7da5896b2
+Size: 27675864
+MD5sum: ddcd201b8186355b93c1c583f45b1207
+SHA1: ae3249f12b8da0e83c6db56e5e0fdff80f2be5cc
+SHA256: 96dae0cba395fdef2b01a47ccdabed8ec01545fa8fa5f83ede7df36ba5ffa7af
+SHA512: 0339533ef0c754b7f979f9c338a3d7d28c0d7c691ce6d4f6a0113a8f7e09ed5da44d4cb7136c28dc6c41b19e895b1f4af7901e0343f8cb878da37e651a68a7d2
 Homepage: http://www.deepin.org
 Description: File manager front end
  File manager front-end of Deepin OS
@@ -15091,11 +15154,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a
 Conflicts: dconfig-daemon
 Replaces: dconfig-daemon
 Filename: ./d/dde-dconfig-daemon/dde-dconfig-daemon_1.0.25_amd64.deb
-Size: 106884
-MD5sum: a2389e56192fc67bed1c4a551027e9a5
-SHA1: 8cf9944030bad81934972c2f38108b2971372472
-SHA256: 4db44ae562d3a9109d11dc9ac1c4f26883089fb1e941e26fc12556d708a2b0db
-SHA512: 5bf4e29205998d405aeaa76024f56e7514fe9f238c51ac9a7fa3ac2f83ac137ea1000341df0c0ef858c38b4490a26860c5bbcb3fa699be7b3668decf6dd60faa
+Size: 107252
+MD5sum: d533e3f7e5f726741db300582bc57e7d
+SHA1: 31c6103f1c828c3916a3c90b063702ff72e7d2ce
+SHA256: cfd98a85da7e423f3876209cb1700af7f91b2db85d247e5183e8ce6f89001f4d
+SHA512: 369b763266790692a2f328472db8ca03d6ff8d3d42e0579a381f6f009c5b67a1f206271ef106a15157162c3ee7f10cd81ffdccb096f1a7710a96718372e5b628
 Description: deepin desktop-environment - dde-dconfig-daemon module
  dde-dconfig-daemon provids dbus service for reading and writing DSG configuration.
 
@@ -15229,6 +15292,25 @@ MD5sum: 91ba27bfb9ca69df3723ab063c17f40e
 SHA1: a41e0c92881b36f4c129027e6439db778739bdcd
 SHA256: f9c8cfebc86333e794e6b9bae85dc9b102e8a0a2c52807e3c6f034fb92126729
 SHA512: 7252cbd92faf190cbee27ba875744b36feb14117b16e82f8c48f1392ee2ef8f6d1a6a7c3404de561a2dffa3bf3371c956d96535786b86f3d05c59e361044b378
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: dde-control-center (document)
+ This package contains the doc files of dde-control-center
+
+Package: dde-control-center-doc
+Architecture: amd64
+Version: 6.0.42
+Priority: optional
+Section: admin
+Source: dde-control-center
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 730
+Depends: dde-control-center (= 6.0.42)
+Filename: ./d/dde-control-center-doc/dde-control-center-doc_6.0.42_amd64.deb
+Size: 521776
+MD5sum: b53b627b791bb72b075a59374e9d4514
+SHA1: 872adf4b121e7d5474f68e45842140a73f1e6441
+SHA256: a10022bd8db0ab94597cb53665cfaab28e029a37f18b93f90ae25b255443edc5
+SHA512: 19c62246d41eaec7ee0ba4cb8a4e65cd49fe08e61e2b48f963fba7955915ac7beb9545e06bfe89a7e9e52fe6d122bfa941e763ed66e87fd88cf3e40fb8f8ff84
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: dde-control-center (document)
  This package contains the doc files of dde-control-center
@@ -15853,11 +15935,11 @@ Depends: libappstreamqt3 (>= 1.0.1), libc6 (>= 2.34), libdtk6core (>= 6.0), libd
 Conflicts: dde-launcher
 Replaces: dde-launcher
 Filename: ./d/dde-launchpad/dde-launchpad_0.4.4_amd64.deb
-Size: 309280
-MD5sum: b129dacd2002e5bf194228a10d10f255
-SHA1: 6509b1873b3b3aa0b7c05ab832ad8e1671dcbcec
-SHA256: 89dda7078548cfd80c517900f8016e6c6db420d826d9949fa97b99aeea53dd69
-SHA512: 2d3831b5015778a89e17d8dd753fc592844e62f91e80b7a7a9e10f5dc31856f9a3fbdd677034f0f1a8d0c78810e4a4b6b8decbfb94deedad61866e3de8ea83aa
+Size: 309984
+MD5sum: c9a1de4c337fbd7f373773ed36fd5f72
+SHA1: 9b76a00c191af489499935c30df54586aaea33a9
+SHA256: 102cda95013445c621c6de1fef2a5ce592155d1d5fe32ea8902d4ceb27aacff5
+SHA512: 8ca775c8f085d42e79cdc1d77c60a6c0cf6dc1fd1859938f0dc107a101c56f249589b00827db2011b3ddbb96e87390b2efd667e81f73f00e2d60f07e911f0271
 Description: The "launcher" or "start menu" component for DDE
  Display all installed applications and allow user to launch applications, which is convenient for users to operate quickly
 
@@ -17056,11 +17138,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 3563
 Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-burn, libdfm-extension, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 13.1)
 Filename: ./d/dde-file-manager-common-plugins/dde-file-manager-common-plugins_6.0.40_amd64.deb
-Size: 804100
-MD5sum: aa68b031e4d1e0910d33f6ebf6fa4099
-SHA1: 166565e5a3b025246d3af47cd96d710ed7889627
-SHA256: a1be9ad5ae0a8045d428bdebbdf4952b52dacc331a537864e24233bd894bdad3
-SHA512: e277d640545fd7d4267318246f2fb075d15b4eeb71f7a9c09ec2bb4a9068f274bb37723c3115373d4603d2f249fea34d516a044846904623fa44fe0e70166675
+Size: 804244
+MD5sum: 8878fc32b783f31b7609d9fed0dc5a58
+SHA1: 9f2495313a2bf5252f08b212b6121117c53f8c5b
+SHA256: 620dc7721d03fa0fd3b1a982b64443f465f5af6f67fe62b1ab69b381272386f0
+SHA512: ea6d6be579a441ccef3bfc1ded5f5828e43d715c1dfa3faef751c3cd47013acf63aa930173e81fe525a4ceb5ae1cdd25d604b4760b0617b7e9e8033dcae1d57f
 Homepage: http://www.deepin.org
 Description: deepin desktop-environment - filemanager common edge plugins module
  Deepin Desktop Environment (DDE) - filemanager common edge plugins module.
@@ -17413,6 +17495,25 @@ MD5sum: a45bf6c224ff39c9202e088560461bd9
 SHA1: 4ee1b5f959930d8284f410604010becaba086940
 SHA256: 2decb20940097d27125fe146e2c16be3b0cb8c430452204f61d951a5d09e926a
 SHA512: 8efd0fe981b09076d479ebb9564bcb8cbc332d20a492b404003f6db0ed59295d400c1f08f792abb26e63e6596d5b3807543057f19c76337701d902d8de3ce0e6
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin for onboard
+ Dock plugin for onboard of deepin desktop-environment
+
+Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 6.0.30
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 97
+Depends: onboard, libc6 (>= 2.4), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_6.0.30_amd64.deb
+Size: 33568
+MD5sum: fa3ca6eb97177e1fd3791bcdaa2a000c
+SHA1: f3543a841627842911846631cc473b547bcb0efb
+SHA256: d477912856c2c2140420972635cc0d18b582877a0aad92084ee244b075d466a3
+SHA512: 8e234ac743800fc3a7572950ec10d94a25e98ab4df7ab9cb008bcdcdb1afee604a833de8277a543b5dd120ebdda085ba7d32167bd70bcc1497febe081d7b0427
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin for onboard
  Dock plugin for onboard of deepin desktop-environment
@@ -17933,6 +18034,27 @@ Description: deepin desktop-environment - dock module
 
 Package: dde-dock
 Architecture: amd64
+Version: 6.0.30
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 7008
+Depends: dbus-bin, dde-daemon (>= 5.13.12), dde-qt5xcb-plugin (>= 5.0.25), deepin-desktop-schemas (>= 5.9.14), lastore-daemon (>= 5.2.9), qtxdg-dev-tools, startdde (>= 5.8.9), dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxcursor1 (>> 1.1.2), libxext6, libxres1 (>= 2:1.2.1), libxtst6
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin, dde-network-dialog, dock-network-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5), dock-hotspot-plugin
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_6.0.30_amd64.deb
+Size: 1501236
+MD5sum: 09f62000a97c89ee73f06b37cdcb0bd1
+SHA1: f404c85ba306a640f6fdebb838ada04bce9afefe
+SHA256: 333df4d428813cf0f3e4818220a15e3d0696c938fa713816386c7be44ab41898
+SHA512: 4af89f47cac77e5b099fbdbcc4c4d66cfd4163869b696d2ecace82a1ef60df0c36f30bda8c874a1b5238e7c17b6fc47b02e5f9db1e747f28da316266777268ad
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Dock module of deepin desktop-environment
+
+Package: dde-dock
+Architecture: amd64
 Version: 6.0.28
 Priority: optional
 Section: x11
@@ -18341,17 +18463,17 @@ Version: 1.8.0
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 51072
+Installed-Size: 51138
 Provides: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Pre-Depends: debian-dde-wallpapers (>= 1.7.14)
 Conflicts: deepin-community-wallpapers, deepin-wallpapers-nonfree
 Breaks: deepin-community-wallpapers, deepin-desktop-base (<< 2017.11.2), deepin-wallpapers-nonfree
 Filename: ./d/debian-dde-wallpapers-nonfree/debian-dde-wallpapers-nonfree_1.8.0_all.deb
-Size: 48808612
-MD5sum: a40458789692ace2ff5f3548f7ba0410
-SHA1: 45e2764f9fa08b8a164da77ab2e1d512328e5d32
-SHA256: 0eea9b4b64a1b66e11a23c2c25941ec016c1a6d111dadbccacc78120fbf660f5
-SHA512: 0be85970add2eba04b41a3d0a526b362af1b285f0d4fb3d9d19443245b68f2e9251fb9deb5c1e3e544e1e02e896a21ccc3538bcd1a30c332d6d6cfed9349ef28
+Size: 48906372
+MD5sum: 644cb127036480d399b4495619916eee
+SHA1: a9e3fe8cafb76b5322c869bbb743b3dfba3125da
+SHA256: 687c7adb3ccec746ce130f6802ddc9b02dca89e52d8e0434ae189af11b1517d4
+SHA512: 58c734a30d7ca736adb06f3c0d375789ad4bcacf6c14610938e6300ca8204ba1fee81859fd84319efb295a5a65af351d1ba150fe089785d1db53eadf46c3afe1
 Homepage: https://www.deepin.org/
 Description: When users are ready to set their own desktop background,
  Deepin Wallpaper provides many beautiful background pictures for users to choose.
@@ -18715,6 +18837,25 @@ MD5sum: ce9c81f19df3625e138cfe238aea069e
 SHA1: bb49d22f8ef2dd8d545f5d6cd7c302554a89ed8f
 SHA256: 0b68b20997b69c190a21afa3beda785dfc9a1f983fcd22609b85f7774c3eebfa
 SHA512: bd8d56f89c152758a9af9119d0618a168c20a8a18de05a001321f42483abfb18ea312e3f50603defce89a03d2e0dc474cd689bd2cd1b81ff73f1d0eb093747b2
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment - development files
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center-dev
+Architecture: amd64
+Version: 6.0.42
+Priority: optional
+Section: admin
+Source: dde-control-center
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 134
+Depends: dde-control-center (= 6.0.42)
+Filename: ./d/dde-control-center-dev/dde-control-center-dev_6.0.42_amd64.deb
+Size: 27992
+MD5sum: 3373144456f427d1559ff8abfe79cdee
+SHA1: 54f92a64966b8f0644b40a4bad95000ca54d069b
+SHA256: 0553bb69ad1d18205856ee901257f859b66d1120f83fef529caeaf9a26810ab0
+SHA512: 0965cda20a238c0a36eb0182484cf9fdde237a592678949b88c2ac5d75be0d3af2fb074144e285fed0be4bfd03dd17e1972b209be16c914c0c1f11378d778112
 Homepage: https://github.com/linuxdeepin/dde-control-center
 Description: New control center for Deepin Desktop Environment - development files
  DDE Control Center is the control panel of Deepin Desktop Environment.
@@ -19301,17 +19442,17 @@ Version: 1.7.18
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 28013
+Installed-Size: 28001
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.18_all.deb
-Size: 25521984
-MD5sum: 86044ffdd350ccebec377b64fcb5c7d5
-SHA1: 6a5cc3712d90b3aee2dc169ff2264e196943ad5e
-SHA256: fd08741f7660035938cec0312ec2ba1b892b3076fff42bb9eb34f25a0d5f80bc
-SHA512: 4001e21f616699eed399e9400238275e6465d6f62be91e8b62c72616628fee7a67e703e029bc0ef74c8f38b63eaf889fa80488996d4e1aec7c6781ba2d3ca74c
+Size: 25508852
+MD5sum: 2773510da573ee474ab3807af9fe277b
+SHA1: c039b07f52a7e606bfab5ba029084b08d09edfec
+SHA256: f509ad9b7188e93cce5dc99def3ff638322212a7a3e012721499c42167e67b98
+SHA512: cccc63f835bdbc63727010e6d0d74ce24d716e540da6d639872ea34c9b589d47f8a6e4d6f4a88e26713feaa7ceee3b7b4bb9b59d5c5704f0c0f5c698d8980d6f
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde
@@ -19757,11 +19898,11 @@ Maintainer: Deepin Sysdev <sysdev@deepin.com>
 Installed-Size: 754
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libgio-qt0 (>= 0.0.12), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), dde-api (>= 2.92.1), dde-session (>= 1.1.5)
 Filename: ./d/dde-clipboard/dde-clipboard_6.0.7_amd64.deb
-Size: 180020
-MD5sum: d0ae003a455efafad431a791a0967fcb
-SHA1: 712f885136ea57312aa5dbf66072083855e898db
-SHA256: 7c2f3b215bcf1be2f77d507eb1de8bf31ca9ba30ad1729bf13285091c7764f8b
-SHA512: 0124783c1ee6e5e711625f82a4230415adbc1b815f012da3b1d736e93c17c12a09da19e9d999baefb6deb52162cfd87477d3d951ce83df52d83fd2210f4f36c3
+Size: 180072
+MD5sum: b5b925c9b74b2e579f44fd4c1417cede
+SHA1: 7e9388f16fd03bcbbf63bc8b183d705f25401b8d
+SHA256: c3d62794f4102f7155c93feceffc0249c8b6fa599b2cda3c1482d6beda22a108
+SHA512: ba4eca4c026449c74277032d6c75c54a2695a5630c2daa2e55f33e62111d7fa044985e0f17e7a9689dd0df3fda7bf302a3b86923dbd98e595eae53f0d7be757b
 Homepage: https://github.com/linuxdeepin/dde-clipboard
 Description: deepin desktop-environment - clipboard module
  Clipboard module of deepin desktop-environment
