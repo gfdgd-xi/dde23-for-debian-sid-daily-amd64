@@ -3495,11 +3495,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3859
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6 (>= 6.4.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.5_amd64.deb
-Size: 823288
-MD5sum: e9407f64415d8cf31087eeaf3a6fdc63
-SHA1: d30b096f82d992919ac5040bc3bda29a22b1e065
-SHA256: 66b79419e3d97a990ca01efa9b7cbfdf5ba6021392bfcf3e09f72e9921d75fc0
-SHA512: 3cd141b673f647c7c9fd3086c4741677dd2c1ae5233e66c17be379592fbd3cef679d300a88a98e72d0d8b3250772bb780b4e5a9b6b041d861d0ce51b0389cd79
+Size: 822524
+MD5sum: 9706113e2b903ffddc9f12913d66bd7c
+SHA1: 20783cf6f3352df10f0bb7d6a6b7b31030f241c0
+SHA256: f93db68bd81cb0def51e39f418b3fd9288cc647e39fa4950cc13d928b2468146
+SHA512: ac3f20168db1268d7684b2862b8375cdb206fa270e14cc5530de6f4fd2e0813f6637955cd9feeefce4d0b5792cf01b1c34dcc422211eef4ef40deb619dd1f3f6
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -13875,11 +13875,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2194
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.18_amd64.deb
-Size: 519020
-MD5sum: b7a1f03588213c693edbea85c1f94068
-SHA1: 4b079e953f26e99c8e1aecd2dbbeb954e8e49b03
-SHA256: 463436b2c0aedd0e33f9d6a32a4574d368133cfd1aa68d0f7664af0b8f3d5e0a
-SHA512: 03560ddba5152aefcf76a9dcc86933824de05502580e6d554069375f6e64cd34ee33b4b8a1a69357df6fe94e75039d5a64ecd39a5af0ab8da93e2677cdce1aaf
+Size: 518164
+MD5sum: 80ad6ceb41ae09e3c4155bbc0756a638
+SHA1: 47bc94eb7d5756accca7d86ce0b15d41d71b1d28
+SHA256: 73c2a99d0b365d08e18037ea70ecdd4ceccc4ae255ea73e4880367f9469452f0
+SHA512: 8900beb7f8f1d254097c5d89729968a8aa56c1bc457f7dd374b7b2ab04fdb4d42bc69231ea814cd72dae743bcd7e73f8d3b66b868ac0894c1fdedeae8eca820c
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
@@ -14456,13 +14456,13 @@ Section: devel
 Source: deepin-turbo
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 58
-Depends: init-system-helpers (>= 1.52), deepin-turbo, libc6 (>= 2.34), libdtkdeclarative5 (>= 5.6.22), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
+Depends: init-system-helpers (>= 1.52), deepin-turbo, libc6 (>= 2.34), libdtkdeclarative5 (>= 5.6.23), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2)
 Filename: ./d/deepin-turbo-booster/deepin-turbo-booster_1.0_amd64.deb
 Size: 9568
-MD5sum: aa0dbdea2750b41f064bbbc0bda28573
-SHA1: a3917c08f5fa0b28d789956a47e81e9858ea29b2
-SHA256: 9292cbccbe9023f4b708121a15d709995ae2b03323e8d5e2c372ec374ed9d98a
-SHA512: 8a2351d545429d7ddc10e8dc63bcff5418881bde6e49c666b25b09e9a87227e3cf650fc8e0e12535d8a29622d60429b49785a693346aa39aaf7092ea9b89087e
+MD5sum: c642a66e120376ca3b44c6621b3a8963
+SHA1: 54885591d8634d817bab4a28f227533431c13066
+SHA256: e8d4274fdd27d1fd20a56d506d9cf8ddebc6570fd40f2b3800b92c7c9579d7d9
+SHA512: 39ca9bcd2a28ec80b4325ff264ce891a8abcf9e684c0f07b6dbf86937cde9f1b79f23916ed1250b6d6e50e942a32364b8909941839aa0e2c2c9dd7f0ba5e6b85
 Description: DTK application booster binary for deepin-turbo
  A series of boosters for Qt/QML Application.
 
