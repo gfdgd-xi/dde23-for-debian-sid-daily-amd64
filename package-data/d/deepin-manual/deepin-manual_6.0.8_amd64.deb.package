@@ -1,0 +1,21 @@
+Package: deepin-manual
+Architecture: amd64
+Version: 6.0.8
+Priority: optional
+Section: python
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 4576
+Provides: dde-help
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.3.0), libqt5webchannel5 (>= 5.6.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), qtbase-abi-5-15-10, libqt5sql5-sqlite
+Recommends: qt5dxcb-plugin, uos-reporter, deepin-event-log
+Conflicts: dde-help
+Filename: ./d/deepin-manual/deepin-manual_6.0.8_amd64.deb
+Size: 1492208
+MD5sum: 667170419d05144322cc4d4e9e1fae4b
+SHA1: 2ddc269656a4b7baa181c82bd1c34499113b7b05
+SHA256: 8161a498097dbf13350939ab150bdf389515adbe9b79333ae460af2ef6f5a89e
+SHA512: a522607939321cbe26cae71a70945a23f0a6ed383cb8b3fb6b134da110a4e901efc5d35861a3e7e25a02a20b0aa32f6f4de5da5210790eae31c9e6a48794a921
+Homepage: https://github.com/linuxdeepin/deepin-manual/
+Description: Manual provides user guides of the system and applications.
+ Manual is designed to help users learn the operating system and its applications, providing specific instructions and function descriptions.
+
