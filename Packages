@@ -27,11 +27,11 @@ Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 287
 Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
 Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63488
-MD5sum: a7e892b225bae4126e10702fc5b497d3
-SHA1: 2399fb6b02c1d5c0cd8bd2e59cf6c6e346191ca7
-SHA256: efd2380d929bcac35dfc83019453399f518bf12f81aaf728903cc5afb59ccfe7
-SHA512: c81f9ea509d49783692dc26131c7dd83c78ac4b339c837c689b6ab95fc7788f0702b30182bafe234e500b2c51b40788d45eea0709026dd1b5782be8d08253142
+Size: 63552
+MD5sum: 650e95548831d2a5aa1d67f191bfebde
+SHA1: 8acec0f6231d651db4fbbf11acf0906add74c8a7
+SHA256: 46aee932374bb34c72fa64315eb120739e630d5256c8a3571a9404ab59d78ac2
+SHA512: f1bec94e96d5dc5d7d79d186e481446ec01ee52e0ae9cab772d55698af6161efeaacb5c19afd507c3e4bb18145cb82b7bcb9ce1ecddeec746cdbdb2aa1887720
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 Description: wireless Central Regulatory Domain Agent
  This package provides a Central Regulatory Domain Agent (CRDA) to be used by
@@ -686,11 +686,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 14267
 Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
 Filename: ./l/libncnn/libncnn_1.0.20230223-0deepin1_amd64.deb
-Size: 3408904
-MD5sum: f01ca7b0d8a74fc74d059ea76eb42850
-SHA1: 16e74c4b7916d33371efe992b217aac4f1465cd2
-SHA256: bdd793f00def470d153a973b9b6639d9d9d93ec9a1e366a41a478a57c08529cc
-SHA512: 38e020cda6d74ba7725e27b2d18fcd59fbbd1e18b002298dd21853157be84fb1d3458f6332294b8c9d4e4dcb1b52be698dbe155e12318bd70beb63e66ff1e539
+Size: 3409640
+MD5sum: b0f2f72ea8d974e47ef557064eded61d
+SHA1: 64f8831f8e80a1477c9b4f0a95466133dacba38f
+SHA256: be771c637b010dd2e230de15772536dc659c5bca35ae4bf6eac3ecbeea587a1d
+SHA512: 0c59f8bb44fd7036160b419d739d4c935c75f295f1027440c2602bce4405066b9321d46a471158368da61bdb37556cfaa8990a3b3adbea061ac68a977a9fff9e
 Homepage: https://github.com/Tencent/ncnn
 Description: Neural network inference framework.
  ncnn is a high-performance neural network inference framework optimized for the mobile platform.
@@ -7587,11 +7587,11 @@ Maintainer: Martin Meredith <mez@debian.org>
 Installed-Size: 397
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
-Size: 114716
-MD5sum: ad718676da0f12652c0671df4809ba46
-SHA1: a5c1fc3e12fe5aa9c79452db6e7ed2a4490b443a
-SHA256: b15330ff4ef86ddbed0387c893e60b3c8f7176d3c82bc58619e664f616d8e448
-SHA512: d32b329a77ab7f57f75efad9753ae3613429b6c0cb3917b704abeee7302f5436e73db1117d8443dd25d69650e3710ecf6095fac124df50f2fe6461f204b728d7
+Size: 113804
+MD5sum: 9e3ca6efb7b3de8e5fdfea410764cc26
+SHA1: 9d78f26e44e2212adbaa3b7dce12ce37947e6a04
+SHA256: f52b2515963ab4de034fe0fcdaf74c0aafc8cafafd9570fda52af838b92978ef
+SHA512: 1a971119ee89dc2cb98dd74767f3bddda55415686cb59b099a895d667402da42becd975e7916e952b5655d0f464eb2e85688dafd181c8e21fc0b2c620dd84f2c
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
@@ -8828,11 +8828,11 @@ Depends: libc6 (>= 2.34)
 Recommends: exfat-fuse
 Conflicts: exfatprogs
 Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
-Size: 44528
-MD5sum: 0a38ad1c842cb990ce7f46f7d33ec8e2
-SHA1: fe30b8b8eef2720ccab4174b59a1bf83130df277
-SHA256: 250d153fce31eeaeb8571f60fcd35e371546c4aed0ddbe92508254d38b0c0e14
-SHA512: b473e40d416297d7768df9c0daee2c2b0b7bc4c6ab551548e72f3a5f78227c1f182eb7aaa34bb73dd46862e2112382ec33c09a61552da7bf87bafabbd7954b84
+Size: 44504
+MD5sum: 4181435bbaed88613e64cffbc6183d74
+SHA1: 086417c994bd78ea4ad059dd7d81b101e6bbb6d5
+SHA256: 0e7d550ca051b3e6c9d7190ce9f2867a9829f972367e892d6c002ff58326d156
+SHA512: 25ac47092ffd232887eebfa28a90ac1e553badeb9344b2c61554faa95981dc3fb50826f1ea73903fea614eec3eb3c4c758bb5e89564ed0e4b2898972bf551cc1
 Homepage: https://github.com/relan/exfat
 Description: utilities to create, check, label and dump exFAT filesystem
  Utilities to manage extended file allocation table filesystem.
@@ -8857,11 +8857,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 833
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libncnn, libstdc++6 (>= 13.1)
 Filename: ./n/ncnn-tools/ncnn-tools_1.0.20230223-0deepin1_amd64.deb
-Size: 251304
-MD5sum: 5b9b5794fbf545b960ff8e10a861f959
-SHA1: 76ca4b448ed80e3c4f7ea4e40b1d8d03931e33b2
-SHA256: 8e944c989dcc50659caab4ba97fcb569b0ed3b72badbf4c1be52c47fbdb08f88
-SHA512: c74d061e76d719bd0f0310f0d2c47a8cd846b1100256f15ef8c9e2bce95bb2c222625bedc5f49509ce06bb008e5d52179397537ebe3215caac3581e9ad7613f3
+Size: 251360
+MD5sum: 5834d01f5a2aa626c10791ca07b46b03
+SHA1: fba708fd36f420fd60a43594ac4da662eb2b6795
+SHA256: 1107ebf71c16a70f75d5e9bfd900dee26fa91b3c19a427bb1465f980d1a2d5d0
+SHA512: 060d8df9e68e559f92dc08942c9651e26adbb85a5378d8ce9a0c6ef8ec64e1ff6fcef8fa01f9192c27f9b0bab671fb19f15f4a5124729bd6372cb4a24590e06a
 Homepage: https://github.com/Tencent/ncnn
 Description: Miscellaneous ncnn utilities.
  miscellaneous ncnn utilities.
@@ -9008,11 +9008,11 @@ Installed-Size: 370
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Conflicts: rar (<= 2.60-1)
 Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
-Size: 108880
-MD5sum: 993b336b231fb83cfb646488a420ce17
-SHA1: e252612c98d4e7740cd57ad718910aef566134e0
-SHA256: 461723ab0f45a5be8f2d5cd661e5d36861e468db6742b3c8981ee8c8ecb4cdf9
-SHA512: d3a8bcaac877afcc5c3e27670a18b24fcbe20c3b479205b468278f3fd7df2b1813577fd793dbf041bfaa82c5c4e0c5566a50821816b7821103c3852ddcf7cde3
+Size: 108876
+MD5sum: 03e4410df61f812628e2188d20d3364c
+SHA1: 9711200c6cb9aeecbfe0d47fb52a2201cf374795
+SHA256: d28bcb3c285fa261bab5caf2c56de5a4e987869be51d8a73e2f00ce16c6dc7f0
+SHA512: cee7d3b341bf402b497fab2ce68d033b19c8ed1902d50abc60869ec91a349dd2e95dbd4b8da8e4886cf0812188939462f12717ca11c61464029b0f6935a0ca21
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
@@ -9030,11 +9030,11 @@ Recommends: unar
 Suggests: pike8.0 | pike7.8 | pike7.6 | pike
 Conflicts: unrar-nonfree (<< 1:3.7.8-1)
 Filename: ./u/unrar-free/unrar-free_0.0.1+cvs20140707-4_amd64.deb
-Size: 23408
-MD5sum: bdee4f1c21a84ae886bd7af1a38afa10
-SHA1: 5ba1e0332561dce44f9449a9d7ff881e2f13f4d7
-SHA256: 2bda1b5e63155bfd1511d587fa920ec8432b5858bc39d3004c081684b46a5516
-SHA512: a9f211f58d1f66f77963442ddb35a7b4fd0114ffd26b9eb71002ca4e25e60dcc45c6772f80336f67975f05408291b11f5c5812a1d5bb5701503b60249df3facd
+Size: 23428
+MD5sum: 19c7a73b21814d5ff42124bcb075d0ae
+SHA1: c1ff688f0a3863f09cb0322b746a40d1c0151645
+SHA256: aa96c2908a96fb217d4ef6668e0dfac8a75bbd91181bcf9cecb0f08386cd0050
+SHA512: 7203c49926b9060dcfc4e46f2521bb6fa6cfdb49a8990886c9f839947a09984e9bc5d193670c6cab90d04202f0a5167a3cf6cb15b31ac5ca53ad0131eb75daaf
 Homepage: https://gna.org/projects/unrar/
 Description: Unarchiver for .rar files
  Unrar can extract files from .rar archives. Can't handle some archives in
@@ -9781,11 +9781,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidge
 Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
-Size: 161756
-MD5sum: 0a7b554b79766638434430162146ade1
-SHA1: 5febbbfbcc70629681b4903d65db883bb1fc289a
-SHA256: daf1e028011cc030a96392c12d3e85b983f61ffe1c2775ac229a7b4adaa8c2e6
-SHA512: 1ab4550bf6e842b3912951e78cd3ff0b0732ddbc8f2ae4a00cfbe44140244f0b86601784b7bb495cc61e50b98d036cb2c31d095d4d5790f0402c9a8e8c3880a8
+Size: 161560
+MD5sum: 3c758563cfeb31f4ff2d5f43d39e1f90
+SHA1: 41795646ef77ccb557f5434d260a86f88235feef
+SHA256: 5d5e215593cf80734f6b434231b9161b64f8851a4f9450e3e03befb12f949d91
+SHA512: 81cff98084c1503a10bd98d4688de86cfc9499f1d6d9c7785a9617464709442b721521c28f2686c102f464b72e4bd972c1a42d082fdbdbd901896acd8cea051e
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.
