@@ -5,15 +5,15 @@ Priority: optional
 Section: libdevel
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 49870
-Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libsecret-1-0 (>= 0.7), libstdc++6 (>= 13.1), qtbase-abi-5-15-10, libgio-qt, libqt5xdg3, socat, cryfs, libblockdev-crypto2, dde-device-formatter, dde-file-manager-plugins, dde-file-manager-daemon-plugins, dde-file-manager-server-plugins
+Depends: libc6 (>= 2.34), libdde-file-manager, libdfm-io, libdfm-mount, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libsecret-1-0 (>= 0.7), libstdc++6 (>= 13.1), qtbase-abi-5-15-10, libgio-qt, libqt5xdg3, socat, cryfs, libblockdev-crypto2, dde-device-formatter, dde-file-manager-plugins, dde-file-manager-daemon-plugins, dde-file-manager-server-plugins, dde-file-manager-common-plugins, dde-file-manager-preview-plugins
 Recommends: dde-qt5integration, avfs, samba, deepin-anything-server
 Replaces: dde-desktop (<< 6.0.1), dde-file-manager-oem, libdde-file-manager
 Filename: ./d/dde-file-manager/dde-file-manager_6.0.40_amd64.deb
-Size: 27688204
-MD5sum: 523194f62bd6a888a386cac67137a888
-SHA1: 9d46c5f4e53b911721feec9f954620521d54bfb4
-SHA256: a34883e522893ecc514a2a255aac3a1f4b9e992c99df91b178e14c1fcb45f192
-SHA512: fceec6c8dfa1690069933f7f07f4856c961911a10d72ac37c426a42ed9f3ca86880d86947848e84ada9e238a32a16b4a7556914fe35840434ae3c4ecb72dbf5e
+Size: 27691580
+MD5sum: 14cec24c31c4f001e2b5e3531a9b3c34
+SHA1: 4e33c3e02227666e52d8062b2ad71ebb080aa44b
+SHA256: 53a76d73facdaf4793e95f161f2b10f7b1b7df6523fba4a791e3b43a4c0d0da7
+SHA512: 9f5767b32cb40c19accbfcc9c17eee5bf24dad5762e5659f554458d73e8d576da5ac670a1b9a3afe98471d6eadef1599c7c33627381a91af6f6893daa12d8d92
 Homepage: http://www.deepin.org
 Description: File manager front end
  File manager front-end of Deepin OS
