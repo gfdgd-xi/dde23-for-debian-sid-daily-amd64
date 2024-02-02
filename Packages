@@ -449,6 +449,34 @@ Description: KDE window manager nested wayland plugin
  .
  This package is part of the KDE base workspace module
 
+Package: deepin-kwin-wayland-backend-wayland
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 185
+Provides: kwin-wayland-backend
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libdwaylandclient5 (>= 5.24.3-1), libepoxy0 (>= 1.3), libgbm1 (>= 17.1.0~rc2), libkf5i18n5 (>= 5.89~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5), libwayland-egl1 (>= 1.15.0)
+Filename: ./d/deepin-kwin-wayland-backend-wayland/deepin-kwin-wayland-backend-wayland_5.25.15-kwin.5.24.3_amd64.deb
+Size: 52228
+MD5sum: 0b99dfe610ff103941de13f26cf190f1
+SHA1: 8e0be6ea98596009698c84facaabfa5fbfdf722d
+SHA256: a5904773c0253cb14b8df69752efdcac91a8c8902582e7e774225578c24fd03e
+SHA512: 0fee9403f761e139d850b85935bbcf146fc4a118831d7dcae652dd5101a997da96147ac449524425f9b93703ff3da69865b51b842620d81f4324989292ace515
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager nested wayland plugin
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
 Package: dde-qt6xcb-plugin
 Architecture: amd64
 Version: 6.0.3
@@ -3599,11 +3627,11 @@ Section: doc
 Maintainer: duanhongyu <duanhongyu@uniontech.com>
 Installed-Size: 107916
 Filename: ./d/dde-manual-content/dde-manual-content_2.0.0.0_all.deb
-Size: 92983652
-MD5sum: c246ead6133a0a8aa50be3e26c0dd4e6
-SHA1: 043588a087a1720b4338945cf48d5ba9c3c258be
-SHA256: 08c604ecfa089d3039fb1d951f3f12e2f7ac0bcff454f2adce9e08cdcbf6e30c
-SHA512: 718825d4221a9e3664853d3c080f097b9c6f0c14024005b8dc8c0bcaeb1dbab5b76af4cd496675f5025f18117ce93758dbe5034b1b50e917f52d182609f3b88e
+Size: 92984228
+MD5sum: 2be004684229615e9cbe9e8befcf2340
+SHA1: 557be7cd9f928313cae20d5bdad4a1317bfe8c92
+SHA256: 39e16eeaa8e1d17ea0c8b66da23289931a7a135285e1a101e2189043dc3b381a
+SHA512: 1f44b1b0c6a2d54fa1c561ffda783d054fd7a333a26d53242860bb1ab146c67833723d499f7e4db0a70ae69758e33e22b96e54afa449a922b7185987ea661380
 Homepage: https://github.com/linuxdeepin/dde-manual-content
 Description: protocol files
  Deepin protocol files
@@ -5283,6 +5311,34 @@ Description: KDE window manager x11 plugin
 
 Package: deepin-kwin-wayland-backend-x11
 Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 137
+Provides: kwin-wayland-backend
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libdeepin-kwinxrenderutils13 (= 4:5.25.15-kwin.5.24.3), libepoxy0 (>= 1.0), libkf5i18n5 (>= 5.89~), libkf5windowsystem5 (>= 5.89~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5), libx11-6, libx11-xcb1 (>= 2:1.8.7), libxcb-keysyms1 (>= 0.4.0), libxcb-render0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2)
+Filename: ./d/deepin-kwin-wayland-backend-x11/deepin-kwin-wayland-backend-x11_5.25.15-kwin.5.24.3_amd64.deb
+Size: 40260
+MD5sum: 8bb9f4d6288d54e7ac91707127370b6d
+SHA1: faa2fbe812b8fe7f4ce5d81994879081f37359fe
+SHA256: 7d51e5962b0cbf81ed4561c04b0cf7d9dd11a40a98e59395b32025ad649d7503
+SHA512: 3fcf57fa05a6b002af5b3dc6051dd6d20f8b47564b2949772a0083fb1cfe95727ce8688bf1d167e04175823ab4bebb58ba802631bab63b488c8c146c20e2b6ee
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager x11 plugin
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: deepin-kwin-wayland-backend-x11
+Architecture: amd64
 Version: 4:5.25.12-kwin.5.24.3
 Priority: optional
 Section: libs
@@ -5906,6 +5962,34 @@ Description: KDE window manager drm plugin
 
 Package: deepin-kwin-wayland-backend-drm
 Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 433
+Provides: kwin-wayland-backend
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libc6 (>= 2.33), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libdrm2 (>= 2.4.99), libdwaylandserver5 (>= 5.25.0-kwayland.5.24.3), libepoxy0 (>= 1.3), libgbm1 (>= 21.1.0), libkf5configcore5 (>= 5.89~), libkf5i18n5 (>= 5.89~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5)
+Filename: ./d/deepin-kwin-wayland-backend-drm/deepin-kwin-wayland-backend-drm_5.25.15-kwin.5.24.3_amd64.deb
+Size: 137916
+MD5sum: 2d08917db58f07f7f96c15db56941598
+SHA1: 07fca5922780765e74042d0d56455b81c8e4ba8f
+SHA256: c7d82b6632cbe1879b7240ae1f60f3aaf4dfb795c6c2ba30629bdea8e84285e8
+SHA512: ce5f3388de610fd760885f119c30f32c80d9ad48518565d0f3fbc4195396cf8f018b8e99ac2b1aa93dd9dfd6fa9afb1b981b3cffebb7baefb182bc4ec5050622
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager drm plugin
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: deepin-kwin-wayland-backend-drm
+Architecture: amd64
 Version: 4:5.25.13-kwin.5.24.3
 Priority: optional
 Section: libs
@@ -6149,6 +6233,38 @@ MD5sum: 13359d916e192a27909f24a0eaa5cdde
 SHA1: bfecbbb1531af047f9a096ea3ffcab77d626c2a6
 SHA256: 1a7fde5a8fa517a0d5f9077fef2d30396880bb7c396ebf0204db4e560f56ded4
 SHA512: ee14586286cdc8acc51a41c6dd664e7d49c54638494982b6ab73d373b32119f8f8943c69b96cf00b249a1538736dec76913540979d829cb1631ef678d9df8bd6
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, wayland version, PREVIEW release
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package provides the wayland version, which is still a work in progress
+ project, and is available as a PREVIEW release. Don't expect the same
+ stability as with the x11 version.
+
+Package: deepin-kwin-wayland
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: kde
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 2204
+Provides: deepin-kwin
+Depends: kwayland-integration (>= 5.24), deepin-kwin-wayland-backend-drm (= 4:5.25.15-kwin.5.24.3) | deepin-kwin-wayland-backend-fbdev (= 4:5.25.15-kwin.5.24.3) | deepin-kwin-wayland-backend-x11 (= 4:5.25.15-kwin.5.24.3) | deepin-kwin-wayland-backend-virtual (= 4:5.25.15-kwin.5.24.3) | deepin-kwin-wayland-backend-wayland (= 4:5.25.15-kwin.5.24.3), libcap2-bin, xwayland, deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libc6 (>= 2.34), libcap2 (>= 1:2.10), libdeepin-kwineffects13 (= 4:5.25.15-kwin.5.24.3), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libdwaylandserver5 (>= 5.24.3-1), libepoxy0 (>= 1.3), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6), libkf5configcore5 (>= 5.89~), libkf5configgui5 (>= 5.89~), libkf5configwidgets5 (>= 5.89~), libkf5coreaddons5 (>= 5.90.0), libkf5crash5 (>= 5.89~), libkf5dbusaddons5 (>= 5.90.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.89~), libkf5globalaccelprivate5 (>= 5.89~), libkf5i18n5 (>= 5.89~), libkf5idletime5 (>= 5.89~), libkf5notifications5 (>= 5.89~), libkf5plasma5 (>= 5.89~), libkf5quickaddons5 (>= 5.89~), libkf5service-bin, libkf5service5 (>= 5.89~), libkf5windowsystem5 (>= 5.89~), libpipewire-0.3-0 (>= 0.3.29), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.15.0~), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5network5 (>= 5.15.0~), libqt5qml5 (>= 5.15.0~), libqt5quick5 (>= 5.15.0~) | libqt5quick5-gles (>= 5.15.0~), libqt5widgets5 (>= 5.15.0~), libqt5x11extras5 (>= 5.15.0~), libstdc++6 (>= 13.1), libxcb-randr0 (>= 1.3), libxcb-xfixes0, libxcb1 (>= 1.6), qtbase-abi-5-15-10
+Conflicts: dde-kwin
+Replaces: dde-kwin
+Filename: ./d/deepin-kwin-wayland/deepin-kwin-wayland_5.25.15-kwin.5.24.3_amd64.deb
+Size: 624996
+MD5sum: 161d19d3f62e61d8d5780689701cae80
+SHA1: 6164bc097548d0bf7cd258d88cdfeec0066570e6
+SHA256: 33c240c26a83f66506598cecf2cb47526bef5feadc9b7cbd2b8eadbadeb26562
+SHA512: d6bc364ac0e96f4a5adbfc4313a708a685922339bb99774e87316306cbf5703641be8a19b162de4e6b94300c3e3e00716cbca672d09b1a373799b270e137e70e
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager, wayland version, PREVIEW release
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -6630,6 +6746,35 @@ Description: Deepin cooperation backend
 
 Package: deepin-kwin-wayland-backend-virtual
 Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 109
+Provides: kwin-wayland-backend
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libepoxy0 (>= 1.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5)
+Filename: ./d/deepin-kwin-wayland-backend-virtual/deepin-kwin-wayland-backend-virtual_5.25.15-kwin.5.24.3_amd64.deb
+Size: 31920
+MD5sum: 16a543516a1309e730b1bf188fccb6b3
+SHA1: ff8bee53075b779e13326a221e047618e0ee4e66
+SHA256: d62f83357343692ecd12583bf57a92ed24efcc99b9c181ff1dd71cad132dd93e
+SHA512: 4658153b1745e853be3402f3277dc3f53538f8e6b5184c3cd232dac8899622d899afb468ae646f998250e7c3ef75ff7ac3c89542e6a7f5aa21175b62fe7857e1
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager virtual plugin
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This backend allows running deepin-kwin-wayland in headless mode,
+ useful for testing, or in the Cloud.
+
+Package: deepin-kwin-wayland-backend-virtual
+Architecture: amd64
 Version: 4:5.25.12-kwin.5.24.3
 Priority: optional
 Section: libs
@@ -6813,6 +6958,34 @@ MD5sum: 32bcffac7d0c7cf144f008ae010f500e
 SHA1: 2250d2796d712d8ceba4fe9ffeaf3782b06cd185
 SHA256: 671dc82315e5e25c46e53a74ab1ff002c472e879282b56ce1f86d7d19e79f52b
 SHA512: 16460c7feb5bfc672e660bdd25b0ca9f9b74647a959b376ce43ddef05bf6c8f9fc49e2221bc067cb53afc49191d3c8e85bb82e377ca42ebd6bf2b492ebb5672f
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager fbdev plugin
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module
+
+Package: deepin-kwin-wayland-backend-fbdev
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 81
+Provides: kwin-wayland-backend
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5)
+Filename: ./d/deepin-kwin-wayland-backend-fbdev/deepin-kwin-wayland-backend-fbdev_5.25.15-kwin.5.24.3_amd64.deb
+Size: 24256
+MD5sum: b4bd79ae099d1f224e95f79db31159e1
+SHA1: e89817d4f3890b63e9cec08c7e49cb5b74d6b883
+SHA256: 00e571e0960183edeb84a037ec39a684d142dd5462a4679ea0bbb6dcda0ef5f6
+SHA512: 68558b47c5b81afb73223c23714776c806a2da38efb62ad3b63c1080e2e74f4b8b624cb43e471be1a43328575caeb272843fcac541c590e2eafac0e89bfe740e
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager fbdev plugin
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -7159,6 +7332,37 @@ MD5sum: 651288a3fd155183c266bfa636284ec5
 SHA1: d9c4b78455c0fd80a519b317282014125d342192
 SHA256: 1b971001fe8cff1da4f8a2b1962194559880f83f916f8d6c3010c2c2c1dbec13
 SHA512: ac334fb13dffaa4b9f976bf62c9ca224f6d8f755baa2c52ecc1a7328f2be0687e7a9e500014e76b524cb4d32383406edc3f311cdf3873c964f1e027c8d6f3b10
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: deepin-kwin-x11
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: kde
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1853
+Provides: deepin-kwin, x-window-manager
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libc6 (>= 2.34), libdeepin-kwineffects13 (= 4:5.25.15-kwin.5.24.3), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libdeepin-kwinxrenderutils13 (= 4:5.25.15-kwin.5.24.3), libdwaylandserver5 (>= 5.24.3-1), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.4), libkf5configcore5 (>= 5.89~), libkf5configgui5 (>= 5.89~), libkf5configwidgets5 (>= 5.89~), libkf5coreaddons5 (>= 5.90.0), libkf5crash5 (>= 5.89~), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.89~), libkf5i18n5 (>= 5.89~), libkf5notifications5 (>= 5.89~), libkf5plasma5 (>= 5.89~), libkf5quickaddons5 (>= 5.89~), libkf5service-bin, libkf5service5 (>= 5.89~), libkf5windowsystem5 (>= 5.89~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.15.0~), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5qml5 (>= 5.15.0~), libqt5quick5 (>= 5.15.0~) | libqt5quick5-gles (>= 5.15.0~), libqt5widgets5 (>= 5.15.0~), libqt5x11extras5 (>= 5.15.0~), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.5.99.2), libxss1, dde-qt5xcb-plugin (>= 5.6.21)
+Conflicts: dde-kwin
+Breaks: deepin-kwin-addons (<< 4:5.14)
+Replaces: dde-kwin
+Filename: ./d/deepin-kwin-x11/deepin-kwin-x11_5.25.15-kwin.5.24.3_amd64.deb
+Size: 518148
+MD5sum: 0396ae967306aad8d86079af3bd800ae
+SHA1: d471941e97d236bf6206b576724004e9337471b7
+SHA256: 0c76b6c0d8e90ae6721277e43a75f8f5a1bef186b2e7571dc0bdf2b0f2538db2
+SHA512: 829d88da814c6fc4f110ab6429da9c7bf56b8f50fbfc7bdbfc65a0b7c48a4e0efe4bd3e22b181bd92865dbb2379503678a2db79b2d2d471c0366c1bd0b60818e
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager, X11 version
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -8395,11 +8599,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.16_amd64.deb
-Size: 1225428
-MD5sum: 651b012da291b13c76bb126d1f5fb9d9
-SHA1: dcec9e9d2d5466aafcf9712f2121c87ef801676e
-SHA256: 99f733ba0a37d58a59fdc903f4a1b7aa394e90ed93c737a1325dc84c38631668
-SHA512: a811f49411e4724fc9c255f9468299791a610d143aa993282a6e2a068e0e91c3f0b526d4632a0c9b7a836a103d72dc82aa1be61f6aa11aab907f39fce14f80bc
+Size: 1222684
+MD5sum: 18cea63fe6ca409893ce3e0e01a92c67
+SHA1: e90b57ecb7b0836e4fd79472c41a10e64a04a6c2
+SHA256: 306f29553502b62a076be172c086e5d6e07c80d9d713ad78a95154aacc8ea690
+SHA512: b55f187a13bfbba23bf1dcd5153b4d4a7309bec31d2ded6cd72973063e95cd1a8aefc7fa94e573cff3145cfa4e2fea666a0904ce8ad2b10e5ab7e4213eae95ed
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
@@ -9517,6 +9721,34 @@ Description: KDE window manager - devel files
  .
  This package is part of the KDE base workspace module.
 
+Package: deepin-kwin-dev
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libdevel
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 313
+Depends: deepin-kwin-common (= 4:5.25.15-kwin.5.24.3), libegl1-mesa-dev (>= 1.2~), libepoxy-dev (>= 1.3), libkf5config-dev (>= 5.89~), libkf5coreaddons-dev (>= 5.89~), libkf5windowsystem-dev (>= 5.89~), libqt5x11extras5-dev (>= 5.15.0~), libxcb-xfixes0-dev (>= 1.10~), qtbase5-dev (>= 5.15.0~)
+Replaces: kde-workspace-dev
+Filename: ./d/deepin-kwin-dev/deepin-kwin-dev_5.25.15-kwin.5.24.3_amd64.deb
+Size: 63688
+MD5sum: 72c5aafe84c1c5aa5e884a59eae4522f
+SHA1: 85a903a27e6f2eccc79574248bda6ad130abcfe2
+SHA256: 45ba987047d1a89584e841674cc596038d981185f14449188c3c91aa2b7abd00
+SHA512: a41c8b4dee1fe1243500522d1203b988def7cf7e063209e008ff40db27feeb02ec3be84c4f09452c643a5911b6db26a367aef78d5fd9aaf53f384794632bc046
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager - devel files
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
 Package: dde-api-dbus-proxy-v1
 Architecture: amd64
 Version: 1.0.8
@@ -9527,11 +9759,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2436
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_amd64.deb
-Size: 458544
-MD5sum: b379da6b4ed7e54316efec1bc51e4add
-SHA1: 0ba132137a3fad222857049dd437e2a6aad6721e
-SHA256: c9041c6de72bd3e743ee3e9669dca817c659b8eb88299efb191ff2afed6dc7b0
-SHA512: 89dbf60996e6f7e280147c72abdd35171f46469703489e9b84356bc3a7a8d5c2296c5f1eb2a5ab464f2215daf89cba9b73bf46ab0e669c06f5305177d71c299c
+Size: 457944
+MD5sum: 220a06f5c284ce36985df23670e127c7
+SHA1: decf9c373449860876f57fc43ce3204e24a8ca4b
+SHA256: 3217cca510440850864cc33f16d35df38408ab055fe1334d58e49504e37cd293
+SHA512: 8630be7010012a929457fa79d7e98b65558e6ac8d636c43e5e8bedc2f151a9f2dbc78b3a9017e2ce0df7f59d3f4acdcd514ca20df1d45e7f3674578d075a0c31
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -10330,6 +10562,35 @@ Description: KDE window manager, common files
 
 Package: deepin-kwin-common
 Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: kde
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9507
+Depends: hwdata, deepin-kwin-data (= 4:5.25.15-kwin.5.24.3), libkf5globalaccel-bin, qml-module-org-kde-kquickcontrolsaddons, qml-module-qtmultimedia, kpackagetool5, libc6 (>= 2.34), libdeepin-kwineffects13 (= 4:5.25.15-kwin.5.24.3), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libdwaylandserver5 (>= 5.25.0-kwayland.5.24.3), libepoxy0 (>= 1.0), libinput10 (>= 1.19~), libkdecorations2-5v5 (>= 4:5.24.2~), libkdecorations2private10 (>= 4:5.24.2~), libkf5activities5 (>= 5.89~), libkf5authcore5 (>= 5.61.0), libkf5completion5 (>= 5.89~), libkf5configcore5 (>= 5.89~), libkf5configgui5 (>= 5.89~), libkf5configwidgets5 (>= 5.94.0), libkf5coreaddons5 (>= 5.96.0), libkf5globalaccel5 (>= 5.90.0), libkf5globalaccelprivate5 (>= 5.89~), libkf5i18n5 (>= 5.89~), libkf5kcmutils5 (>= 5.90.0), libkf5newstuff5 (>= 5.89~), libkf5notifications5 (>= 5.89~), libkf5package5 (>= 5.89~), libkf5plasma5 (>= 5.89~), libkf5quickaddons5 (>= 5.89~), libkf5service-bin, libkf5service5 (>= 5.89~), libkf5textwidgets5 (>= 5.89~), libkf5widgetsaddons5 (>= 5.89~), libkf5windowsystem5 (>= 5.89~), libkf5xmlgui5 (>= 5.89~), libkscreenlocker5 (>= 5.24.2~), liblcms2-2 (>= 2.2+git20110628), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.15.0~), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5qml5 (>= 5.15.0~), libqt5quick5 (>= 5.15.0~) | libqt5quick5-gles (>= 5.15.0~), libqt5widgets5 (>= 5.15.0~), libqt5x11extras5 (>= 5.15.0~), libstdc++6 (>= 5), libudev1 (>= 183), libwayland-server0 (>= 1.2.0), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxkbcommon0 (>= 0.7.0), libxtst6, qtbase-abi-5-15-10
+Recommends: libqt5multimedia5-plugins
+Suggests: deepin-kwin-addons (>= 4:5.24)
+Filename: ./d/deepin-kwin-common/deepin-kwin-common_5.25.15-kwin.5.24.3_amd64.deb
+Size: 1944752
+MD5sum: a119dfaea432db78e5fce0494685788d
+SHA1: e476b6529ca5565c203340fa8c5d36e83567e185
+SHA256: 64dcdc723503b501fff2f64acabf4882d8d4efb48e1cf2c43bf72d7bceaba343
+SHA512: 922e7b08b12c56c7f95bb8adc6e0b6579c8aead2a7657fe8930c13ed11309d3353f7490f3d84fdd029ff8025f524b9908f0438696343b3abe97b357885ec0648
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, common files
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: deepin-kwin-common
+Architecture: amd64
 Version: 4:5.25.11-kwin.5.24.3
 Priority: optional
 Section: kde
@@ -10563,6 +10824,25 @@ MD5sum: afec4fec9b8514ad5ee74f2f3ef80b1f
 SHA1: e32ff33eb42c1887e1c83f29410727edea0b479e
 SHA256: a95336929a1bff721ffb86734416a7b915dcbae9abb841f1b5562664002296d3
 SHA512: 7d3d9fd2027c4de413fba2e2662de22f78cc9fb98b431735f0fa5646b5758ed5bc97686f70496a2c407e25f501d201022a972e93433c84aa01d62a55cb77e135
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-shell module config files
+ DDE Session Shell module configuration package adapted to the wayland environment for lightdm-deepin-greeter
+
+Package: deepin-greeter-wayland
+Architecture: amd64
+Version: 6.0.17
+Priority: optional
+Section: devel
+Source: dde-session-shell
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 24
+Depends: dde-session-shell (= 6.0.17), dde-wayland-config
+Filename: ./d/deepin-greeter-wayland/deepin-greeter-wayland_6.0.17_amd64.deb
+Size: 6852
+MD5sum: a4eff78cdc66314f5f6793fde3f03757
+SHA1: 8b931deac89c791287149af76890ab851ebbc542
+SHA256: fecce022058f95af2cea99407e4d0c95eeee6f3c7732e7afbc8d44fb2121b273
+SHA512: d561b49d8b9cfa78de91ca03b89f769e478d66be790e1ec638d44555772ebcdbee314c2d5c67c92fc7b4e88879dc15e269098f315a405daf52a6c221b26ea51e
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module config files
  DDE Session Shell module configuration package adapted to the wayland environment for lightdm-deepin-greeter
@@ -11541,6 +11821,32 @@ Description: deepin desktop-environment - dde-session-shell module
 
 Package: dde-session-shell
 Architecture: amd64
+Version: 6.0.17
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 6769
+Provides: lightdm-greeter
+Depends: libc6 (>= 2.34), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, deepin-authenticate (>= 1.2.27), libssl3, libxcb-util0 | libxcb-util1, xsettingsd, onboard
+Recommends: dss-network-plugin, dde-network-dialog
+Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notifications
+Breaks: dde-workspace
+Replaces: deepin-notifications
+Filename: ./d/dde-session-shell/dde-session-shell_6.0.17_amd64.deb
+Size: 1092544
+MD5sum: 511d7c60334258468d1005b4c389bb7c
+SHA1: b852b33b9762ad230bdf827206989bf140bf89ee
+SHA256: 746b445acdf76e0a95eb97d6100c05c19d6731a660dbd948b80c5d6c90f2c176
+SHA512: 94e014908267da8656915c4cdfd46d0113a487a630e58bc767fc6d7782ab0f393274c6af8c6702506766fdf4b8e61643ec7f24c372c6854dcdf08f3d946b845b
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-shell module
+ Deepin desktop environment 2015 - dde-session-shell module.
+ lightdm-deepin-greeter - login，the entry to the desktop
+ dde-lock - lock screen, to protect privacy
+ deepin-greeter - actual call the lightdm-deepin-greeter
+
+Package: dde-session-shell
+Architecture: amd64
 Version: 6.0.13
 Priority: optional
 Section: devel
@@ -12079,6 +12385,25 @@ Description: Wayland protocols for Deepin
 
 Package: dde-session-shell-dev
 Architecture: amd64
+Version: 6.0.17
+Priority: optional
+Section: devel
+Source: dde-session-shell
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 23
+Depends: dde-session-shell (= 6.0.17)
+Filename: ./d/dde-session-shell-dev/dde-session-shell-dev_6.0.17_amd64.deb
+Size: 6444
+MD5sum: 19502b257dc4375dd359d3e15e6d5c4c
+SHA1: 64f7df9c298c0482ea51d10161397c6abe292d91
+SHA256: 221ec2d8c288569b262e9a199a716e59ebf22c45da20e146dc49ee6390281430
+SHA512: ab9564de3b6ad5895387dd24828613063c07d8b862df4e28864007bf67edfbe649b2b70dd70721ce667d2d5ef3964a34a2f284fc63ae7d803a42e4a556a0e55c
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-shell module development files
+ DDE Session Shell module development files of deepin desktop-environment
+
+Package: dde-session-shell-dev
+Architecture: amd64
 Version: 6.0.16
 Priority: optional
 Section: devel
@@ -12410,6 +12735,35 @@ MD5sum: 98af179853896150e082dcf29ae9fdc1
 SHA1: c81644043f6817665d5c0bcfd3c9945aa78107cb
 SHA256: 9b86c84da3497692ba31b49a0719a267a3a78e85be3a63e2aa953dda3adb84c8
 SHA512: ddac293746d4e107d8372649b79b84ced8cd0f5be6e42d77631f1605aa9d83b95d079c2f8d86d2de214f6ba3a1a89fbb4751cdaf57656bfb8943ee3ec7306c9f
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+
+Package: deepin-kwin-data
+Architecture: all
+Version: 4:5.25.15-kwin.5.24.3
+Multi-Arch: foreign
+Priority: optional
+Section: kde
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 12639
+Depends: python3:any
+Recommends: plasma-framework, qml-module-qtmultimedia, qml-module-qtquick-controls, qml-module-qtquick-layouts, qml-module-qtquick-virtualkeyboard, qml-module-qtquick-window2, qml-module-qtquick2
+Filename: ./d/deepin-kwin-data/deepin-kwin-data_5.25.15-kwin.5.24.3_all.deb
+Size: 4012032
+MD5sum: a89f60e1016d615fce876b454fde6f59
+SHA1: 92e9fbeff756386d48e1aba391355b4bb0a4534f
+SHA256: 9e4389ac2f2dd0b588b278788dac74665a1acadd23a7887bc57d89583ba1cf7c
+SHA512: c52e92e83c88a4cbe4db0f5000240fe5cfa901606792ffe54d764878b70be7def5cc27e699cede6564e51775cfe5150d3b9094343c65c59eebf006fe329aa8da
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager data files
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -14149,6 +14503,35 @@ Description: BTRFS plugin for libblockdev
 
 Package: libdeepin-kwineffects13
 Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 362
+Depends: libc6 (>= 2.14), libdeepin-kwinglutils13 (= 4:5.25.15-kwin.5.24.3), libepoxy0 (>= 1.0), libkf5configcore5 (>= 5.89~), libkf5coreaddons5 (>= 5.89~), libkf5declarative5 (>= 5.89~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5qml5 (>= 5.15.0~), libqt5quick5 (>= 5.15.0~) | libqt5quick5-gles (>= 5.15.0~), libstdc++6 (>= 5)
+Breaks: libdeepin-kwin4-effect-builtins1, libdeepin-kwineffects12
+Replaces: libkwin4-effect-builtins1, libkwineffects12
+Filename: ./l/libdeepin-kwineffects13/libdeepin-kwineffects13_5.25.15-kwin.5.24.3_amd64.deb
+Size: 97040
+MD5sum: aee679c3dbd9add1051c714c9f30b179
+SHA1: bba30413a24010b7a2e6272dbce0a39c9232e6ab
+SHA256: ba5423da2d606ea711d81b45c9c2292c0bdcce4e2b3e26cac8ef97bd0c8059a6
+SHA512: 5141df93b5fb727e52602d4f4613207b9670ac710c0acf7ce9c93cf9fc03e7c3047736ddff16d1224517a9aa14156246ab65df12028f6d3178489a29b93356e0
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager effects library
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libdeepin-kwineffects13
+Architecture: amd64
 Version: 4:5.25.14-kwin.5.24.3
 Priority: optional
 Section: libs
@@ -15671,6 +16054,33 @@ MD5sum: dd9d58b7b606bf2b297910ddbd8e1138
 SHA1: 6b938f9beb9007e444460ff55f24d87ea749f1eb
 SHA256: cde1051fcee1686d21d55d0d6f730870c9b38361e25d46e70d085fba59e9eb5d
 SHA512: 030f38f7d1c24484e74eccd2b3b8c833bef970aa31491fca37264d4134312c22bceb6a2fc03416f0316e69ac7567333caa51b3931054db7529406613e34a7389
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager render utils library
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libdeepin-kwinxrenderutils13
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 62
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
+Filename: ./l/libdeepin-kwinxrenderutils13/libdeepin-kwinxrenderutils13_5.25.15-kwin.5.24.3_amd64.deb
+Size: 20088
+MD5sum: 7bb3fc6c76a42cc441d3f7d0836c4d4f
+SHA1: d002ef9f8ef72508506d9a214e54d49c7be1d8ab
+SHA256: 5e1699e08e7951c67a6dc5e2e9b06484f48038b3756b483eaee1cb6692f85e5e
+SHA512: fd03cd8a24966d1e41d9311d0707601e6886278a89a6436a84cfff992f907bceb4847769fa56f9cab87b96ce57d10046364494a897a7292a2cdab3f6f0d87009
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager render utils library
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -17426,11 +17836,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_amd64.deb
-Size: 63300
-MD5sum: 883061bcf7fc5b2582babc2b374cd7b3
-SHA1: 3d195d699099cb858a67f06f8e04d418af93857f
-SHA256: 95875a209436bd16be91781dab75c71127f7c9bf5aa3ef173640a366b5344927
-SHA512: dd91c3440aa00e904d66ac7fcca264c700856fefec710ed20d80d93c14e3c8c41a926962333312efe87724213d8efd3ed77dc3d213020058979e33830ce6d562
+Size: 63292
+MD5sum: 3c05852942cce62d128b0c868d58d67f
+SHA1: 60536f8cd4db55e3f2e41e344b9dafbe3ee0f38f
+SHA256: d29c5ec60d4897ed026b7bbeab339ffe40326b32ef19a58ebad9fe09e4338f97
+SHA512: 2d36b3e717c92d3e6c46407e11935966e0eb3a6d2f2c0c1c6ad131974868e5433ae35fc49802ea71cd46e886998a754b21d739d5f039b97b50ae8298ecaabd68
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -19251,11 +19661,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3808
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_amd64.deb
-Size: 721528
-MD5sum: fa7d081daeb0b539556723bb00cb7893
-SHA1: c88fb5acf9295051b1aeab1702b51f4f6c298171
-SHA256: 9ae28d76669fa5874066bdc843f4c2d272d40d8ef4efa16ff01e1dab8b5a432a
-SHA512: 0ea1ce2277bb66c6402b9bd1849fc5178602c3a03cba1f86602f409cf8e6dd444b394549d3135b5faa6932eddac65273118c362451bd936227d7aae38d2ea201
+Size: 722968
+MD5sum: ec0b31d3126912ebd5c820964772c6a9
+SHA1: c2065e62cb7fd239ed18aaa33293bc1b5311d146
+SHA256: 494792fb36a189f005cbabf352eeb2fa717099b44ce0d22f3d3379846e4f3f2d
+SHA512: b23feb3ff32b8f70136848310a0c98e6535836a58821d796adc29f9de61c4ce4f70b67860c7692c71891fc81691a9d9a27b7d5e368f028c4022b6757ff36906a
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -19768,6 +20178,34 @@ MD5sum: 2faabb589190a3710a2529b999f46039
 SHA1: dfec14ad34e80773e7691745e2dbedac78e7a49f
 SHA256: bd87422d7fafb9c0bae414676281223fddfdbce8ce0e82f02464cfaefc26e5bf
 SHA512: 9278c807aa3472a76039564ad832894aa95a5bfcfed2fb03301e8ea0a589bea228764ea767462154b5a748bea011fab4ce02953c7aa6a2f34251abb978c9f103
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager gl utils library
+ KWin (pronounced as one syllable "deepin-kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libdeepin-kwinglutils13
+Architecture: amd64
+Version: 4:5.25.15-kwin.5.24.3
+Priority: optional
+Section: libs
+Source: deepin-kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 201
+Depends: libc6 (>= 2.14), libepoxy0 (>= 1.3), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 13.1), libxcb1
+Breaks: libdeepin-kwin4-effect-builtins1
+Filename: ./l/libdeepin-kwinglutils13/libdeepin-kwinglutils13_5.25.15-kwin.5.24.3_amd64.deb
+Size: 61576
+MD5sum: 06889a3d9203512fdda37ef020c9f391
+SHA1: 99a59e9d94e2bee7dccac480e94741b36382d91b
+SHA256: 2de44bfc8a7ec2d19b5017bf40b3260b0c22a088b0697f24c35b1e44e6965829
+SHA512: 1119793a36c1ed73dac4105c9f9c05fbb364ca0a66ce5e586ce7bb1c75baee1ed16f8e256ac0188d63c621fee5d2aff85d7798cb38b21e880b77a520a1163205
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "deepin-kwin") is the window
