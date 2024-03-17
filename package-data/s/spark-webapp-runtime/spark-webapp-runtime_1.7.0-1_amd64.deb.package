@@ -6,15 +6,15 @@ Section: utils
 Maintainer: shenmo <shenmo@spark-app.store>
 Installed-Size: 481
 Provides: store.spark-app.spark-webapp-runtime
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5webenginecore5 (>= 5.14.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 13.1), libqt5gui5, libqt5concurrent5, libqt5svg5
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libqt5gui5t64 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5webenginecore5 (>= 5.14.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 13.1), libqt5core5a, libqt5gui5, libqt5widgets5, libqt5concurrent5, libqt5dbus5, libqt5svg5
 Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
-Size: 161588
-MD5sum: 4d4265642589abe3e987d74ba2d3a38a
-SHA1: e9d49d14da022e42e94fcc959035fc4ede38810b
-SHA256: 2ac0f7dbbdc2129a63f37f22b57bb9865d4eb44ad3e24a3e44908e78b91a8d32
-SHA512: 03746740c57ab98ad0a974e102887323ef96c38e88dae09f8da7958d718c478291d0cce8e23124c0a51e6d2fec3eb9bae0219153517d41cd97f79fea95b6b1f1
+Size: 161692
+MD5sum: c4079b76d67865f514e67926ce4d6890
+SHA1: 753523cd9dc67b012f1a92d15523e855da70ea73
+SHA256: a545f7773bd3629f9298d0fa59a9950605e2f55e65f3dd6c0208e3b3667fdf57
+SHA512: 5f69ecf10c606559330c000f2bdbef34db9b2f223c0d5e254a3b5643e3416db2d0d98b19e9b8ed4c22f1f976b401c945f0bda4f60c6945aecf34e50c95b52a74
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.

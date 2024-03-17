@@ -24,15 +24,15 @@ Section: utils
 Maintainer: shenmo <shenmo@spark-app.store>
 Installed-Size: 481
 Provides: store.spark-app.spark-webapp-runtime
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5webenginecore5 (>= 5.14.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 13.1), libqt5gui5, libqt5concurrent5, libqt5svg5
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libqt5gui5t64 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5webenginecore5 (>= 5.14.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 13.1), libqt5core5a, libqt5gui5, libqt5widgets5, libqt5concurrent5, libqt5dbus5, libqt5svg5
 Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
-Size: 161588
-MD5sum: 4d4265642589abe3e987d74ba2d3a38a
-SHA1: e9d49d14da022e42e94fcc959035fc4ede38810b
-SHA256: 2ac0f7dbbdc2129a63f37f22b57bb9865d4eb44ad3e24a3e44908e78b91a8d32
-SHA512: 03746740c57ab98ad0a974e102887323ef96c38e88dae09f8da7958d718c478291d0cce8e23124c0a51e6d2fec3eb9bae0219153517d41cd97f79fea95b6b1f1
+Size: 161692
+MD5sum: c4079b76d67865f514e67926ce4d6890
+SHA1: 753523cd9dc67b012f1a92d15523e855da70ea73
+SHA256: a545f7773bd3629f9298d0fa59a9950605e2f55e65f3dd6c0208e3b3667fdf57
+SHA512: 5f69ecf10c606559330c000f2bdbef34db9b2f223c0d5e254a3b5643e3416db2d0d98b19e9b8ed4c22f1f976b401c945f0bda4f60c6945aecf34e50c95b52a74
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.
@@ -458,13 +458,13 @@ Priority: optional
 Section: net
 Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 287
-Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
+Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3t64 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
 Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63520
-MD5sum: d0573a088c389359905d933f2ba0f415
-SHA1: f73ae1cf69035ecac8d3d6bc6b4967e3348c2b35
-SHA256: b5a4ff9affd0ffa160552db1f39538457c83e16ad25daffae71e4194699fbc28
-SHA512: 6a428cd16b4903ba77a5a9f0d3072ae90dff4a277337d6e34f666c3484c0201c31abb864eb746409f3dbb18563cbfbf876d9de7f1dac4c4b5222bafdd754d106
+Size: 63544
+MD5sum: 5cf498da776916a045f7d2f5ef6a8a20
+SHA1: f2928c657da198b27a61593c7fc0a91c0ddcb3ef
+SHA256: 4f5b8416570444c04a5cb97202f08ad9c18eeb42e957f9fc2028bc3cf136cdd9
+SHA512: 85f46333d3ef22668570f3cb87f289edfe3497dcc330480eaabd5b9f9abcb30579deae04c2d36cbbbdc7bbdae72a016ccf8024ac1c259868dcb8bf029944f31d
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 Description: wireless Central Regulatory Domain Agent
  This package provides a Central Regulatory Domain Agent (CRDA) to be used by
@@ -14335,11 +14335,11 @@ Depends: libc6 (>= 2.34)
 Recommends: exfat-fuse
 Conflicts: exfatprogs
 Filename: ./e/exfat-utils/exfat-utils_1.3.0-2_amd64.deb
-Size: 44548
-MD5sum: bfcc7a2b40dabe055649aad5ffeb9e8a
-SHA1: e7da5c9c6c094f4c72f93fc7e509e3170afb15fc
-SHA256: d9f89c163ded88bbb5f756891c47dbf3556c15ad00cc63701bf660876daa38e6
-SHA512: d127ca6114387a85e08cdb1c1460f42b0772ed4d4dbcc3fa0e5d07d118f8772be0ba22cda2ecfc87914364386568cf8a2fb4de256de74d6eac5e9ad476af6962
+Size: 44504
+MD5sum: 11cf457a1395a5cdb5cf0bca9ba3453a
+SHA1: aa631dd62481b9bcfefe8871b9b794d8e40ac1d6
+SHA256: 7aaa9bc637a3812b1a09ad55fb8b9250e705e06f1cb9d0e80ae4bbf7f760e37a
+SHA512: 56f660500ffb832dfdfaa2d30b86a5d9c050a9635c1a04f99872844ac25bd7f56d698bb463173e4f3ec229ce4ce61bb0bcb5d0e8dd457537d2b59536b534c429
 Homepage: https://github.com/relan/exfat
 Description: utilities to create, check, label and dump exFAT filesystem
  Utilities to manage extended file allocation table filesystem.
@@ -14413,11 +14413,11 @@ Installed-Size: 370
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Conflicts: rar (<= 2.60-1)
 Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
-Size: 108860
-MD5sum: e5f01a3736471c588a43364ae8ea4b43
-SHA1: 94df0b66cd3bd18c1a7b401e7aa99512779e5984
-SHA256: 3f6114c203a01d833fa31fa3da6e8c06bd283acd2e3dbe8e9bdfa708186c27c6
-SHA512: 20f3cef09dc705df0fe931d95185971a76be7b3eec6de367ae59c83121e0817cdedbe93eeb9d4241aa036fba95c627c77d2d668f8de160c005638b30cd013270
+Size: 108920
+MD5sum: 8be8443d2ff20154d369a84ba9153571
+SHA1: f023820cd504ae6a01402cd9370d0b8cf8f63efe
+SHA256: fe7b9e470d192a0fac1826389bee1eebf639a95ac7c156f676bd16dda9169810
+SHA512: 4babfcea17914bd75954d5f5b725526b7468c4d65a2231505fb8184e254b37bcac906b48bd869f719a074026559f74ce8f332b0d547a3ecf7ebbefc429d0fd81
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
@@ -14601,11 +14601,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 833
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libncnn, libstdc++6 (>= 13.1)
 Filename: ./n/ncnn-tools/ncnn-tools_1.0.20230223-0deepin1_amd64.deb
-Size: 251352
-MD5sum: 0e16e87001dc9d1a599e528c08a499d6
-SHA1: d7228dfee99b41239360674799cf0b3786a0e0a7
-SHA256: c64bf422015bc23a5bec892bcd70ac2425eacfabdec70bf2480194c1aeca4276
-SHA512: 061e12797cc6889392fab850f721789a20c4c23413e80da2ed98969b2da5fc0c94c582e70ef718df35f999c5780c0ad3783287206f72a46bf6ee7f5ba746bcbe
+Size: 251312
+MD5sum: c2f6fb41b794c296db33d72ef1275b9b
+SHA1: 8c6a5a2882981ec7eef17f86b63b09f3663e29c8
+SHA256: bc51727d873b8b5f7b578cb260cda785a141aaf14f50c89d9cefc2e1066e2b84
+SHA512: 5ad02f5e5bd6684cb232a9618a4082e3e8f0ea658ac2a23bfb714ca2098dc23dec437e56babcee0871c0c8e37933ffabfdf8a7574407cc74550f49dbf6146a95
 Homepage: https://github.com/Tencent/ncnn
 Description: Miscellaneous ncnn utilities.
  miscellaneous ncnn utilities.
@@ -15546,11 +15546,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 14263
 Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
 Filename: ./l/libncnn/libncnn_1.0.20230223-0deepin1_amd64.deb
-Size: 3408092
-MD5sum: 6cac43fa674e98b51cc1a2a6d802b6b7
-SHA1: 90505d11d29169ee091e99deaa3993699751f166
-SHA256: 71d8351947a71986aef4b4dfb7855c7d0bc18c58ca1968dadf81e938a0a81213
-SHA512: 08d3040e7149f25db9640de517a7598efebcfbb316f5ae5665610c5afa86029b20b9027db17d4c174b3bc8715d5dca4370cfd10da5228a3516793207c09b7b6d
+Size: 3408500
+MD5sum: ae0d553eec3e6c90c1a8dd523541bd51
+SHA1: b3b4e4bbcfa767a9d50d7d011507b25e477a6798
+SHA256: 10c284801a6297d923fd5b89ebf385c6fb49a5dbe1cfdcebf766d97ab9ce3742
+SHA512: 455125144f9b115c7362833c464a47e170f7665f6fb214d0c8e629c8d256453dcb3c25f5078f0321b1ba473f075f2186764afe9081c3519e2d55afedc5b78093
 Homepage: https://github.com/Tencent/ncnn
 Description: Neural network inference framework.
  ncnn is a high-performance neural network inference framework optimized for the mobile platform.
@@ -20836,11 +20836,11 @@ Maintainer: Martin Meredith <mez@debian.org>
 Installed-Size: 397
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
-Size: 114800
-MD5sum: 812dd62e21787431cf67686259961ee8
-SHA1: e3535f8a43d211abf242cb31b343bd2921922b46
-SHA256: ee91eabb25d43c086f15847c41ab63b31cfbc4877cd9c33f3d9c8c2f4238f338
-SHA512: 124f52439dcdc1f9d24c2b6b031173118d49efb96bc6fbf557463956f5514358355fc804983bc9f8194b7f7c059079f14e0a6cccbf6d2516e5e49600167cca43
+Size: 114344
+MD5sum: c4062547a69ee0b2ccca2a01bc1737e2
+SHA1: 3dbcff3ae556bf15a3b6c66d9ec751ce75f625fe
+SHA256: 5d0e686ed77439d0ae75522942ae86179b509556806406f51815fb3a58651bec
+SHA512: a2a9a99b12fdba9553a8565e0889e645dacc3ea4ecd83a41c7bc34f82ffbcf0f0fed4642b520b87abfe4b38b602c91574f3d26927c00ed1e20c01402af97fac0
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
