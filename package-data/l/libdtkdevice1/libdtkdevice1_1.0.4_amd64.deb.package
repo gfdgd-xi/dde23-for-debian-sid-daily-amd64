@@ -6,13 +6,13 @@ Section: libdevel
 Source: dtkdevice
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1659
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 13.1)
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 13.1)
 Filename: ./l/libdtkdevice1/libdtkdevice1_1.0.4_amd64.deb
-Size: 455060
-MD5sum: ecb557ac38cbc0460c4c15e9b50f85d8
-SHA1: a8b9ceafedbd90988b56a0b42881d5919641b76f
-SHA256: c40aab991f1158dea12879c13b579d3592c49f6d0ce019b15d5f9fb8d50230b4
-SHA512: 1251a06e34a6a07aac9e8082d77906e6766f0ecacbd2a200040e9d9652b49e397de998367830f779f5cf84731bece9f8718c7e7d931c1850f548fb6f6a04e796
+Size: 455628
+MD5sum: 09eb5b7c58a58500a6c9a0c7bee54c14
+SHA1: ffc498ace2913119f4d4442ccef72c6e90f2ab04
+SHA256: 67479d7afa2a4487599aa9160e0e2351aad6e6b496a31df45f4c2b65d0298d54
+SHA512: dd3b82b2884f0258048e88ec89c54ed74dbd99075f25d5e5d36b50ac828d10ad82f67c8ba6d3cafec1164b8d420c7744f9eefd320e7fe73e00c6d14cb486cfdf
 Description: Deepin Tool Kit template library
  DtkDevice is base library of Deepin Qt/C++ applications.
  .

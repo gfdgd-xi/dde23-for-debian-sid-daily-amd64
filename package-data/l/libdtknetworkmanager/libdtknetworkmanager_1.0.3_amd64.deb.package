@@ -6,13 +6,13 @@ Section: libdevel
 Source: dtknetworkmanager
 Maintainer: Packages Builder <packages@deepin.com>
 Installed-Size: 1043
-Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5network5 (>= 5.0.2), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libstdc++6 (>= 5)
 Filename: ./l/libdtknetworkmanager/libdtknetworkmanager_1.0.3_amd64.deb
-Size: 222844
-MD5sum: 922d308d93551085366a16c5f8ae6be9
-SHA1: de1a35dfeb6b52d2c0f4856182135ce9a67ef879
-SHA256: ad780518c6df983f807984d9df5b71978b84eaadf37fb51582f0ffaee93d0cce
-SHA512: eaac0539f14f0f88e2138105d652c1e76505469cc9118496e89b37e62728142925f0c10b265639bcb7ae1c78f296ebd240bdd42e14326953cdb07468943548cd
+Size: 222284
+MD5sum: 19fcff3a8ed0288ba9bfdd2297b059b0
+SHA1: 97b4a0c162c27a270bc40ccbf17aefefc010740c
+SHA256: df90ff9b2bb02054786f467932f0c8dc61a1edd738ffe47e5b3374a995fb23a0
+SHA512: 74d5a317c23320c3d636c6e53631056cf2e03d27acfcac8767ed274fa84f76a6d5c39151809e1540fd14f569badf939af7ac944eb18adfe7b69b7253d4b2f958
 Description: Deepin Tool Kit template library
  libdtknetworkmanager is base library of Deepin Qt/C++ applications.
  .
