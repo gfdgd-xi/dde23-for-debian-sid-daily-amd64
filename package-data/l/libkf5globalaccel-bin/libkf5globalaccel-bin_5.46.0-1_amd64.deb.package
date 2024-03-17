@@ -6,15 +6,15 @@ Section: libs
 Source: kglobalaccel
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 67
-Depends: libkf5globalaccel-data (= 5.46.0-1), libc6 (>= 2.34), libkf5coreaddons5 (>= 5.46.0~), libkf5crash5 (>= 5.46.0~), libkf5dbusaddons5 (>= 5.46.0~), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5windowsystem5 (>= 5.46.0~), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0~) | libqt5gui5-gles (>= 5.8.0~), libqt5widgets5 (>= 5.8.0~), libqt5x11extras5 (>= 5.8.0~), libstdc++6 (>= 4.1.1), libxcb-keysyms1 (>= 0.4.0), libxcb1
+Depends: libkf5globalaccel-data (= 5.46.0-1), libc6 (>= 2.34), libkf5coreaddons5 (>= 5.46.0~), libkf5crash5 (>= 5.46.0~), libkf5dbusaddons5 (>= 5.46.0~), libkf5globalaccelprivate5 (>= 5.11.0+git), libkf5windowsystem5 (>= 5.46.0~), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.8.0~) | libqt5gui5-gles (>= 5.8.0~), libqt5widgets5t64 (>= 5.8.0~), libqt5x11extras5 (>= 5.8.0~), libstdc++6 (>= 4.1.1), libxcb-keysyms1 (>= 0.4.0), libxcb1
 Breaks: plasma-workspace (<= 4:5.2.0-1)
 Replaces: plasma-workspace (<= 4:5.2.0-1)
 Filename: ./l/libkf5globalaccel-bin/libkf5globalaccel-bin_5.46.0-1_amd64.deb
-Size: 13432
-MD5sum: 95a625cbe3da89945782f2348436fde3
-SHA1: fcf63bd15632e80e6fdab0479ba55c3511e41536
-SHA256: f0f27a5835b13f087b7887634751e24bb1b74a1b35120546c0abb9b10a9fc084
-SHA512: c335bef9c468816ac16e4478b0bd168a8570b6c6ba1444443ef7d6bb0013b5e43fefc79532e5a2ab89d1edfcf91367154e00f0b6158737530fe6bcfa6af5e281
+Size: 13408
+MD5sum: fd8d1df8b62bdb8aa1452ade71c6960e
+SHA1: d5f03a447df89cb062f642a5f5662ef16d6f1abf
+SHA256: 800a77d298ab74fc60f3d962ca5cee6f1943bf6e6331b078578a4551509450a6
+SHA512: b6365297445c58dad2bbac3e5cf0092ac1e7f8c93387cd7c011812dd582a4b0b53c7b9414f674e90c456c50c133f6497c0cba39f0595749b54dc0752b78ef55d
 Homepage: https://projects.kde.org/projects/frameworks/kglobalaccel
 Description: Configurable global shortcut support.
  KGlobalAccel allows you to have global accelerators that are

@@ -7,13 +7,13 @@ Section: libs
 Source: dtknotifications
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 219
-Depends: libc6 (>= 2.4), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.4), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 5)
 Filename: ./l/libdtknotifications1/libdtknotifications1_1.0.3_amd64.deb
-Size: 51972
-MD5sum: 8b921ecf399d8725d765467ab974303d
-SHA1: f7699dd75851c1dbb93f1adf8c384e44e04845a0
-SHA256: 0971e8b99c5642755c7fef41e61f8ccbe5f6f7e5a73eb532163131f1afada696
-SHA512: 034d96737dcfdcf37373e7cebbb7b31d89078c6432e9e46f0fd79111060940b50e4e1ef84dddd120551724eedd424456d4533026947f5c0820d35812097e2f47
+Size: 51748
+MD5sum: 76f78e9197f2576c4127463bda5c09b8
+SHA1: b89aaf5f1853244760b1477efc4e6d87a167dd7f
+SHA256: 66e82c7035f2397b9ce17dbde5c22e4cb5336b9aad64b06aac89f6e615f07953
+SHA512: 4376cb76500becd463407b20c54ed9fefe7aaf0c0416ec36ec458a253a00c633fe0b28c349651d4e884c6ab4e4671b7081f919bdd4af942b3aedce441457d597
 Homepage: https://github.com/linuxdeepin/dtknotifications
 Description: Development Tool Kit notifications library
  libdtknotifications is base library of Deepin Qt/C++ applications,

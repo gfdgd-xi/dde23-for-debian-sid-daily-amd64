@@ -7,15 +7,15 @@ Section: libs
 Source: kwindowsystem
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 484
-Depends: libkf5windowsystem-data (= 5.46.0-1), libc6 (>= 2.14), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0~) | libqt5gui5-gles (>= 5.8.0~), libqt5widgets5 (>= 5.8.0~), libqt5x11extras5 (>= 5.8.0~), libstdc++6 (>= 11), libx11-6, libxcb-keysyms1 (>= 0.4.0), libxcb1 (>= 1.6), libxfixes3
+Depends: libkf5windowsystem-data (= 5.46.0-1), libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.8.0~) | libqt5gui5-gles (>= 5.8.0~), libqt5widgets5t64 (>= 5.8.0~), libqt5x11extras5 (>= 5.8.0~), libstdc++6 (>= 11), libx11-6, libxcb-keysyms1 (>= 0.4.0), libxcb1 (>= 1.6), libxfixes3
 Recommends: kwayland-integration, qtwayland5
 Breaks: kinit (<< 5.46), kio (<< 5.46), libkf5crash5 (<< 5.46), libkf5globalaccel-bin (<< 5.46), libkf5globalaccelprivate5 (<< 5.42), libkf5kdelibs4support5 (<< 5.46), libkf5kdelibs4support5-bin (<< 5.42), libkf5khtml-bin (<< 5.46), libkf5khtml5 (<< 5.46), libkf5kiowidgets5 (<< 5.46), libkf5notifications5 (<< 5.46), libkf5plasma5 (<< 5.46), libkf5plasmaquick5 (<< 5.46), libkf5textwidgets5 (<< 5.46), libkf5wallet-bin (<< 5.46), libkf5wallet5 (<< 5.46), libkf5xmlgui5 (<< 5.46), plasma-framework (<< 5.46), qml-module-org-kde-kquickcontrols (<< 5.46), qml-module-org-kde-kwindowsystem (<< 5.46)
 Filename: ./l/libkf5windowsystem5/libkf5windowsystem5_5.46.0-1_amd64.deb
-Size: 127280
-MD5sum: 92e2f9691db79ebb29fcb3978d06547d
-SHA1: 73de076c41f0be96518930d3982a7195928211aa
-SHA256: 86c309f6d5299c9ecdc71775068586f785ccb2ce9da732bf859b39f724c156f4
-SHA512: 8066af0c44aacd7a6bcbb28dd96f3a5521edce3abc437813ae5eefaf4d4a6281b4b1a19f1516b7aef24b9ad3e78420e99cede4e8ffdeb22098bc66f3b864738f
+Size: 126944
+MD5sum: a92912a90feef33c0d245ab649498446
+SHA1: 58f346eff6fafd3b1962c281274444db49cb456f
+SHA256: d28c9527dda2160041b775ee30aaf2d6ba437816343259a9a9253878e770336f
+SHA512: 5385d2b50ca2dc73f6a714f7eb9e96006834b770488bc8bfb081e0684f67cf5fa8d2e686c74d2e825b86a960e546e73521d7bd39ed952e86e00de5ac80e11fc9
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
 Description: Convenience access to certain properties and features of the window manager
  The class KWindowSystem provides information about the state of the

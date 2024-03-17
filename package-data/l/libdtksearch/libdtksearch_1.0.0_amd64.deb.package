@@ -6,13 +6,13 @@ Section: libdevel
 Source: dtkio
 Maintainer: Packages Builder <packages@deepin.com>
 Installed-Size: 607
-Depends: libc6 (>= 2.33), libdocparser, libgcc-s1 (>= 3.0), liblucene++-contrib0v5 (>= 3.0.8), liblucene++0v5 (>= 3.0.8), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Depends: libc6 (>= 2.33), libdocparser, libgcc-s1 (>= 3.0), liblucene++-contrib0t64 (>= 3.0.9), liblucene++0t64 (>= 3.0.9), libqt5concurrent5t64 (>= 5.6.0~rc), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5.2)
 Filename: ./l/libdtksearch/libdtksearch_1.0.0_amd64.deb
-Size: 157232
-MD5sum: 5aebc025b770cd1006af8d50edc18a4a
-SHA1: 3bfd6817e1690de9ff8b4e861dd1f5a3e1fba4b9
-SHA256: 9f2566c045d0a5cadbe9f868f2ef907a80fc5dd0042604ba2bd0270f22d30da0
-SHA512: 7a17d1674b2f453f3840a90c06e70ebc48f0c27a62aaf5d1e90ed4cb593a77eeeb57ab00a378fe0a3932e2b8f28199fe33d6d6329db45fe548039e5b6172b8d7
+Size: 157640
+MD5sum: c54a1bcd105f6edd3ae194e1321eaae5
+SHA1: c25ed09013e6cfeb5ca6f9be24aa13cb1b9b5533
+SHA256: aed95fcc9f7bbcd3d934cd5759c6a934511306b5a18b1b82b32318265bb89964
+SHA512: 908e3a27567d0ed636105b92b91f195920a81358f04f0757ce4a806fd1ad8de8d537a5aee66c5c245a154595c070708c1f9f36e3437c5dcf40cacb9c15da2415
 Description: Deepin Tool Kit template library
  libdtksearch is base library of Deepin Qt/C++ applications.
  .

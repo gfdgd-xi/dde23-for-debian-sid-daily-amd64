@@ -6,13 +6,13 @@ Section: libdevel
 Source: dtkio
 Maintainer: Packages Builder <packages@deepin.com>
 Installed-Size: 262
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.44.0), libqt5core5a (>= 5.15.1), libstdc++6 (>= 5.2)
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.44.0), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5.2)
 Filename: ./l/libdtkio/libdtkio_1.0.0_amd64.deb
-Size: 74612
-MD5sum: e8a617a0a9cd9dfa8e267297bd69a69c
-SHA1: 5c9f1210421b744159c0607bece8d0e6cc8c63d0
-SHA256: fd7c9df2677f704ab7bb613b49017bb4e1eb407e54a88807b32d3abbed6b96d3
-SHA512: 9f3ac89b9427be9ca3e5c4b4d4723e07e468459d7c357756bb564b7372bab510c1968cd6aa30301927c4c40b36c76e433dc93eb711b0f0392ca869b8bf3ee2e3
+Size: 74372
+MD5sum: 1091ed33d9e6912bd01200417b73c65c
+SHA1: 7df5b449d40abf101c3e77f7cbe615319bb16ca1
+SHA256: d168af768da3dcdaf5badcbfcfe3f67140a2d9631310e53ab27cede4a83315b2
+SHA512: 7f232e999ef40bfd39252292a545f121b77fca047a84a443ef8daadb6e2b0dbd9c7166479659f97b5b6d08c670ff1d46876a8ca48cba1a3c9f6a7dc6b51853a2
 Description: Deepin Tool Kit template library
  libdtkio is base library of Deepin Qt/C++ applications.
  .

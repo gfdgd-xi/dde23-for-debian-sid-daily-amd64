@@ -5,13 +5,13 @@ Priority: optional
 Section: graphics
 Maintainer: Deepin Packages Builder <packages@deepin.org>
 Installed-Size: 57
-Depends: libc6 (>= 2.34), libegl1, libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgles2, libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 13.1)
+Depends: libc6 (>= 2.34), libegl1, libgbm1 (>= 8.1~0), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgles2, libglib2.0-0t64 (>= 2.12.0), libstdc++6 (>= 13.1)
 Filename: ./b/blur-effect/blur-effect_1.1.3-1_amd64.deb
-Size: 16196
-MD5sum: 987fd826ea642234f6d206abad348d99
-SHA1: 96eb69efd418b421750c766b1d846f332245d764
-SHA256: 40fe0f78ee348cb7ef9ef7848fe2a4b7c560c37d15d0cc046e9cb3c5b9c50184
-SHA512: 580a107d4a5dae5eb6079f6d9e9ed6708b62dd037c985a0624e0ecbaeef35bfe0fa9aa9059951cbc2153c3287d485e621580c511439942288a5bf395355d7206
+Size: 16184
+MD5sum: b08d8e3786713b37c5fa379f400d721c
+SHA1: bde634e15fd0e1dada575a5ffed4746f80c26864
+SHA256: a46a77f8312c89a3722ed6b57f0609d38bd0777452120a94ec5f9c1a5df5b2bb
+SHA512: bec95cea543379dd44c1bbadd3601bb7c004badf501674b7920455d42be56da37db87993858fd9084b93e134c936454a1bb261ffc154947ef0c44b57a0a6149d
 Homepage: https://github.com/sonald/blur-effect
 Description: Offscreen Image Blurring utility
  Blur-effect is based on efficient Gaussian blur with linear sampling.

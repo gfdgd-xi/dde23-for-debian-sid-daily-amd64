@@ -5,13 +5,13 @@ Priority: optional
 Section: devel
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 104
-Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.26.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.26.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libqt5widgets5t64 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5)
 Filename: ./d/dpa-ext-gnomekeyring/dpa-ext-gnomekeyring_6.0.1_amd64.deb
-Size: 19068
-MD5sum: d3b6f6f493058c2f1750340ebfc2b71d
-SHA1: 64d965972a4ae0fd0db5594e4a23fa6def3d0486
-SHA256: d5c9124dcdea55f9b55701dfddd7502374b3948d0cbf04f1caa407907b1489b8
-SHA512: c16eb745114803fd4a5c39f3717eba76b51699e6e06681f91648883e9ab360448e79408199e4b726d87d451b04289c9360251c4bf7c7b683891ff7a729c5e780
+Size: 18940
+MD5sum: c1f46684a9d16a292c973752d998b720
+SHA1: 4fd7ecf283d8072620b62855a2849254d2e2e513
+SHA256: 49e0f4eb2b84e7b10cd567daa0e386b2dca78bd58a77ec41cb278eea8bea87ed
+SHA512: 86b51add419b57186d3b18dae597edfa0fa6aa8af12959d4d3ccf346d407c2382c20b18a01f29717ed0262e874b05f54cedeeedfe1e17c10265bb00fee14c087
 Homepage: https://www.deepin.org
 Description: GNOME keyring extension for dde-polkit-agent.
  DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
