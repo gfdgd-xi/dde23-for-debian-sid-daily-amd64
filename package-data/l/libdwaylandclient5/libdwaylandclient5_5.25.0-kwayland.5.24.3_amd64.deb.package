@@ -10,11 +10,11 @@ Installed-Size: 1403
 Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-client0 (>= 1.20.0)
 Breaks: libkf5plasmaquick5 (<< 5.54)
 Filename: ./l/libdwaylandclient5/libdwaylandclient5_5.25.0-kwayland.5.24.3_amd64.deb
-Size: 230788
-MD5sum: 19d58c256c09c3772d3bbfb39e10d159
-SHA1: 68f0ff716cb5da263705cda17853837ac8a8dbda
-SHA256: eed6df4ae8342add6b8b35f0953c206be12eb6b61fa4787840dc3f6a2f726d96
-SHA512: 5e46e00ce85b4c389bc1efc58b3fe7c9280a8e303d435882f0dbede0601b3a78b14cc10e6ac257aede83b0f16ae46471dbe58b055125001fff176c20f57d9784
+Size: 230540
+MD5sum: 916a64a2d63c8a9cc20622cc54362334
+SHA1: b5426d363e910599dc7d008c080bda7b549238b9
+SHA256: 679b8097741c0dd1158ce8cd2f59421fb366af3ebd2c4390c55467587ecab85d
+SHA512: 2c951db079f22f74f578793b19cafb9fb107b43ce90a323d63205a7d7b723b2865bcdced658ea0412b7f8f08dcc7098d615292e1943bbc2f2456aec83f9712df
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries
  DWayland provides a Qt-style Client library wrapper for
