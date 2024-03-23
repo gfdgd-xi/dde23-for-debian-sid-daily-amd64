@@ -4,7 +4,7 @@ Version: 6.0.17
 Priority: optional
 Section: devel
 Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 6769
+Installed-Size: 6761
 Provides: lightdm-greeter
 Depends: libc6 (>= 2.34), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, deepin-authenticate (>= 1.2.27), libssl3, libxcb-util0 | libxcb-util1, xsettingsd, onboard
 Recommends: dss-network-plugin, dde-network-dialog
@@ -12,11 +12,11 @@ Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notific
 Breaks: dde-workspace
 Replaces: deepin-notifications
 Filename: ./d/dde-session-shell/dde-session-shell_6.0.17_amd64.deb
-Size: 1090400
-MD5sum: 97f03262051ef646d742903779a85605
-SHA1: c2065d7c831a971e5364c3c0c42fb0d73d8efc2b
-SHA256: 3e9e6f8d1084c7db60b9cdcb3a7b177591746dfe2b7726d60310871546c3144c
-SHA512: 12baa6d7491b5747856792d77173091c574822dc7ade4eff6644b1d37a239bf5212eaf466e2773ec6f09516870b39414ace56055801fd9caa6b2523380cbeb4a
+Size: 1092860
+MD5sum: ba91cc7fcad9f0f6d7d5f24818b856cd
+SHA1: f5673813deb8dcec4331930cc10a9fa1f4a8e093
+SHA256: 3e4a52dd8342341c9e678c68eb7f84c4fed7c3cd5c03a5223dd504121ddf7755
+SHA512: db4d1ae21c73375a9700dde6a51001c97ea496e1204f319b009b5149ae2d554b244d6b6d8136610015a4f456d13b11c310e42f7f499639bd632c1975180ebbab
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module
  Deepin desktop environment 2015 - dde-session-shell module.
