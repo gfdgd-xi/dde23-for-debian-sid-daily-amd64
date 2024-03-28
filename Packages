@@ -28,11 +28,11 @@ Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidge
 Conflicts: store.spark-app.spark-webapp-runtime
 Replaces: store.spark-app.spark-webapp-runtime
 Filename: ./s/spark-webapp-runtime/spark-webapp-runtime_1.7.0-1_amd64.deb
-Size: 161588
-MD5sum: f743c3e106f7fed57696168f9f34dedc
-SHA1: b1bd97f28ef32264c33f83d94e542444fc77a5d9
-SHA256: 48db1b8fb1927e4cc808d183a0f7060e41aeb20690b7eec39517afad85b9dc85
-SHA512: 0f3adfa21e391ed862014b90a9bea378f36fec57b0410a910e5bfa3bfe54b50b2445c326ee2bff6131fb01dea86b8b57f066c4fec5c508b7e865a5a6dfa8a2a0
+Size: 161504
+MD5sum: b1f5c74cfce368a571fae797573725eb
+SHA1: 6e7dadd30bc14518bb49ce33c6342dbbae24e98b
+SHA256: 9dabb11c6253702530aef76c9064d464112380c0e2895193ccad6993f482fd1e
+SHA512: d668cf5151df59f7053138cbbc5f2a1a835655f876d6bc49d360612b7333092602c26ea11a561395204895a6587c2b4b693d5885ba6a7942d9e56e9315f415a7
 Homepage: https://gitee.com/deepin-community-store/spark-web-app-runtime
 Description: Spark WebApp Runtime
  A simple solution for packaging web apps.
@@ -16485,10 +16485,10 @@ Installed-Size: 14263
 Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
 Filename: ./l/libncnn/libncnn_1.0.20230223-0deepin1_amd64.deb
 Size: 3408440
-MD5sum: 7598e2e7989c5e1c1424cb1a0429831f
-SHA1: 238cf1f4d8b24def9afbb6fb5828968520431b41
-SHA256: 10a9e7190744afb0f0390a7e8d0a1509549a27721328dbf2c7a74947c795a2cf
-SHA512: 41b83f6fd764a47c9dc89ed7fc13942540bfa648bc078f6143c3b1a3616d916009cedcfdd4f2ec597089a1eb94f2922915c60f5366b3fddda4b247bce0cf0eb6
+MD5sum: d75aabdd54a224173d24ba1f23c14be2
+SHA1: c3cf7496b1b777f425d968b4e0b180a821182f7c
+SHA256: e5b24ab686f158b8b371b8eadba18e56cbd1950db3616627839a0d3c4cf1eb0f
+SHA512: a3987ce8d871f9a0f27c53b4f4372c10103999bad224ef4e71fbfb83967bc7d7c327af08453b76f0f1afbb472cea9938a22160ef78c163fe167e74b0f2c5771b
 Homepage: https://github.com/Tencent/ncnn
 Description: Neural network inference framework.
  ncnn is a high-performance neural network inference framework optimized for the mobile platform.
@@ -22162,10 +22162,10 @@ Installed-Size: 397
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Filename: ./l/libunrar5/libunrar5_5.6.6-1_amd64.deb
 Size: 114568
-MD5sum: 5d29971cf5ece87ad74add4acd8600ae
-SHA1: 07303d049f928399a53101cf064957bfaeb9f47b
-SHA256: 71ef0c80ad87c76f40b375ca39bca14413b326918ad61d99e0dee1fba0ccac43
-SHA512: ae80d6692eea66a7e1e988252d7329ec68c7bb541fcd6766d6ba8cab716a791e4b2c1c9c856dd872b1648bf4896facb0a0d1d0b50a2a8c4359f6b92b86d749e5
+MD5sum: ba92b3f888641fb726979c70d843cb01
+SHA1: 93f6a6fb669be87d5bde0825132d4474a676ac49
+SHA256: b61e64cb29bdb9c5eaec5c59ac8605a315be9423fd978869d674d8cc47aa579f
+SHA512: b93d675f2c2afea9619e5547c61aa695997fe6b26e01ef671e36d86d9ea5195b00f386aecdd2bdc312dd8a4e3285b86c1b38f6d4467f3121584a1469ec319828
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version) - shared library
  library for unarchiving .rar files
