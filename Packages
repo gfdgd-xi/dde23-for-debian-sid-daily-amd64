@@ -1401,11 +1401,11 @@ Maintainer: Iceyer <me@iceyer.net>
 Installed-Size: 975
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5t64 (>= 5.0.2), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5t64 (>= 5.0.2), libstdc++6 (>= 5.2), libdframeworkdbus2, dcc-deepinid-plugin
 Filename: ./d/deepin-deepinid-client/deepin-deepinid-client_7.0.2_amd64.deb
-Size: 138164
-MD5sum: 9054da2ab40fef1255f8b8ebc3a297e9
-SHA1: 5da5c5d84178e40c8adcf906ef0b57dd8e3b7ba6
-SHA256: 8b4a19eda86295bf867d6b91b86bd03d031354bcc03be2eeeec01982ab75a570
-SHA512: 1d95c8aaa537db54cb73a9b4c2e9bde7c72ce7a74a529ea116a03bc3e7dbba3afbe6739f2b234a8400cf9bbd0691e5fe317271c9b06c1fc0b2e6fdd7418196bf
+Size: 138212
+MD5sum: 049454fe5d338c041cbed1f5bec027d2
+SHA1: e1f56b98f3dafb3f94b6939351c1bbb89f8a23d2
+SHA256: 1f8302561e83f9f2b380c5e48131a4ada3a1e7a832a18492cf214230dae678c7
+SHA512: ee0026dedb48375d83893186c128a93d03bd4d61474c1ff21c7879d0abdbbfb7279f9d3d5459b45a0376502f9ebe30c0acc798617daf0471dcaa3f869f6cdc38
 Homepage: https://www.deepin.org
 Description: client to login deepin sync account
  Deepin user can login with DeepinID oauth
@@ -2426,10 +2426,10 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Installed-Size: 19
 Filename: ./d/dwayland-data/dwayland-data_5.25.0-kwayland.5.24.3_amd64.deb
 Size: 4676
-MD5sum: a7656ab24c6c274189084d56df78c8d0
-SHA1: 26a6fa82edb3d8eae90490681762252240cb7f67
-SHA256: 61600b1be2a15771336dd24e4d2bc65a81e67a444cc7235162129b66f61b8e52
-SHA512: e45cb9fb1c877c6021134c334e1cb5ec37c4b9a5b45240905e179b6df49a1637c30f7348b2214bdbf1b0b12e44c7bc93a5320909785cbb313698ff53dbf8399b
+MD5sum: c1e9684aff8c3d215d65e6661d4d204d
+SHA1: 958a5eeb7973457f89dd83ffa7320813b10922b9
+SHA256: 0c5d09e5e9a618a6ec0053dd55d9e8ba031b868d61b2e863838f7d06ac70fef4
+SHA512: c8058cc6ebf307f42516526d84397db03122c2c8745eda3cbce6ea61943e6ef0b3c1c867211fc8544b0791ad5516e2a39f9ffca9da013a178c026f1b663b00b6
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries - data files
  DWayland provides a Qt-style Server library wrapper for
@@ -7222,11 +7222,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 1275
 Depends: jq, sed (>= 4), startdde (>= 6.0.11), systemd, libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.26.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libsecret-1-0 (>= 0.18), libstdc++6 (>= 5.2), libsystemd0, libx11-6, libxcursor1 (>> 1.1.2), libxfixes3
 Filename: ./d/dde-session/dde-session_1.2.5_amd64.deb
-Size: 221088
-MD5sum: 0ab0d169d3d599e121dd6609ec2ed24c
-SHA1: c54400c391105301110bf98971d8b6f3614d29ff
-SHA256: 7ff71d1c7083336c6adbc82b9c941ac24d78ac909e93de13aaf4c9f59193c4d3
-SHA512: d15e1cac1a6e4609cb9e34be0c54e66cc7869d989fbf3d4de1d4d2d05e899a5058e4b0e619582e201a0d9aee313aed57c37b42e8929612b677c94d8aa1b80985
+Size: 221268
+MD5sum: 932c56ddb79c2f5e1b2ede9811f05e44
+SHA1: 2d8c92ba7a038d41e111e69650ace8119750c6a0
+SHA256: 2372ba5dd91bcff3867508c47991c1ec32e224cf3a1330ba2baa176166f61850
+SHA512: 12afcd8c6d902c2deda609f8ec92ded1f4179c9ea0b828805fd5027fd3165dbcc00e8802b50eaaf1978f8a80634dfd02c171378cd725413201434b0691d425d6
 Homepage: https://www.deepin.org
 Description: dde session module
   dde-session is used for launching DDE components systemd service project.
@@ -8090,6 +8090,25 @@ MD5sum: 9d634e917eeb5e98f300e55374d8bfb0
 SHA1: 954c5beaa9cfa8becd61e4b5f66702b0b4504bca
 SHA256: b1074775fb072370014ef37f8e9ba69171bd95b1edf1097c228816d6c5a59749
 SHA512: 6edcf68501252c1a65ddc67ca0ea6c22ef798dc6a72472c52ba32b2956bc1159833a07057c0884cca3298364b0674a5aea8c53d7c5068aeb97678a218beb4692
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-shell module config files
+ DDE Session Shell module configuration package adapted to the wayland environment for lightdm-deepin-greeter
+
+Package: deepin-greeter-wayland
+Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: devel
+Source: dde-session-shell
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 25
+Depends: dde-session-shell (= 6.0.18), dde-wayland-config
+Filename: ./d/deepin-greeter-wayland/deepin-greeter-wayland_6.0.18_amd64.deb
+Size: 6996
+MD5sum: 81ff469b03161eb3e5379f4dd8698987
+SHA1: 67ac26d379dc00d271e5fccb2773f43a74bcb806
+SHA256: 34fb364027d48c65165f82ad1a0d6a19e829df75b5feb3de69c78c0c4f2f1a2c
+SHA512: feb76741e1ea0299505789511f8382459d8abba52aa766eb1b8625731cf2c63b281055ea79072e9f1802931bbb19a0a17fb01ee3b796cdbea46e6889ce1001c1
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module config files
  DDE Session Shell module configuration package adapted to the wayland environment for lightdm-deepin-greeter
@@ -10013,11 +10032,11 @@ Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 250
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libqt5widgets5t64 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libudisks2-qt5-0 (>= 5.0.6), libx11-6
 Filename: ./d/dde-device-formatter/dde-device-formatter_0.0.1.15_amd64.deb
-Size: 57516
-MD5sum: 3acbf391538e91827d1bf0a06ce7bea0
-SHA1: 6d05c35d78b504618bf71983b128ca15e31d2385
-SHA256: 9746e6b6a0ce376c3dddef388bfb9f0f003b8afde367d5b5e3ca25bb1e28780f
-SHA512: d29131d636d3ca9416550d9977896938510fd6992a74effec90c40f445d5334a1c41ed0eccecb7e09670c24222edea8d825db3fccbe98cc682a4952cbdd56a59
+Size: 57536
+MD5sum: 062093de47d84d45ba195c9badb21038
+SHA1: 47bdd687e7c4e7aa2237a9d04f6bec42ab4e91ad
+SHA256: f78ec4540be34cae3beed426dc9ff8fc1cc9da4ed6dd1bcbc1989fc938d9b90d
+SHA512: d402d26b298b7387d816d952c94a530a31c8823d3957b7a026b00992840f5e05a325ca855c747c7b599b87c195040a2228e5988a226d19c609c04d2c19be4c90
 Homepage: http://www.deepin.org
 Description: Device formatter
  A simple graphical interface for creating file system in a block device.
@@ -10105,10 +10124,10 @@ Recommends: libqt5multimedia5-plugins
 Suggests: deepin-kwin-addons (>= 4:5.24)
 Filename: ./d/deepin-kwin-common/deepin-kwin-common_5.25.18-kwin.5.24.3_amd64.deb
 Size: 1944324
-MD5sum: a7814509759bb3040acaaadb252027d7
-SHA1: 01f5a1ea50c448a9ef9d05ccd83640819dbc90c0
-SHA256: b4cf0670bbb0a4bb42a59f6ca8b669a27d384ea43156cb249f64c7441d60246e
-SHA512: ef4e808014f0066a27bacea3f6c681b410a1e42f36cb3438cb4ce2a067b8f0349d0cbd30c2241ef042bd2a9ac5df689523d00a0d556ad03df5f92f3bb5640691
+MD5sum: 53f1faba0780f1345e13b0246cd3abe2
+SHA1: 2a2aef893c45a18905a0141aa797815ef592dcd3
+SHA256: 36c2e843c31e069b144ba18121527cf2ffe76ba39767c60ec960e45055d051f1
+SHA512: 1119a51af7ecb59dc8e4608afb1439e4ff93dd92c6bf476106ec34f0e2ec99cef03c527f85950770569bbb89af7e6826395a8ff9710f79d34fa5a599a63fb89d
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager, common files
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -10876,11 +10895,11 @@ Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications,
 Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
 Replaces: deepin-notifications
 Filename: ./d/dde-session-ui/dde-session-ui_6.0.16_amd64.deb
-Size: 1224792
-MD5sum: 75a48e1793c024d3d6616ebd6b473cee
-SHA1: b449806ba76155922b2b5809b996e89d056f9ade
-SHA256: cd7f71b13039ae7dcdd136816803837d1a1593c6c9ce9d8582fb02b04bdcfd68
-SHA512: 9a83c8ec67eaa62bbb5a177a04d3ef3bd70e6f2037e87f787e3aecde33fbe7eb9b4f5cdf0aac56be5707105ef9770a1c556eb8da9ea4731409b1d8a775266531
+Size: 1223348
+MD5sum: d53d7cd68a8e4de3ea2f337740c7199f
+SHA1: 52741f03701448c34929148d1e526407e191d11c
+SHA256: f45ba9ddd9e102d9cf2a94a227e9ed8346bb7bf4f452e247fb437eb6c7f1552a
+SHA512: 28dee58128ce2e13bbd76bb004faf0ee67f72a2bbfdfb02f76494d46f6b5dd1f7daaac469b65e2eaf3520258f178341ffbe61104a8293a5cf8002184aa3a8586
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-ui module
  Deepin desktop environment 2015 - dde-session-ui module.
@@ -11403,6 +11422,25 @@ Description: deepin desktop-environment - dde-session-shell module development f
 
 Package: dde-session-shell-dev
 Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: devel
+Source: dde-session-shell
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 24
+Depends: dde-session-shell (= 6.0.18)
+Filename: ./d/dde-session-shell-dev/dde-session-shell-dev_6.0.18_amd64.deb
+Size: 6592
+MD5sum: bc546986d62017ec28d9ee4aa5b222e7
+SHA1: 4b7cbf8e20f411649de48b14848cbda1c86a8fa3
+SHA256: 775a21cabbb5ae95a3e18bad7cbacb0d1e2b7bc6b791b9369ded9e37cd6ab92f
+SHA512: 56b4740bbc0e3609b387a850ba9a23733ce57ab509fce74b7534ca0da6264c75003c6bb4ffd4b40a2e38bb096a823a2d0f6621a94364997229cd7a89712482bf
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-shell module development files
+ DDE Session Shell module development files of deepin desktop-environment
+
+Package: dde-session-shell-dev
+Architecture: amd64
 Version: 6.0.13
 Priority: optional
 Section: devel
@@ -11484,11 +11522,11 @@ Section: doc
 Maintainer: duanhongyu <duanhongyu@uniontech.com>
 Installed-Size: 107916
 Filename: ./d/dde-manual-content/dde-manual-content_2.0.0.0_all.deb
-Size: 92983992
-MD5sum: a1f33eb4e9e78f1af58e4ef77642f3e6
-SHA1: ba32fe2f1014008585656b8b328dcb9d8303653f
-SHA256: 5cf048eb1050b80cee71f0988368cf1c53e83f0332c45022b2b6a6bf64e049ca
-SHA512: bbdc664dba2f7c1be67932c6d0f57b95fefb85dc1be06cdd0e19211ed043e77deafaae47b86f70f538972b32684b65b8456a000ddcedaf1adae0679cfb073bad
+Size: 92984096
+MD5sum: f33292eabc4e6be3c435859bafb34969
+SHA1: e5080a14b47c619b5e957a2d2e8a7c175062ee28
+SHA256: 6494f9b1467f4626a21903adcca62eae7c5e974a6dd24576048b3f589d4bdddd
+SHA512: 44be26b3c6b776e78b54f9ec04cb8f7ce325ce79d0317d92a5f78fac48ebbf5e54ee939b6c94cdaae17db013d60272c923c7b3b55bb7b0478e4574529bcb2d2e
 Homepage: https://github.com/linuxdeepin/dde-manual-content
 Description: protocol files
  Deepin protocol files
@@ -13609,11 +13647,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2436
 Depends: dde-daemon (>= 6.0.7), dde-permission-manager (>= 1.0.5), lastore-daemon (>= 6.0.2), dde-dock (>= 6.0.5.1), dde-launcher (>= 6.0.5.2) | dde-launchpad (>= 0.0.1), dde-control-center (>= 6.0.5), dde-session-shell (>= 6.0.4), dde-session-ui (>= 6.0.5), deepin-pw-check (>= 6.0.1), libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 5.2)
 Filename: ./d/dde-api-dbus-proxy-v1/dde-api-dbus-proxy-v1_1.0.8_amd64.deb
-Size: 458324
-MD5sum: ddda37c0b8339cfbc6d981f740ec42d0
-SHA1: a2028e9e58f8ed06dbb0aa8bca0a5bc52a6bb596
-SHA256: c536e705cb26d7146b36da10be13e0e1815e915cb0b43c8866b0a074325cb9bf
-SHA512: b72e7b28ed4c12b3b16e02c4daa28dc02edf2f73e1da2e11de71b270fd9b00e221642929f7412af44f88d023b05e7a372971948fac81f77e93a369661b657759
+Size: 458708
+MD5sum: 5f6970113b9b06e795b926974a1abd6d
+SHA1: a514bb55ef57b1edbd5304b9dc2af6b5a613be13
+SHA256: 5949014cd3aea52cc9d8cf6870221d69f73fa2be3d6bfe36198371d192087862
+SHA512: 33bdea024ec5981a2f0b7d13e4c819a235558ae9b83d1e3a86c4dc4169ef908804df8c33fa0512078f80e8c0678ef0de13f63c893c2b53aefaf546562ec5f8c1
 Homepage: https://www.deepin.org
 Description: dde api dbus proxy module
   dde-api-dbus-proxy is used for compatibility with old dbus APIs for DDE.
@@ -14431,6 +14469,32 @@ MD5sum: bff6968be958f56d3917e4d0791c69ff
 SHA1: 09bfea5301bcbb02accb92300dcfc143d944fbe1
 SHA256: 23689f5c1400cc62aef8dfdb1b4e84741570949684db18259b86156d25f095c8
 SHA512: c4a770e5a93c84c7b5f6c2afcb8f7cf3a88ce32f40716a8a7a9202a17d88b318579da29e0ddf81f04710724546284ea786675851dfa171e35e96d684ee986ef6
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-shell module
+ Deepin desktop environment 2015 - dde-session-shell module.
+ lightdm-deepin-greeter - login，the entry to the desktop
+ dde-lock - lock screen, to protect privacy
+ deepin-greeter - actual call the lightdm-deepin-greeter
+
+Package: dde-session-shell
+Architecture: amd64
+Version: 6.0.18
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 6762
+Provides: lightdm-greeter
+Depends: libc6 (>= 2.34), libdeepin-pw-check, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libpam0g (>= 0.99.7.1), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb1, libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, dconf-gsettings-backend | gsettings-backend, deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 5.13.12), startdde (>= 5.8.9), x11-xserver-utils, deepin-authenticate (>= 1.2.27), libssl3, libxcb-util0 | libxcb-util1, xsettingsd, onboard
+Recommends: dss-network-plugin, dde-network-dialog
+Conflicts: dde-preload, dde-session-ui (<< 5.0.0), dde-workspace, deepin-notifications
+Breaks: dde-workspace
+Replaces: deepin-notifications
+Filename: ./d/dde-session-shell/dde-session-shell_6.0.18_amd64.deb
+Size: 1091932
+MD5sum: 6e955a4e32f1c221e1de6ec6f1500d09
+SHA1: deddd0d33a0fda36c7145bd2d299b9eeaefa59d0
+SHA256: 67444be07f790f67d88ba0f822ff1a8fbc414e8521c38cd4e23a3c9991a58a3b
+SHA512: 3daac0513e3a6c93b0c0c1b190831517b4d04f3fbf0fd0cb811bc55b067142b0c08b88ccbdccdef06bcab14b24bddb21fa05483b8d84915d58fd4a00153978af
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dde-session-shell module
  Deepin desktop environment 2015 - dde-session-shell module.
@@ -15953,11 +16017,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3808
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libstdc++6 (>= 4.1.1)
 Filename: ./l/libdframeworkdbus2/libdframeworkdbus2_6.0.0_amd64.deb
-Size: 723724
-MD5sum: 164293bcb77e8d19fe519c427d99ad04
-SHA1: 491cf16a0aba6b1cb52e5d4750386c5664fbe423
-SHA256: 7396b8b69d9ed771a70760cb0a904f25fd98081f4298c8dd73054bf00aac0da5
-SHA512: 5a926116743b40d3c778fe2ba5f6ea2e928efea23933155b741647314aaa66e0f99b68b57e0e3f883e9e1e3cc6c6a4aaac2a9ed7be57ae42fc8839a739f2ce39
+Size: 722808
+MD5sum: 710ee7e2700b0c5614f3785b0dceb2e7
+SHA1: d912dad08f4d55d1b29ac984dfd94b4c9358bc86
+SHA256: e92d0afc2f1e39f2fb19f272f97a8330501907435f311ba9c139258c222efad2
+SHA512: a2c8538c64c645cc0915db0ce96aa54983128b3458764899387c99f003e741bf7a5cc2ed8f82ea61eecbfd2762287e10bf5480abbe9bbe9b7389e0a12ffa89f8
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (shared library)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -16315,10 +16379,10 @@ Installed-Size: 74
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libisoburn1t64 (>= 1.5.6), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5.2)
 Filename: ./l/libdisomaster/libdisomaster_0.0.1_amd64.deb
 Size: 20128
-MD5sum: 11aac7daa01cbe76677fa14d0a16943e
-SHA1: 78c8fc26bd377f99fcea05e4a7e1829e5a845284
-SHA256: 3f8ac0c24a53bf4d35a10f404f29cbf00ef353874977e19de461b60b1623b67b
-SHA512: 8648703f1e10ea76bb3355c778b693fe12414b9cc7d4ef3ab5adc85c87c96066ccfd3904014ff1d8863cf425ea874700b1ff51f94b4282dfca5fa5b5529dd87f
+MD5sum: 0a2859836e7ecbc7620f2ed1181ec1b6
+SHA1: 66db2a3a422a7db49557f91a0f87aeef397576d8
+SHA256: 715c48c97ad637370d0fba864d308601dd3a48c6816488bcd0565e3ddfb3d6f6
+SHA512: 431e45b0dc85ffae5886dd9d48d5496f24ed177674f558eb1faebf6b622acf7ba5417d7057daf2acb717f0cbce197f59a02a233396dbd0b0ff8beb317c82b612
 Homepage: https://github.com/linuxdeepin/disomaster
 Description: libisoburn wrapper for Qt.
  A convenient way to burn iso9660 image!
@@ -16534,10 +16598,10 @@ Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libqt5core5t
 Breaks: libkf5plasmaquick5 (<< 5.54)
 Filename: ./l/libdwaylandclient5/libdwaylandclient5_5.25.0-kwayland.5.24.3_amd64.deb
 Size: 230608
-MD5sum: 944618c085bb76824e2af6acf4aa8f9c
-SHA1: 44dfa15006bf48a0f1d0082ebf3002fc3cda8aeb
-SHA256: bf408f69a7f5f51d547020bac0cf6c53b89c8bea47f911b9ad4a7cb8208498f1
-SHA512: cc71b700d368de5c76f8ea581a604e1d7dce71b2f29db95f9a3a058414135a4ac5dc6b4786ed52952d303fd3edaebc5b846b8f318dc6536db573fffe311e1f6c
+MD5sum: 717af962948ce19c2079e71704c84614
+SHA1: 8e45e6ac32f5f476aa235c5a29dec78c836caaad
+SHA256: 16590f26533d6969a3e45f9d5c4a5816c0feda7cf2ef4eb96712c167f7de1614
+SHA512: 1ed1d37ed5937c070416bf26093d7061fcc4e26ae25ceff16d78e91f491604581e3ebcd6fe6227733fca3d8b46acf3430e45cd68ab21727d82763d78fc17dcb4
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries
  DWayland provides a Qt-style Client library wrapper for
@@ -16572,11 +16636,11 @@ Installed-Size: 803
 Depends: libdframeworkdbus2 (= 6.0.0)
 Conflicts: libdframeworkdbus
 Filename: ./l/libdframeworkdbus-dev/libdframeworkdbus-dev_6.0.0_amd64.deb
-Size: 63308
-MD5sum: 65e6dc9c0fc0b0e877b4d605a57d425f
-SHA1: a6cbea8541b8ca2ca3f40ea2722e839c48763d0c
-SHA256: 282fa100ea87192792cfaa653117a0552b9bead92394e5a60d40b7421f4d5eb0
-SHA512: 451b997d9268248e385379aa04f62481e3bf097dcc003a2f67719768df843d2c1662d26fc099368d1884339e8aa984d71ad97e8e96db0116e6371cfe90ce6b0b
+Size: 63304
+MD5sum: 5db3330c091b4b0913826740c11f07b9
+SHA1: 23ab88aa2dcde6427e8d63b6adfe1c8b526f15b9
+SHA256: 0003502de3dfd2db05fdf6bb97157901dd5ed1cf6099230ecc11496cc58db655
+SHA512: 584c6cc8c6ba74f5b13435c2461f6114eefdfc86b80c88bcc58763b2db12b437b93d173ccff37f6fa504b06cb1f16e0142cf7e27dce2bf319f531013119c80d0
 Homepage: https://github.com/linuxdeepin/dde-qt-dbus-factory
 Description: Qt DBus interface library for Deepin software (development files)
  Libdframeworkdbus provides Qt DBus interface for various Deepin software.
@@ -17118,6 +17182,26 @@ MD5sum: 94d315eb5a74a408fdf4e257c9459510
 SHA1: 0da6f7dba5ef12f8e703b64352b7f111a5785d73
 SHA256: 46e49f590a6257f96feecb526dd5fe0f8b93c49ea2aa2abea6f3f30111cd4c70
 SHA512: 28e0902dde6cb4204513d3880bf42cc0302e44aee2772e69f424fd62e4217e09c89352b0227b038bde3c9d8a2719d94a008634a8ce257439ad82fe3323decbc9
+Homepage: http://www.deepin.org
+Description: A libaray about I/O.
+ A libaray that provides I/O interface.
+
+Package: libdfm-io
+Architecture: amd64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 434
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.56.0), libmediainfo0v5 (>= 0.7.56), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 11), libglibmm-2.4-1v5
+Filename: ./l/libdfm-io/libdfm-io_1.2.23_amd64.deb
+Size: 122228
+MD5sum: 0fbc6af7acbb727c65d28525fdcb30f7
+SHA1: d9a2c3fedca7dc0fd387e303da2a1195066374c8
+SHA256: 281113ca0db8dab25c61b6bd89b4326f3f6400775a27fefcee4d8417014bc0be
+SHA512: 6fbafe4671486485572f9cfae07818f3f39529ca1466a9f70b26cd958bb64aa64dfb477d2e93489ca8fa644370f8cf5df4cd44a4e53cf163be5023bb20f180cc
 Homepage: http://www.deepin.org
 Description: A libaray about I/O.
  A libaray that provides I/O interface.
@@ -17930,6 +18014,28 @@ Description: shared libraries for terminal handling
  .
  This package contains the shared libraries necessary to run programs
  compiled with ncurses.
+
+Package: libimageeditor-dev
+Architecture: amd64
+Version: 1.0.44
+Priority: optional
+Section: utils
+Source: image-editor
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 39
+Depends: libimageeditor (= 1.0.44)
+Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
+Conflicts: libimage-viewer-dev
+Replaces: libimage-viewer-dev
+Filename: ./l/libimageeditor-dev/libimageeditor-dev_1.0.44_amd64.deb
+Size: 10100
+MD5sum: 76c82319868aeefbfbc69c5842c863d9
+SHA1: 5b8df7d610a4e8768ee2e5e338c8e67c0267605e
+SHA256: a332cbaaaa075e3dbcd433ca134a9eaffa8561a0ef01d0ff336e2e1b24bf0466
+SHA512: 3d837cb7412a232aa53bba4408b2382dc99e9986822e6f30844003ab2136dc93559e0a0f3e72d013881a0a66969c570fa41a57fbe9fba7593191798e83c3f595
+Homepage: http://www.deepin.org
+Description: Image Viewer library development headers.
+ Deepin Image Viewer library development headers.
 
 Package: libimageeditor-dev
 Architecture: amd64
@@ -18836,6 +18942,28 @@ Homepage: http://www.deepin.org
 Description: Image Viewer library.
  Deepin Image Viewer library.
 
+Package: libimageeditor
+Architecture: amd64
+Version: 1.0.44
+Priority: optional
+Section: utils
+Source: image-editor
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12153
+Depends: libc6 (>= 2.34), libdfm-io, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.11.0~rc1), libstdc++6 (>= 11), libtiff6 (>= 4.0.3)
+Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr, ffmpegthumbnailer, ffmpeg
+Conflicts: libimage-viewer
+Replaces: libimage-viewer
+Filename: ./l/libimageeditor/libimageeditor_1.0.44_amd64.deb
+Size: 868768
+MD5sum: d96e3823cc65a764efca46fca1b38536
+SHA1: 75708141a1b458849ac7d513955649dca4f0780d
+SHA256: ba3e6453a73ee70a945857ee1d6f077d63afe467452f610831ff4d0238075285
+SHA512: a3cb5357a677ea3e01cc7a34b45651aa18d8b8f4ddd2684f25ac0f9b12f0776527193b0d87a40cd602a48c58837e915ce9a428f5f1672a5be682c939ceb8072d
+Homepage: http://www.deepin.org
+Description: Image Viewer library.
+ Deepin Image Viewer library.
+
 Package: lib32ncursesw6
 Architecture: amd64
 Version: 6.3-1
@@ -19072,10 +19200,10 @@ Installed-Size: 62
 Depends: libc6 (>= 2.14), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5), libxcb-render0, libxcb-xfixes0, libxcb1
 Filename: ./l/libdeepin-kwinxrenderutils13/libdeepin-kwinxrenderutils13_5.25.18-kwin.5.24.3_amd64.deb
 Size: 20204
-MD5sum: 5b28a98d350da2006269b8c7f3e24220
-SHA1: 2665035f46db1508a4c705f2f15682574c578a2c
-SHA256: aacd0928c6de5be5d5bbc55ace38f7a089a8f2dfca8fdc4ef6e4b69368bf1bd4
-SHA512: fc9d7ceeb3a0211f1e213680c07cf5f6edb2c86d041baf54642f776b344141172996cb343b70a7705171baea6ded85f692f24b4dfdbcab7a728b8c2c18e606ad
+MD5sum: f0e1149cb75e104e96308ee327a1c53c
+SHA1: fb00a5b9da6165c480561c98c9470164b2926a61
+SHA256: 21cde02292d7d3648f157b1c41e61f533551201ccd773993921d44ffd331528f
+SHA512: 527fb7cb33db10d208a8440b53d213a326ee9f1d26223a342dcb8cd0529fef51b46d585dbae051e1d763d56fa93bbc9986152648a74c60d2ba261002cd03c56a
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager render utils library
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -19615,10 +19743,10 @@ Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libegl1, lib
 Breaks: libkwin4-effect-builtins1
 Filename: ./l/libdwaylandserver5/libdwaylandserver5_5.25.0-kwayland.5.24.3_amd64.deb
 Size: 398092
-MD5sum: ace452f77794d2042a2f7828301e2f17
-SHA1: 1411892ae28931231406d3527b17c4cd6c508fe6
-SHA256: c052630db982525e9a6cb65adae91d012829c88fc9a9dc71f755d02a24420ebc
-SHA512: 458f8a720acea596b1dbba459d792b7ff1b4383626485a2fc8b15981be3d04872cb261d78e65684021fc30cb97fd20355e48cb77de711d33ff08cd704b384480
+MD5sum: 2eb5b4dea8ad39e198fdadc1d2ced4da
+SHA1: d47ebaafd542884c819fdb0690e1ff1ac16759b5
+SHA256: 02192f5b4b5d3195b6fee9bc6d30dc2f60d593e717da1da94d23a113528d0c95
+SHA512: 0cf3ab63beba3bca4f434494656d498ac296af3d62f49e585cd950680a262415daebaaa0146b1ec7f73ca9e30c2b6eb37e28211af6c4d31df9548dedabe41cc5
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries
  DWaylandServier provides a Qt-style Server library wrapper for
@@ -20355,10 +20483,10 @@ Installed-Size: 1659
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libstdc++6 (>= 13.1)
 Filename: ./l/libdtkdevice1/libdtkdevice1_1.0.4_amd64.deb
 Size: 456372
-MD5sum: 0d30e918ed92a2eee1e82474ddbea535
-SHA1: 1167cb53399944826c58b20c37a5a439763726a2
-SHA256: c694156be95535c2cd8f5e9e82d4c485ad8771029afc20afc263505b69947dc1
-SHA512: f70cdafc39a7654a72b7e994410f8fc0c208c52e117089db5ed9ff667245db3566a400ced1e0bbd8bb7a1e198e003c1aed1b391fba487f7e50963d3244bc264f
+MD5sum: 3cea697707a6857c2badaa646729aac3
+SHA1: 764af5221392e55866ad6adf345f5e9919f1d0aa
+SHA256: 6173b9c58d2f3d7972218be6e41a6bad391f4613f16148b55592c282e72c1ff9
+SHA512: 7fbc43eb36fe1a4e2d17ec33503dbe22acee29428ff33820e8377673f2ecbfbb0283af3b814f612b922c5494a43bd8f134c861e7abe4cfe094a39ca3643ae1dc
 Description: Deepin Tool Kit template library
  DtkDevice is base library of Deepin Qt/C++ applications.
  .
@@ -20420,6 +20548,26 @@ MD5sum: 74071e96535346452832de6cf003b5cf
 SHA1: 4346db7367d75ea22a084cb89da77b0b94829573
 SHA256: dbbd6ce1a6775dc7d137dc576e2b4cdbd4098735cb50bb56894a245bd4934bca
 SHA512: 3f2335c59876eabb574d0479a1c6f03dde074a3f9a69efb50b7093849e7477591dc20775431be211aeaa213584ef7b747d8ab2248dfb384ce6e4b76174c922c2
+Homepage: http://www.deepin.org
+Description: A libaray about I/O dev.
+ A libaray that provides I/O interface dev.
+
+Package: libdfm-io-dev
+Architecture: amd64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 68
+Depends: libdfm-io
+Filename: ./l/libdfm-io-dev/libdfm-io-dev_1.2.23_amd64.deb
+Size: 11644
+MD5sum: 1899bc497f0bea03ebf74df848e78244
+SHA1: 85978f23349a694fb0d3626d190a1d9c184e9e7c
+SHA256: 5709fa9bef350b9ad21d0a6c3bc8e7b714aa6c1c6928237765b628130bbfc749
+SHA512: 8313742afdfce915639d60cdf85c0dc525db526e10c4a38eeabe469b2cc600ca282118826d28a88308cc6cd4d4821f6530e2f10a1c1101cf30d171a779b1d987
 Homepage: http://www.deepin.org
 Description: A libaray about I/O dev.
  A libaray that provides I/O interface dev.
@@ -20561,6 +20709,26 @@ MD5sum: 213ef37f7d538dab44e4e9f9b93d22f5
 SHA1: f81ba9d88b35ad8c38eda5874bb92b91da975fc2
 SHA256: f7372448c3ecbfa0954b3fcb945c8cf23c8c8dcd6d538b5edf3b3f7e26c85c24
 SHA512: 22b5ca3e13969e6f90492508c982b187914168cfad1fad5a36ca8499e3272f1b17f93a5ef1ec1221add1497c1f513568dc2c1bee20ea663b94596f54f1e78692
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount.
+ A libaray that provides mount and umount interface.
+
+Package: libdfm-mount
+Architecture: amd64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 599
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.52.0), libmount1 (>= 2.25), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5widgets5t64 (>= 5.0.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 5.2), libudisks2-0 (>= 2.8.1)
+Filename: ./l/libdfm-mount/libdfm-mount_1.2.23_amd64.deb
+Size: 148868
+MD5sum: 844ce56b293105fe1d6a979e02e5477d
+SHA1: 4305687569b372949a39b39a2119e003eff681f6
+SHA256: 27cee6e219d8db12f99e35246c52a947debb9a9c30791f7b4a1bdd8f1951032e
+SHA512: 79dc03d4d90080bdb5cb4312d9761e236fc0569294db70d3a37d407cb2e9a21ea1be5d2c1c9bfdd8f8bcf77d85782fec6de91ee71a3ab184bb7368c8e18a43b2
 Homepage: http://www.deepin.org
 Description: A libaray about mount and umount.
  A libaray that provides mount and umount interface.
@@ -23403,10 +23571,10 @@ Installed-Size: 11405
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 6), libstdc++6 (>= 12)
 Filename: ./l/libopencv-mobile/libopencv-mobile_14_amd64.deb
 Size: 3511200
-MD5sum: 2373413e8fbac8cb6ed3c7d1d03fe5c6
-SHA1: b0a7953be673fa352714f6af767d3e17f90c9ce9
-SHA256: 96728c9da7c0b7eab35af93eecbfd27d9abf7ea2a7b276af689130b3a25fff2d
-SHA512: 160f6872cc35a9ccbdeb6d2e2b1432843bdd6d0a90f53fd895a786310a16a09e2868d090be5d932841653e592ec6f6f797aefa590a7449dabed26b66e166cbdf
+MD5sum: 7f7950c0e6cf9b9af2be5ad0815556c4
+SHA1: 665e2a397480d6f65708b3600182b1c277accfae
+SHA256: 0dda14cc0cbd72a40d7439057ed1552158b7ccdba7d0ff19cbc11130d03b0cd6
+SHA512: 472b43d1dd45390a4255dbb5f2cd549d99836310a41e766e0e494bda0346c2f95231aa149d8b57cac104d6373a36618dd29e0ee6679cfad91bb7dc7ccbb71858
 Homepage: http://www.deepin.org
 Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
 
@@ -23558,10 +23726,10 @@ Installed-Size: 1043
 Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libstdc++6 (>= 5)
 Filename: ./l/libdtknetworkmanager/libdtknetworkmanager_1.0.3_amd64.deb
 Size: 222564
-MD5sum: c948848c092b283b53944cd14bcc2bd1
-SHA1: 16c7066b04c634e8fa0ec4040dd40ea583bc0507
-SHA256: c4957d07dfd7fe73da144360cf1e4f430941c44f9c1a0f826f7db3d4d88b3929
-SHA512: a6f30a06ff51b1b14fab90c6fdfa69a14849d71df0c59d2f4ace38d7aec410611ab524e046f0be900d578398ff723872ab2be3d9d604915986b3f43efad70c0a
+MD5sum: 6a132acd1320491705c1995a9ae834c2
+SHA1: cf9751b137dc26045a38a71ee09c0ca039b3cd33
+SHA256: d749ed91be5237718aeaa23c498d4acb89a65a6c98cccf6aa35c6bc330ed13c5
+SHA512: d79f76719e63f0f63c724ab3e54485c35a8dcd92f5c44c5621c54426e561736b3fe8015266251ad2898dfda55c2b2fdd4ae33ed228f056a447a2d16ee5c9f4d4
 Description: Deepin Tool Kit template library
  libdtknetworkmanager is base library of Deepin Qt/C++ applications.
  .
@@ -24172,6 +24340,27 @@ Description: developer's libraries for ncurses
 
 Package: libdfm-burn
 Architecture: amd64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 373
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libisoburn1t64 (>= 1.5.6), libqt5core5t64 (>= 5.15.1), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: ./l/libdfm-burn/libdfm-burn_1.2.23_amd64.deb
+Size: 127356
+MD5sum: a92f22b353af6a80443103743aecf82f
+SHA1: b1712feb326c3c90b209e31b95b4d8d9a93a4d12
+SHA256: 0765e7af06c0103f4700266b81ed9e34e664c44708063f0a02245dc398a73f7b
+SHA512: 7f5e9a5d371ae9c44ad88d3b781f5e6260970c1b9d5196de9bcb1afdb77c7f2ca2d2c35cd03723f328254e4ce2cc4c3e2db173160abfb09da9484824f1d40226
+Homepage: http://www.deepin.org
+Description: A libaray about burning CD.
+ A libaray that provides burning CD interface.
+
+Package: libdfm-burn
+Architecture: amd64
 Version: 1.2.19
 Multi-Arch: same
 Priority: optional
@@ -24448,10 +24637,10 @@ Depends: libc6 (>= 2.14), libepoxy0 (>= 1.3), libqt5core5t64 (>= 5.15.1), libqt5
 Breaks: libdeepin-kwin4-effect-builtins1
 Filename: ./l/libdeepin-kwinglutils13/libdeepin-kwinglutils13_5.25.18-kwin.5.24.3_amd64.deb
 Size: 61620
-MD5sum: e9189625191e7a61e2ab9d228c266e87
-SHA1: 748003f340d0404dd78675d97b0b18f703ca0b4f
-SHA256: 67d6d4efb43527465f15c31927f588ef9a88082e4285111b6649fa2e0806023a
-SHA512: 339cdd7007b22c425d3580e26f351ba02c32a64e69db58d1eff595234d514723147e407f14a7362936cec0bfd6552cb5b2f710c2afc0029a1a546cdb12a4c51b
+MD5sum: f472538567c212be17e9c92820c1d6ff
+SHA1: 04abb7811b7a62e6453d77c2c791ce243054fcbb
+SHA256: 8cc12e2a6d34b9032aad74375886b53f86be06b856f9362c9708a2d7880f2cf4
+SHA512: 0365ffbf8a49bc7d00e095a95c41eb2d81e01a1b6d9f5575c9a670e1b80fff4917827d91e7543bbb5526b13db127e145b5a0ed08e05bedccebdefc9754ded7d9
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager gl utils library
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -24558,6 +24747,26 @@ Description: Deepin Tool Kit template devel library
  libdtkcrypt-dev is base devel library of Deepin Qt/C++ applications.
  .
  This package contains the header files and static libraries.
+
+Package: libdfm-burn-dev
+Architecture: amd64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 27
+Depends: libdfm-burn, libisoburn-dev
+Filename: ./l/libdfm-burn-dev/libdfm-burn-dev_1.2.23_amd64.deb
+Size: 4304
+MD5sum: 717cae463b6f4fd5013704d6dac4800f
+SHA1: a750f5bd1c3af133cd9913795dc77069cb586bc6
+SHA256: 3a7c5399b61bb85e9a365b02063b66587341425810025d97e1bcbd57d510e706
+SHA512: 6b4fa15fdab039566f32eb2a4469fcab1b96f0623aca783e13bdb94d8a7219749880bd87cb8208e0f74337ff290f3d97499e214ead5a851be75f5533ae7ae58b
+Homepage: http://www.deepin.org
+Description: A libaray about mount burning CD.
+ A libaray that provides burning CD interface dev.
 
 Package: libdfm-burn-dev
 Architecture: amd64
@@ -25417,10 +25626,10 @@ Installed-Size: 17200
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgomp1 (>= 4.9), libncnn, libopencv-mobile, libstdc++6 (>= 13.1)
 Filename: ./l/libdeepin-ocr-plugin-manager/libdeepin-ocr-plugin-manager_1.0.0_amd64.deb
 Size: 15855092
-MD5sum: 44badfcf255d5a5bf0246c3179c9855b
-SHA1: ccaa48bfb073992bff338136115bb5f806176b5b
-SHA256: f038ef841a3c0c63c676f0876248e3ee871f7e5fc41a18d3360cd0a0572a97db
-SHA512: 3190749b272d71b884074097fe6721803865ec512a1c615124d16a53ce0049d80755caa323d2be45a086d34c69bcfb0235370cd0b2121e8e51738b914e67c0b0
+MD5sum: d245f01ed5a7e3670ad617ccde790ce1
+SHA1: 0be999f3296eec001009c10a8ba3dbbc1b80b74c
+SHA256: e16bb0900743d67c222363e2b1dacb38d64ce4a1ca18fb7e364ee21b80c14225
+SHA512: 3edd859273dd9254f698bb60531d1961bf6a5e54fb307eb3a480f6fb899f3d3a2eaee993a97ce1c54c823d351e0b76ca7360bed65870c9e9464aa697ecc7c73e
 Homepage: http://www.deepin.org/
 Description: OCR plugin manager for UOS
  OCR develop library and useful plugin management tool.
@@ -25561,10 +25770,10 @@ Breaks: libdeepin-kwin4-effect-builtins1, libdeepin-kwineffects12
 Replaces: libkwin4-effect-builtins1, libkwineffects12
 Filename: ./l/libdeepin-kwineffects13/libdeepin-kwineffects13_5.25.18-kwin.5.24.3_amd64.deb
 Size: 96900
-MD5sum: 2eefd39c31f372cf64e47731bff15f40
-SHA1: 5858eda2533b78e25ae20570ad9d1cb997ecc193
-SHA256: de400c9426edffe5af9b160f7f6defa3eace4ec3550db6c7f6159d5bd1c7c7bc
-SHA512: df5659cfd68c3d3887ea941c51b2ba87e189a5702632de9fdefd2b15aa93419598b2d65052943df1b0c0b893abe766bfb2e277fea632caf71cd8c2a06247fb6a
+MD5sum: 65539efa83bb8b18fca8d547ca7af2cd
+SHA1: dccf5f40b9fdad7e62765aaf95d79fcea2f0298c
+SHA256: ec24b761f54f9abfa7f38fa4846c3731209454ac6d578d9588bf494a915d14e7
+SHA512: 7fef604646b22152a311bc82d85d3f589be6a1b34fba3497e315366b8ade88fe923cac47d96daaa3fab2f14e7ab022e4c91b7711138fab2ec1e037f132541b52
 Homepage: https://projects.kde.org/projects/kde/workspace/kwin
 Description: KDE window manager effects library
  KWin (pronounced as one syllable "deepin-kwin") is the window
@@ -25770,6 +25979,26 @@ MD5sum: 838691df296eb8bb40cc61498bb350d0
 SHA1: bfa1be8e66034dd716e365f2d70c8aae5bc431aa
 SHA256: 53d61ece5e45f2d38a0f806cbaa4ad27c79eac7811424939ba06988a6475b9e9
 SHA512: 49167a7867810c98907bbfeddd1c97f75e70f6e817787ce6a45c20273d93da27295d1b9d912e583ec7b5dcc342f2cb9439d6c79bb2e7414fd445b54e4cb4a487
+Homepage: http://www.deepin.org
+Description: A libaray about mount and umount dev.
+ A libaray that provides mount and umount interface dev.
+
+Package: libdfm-mount-dev
+Architecture: amd64
+Version: 1.2.23
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 60
+Depends: libdfm-mount, libsecret-1-dev, libudisks2-dev
+Filename: ./l/libdfm-mount-dev/libdfm-mount-dev_1.2.23_amd64.deb
+Size: 10852
+MD5sum: 9bc02f0f11ef1674efb2a57c86eea154
+SHA1: 8380c1ce53d7eb26672e8ca0e6f3ed46fb6ef1eb
+SHA256: f5375f07765e2605961a934597e88f57f854604f311e29048aaa8d722b925ebd
+SHA512: 54d24bb698bca72d115d483182552ef98c004f0fd1403c2648c2fcbd6bf211f502707f75fcca0db47dbbc1525f0eeddfd740843e7bc59089c86483757ff5adfa
 Homepage: http://www.deepin.org
 Description: A libaray about mount and umount dev.
  A libaray that provides mount and umount interface dev.
@@ -26027,10 +26256,10 @@ Installed-Size: 7390
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.36.0), libmpv2 (>= 0.29), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.10.0) | libqt5gui5-gles (>= 5.10.0), libqt5sql5t64 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.14.1), libqt5widgets5t64 (>= 5.11.0~rc1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 13.1), libx11-6, libxcb-ewmh2 (>= 0.4.1), libxcb1, libxext6
 Filename: ./f/fantascene-dynamic-wallpaper/fantascene-dynamic-wallpaper_1.6.4-1_amd64.deb
 Size: 6657508
-MD5sum: 8ed2b93170e24ed1ed7ad995ab90705e
-SHA1: 1d63175d4b192a7b3c58483e31c23f3c0cdfb2a7
-SHA256: 942ba005f9d832fe0b80e45261fa3ed07bf9be2bd54fb4840e1ba002ca52c109
-SHA512: d7ae087e5b4189959cce98c03620265ba8a256d821c1b7c5340b103625a23422ebcf6dc4aeee534129db861c9fdba637dc5c57d8920f99c4ed0f6da14decbe72
+MD5sum: 4ac21ee3cd37736a713867e987c78d60
+SHA1: 534531e7b2b8419c747b8b7acb91ec6cff724c0d
+SHA256: 596bb169bb2b56daf0581d3fa4bf359c39c7475ce2d6191a32bb0ac6a63a5f87
+SHA512: b4ed110a81b8a119a4615e80288177e5f28965ab056ce3c563163852d1c491b10fd3b8bb0043e4735e8658d1ace509b7fda4e7d42ffca098f5e0dc348ff9974e
 Homepage: http://github.com/dependon/fantascene-dynamic-wallpaper
 Description: video wallpaper for fantascene.
 
