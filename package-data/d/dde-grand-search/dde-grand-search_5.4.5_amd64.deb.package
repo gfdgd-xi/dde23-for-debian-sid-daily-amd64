@@ -5,14 +5,14 @@ Priority: optional
 Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 2829
-Depends: libavformat60 (>= 7:6.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20220218+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libqt5concurrent5 (>= 5.6.0~rc), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
+Depends: libavformat60 (>= 7:6.0), libc6 (>= 2.34), libdeepin-pdfium, libdframeworkdbus2 (>= 6.0.0), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libffmpegthumbnailer4v5 (>= 2.2.2+git20240104+dfsg), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.24.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu72 (>= 72.1~rc-1~), libqt5concurrent5t64 (>= 5.6.0~rc), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5t64 (>= 5.11.0~rc1), libstdc++6 (>= 13.1), libtag1v5 (>= 1.9.1-2.2~), dconf-gsettings-backend | gsettings-backend
 Recommends: deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), deepin-anything-server
 Filename: ./d/dde-grand-search/dde-grand-search_5.4.5_amd64.deb
-Size: 636372
-MD5sum: e68aedfd71c7fc3518cf4a6668458a33
-SHA1: 3f8a83032980f3a38a6dfcdaa1383ce8d0bb6718
-SHA256: 817b1bd68a4677ada7bb2c3bf43aea00c2ebb4ba1d4df89c55774c8928979609
-SHA512: 26cd5e83406bae0bc2780c2aa7658330e06be25b1fa01fb65fd7408c470fb27ddef69ba3fbc5e8de032e0d856cf35deef179877b2e054eaa4558e4f8f9a5b9e2
+Size: 636588
+MD5sum: 396ff28e9363e1db5baad67f66a6da0d
+SHA1: e59b39ad0518f1d32f630452c1c10a123ced063e
+SHA256: a849a202be3347a3953d0026e86f2ee9ceaaed4651b483331602b0e8ae053f71
+SHA512: 78aa96785f33abfa6c90a3c365d8011a332e4612fe88a3c25b322703157c29a6623a09df7e53155bacd1e897cec53f8ca948a54f23affa0cc908d5023c9b60b9
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - search module
  Search module of deepin desktop-environment

@@ -6,15 +6,15 @@ Section: libs
 Source: gio-qt
 Maintainer: Gary Wang <wzc782970009@gmail.com>
 Installed-Size: 410
-Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.75.3), libglibmm-2.4-1v5 (>= 2.66.6), libqt5core5a (>= 5.15.1), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 5.2)
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.75.3), libglibmm-2.4-1t64 (>= 2.66.6), libqt5core5t64 (>= 5.15.1), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 5.2), libglibmm-2.4-1v5
 Conflicts: libgio-qt0
 Replaces: libgio-qt0
 Filename: ./l/libgio-qt/libgio-qt_0.0.12_amd64.deb
-Size: 75552
-MD5sum: 54c0e6b3f2ea3d14fcff7b199c7c1ad3
-SHA1: 83d592eb60e8590bf29d23cce06a0b919d91b1e9
-SHA256: b613a227d31b696b861181099d56ca7edf7d4141a25e2d0e8b3749625fa8df36
-SHA512: 090a29a03e60351e3274d193fa818ee8dcd8ac7f6f1780e82a07744538757dfe60e3ea77e8f743629a22ab9c0f7ae8b773a7fe6ff4d35016460b79ac36a59ab8
+Size: 76160
+MD5sum: 01a2a3434b7b740aaec522d37a779242
+SHA1: 360b59157e508fec84210000df0c5e4f904bbdb1
+SHA256: 258b7d3ce90fdc103ee7abe6578f7151ac783ff17bc89fc98e6086fb9f03967b
+SHA512: c6dc70d60c628434bedb85db7e97496fa29a09217dce4b469717d2acf9c69181360cd3e858a0ce4e0fbcff947b7802d9a6b0da031977a377ec38b9d19125a6b1
 Homepage: https://github.com/linuxdeepin/gio-qt
 Description: Gio wrapper for Qt.
  A convenient way to bind gio with Qt5.

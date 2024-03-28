@@ -5,13 +5,13 @@ Priority: optional
 Section: devel
 Maintainer: guonafu <guonafu@uniontech.com>
 Installed-Size: 203
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdwaylandclient5 (>= 5.25.0-kwayland.5.24.3), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
 Filename: ./d/dde-wloutput-daemon/dde-wloutput-daemon_2.0.4_amd64.deb
-Size: 51500
-MD5sum: b8788bb6b3757be365b81eb8f7b275eb
-SHA1: f29d2b5dbfc22de406858cd78b04b5190b530e91
-SHA256: 65e59d10230f806ccf6fb582a5640a6c30d8eed7ff105a2473ccfef4c3592c1d
-SHA512: 16293d3e0dab5058c9d5d325e42e892c64f5684c4b81916c3225c3a6366aa69f3e359e3cbc5b4c6647a7c1d1317365dd872245e9ba3b7eea036190dc68997ddb
+Size: 51712
+MD5sum: afcb0b877320b397596d7f006bf4edf4
+SHA1: 7b26372b495280dddd5371e2d871515249f60174
+SHA256: 7bcb0de89d53c4786a6c0c82bb2d9d1a1ebf72c874cfcca0087fda19cd8c92f3
+SHA512: 64a7bd0c8188d78e7984f3ace0e62b8c6fa2b3802949c1f5f424a0db5b777856b1104f9a7da97e85c4964022235370d70d1dbaa2831f6c23faf4c43090382339
 Homepage: http://www.deepin.org/
 Description: this is dde-wloutput-daemom
  for wayland

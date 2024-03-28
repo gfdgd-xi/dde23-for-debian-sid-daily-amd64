@@ -1,0 +1,20 @@
+Package: dde-file-manager-dev
+Architecture: amd64
+Version: 6.0.42
+Priority: optional
+Section: libdevel
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 233
+Depends: dde-file-manager, libdfm-io-dev, libdfm-mount-dev, libdfm-burn-dev
+Filename: ./d/dde-file-manager-dev/dde-file-manager-dev_6.0.42_amd64.deb
+Size: 35188
+MD5sum: 1772105f67ffeee93d93ce3c2536dd78
+SHA1: 4106ef50fb059aaf0be539f877ee04037495f36d
+SHA256: 9d93159db3378d8b285845d827d8beae4e4ba1a53b185801cb4543dc6ba0b502
+SHA512: aa83769f5c36a9d0fe00926a46cb499bc2b2d2fbdd977cb6084234314b10860511ed55ee20b466637329aaead7f6dbecc48a86f6a0802289f49762c2bd2af91f
+Homepage: http://www.deepin.org
+Description: DDE File Manager Devel library
+ This package contains the header files and static libraries
+ of dde-file-manager
+

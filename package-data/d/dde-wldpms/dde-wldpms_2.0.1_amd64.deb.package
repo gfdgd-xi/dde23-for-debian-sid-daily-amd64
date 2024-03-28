@@ -5,13 +5,13 @@ Priority: optional
 Section: devel
 Maintainer: guonafu <guonafu@uniontech.com>
 Installed-Size: 44
-Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.34), libdwaylandclient5 (>= 5.24.3-1), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
 Filename: ./d/dde-wldpms/dde-wldpms_2.0.1_amd64.deb
-Size: 11940
-MD5sum: 487bc7b78a28c71d39acd2c6102a5ee5
-SHA1: 6287e1a89713f25f50a688d8fa05d2c43c4df46d
-SHA256: 4754fa453301bfeec371ef874201b9501206cea446e32629433f020fb4d8442e
-SHA512: eed132ccb4bff6f5560017b5c08fbb407ed65d9058b7aa4d3f1bd74810002969e95aad6e154896e83a31dfb1ac39bc9d84f2280dfd4d96f7326435c0713323ef
+Size: 11948
+MD5sum: f6feef2f985230cad28380520a9bba83
+SHA1: 18f6de2eaf950d62c5a867f1f8a9b97cd82deea7
+SHA256: 4be73618553b15a680afcb6dceca6fd4579f564cdeadbb21be8211581c120a41
+SHA512: 95b490efd8a335a2b4ed4df2de3878322449b78bf2b3a0260830027e2bc9a9e0177a05f4dea775bbda8c494c94c42fd5764ab44f19368a70d979be5dd833a068
 Homepage: http://www.deepin.org/
 Description: this is dde wldpms
  dpms for wayland.
