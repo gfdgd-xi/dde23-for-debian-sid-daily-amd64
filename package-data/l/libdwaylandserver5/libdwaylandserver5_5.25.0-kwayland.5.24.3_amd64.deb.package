@@ -11,11 +11,11 @@ Provides: libdwaylandserver5-5.25
 Depends: dwayland-data (= 5.25.0-kwayland.5.24.3), libc6 (>= 2.14), libegl1, libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libstdc++6 (>= 5.2), libwayland-server0 (>= 1.18~)
 Breaks: libkwin4-effect-builtins1
 Filename: ./l/libdwaylandserver5/libdwaylandserver5_5.25.0-kwayland.5.24.3_amd64.deb
-Size: 396948
-MD5sum: f03af507c3335805e25656d612e369b9
-SHA1: 9f6812b49d673ddf04ef98ac53548060edb6d9be
-SHA256: 3e8e5762fe322c46de189b44e14f1349305e419aff317f89604ba5e00055d856
-SHA512: 89dc9f550d2c48f159bc9a8ccff4a044eb61024d3f75ef42f9c3b7a3dde9285e141858eb31494ae5d957c373b973435e63ab87ea3222a5bc3add1db673dad44a
+Size: 397740
+MD5sum: bd52dd99c2b69be2f41c211f73a70342
+SHA1: 9539539a8ab22acda7acc618adecc935aa99a64a
+SHA256: 0c4575420dffb1fd42e5de065162c97cffe41b8122f24ef8b245f8ba5b10d7a4
+SHA512: 5d732b2a9b799c12795725197ae74508252d100438f0c72d130ff8e1f924cee96835e94838c58ca71b246a25f09e8724eb253471d4ba03bfaf761a5764cee56d
 Homepage: https://invent.kde.org/plasma/kwayland-server
 Description: Qt library wrapper for Wayland libraries
  DWaylandServier provides a Qt-style Server library wrapper for
