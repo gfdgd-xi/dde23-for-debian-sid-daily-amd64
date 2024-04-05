@@ -478,11 +478,11 @@ Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
 Installed-Size: 287
 Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3t64 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
 Filename: ./c/crda/crda_4.14+git20191112.9856751.1-1+dde_amd64.deb
-Size: 63540
-MD5sum: 6731a373a6838e74557f50dbcc072ddf
-SHA1: e4107848467b50efccf6d1ae327cf1247859df5a
-SHA256: 8e961a4fdade6fd3c937f2d7535275de27f96d4f8f90a729a0023488188ebbc5
-SHA512: d20d83e6dcdcde73930ee11c24dd3701ee179b2c329299cbf5a3b5d5195c2c01dd8aa95f77bbc7888edef2c5d995b50e711551ff6853609454797ec6a21eddd3
+Size: 63536
+MD5sum: 0c5b05bf399a6c132aa0e832a716995a
+SHA1: 80307798a8fd7b447c9196ba43832838108849e2
+SHA256: 05b12aa5c8b04c1d81259b0fe2c6846eba462c4a363a7869ce9b695fb510a510
+SHA512: cec2d77608fd20bffb3df68d39679645fcc8c88f91c4a964bf4512cbf4b955de395162308480e48f442bbc2a552ffa33cb8126a57b618e177fc67f7739a93146
 Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
 Description: wireless Central Regulatory Domain Agent
  This package provides a Central Regulatory Domain Agent (CRDA) to be used by
