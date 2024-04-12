@@ -2886,11 +2886,11 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3881
 Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libgl1, libopengl0, libqt6core6t64 (>= 6.4.0), libqt6dbus6t64 (>= 6.1.2), libqt6gui6t64 (>= 6.4.0), libqt6opengl6t64 (>= 6.1.2), libqt6qml6 (>= 6.4.0), libqt6qmlmodels6 (>= 6.2.0), libqt6quick6 (>= 6.4.0), libstdc++6 (>= 5), qt6-base-abi (= 6.4.2)
 Filename: ./l/libdtk6declarative/libdtk6declarative_6.0.9_amd64.deb
-Size: 827124
-MD5sum: 2e89f666d3cc26dd823aca01beaa72b0
-SHA1: 7e85d1966bd31c9940ade89181445635f6cb0068
-SHA256: ed2c0223913f14eca9517d5f619487ca24dd055fba2102209e84b0f87e961346
-SHA512: 5ce6522430f19fb5bcea9474acf686e738b864f6b5c9a0cece8c29d93817f71ca4276cba834deb6a57c1639666d98558aaf97f64951d9bbd4ee3cb05c9552419
+Size: 827996
+MD5sum: 9aca38912c4e82737ccbe326c25e5b25
+SHA1: 6328301be22988504d91e89acad66ea384e85d45
+SHA256: 34cb08db5592773b1c587be2be593e962750493e53f1f24ae70b9a44e98aa678
+SHA512: ae1b35df54463ae4b51a3e3444a0b6e6fde48d9695d6f503e387376040ce44e19f2c54fa2339e30dcc557103da3adf5a792693ba082ebf190b490d1ebb1f8936
 Homepage: http://www.deepin.org
 Description: Deepin Tool Kit Gui library
  Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
@@ -19472,6 +19472,25 @@ Description: Qt platform theme integration plugins for DDE
 
 Package: dde-qt6integration
 Architecture: amd64
+Version: 6.0.8
+Priority: optional
+Section: devel
+Source: qt6integration
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 869
+Provides: libqt6deepintheme-plugin
+Depends: libc6 (>= 2.14), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6dbus6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6widgets6t64 (>= 6.2.0), libstdc++6 (>= 11), libx11-6, qt6-base-abi (= 6.4.2), dde-qt6xcb-plugin
+Filename: ./d/dde-qt6integration/dde-qt6integration_6.0.8_amd64.deb
+Size: 216712
+MD5sum: f1b6b2ae44820df4daf4dd17d8d8411c
+SHA1: 45d1a252e78bc77b65179d678fd854a5e6298f95
+SHA256: a55e84c776216bbb3bc5ee2dd9fcfab4964703c296d985b216fbd89ca8b90458
+SHA512: 898db576d940b3eefdb025a08fc351a1878fc987af7439b8e6ec950d6518aede2f68c363230f4050acfb9871249ae3456d8c099fa07e31dbe67bfdb32a995260
+Description: Qt platform theme integration plugins for DDE
+ Multiple Qt plugins to provide better Qt6 integration for DDE is included.
+
+Package: dde-qt6integration
+Architecture: amd64
 Version: 6.0.1
 Priority: optional
 Section: devel
@@ -23783,6 +23802,24 @@ Description: Qt platform plugins
 
 Package: dde-qt6xcb-plugin
 Architecture: amd64
+Version: 6.0.8
+Priority: optional
+Section: devel
+Source: dde-qt6platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1026
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.4.0), libqt6opengl6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.1.2), libstdc++6 (>= 11), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qt6-base-abi (= 6.4.2)
+Filename: ./d/dde-qt6xcb-plugin/dde-qt6xcb-plugin_6.0.8_amd64.deb
+Size: 301832
+MD5sum: 73e5964699f54499a559a8e8e1596092
+SHA1: 408ac2abbcec0997f9d7e6b4bc08e74be5a7e748
+SHA256: 9096e877d5e8c587784840d403199e38217721861f89c0604fad56b6d50b8fd5
+SHA512: 8ad81a3e2900486c61ad08fe3a5f3f0522f6be2e0fa4fb2608d46e937cb21336f25287313bb5de3d69e798cf3c80b9ac50cdefb5735c3364a119e541cd843b09
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
+Package: dde-qt6xcb-plugin
+Architecture: amd64
 Version: 6.0.4
 Priority: optional
 Section: devel
@@ -25764,11 +25801,11 @@ Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
 Installed-Size: 2206
 Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5widgets5t64 (>= 5.15.1), libstdc++6 (>= 5.2), dde-daemon (>= 5.13.27)
 Filename: ./d/dde-widgets/dde-widgets_6.0.21_amd64.deb
-Size: 519776
-MD5sum: 4f67affd985e8e464a055ad94491ae88
-SHA1: 900a33077ec903ca2f30cc82954196f200023935
-SHA256: 431a1117d43890f382ecaadb77f235e6b01a09e22b13f8b7392956a0c015bd33
-SHA512: 0b1e3abe96701f2bca14649c76400d717e68c4952aae7eb363aba9752426555c273ffcbb883a7414b5885ed534192a3f2edd68a495a144cc80c1cda3e26e91fd
+Size: 519600
+MD5sum: 71371e338b33e89acaaecc28c5f6f38d
+SHA1: 5ae43afb65fa346f916ee5474dd5732fca7d198c
+SHA256: 7f67479067e3ceaac14d7076a5bb45a94a471876458b24a55f3cf7537f764b29
+SHA512: 4d3ef7cfb86987399a33f2af23f5df11c406423d4e6d0848cafbf4d6acaed7f26a6e1be7434fe0b34cc05065b77ddba9471c80746837f4b9484ca73e4a02b95e
 Description: deepin desktop-environment - widgets module
  widgets module of deepin desktop-environment.
 
