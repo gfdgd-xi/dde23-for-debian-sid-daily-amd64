@@ -1,0 +1,21 @@
+Package: libdtk6widget-dev
+Architecture: amd64
+Version: 6.0.13
+Priority: optional
+Section: libdevel
+Source: dtk6widget
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 498
+Depends: libdtk6widget (= 6.0.13), libdtk6core-dev, libdtk6gui-dev
+Filename: ./l/libdtk6widget-dev/libdtk6widget-dev_6.0.13_amd64.deb
+Size: 59576
+MD5sum: d6354a7d590573605642cebab65152c6
+SHA1: fb5385f1832a89d960d8630eeff27c782416844c
+SHA256: c85c251029fcd1aeedbbba42f7cf5cc6eb3e36c513ee8404cb0aaeea22a54390
+SHA512: e1269eae5a3364682d3e03563106996b7edec604e8a954d5db7912fb75ac6368c7de490c667e634f71370a8fefd89aa56c2ad8bc65e466079d38a22f0847e850
+Description: deepin graphical user interface library
+ DtkWidget is deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing deepin applications.
+
