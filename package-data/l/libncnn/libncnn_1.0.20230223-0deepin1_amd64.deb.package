@@ -6,13 +6,13 @@ Section: devel
 Source: ncnn
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 14263
-Depends: libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 13.1), libvulkan1 (>= 1.2.131.2)
 Filename: ./l/libncnn/libncnn_1.0.20230223-0deepin1_amd64.deb
-Size: 3408168
-MD5sum: 9d423a8d12c87e447143fefd3f457331
-SHA1: 4972db3e0df9e022b795c93e37ad39a7e7db750f
-SHA256: 0d85ae0a21288d0c90c1f377cbe9522b228d1eb422387f7f620968180887e529
-SHA512: 7852a34b5c2ef48f4ab08c2dc0cd35f36190d53ce5ae91171459dc0699b0cad3641772b999ba7bcf5c476045cf31b3d33466282e5bb2ddf9a1ed42cd262717b8
+Size: 3409180
+MD5sum: d3f13df06da9fcbcc0dd5ead8a607630
+SHA1: 7bccb10a776a3a5fe8a232278a7625f36bc8dfad
+SHA256: d7cf17faa7567fd679710136afe037f29771dcbec2260439bf484117a36c1564
+SHA512: fc07b28d7c3f7201398c3c7552b8e303afd9a6272426770e389e06723df3dc7227518af874297ad13bc07ac9645b1603c63d9159dfbc8a04a53236e90f54b043
 Homepage: https://github.com/Tencent/ncnn
 Description: Neural network inference framework.
  ncnn is a high-performance neural network inference framework optimized for the mobile platform.

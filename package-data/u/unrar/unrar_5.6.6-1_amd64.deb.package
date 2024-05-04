@@ -6,14 +6,14 @@ Section: non-free/utils
 Source: unrar-nonfree
 Maintainer: Martin Meredith <mez@debian.org>
 Installed-Size: 370
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Conflicts: rar (<= 2.60-1)
 Filename: ./u/unrar/unrar_5.6.6-1_amd64.deb
-Size: 108904
-MD5sum: 90cbb2c360e757d5ca83d73b1d4e10d5
-SHA1: def756e0a5411ffbb2cad3aba564dd5b686847c7
-SHA256: 014659ed2d34f12cc5e7a50a1168f7f6034439871cd5e4adedf633fb9b340999
-SHA512: 7df41939edc4a08a7f1985dd9b9f491f671e56962dbcb7a415ff9cbbe2155c04282fb853ea9310dd85e02ecf7b0689ece910ff2b33488031041884d5cd4173ce
+Size: 108912
+MD5sum: 0fc4e85f51c36e1e9b5b34c16bf28753
+SHA1: 5559430e140c199d6d86851b05224a2dd8a5baed
+SHA256: 6a29f06fbcbdad00e6443b0be10b9b24b3c8a038e22a347a7581c24bc0dee2b4
+SHA512: 47cbf42ced4f57bfbd4687883ccbb5edaacd13246c794badd1b2463d91c3b6fa8879db5a3c52b6a54cbe486137c6937624df03d59f0ab046d8fd91206432bfb2
 Homepage: http://www.rarlabs.com/
 Description: Unarchiver for .rar files (non-free version)
  Unrar can extract files from .rar archives. If you want to create .rar
