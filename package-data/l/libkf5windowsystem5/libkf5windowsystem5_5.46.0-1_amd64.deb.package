@@ -11,11 +11,11 @@ Depends: libkf5windowsystem-data (= 5.46.0-1), libc6 (>= 2.14), libqt5core5t64 (
 Recommends: kwayland-integration, qtwayland5
 Breaks: kinit (<< 5.46), kio (<< 5.46), libkf5crash5 (<< 5.46), libkf5globalaccel-bin (<< 5.46), libkf5globalaccelprivate5 (<< 5.42), libkf5kdelibs4support5 (<< 5.46), libkf5kdelibs4support5-bin (<< 5.42), libkf5khtml-bin (<< 5.46), libkf5khtml5 (<< 5.46), libkf5kiowidgets5 (<< 5.46), libkf5notifications5 (<< 5.46), libkf5plasma5 (<< 5.46), libkf5plasmaquick5 (<< 5.46), libkf5textwidgets5 (<< 5.46), libkf5wallet-bin (<< 5.46), libkf5wallet5 (<< 5.46), libkf5xmlgui5 (<< 5.46), plasma-framework (<< 5.46), qml-module-org-kde-kquickcontrols (<< 5.46), qml-module-org-kde-kwindowsystem (<< 5.46)
 Filename: ./l/libkf5windowsystem5/libkf5windowsystem5_5.46.0-1_amd64.deb
-Size: 127152
-MD5sum: e1259bbfd4c0cb4d8bbfa161688d3101
-SHA1: 29a4b224012974595b4afddafa5328c5714fa1b7
-SHA256: 26b7e5a23872afbadf083c0e6d26648aefa4dd500fc4e216d1d1b4098e016402
-SHA512: 37d6abeb815fa90bae51a59cf7fbea73ceb7ecb4a574822614e3d00e8b8e6342c31725b0a347b47d69debf08b30cd171fa22b1e006d82324fd27f0a6365b1dee
+Size: 126996
+MD5sum: d3c91546fe14db57b4dc751ff7efb427
+SHA1: 8e2798951fc1ff4bae29617ac5d7f686a5a1f044
+SHA256: 9a3e2352730f6c976e9d1c56670a347d456b7e1de0bf0b07ebe7f7d6f835a085
+SHA512: fc05a88809dc4d1dc6d0c0eb8ed1c799075bf5c7e98354a76d1a0663ca74c56bfd3d7d9be410d777733b6c51a6c5ad17d248b8dade9219b31437a71fb5296b1d
 Homepage: https://projects.kde.org/projects/frameworks/kwindowsystem
 Description: Convenience access to certain properties and features of the window manager
  The class KWindowSystem provides information about the state of the

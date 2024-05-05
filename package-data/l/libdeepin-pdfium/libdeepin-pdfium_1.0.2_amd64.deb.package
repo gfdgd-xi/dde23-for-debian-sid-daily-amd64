@@ -6,13 +6,13 @@ Section: libdevel
 Source: deepin-pdfium
 Maintainer: deepin <packages@deepin.com>
 Installed-Size: 5027
-Depends: libc6 (>= 2.33), libchardet1t64, libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libopenjp2-7 (>= 2.2.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.38), libchardet1t64, libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libopenjp2-7 (>= 2.2.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
 Filename: ./l/libdeepin-pdfium/libdeepin-pdfium_1.0.2_amd64.deb
-Size: 1955344
-MD5sum: b6fc37c0335a1fb9eac2da88de029b99
-SHA1: 0189da0a5f5dff5f02880f814b332054de76d3d2
-SHA256: f66be4ec7cf2cec55ac522254c208dea6a57a2d53d9c111d2277b37de1977739
-SHA512: c2302d63f5ec178955a2df0936f869ea60beba71d9bcca3a3900f00ae77b62be48a62e56793a5c4fd0cda450cc96f6b944f8f75e4afb4a04b97f4ac6d0abb70c
+Size: 1955308
+MD5sum: d882423dd8e13c9608f185388c58637c
+SHA1: 838643f61cec3642b172250a06beb28159def56d
+SHA256: a91247e765490c95ae386272e80278908466b23720cd50e7cfd206a5707c55f0
+SHA512: 01c379fdd23337eb8c6cf92a58a213e2aaf2918d44ece1ecc47848f7fff1e8196012b5a8355b1f223367069303cb8044cf974739c53bc3d540c15dae3f687e43
 Description: A libaray about PDF.
  A library for parsing and editing and displaying PDF.
 

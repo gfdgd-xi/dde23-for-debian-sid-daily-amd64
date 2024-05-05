@@ -7,13 +7,13 @@ Section: libdevel
 Source: dtkwidget
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 4034
-Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libqt5printsupport5t64 (>= 5.4.0), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-10, libdtkdata, libqt5widgets5 (>= 5.11.3.33) | libqt5widgets5 (<= 5.11.3.28)
+Depends: libc6 (>= 2.38), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5t64 (>= 5.0.2), libqt5printsupport5t64 (>= 5.4.0), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-10, libdtkdata, libqt5widgets5 (>= 5.11.3.33) | libqt5widgets5 (<= 5.11.3.28)
 Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.28_amd64.deb
-Size: 941808
-MD5sum: 7a48b3a32e5108e4f07f2f1c32ac752f
-SHA1: afec3c8dda1767422806bc62bb1f64d5d06d9ffb
-SHA256: 1b42c05c1280af1b7afe3fdd59362e0a5eb801a85ad7ae415fb481bdde90b2d4
-SHA512: 772d64feae995381083b75bbf8bdcf9cb3704cb4d77d9bd72203cedc58e013f0c5fbaba22bc981d56a812ef9a1215d82584c330cd11c1ad3f987ca5ebf9e1ad2
+Size: 941144
+MD5sum: 89b6b32cb570eb2ef3c7452c117272de
+SHA1: 4a4dd9c85b34ff1cf938daa359e81c7f530d5cd3
+SHA256: ed0d6027f4ac98dc0f023bd261f56bb4d8b76cc6aea96b4abf561c7f17719366
+SHA512: 7942e7c40271262f8d7736e4cf8198351050f93f37e0699d3888f23bf259b07e971d8207c7a0fa0be7d1fe04dd8b07e391f022e1410f075aa42fd9a06dc73422
 Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
